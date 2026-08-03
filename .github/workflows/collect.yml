@@ -1,0 +1,46 @@
+name: Collect public sources
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/20 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: v2collector-repository-writer
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.22.x'
+      - name: Synchronize before collecting
+        run: git pull --rebase origin "${GITHUB_REF_NAME}"
+      - name: Validate project
+        run: |
+          go mod download
+          test -z "$(gofmt -l $(find . -name '*.go' -not -path './vendor/*'))"
+          go vet ./...
+          go test ./...
+          go build ./cmd/v2collector
+          go run ./cmd/v2collector check-config
+      - name: Collect and publish local snapshots
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: go run ./cmd/v2collector collect
+      - name: Commit only approved generated paths
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add config/channels.csv config/sources.json data/state/ output/ archive/ reports/
+          if git diff --staged --quiet; then
+            echo 'No generated changes to commit.'
+          else
+            git commit -m "chore: refresh collected public sources"
+            git push origin "${GITHUB_REF_NAME}"
+          fi

@@ -1,0 +1,28 @@
+name: Check subscription sources
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 3 * * 0'
+permissions:
+  contents: write
+concurrency:
+  group: v2collector-repository-writer
+  cancel-in-progress: false
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-go@v5
+        with: {go-version: '1.22.x'}
+      - run: git pull --rebase origin "${GITHUB_REF_NAME}"
+      - run: go mod download && go test ./... && go build ./cmd/v2collector
+      - run: go run ./cmd/v2collector check-sources
+      - name: Commit health state and report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/state/ reports/
+          git diff --staged --quiet || (git commit -m 'chore: refresh source health' && git push origin "${GITHUB_REF_NAME}")

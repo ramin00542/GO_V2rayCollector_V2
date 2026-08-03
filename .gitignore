@@ -1,0 +1,22 @@
+# Secrets and local credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Local/editor/build files
+*.log
+bin/
+*.exe
+*.test
+*.out
+.idea/
+.vscode/
+.DS_Store
+
+# Generated collector state/output is intentionally committed by the allowlisted
+# GitHub Actions workflows so users can access current results and archives.
+# Do not add secrets, private inputs, or local proxy credentials to these paths.
+
+# Go command binary created by go build ./cmd/v2collector
+/v2collector

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "retention": {"daily_days": 30, "rolling_days": 7},
+  "output": {"keep_unknown": false, "write_per_channel": true},
+  "discovery": {
+    "channel_candidate_fetch_budget": 200,
+    "source_candidate_fetch_budget": 200,
+    "qualified_target": 50,
+    "promotion_success_count": 3,
+    "promotion_min_interval_hours": 6,
+    "candidate_expiry_days": 14,
+    "dormant_after_days": 365
+  }
+}
