@@ -1,4 +1,4 @@
-﻿package health
+package health
 
 import (
 	"path/filepath"

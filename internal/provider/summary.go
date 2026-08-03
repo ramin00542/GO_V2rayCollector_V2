@@ -1,4 +1,4 @@
-﻿package provider
+package provider
 
 import "github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 

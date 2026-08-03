@@ -1,4 +1,4 @@
-﻿package domain
+package domain
 
 // Protocol identifies a format supported by the collector. New protocol parsers
 // must also implement validation and canonical fingerprinting before enabling it.
