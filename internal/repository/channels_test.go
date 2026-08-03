@@ -1,4 +1,4 @@
-package repository
+﻿package repository
 
 import "testing"
 
@@ -15,3 +15,4 @@ func TestNormalizeTelegramChannel(t *testing.T) {
 		}
 	}
 }
+

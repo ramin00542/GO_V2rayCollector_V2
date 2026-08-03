@@ -1,4 +1,4 @@
-package repository
+﻿package repository
 
 import "testing"
 
@@ -11,3 +11,4 @@ func TestNormalizeSourceURL(t *testing.T) {
 		t.Fatal("HTTP source should not be accepted")
 	}
 }
+

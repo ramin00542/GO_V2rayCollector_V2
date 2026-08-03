@@ -1,4 +1,4 @@
-package repository
+﻿package repository
 
 import (
 	"encoding/csv"
@@ -8,7 +8,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 )
 
 func LoadChannels(path string) ([]domain.Channel, error) {
@@ -98,3 +98,4 @@ func AddChannel(path string, name string) error {
 	}
 	return os.Rename(temporary, path)
 }
+

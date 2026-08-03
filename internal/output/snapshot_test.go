@@ -1,4 +1,4 @@
-package output
+﻿package output
 
 import (
 	"os"
@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
-	"github.com/RaminTabriz/V2rayCollector/internal/state"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/state"
 )
 
 func TestPublishSeparatesHTTPSAndTelegramProxy(t *testing.T) {
@@ -37,3 +37,4 @@ func TestPublishSeparatesHTTPSAndTelegramProxy(t *testing.T) {
 		t.Fatal("MTProto config not in proxy file")
 	}
 }
+

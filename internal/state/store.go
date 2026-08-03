@@ -1,4 +1,4 @@
-package state
+﻿package state
 
 import (
 	"encoding/json"
@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 )
 
 type Observation struct {
@@ -112,3 +112,4 @@ func EntriesForWindow(data Data, start, end time.Time) []Entry {
 	sort.Slice(entries, func(i, j int) bool { return entries[i].Fingerprint < entries[j].Fingerprint })
 	return entries
 }
+

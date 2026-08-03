@@ -1,4 +1,4 @@
-package state
+﻿package state
 
 import (
 	"encoding/json"
@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 )
 
 type CandidateStatus string
@@ -134,3 +134,4 @@ func (s *CandidateStore) Save() error {
 	}
 	return os.Rename(tmp, s.path)
 }
+

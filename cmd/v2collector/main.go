@@ -1,4 +1,4 @@
-package main
+﻿package main
 
 import (
 	"context"
@@ -9,10 +9,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/app"
-	"github.com/RaminTabriz/V2rayCollector/internal/config"
-	"github.com/RaminTabriz/V2rayCollector/internal/health"
-	"github.com/RaminTabriz/V2rayCollector/internal/repository"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/app"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/config"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/health"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/repository"
 )
 
 func main() {
@@ -107,3 +107,4 @@ func usage() {
 	os.Exit(2)
 }
 func exitError(err error) { fmt.Fprintln(os.Stderr, "error:", err); os.Exit(1) }
+

@@ -1,10 +1,10 @@
-package state
+﻿package state
 
 import (
 	"testing"
 	"time"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 )
 
 func TestCandidatePromotionNeedsIndependentSuccesses(t *testing.T) {
@@ -29,3 +29,4 @@ func TestCandidatePromotionNeedsIndependentSuccesses(t *testing.T) {
 		t.Fatalf("candidate was not promoted: %#v", updated)
 	}
 }
+

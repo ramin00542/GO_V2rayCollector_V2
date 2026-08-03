@@ -1,4 +1,4 @@
-package fetch
+﻿package fetch
 
 import (
 	"context"
@@ -153,3 +153,4 @@ func (c *Client) getOnce(ctx context.Context, rawURL string) (Response, bool, er
 	}
 	return Response{URL: response.Request.URL.String(), StatusCode: response.StatusCode, Header: response.Header.Clone(), Body: body}, false, nil
 }
+

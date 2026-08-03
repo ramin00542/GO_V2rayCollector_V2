@@ -1,11 +1,11 @@
-package state
+﻿package state
 
 import (
 	"path/filepath"
 	"testing"
 	"time"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 )
 
 func TestUpsertTracksObservationsAndPersists(t *testing.T) {
@@ -34,3 +34,4 @@ func TestUpsertTracksObservationsAndPersists(t *testing.T) {
 		t.Fatalf("got %d observations", len(entry.Observations))
 	}
 }
+

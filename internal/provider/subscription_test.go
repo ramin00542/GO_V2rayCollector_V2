@@ -1,4 +1,4 @@
-package provider
+﻿package provider
 
 import (
 	"context"
@@ -7,8 +7,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
-	"github.com/RaminTabriz/V2rayCollector/internal/fetch"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/fetch"
 )
 
 func TestSubscriptionUsesBase64OnlyAsFallback(t *testing.T) {
@@ -34,3 +34,4 @@ func TestSummary(t *testing.T) {
 		t.Fatalf("unexpected summary: %#v", summary)
 	}
 }
+

@@ -1,4 +1,4 @@
-package provider
+﻿package provider
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
-	"github.com/RaminTabriz/V2rayCollector/internal/fetch"
-	"github.com/RaminTabriz/V2rayCollector/internal/parser"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/fetch"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/parser"
 )
 
 type TelegramProvider struct {
@@ -61,3 +61,4 @@ func (p *TelegramProvider) Fetch(ctx context.Context, channel domain.Channel) do
 	result.Rejected = len(rejected)
 	return result
 }
+

@@ -1,10 +1,10 @@
-package parser
+﻿package parser
 
 import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 )
 
 func TestVLESSFragmentDoesNotChangeFingerprint(t *testing.T) {
@@ -56,3 +56,4 @@ func TestArgoRemainsOneConfig(t *testing.T) {
 		t.Fatalf("unexpected extraction: configs=%d rejected=%d", len(configs), len(rejected))
 	}
 }
+

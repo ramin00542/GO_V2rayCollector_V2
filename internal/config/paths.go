@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 import "path/filepath"
 
@@ -26,3 +26,4 @@ func (p Paths) ChannelsFile() string { return filepath.Join(p.ConfigDir, "channe
 func (p Paths) SourcesFile() string  { return filepath.Join(p.ConfigDir, "sources.json") }
 func (p Paths) GitHubFile() string   { return filepath.Join(p.ConfigDir, "github.json") }
 func (p Paths) SettingsFile() string { return filepath.Join(p.ConfigDir, "collector.json") }
+

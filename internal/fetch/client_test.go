@@ -1,4 +1,4 @@
-package fetch
+﻿package fetch
 
 import (
 	"context"
@@ -41,3 +41,4 @@ func TestLimiterHonorsCancellation(t *testing.T) {
 		t.Fatal("cancelled limiter waited")
 	}
 }
+

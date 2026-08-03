@@ -1,4 +1,4 @@
-package report
+﻿package report
 
 import (
 	"encoding/json"
@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/config"
-	"github.com/RaminTabriz/V2rayCollector/internal/health"
-	"github.com/RaminTabriz/V2rayCollector/internal/state"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/config"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/health"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/state"
 )
 
 type RunResult struct {
@@ -172,3 +172,4 @@ func appendHistory(path string, r RunResult) error {
 	_, e = f.WriteString(fmt.Sprintf("%s,%d,%d,%d,%d,%d,%d\n", r.FinishedAt.Format(time.RFC3339), r.NewConfigs, r.Requests, r.Succeeded, r.Failed, r.Accepted, r.Rejected))
 	return e
 }
+

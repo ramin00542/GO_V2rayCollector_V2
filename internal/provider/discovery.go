@@ -1,11 +1,11 @@
-package provider
+﻿package provider
 
 import (
 	"regexp"
 	"strings"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
-	"github.com/RaminTabriz/V2rayCollector/internal/repository"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/repository"
 )
 
 var telegramLink = regexp.MustCompile(`(?i)https?://t\.me/(?:s/)?[a-zA-Z0-9_]+`)
@@ -34,3 +34,4 @@ func DiscoverPublicLinks(text string) []domain.DiscoveredLink {
 	}
 	return out
 }
+

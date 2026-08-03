@@ -1,6 +1,6 @@
-package provider
+﻿package provider
 
-import "github.com/RaminTabriz/V2rayCollector/internal/domain"
+import "github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 
 type Summary struct {
 	Requests  int
@@ -28,3 +28,4 @@ func Summarize(results []domain.ProviderResult) Summary {
 	}
 	return summary
 }
+

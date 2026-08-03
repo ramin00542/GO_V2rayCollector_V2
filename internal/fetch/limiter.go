@@ -1,4 +1,4 @@
-package fetch
+﻿package fetch
 
 import (
 	"context"
@@ -37,3 +37,4 @@ func (l *Limiter) Close() {
 		l.stop()
 	}
 }
+

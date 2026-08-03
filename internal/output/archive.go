@@ -1,4 +1,4 @@
-package output
+﻿package output
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/state"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/state"
 )
 
 func PublishDaily(archiveRoot string, entries []state.Entry, day time.Time, options SnapshotOptions) error {
@@ -63,3 +63,4 @@ func SortedEntries(data state.Data) []state.Entry {
 	sort.Slice(entries, func(i, j int) bool { return entries[i].Fingerprint < entries[j].Fingerprint })
 	return entries
 }
+

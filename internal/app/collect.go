@@ -1,4 +1,4 @@
-package app
+﻿package app
 
 import (
 	"context"
@@ -6,14 +6,14 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/config"
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
-	"github.com/RaminTabriz/V2rayCollector/internal/fetch"
-	"github.com/RaminTabriz/V2rayCollector/internal/output"
-	"github.com/RaminTabriz/V2rayCollector/internal/provider"
-	"github.com/RaminTabriz/V2rayCollector/internal/report"
-	"github.com/RaminTabriz/V2rayCollector/internal/repository"
-	"github.com/RaminTabriz/V2rayCollector/internal/state"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/config"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/fetch"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/output"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/provider"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/report"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/repository"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/state"
 )
 
 type RunResult struct {
@@ -224,3 +224,4 @@ func candidateStatus(result domain.ProviderResult) state.CandidateStatus {
 	}
 	return state.CandidateNoConfig
 }
+

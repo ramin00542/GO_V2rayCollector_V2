@@ -1,4 +1,4 @@
-package parser
+﻿package parser
 
 import (
 	"crypto/sha256"
@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 )
 
 var uriCandidate = regexp.MustCompile(`(?i)(?:vmess|vless|trojan|ssr|ss|hysteria2|hysteria|hy2|tuic|wireguard|warp|slipnet|brook|naive|ssh|socks5|socks|https?|tg)://[^\s<>'"]+`)
@@ -284,3 +284,4 @@ func DecodeBase64Text(value string) (string, bool) {
 	}
 	return string(decoded), true
 }
+

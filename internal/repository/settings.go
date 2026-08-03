@@ -1,4 +1,4 @@
-package repository
+﻿package repository
 
 import (
 	"encoding/json"
@@ -7,7 +7,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 )
 
 func LoadCollectorSettings(pathname string) (domain.CollectorSettings, error) {
@@ -62,3 +62,4 @@ func LoadGitHubSettings(pathname string) (domain.GitHubSettings, error) {
 	}
 	return settings, nil
 }
+

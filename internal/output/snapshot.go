@@ -1,4 +1,4 @@
-package output
+﻿package output
 
 import (
 	"fmt"
@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
-	"github.com/RaminTabriz/V2rayCollector/internal/state"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/state"
 )
 
 type SnapshotOptions struct {
@@ -91,3 +91,4 @@ func DayBounds(day time.Time) (time.Time, time.Time) {
 	start := time.Date(day.Year(), day.Month(), day.Day(), 0, 0, 0, 0, time.UTC)
 	return start, start.AddDate(0, 0, 1)
 }
+

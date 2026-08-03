@@ -1,12 +1,12 @@
-package provider
+﻿package provider
 
 import (
 	"context"
 	"strings"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
-	"github.com/RaminTabriz/V2rayCollector/internal/fetch"
-	"github.com/RaminTabriz/V2rayCollector/internal/parser"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/fetch"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/parser"
 )
 
 type SubscriptionProvider struct {
@@ -50,3 +50,4 @@ func (p *SubscriptionProvider) Fetch(ctx context.Context, source domain.Source) 
 	result.Rejected = len(rejected)
 	return result
 }
+

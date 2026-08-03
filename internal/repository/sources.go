@@ -1,4 +1,4 @@
-package repository
+﻿package repository
 
 import (
 	"encoding/json"
@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 )
 
 type sourceFile struct {
@@ -85,3 +85,4 @@ func AddSource(path string, source domain.Source) error {
 	}
 	return os.Rename(temporary, path)
 }
+

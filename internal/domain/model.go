@@ -1,4 +1,4 @@
-package domain
+﻿package domain
 
 import "time"
 
@@ -100,3 +100,4 @@ type DiscoveredLink struct {
 	Kind  DiscoveryKind
 	Value string
 }
+

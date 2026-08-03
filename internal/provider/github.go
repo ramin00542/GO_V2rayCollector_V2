@@ -1,4 +1,4 @@
-package provider
+﻿package provider
 
 import (
 	"context"
@@ -9,8 +9,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/RaminTabriz/V2rayCollector/internal/domain"
-	"github.com/RaminTabriz/V2rayCollector/internal/fetch"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/fetch"
 )
 
 type GitHubDiscoverer struct {
@@ -100,3 +100,4 @@ func min(left, right int) int {
 	}
 	return right
 }
+

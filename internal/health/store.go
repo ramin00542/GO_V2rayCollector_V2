@@ -1,4 +1,4 @@
-package health
+﻿package health
 
 import (
 	"encoding/json"
@@ -123,3 +123,4 @@ func (s *Store) MarkSourceDormant(url string, now time.Time) {
 	record.LastCheckedAt = now
 	s.data.Sources[url] = record
 }
+
