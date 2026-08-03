@@ -15,4 +15,3 @@ func TestNormalizeTelegramChannel(t *testing.T) {
 		}
 	}
 }
-

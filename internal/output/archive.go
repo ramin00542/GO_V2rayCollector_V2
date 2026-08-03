@@ -63,4 +63,3 @@ func SortedEntries(data state.Data) []state.Entry {
 	sort.Slice(entries, func(i, j int) bool { return entries[i].Fingerprint < entries[j].Fingerprint })
 	return entries
 }
-

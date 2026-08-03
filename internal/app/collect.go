@@ -224,4 +224,3 @@ func candidateStatus(result domain.ProviderResult) state.CandidateStatus {
 	}
 	return state.CandidateNoConfig
 }
-

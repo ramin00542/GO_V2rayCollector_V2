@@ -29,4 +29,3 @@ func TestCandidatePromotionNeedsIndependentSuccesses(t *testing.T) {
 		t.Fatalf("candidate was not promoted: %#v", updated)
 	}
 }
-

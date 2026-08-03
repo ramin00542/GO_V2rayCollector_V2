@@ -34,4 +34,3 @@ func TestUpsertTracksObservationsAndPersists(t *testing.T) {
 		t.Fatalf("got %d observations", len(entry.Observations))
 	}
 }
-

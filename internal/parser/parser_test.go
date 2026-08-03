@@ -56,4 +56,3 @@ func TestArgoRemainsOneConfig(t *testing.T) {
 		t.Fatalf("unexpected extraction: configs=%d rejected=%d", len(configs), len(rejected))
 	}
 }
-

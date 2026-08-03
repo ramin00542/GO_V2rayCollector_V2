@@ -91,4 +91,3 @@ func DayBounds(day time.Time) (time.Time, time.Time) {
 	start := time.Date(day.Year(), day.Month(), day.Day(), 0, 0, 0, 0, time.UTC)
 	return start, start.AddDate(0, 0, 1)
 }
-

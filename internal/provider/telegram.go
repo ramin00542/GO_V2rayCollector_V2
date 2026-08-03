@@ -61,4 +61,3 @@ func (p *TelegramProvider) Fetch(ctx context.Context, channel domain.Channel) do
 	result.Rejected = len(rejected)
 	return result
 }
-

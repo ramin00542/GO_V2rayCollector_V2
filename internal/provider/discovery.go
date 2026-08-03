@@ -34,4 +34,3 @@ func DiscoverPublicLinks(text string) []domain.DiscoveredLink {
 	}
 	return out
 }
-

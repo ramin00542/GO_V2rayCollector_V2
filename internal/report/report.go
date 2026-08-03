@@ -172,4 +172,3 @@ func appendHistory(path string, r RunResult) error {
 	_, e = f.WriteString(fmt.Sprintf("%s,%d,%d,%d,%d,%d,%d\n", r.FinishedAt.Format(time.RFC3339), r.NewConfigs, r.Requests, r.Succeeded, r.Failed, r.Accepted, r.Rejected))
 	return e
 }
-

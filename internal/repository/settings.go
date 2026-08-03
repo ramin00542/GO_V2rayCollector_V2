@@ -62,4 +62,3 @@ func LoadGitHubSettings(pathname string) (domain.GitHubSettings, error) {
 	}
 	return settings, nil
 }
-

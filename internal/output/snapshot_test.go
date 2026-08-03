@@ -37,4 +37,3 @@ func TestPublishSeparatesHTTPSAndTelegramProxy(t *testing.T) {
 		t.Fatal("MTProto config not in proxy file")
 	}
 }
-

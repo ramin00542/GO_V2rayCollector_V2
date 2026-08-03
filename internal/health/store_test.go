@@ -23,4 +23,3 @@ func TestUnknownFailureDoesNotBecomeInactive(t *testing.T) {
 		t.Fatalf("active state did not reset: %#v", record)
 	}
 }
-

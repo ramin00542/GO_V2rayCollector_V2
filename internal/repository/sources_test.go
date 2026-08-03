@@ -11,4 +11,3 @@ func TestNormalizeSourceURL(t *testing.T) {
 		t.Fatal("HTTP source should not be accepted")
 	}
 }
-

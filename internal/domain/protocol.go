@@ -69,4 +69,3 @@ func ProtocolInfoFor(protocol Protocol) (ProtocolInfo, bool) {
 	info, ok := protocolRegistry[protocol]
 	return info, ok
 }
-

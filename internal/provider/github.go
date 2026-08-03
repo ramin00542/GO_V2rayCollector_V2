@@ -100,4 +100,3 @@ func min(left, right int) int {
 	}
 	return right
 }
-

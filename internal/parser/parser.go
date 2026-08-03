@@ -284,4 +284,3 @@ func DecodeBase64Text(value string) (string, bool) {
 	}
 	return string(decoded), true
 }
-

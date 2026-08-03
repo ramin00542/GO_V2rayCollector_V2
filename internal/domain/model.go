@@ -100,4 +100,3 @@ type DiscoveredLink struct {
 	Kind  DiscoveryKind
 	Value string
 }
-

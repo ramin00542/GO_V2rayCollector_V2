@@ -41,4 +41,3 @@ func TestLimiterHonorsCancellation(t *testing.T) {
 		t.Fatal("cancelled limiter waited")
 	}
 }
-

@@ -134,4 +134,3 @@ func (s *CandidateStore) Save() error {
 	}
 	return os.Rename(tmp, s.path)
 }
-

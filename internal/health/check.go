@@ -150,4 +150,3 @@ func FormatReport(title string, results []CheckResult) string {
 	}
 	return fmt.Sprintf("# %s\n\n- Checked: %d\n- Active: %d\n- Inactive: %d\n- Not found: %d\n- Unknown errors: %d\n", title, len(results), active, inactive, missing, unknown)
 }
-

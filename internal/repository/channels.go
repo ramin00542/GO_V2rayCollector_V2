@@ -98,4 +98,3 @@ func AddChannel(path string, name string) error {
 	}
 	return os.Rename(temporary, path)
 }
-

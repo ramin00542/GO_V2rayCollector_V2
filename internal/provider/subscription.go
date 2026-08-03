@@ -50,4 +50,3 @@ func (p *SubscriptionProvider) Fetch(ctx context.Context, source domain.Source) 
 	result.Rejected = len(rejected)
 	return result
 }
-

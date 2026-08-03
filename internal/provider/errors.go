@@ -14,4 +14,3 @@ func recordError(result *domain.ProviderResult, err error) {
 		result.HTTPStatus = httpError.StatusCode
 	}
 }
-

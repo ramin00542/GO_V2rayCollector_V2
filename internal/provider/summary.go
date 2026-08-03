@@ -28,4 +28,3 @@ func Summarize(results []domain.ProviderResult) Summary {
 	}
 	return summary
 }
-

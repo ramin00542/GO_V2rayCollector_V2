@@ -107,4 +107,3 @@ func usage() {
 	os.Exit(2)
 }
 func exitError(err error) { fmt.Fprintln(os.Stderr, "error:", err); os.Exit(1) }
-

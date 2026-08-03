@@ -85,4 +85,3 @@ func AddSource(path string, source domain.Source) error {
 	}
 	return os.Rename(temporary, path)
 }
-
