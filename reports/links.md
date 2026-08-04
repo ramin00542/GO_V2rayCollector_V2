@@ -1,13 +1,13 @@
 # Download Center
 
-Updated: `2026-08-04T22:04:13Z`
+Updated: `2026-08-04T23:18:10Z`
 
 ## ⭐ Main VPN Links — Latest 24 Hours
 
 | File | Configs | Size | Raw link |
 |---|---:|---:|---|
-| `archive/all/subscription_all.txt` | `5645` | `1550534 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/subscription_all.txt) |
-| `archive/all/telegram_all.txt` | `182` | `46384 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/telegram_all.txt) |
+| `archive/all/subscription_all.txt` | `5595` | `1539938 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/subscription_all.txt) |
+| `archive/all/telegram_all.txt` | `176` | `44775 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/telegram_all.txt) |
 | `output/temporary/subscription_all.txt` | `5595` | `1539938 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/subscription_all.txt) |
 | `output/temporary/telegram_all.txt` | `176` | `44775 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram_all.txt) |
 
