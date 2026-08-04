@@ -15,6 +15,8 @@ import (
 type SnapshotOptions struct {
 	KeepUnknown     bool
 	WritePerChannel bool
+	WriteProtocols  bool
+	WriteCombined   bool
 }
 
 func Publish(root string, entries []state.Entry, start, end time.Time, options SnapshotOptions) error {
@@ -54,13 +56,18 @@ func writeSnapshot(root string, entries []state.Entry, start, end time.Time, opt
 			if observation.Kind == domain.SourceTelegram {
 				sourceDir = "telegram"
 			}
-			directory := filepath.Join(root, sourceDir, "protocols")
-			if info.TelegramProxy {
-				directory = filepath.Join(root, sourceDir, "telegram-proxies")
+			if options.WriteProtocols {
+				directory := filepath.Join(root, sourceDir, "protocols")
+				if info.TelegramProxy {
+					directory = filepath.Join(root, sourceDir, "telegram-proxies")
+				}
+				add(files, filepath.Join(directory, info.FileName), entry.Value)
+				if options.WritePerChannel && observation.Kind == domain.SourceTelegram && observation.Channel != "" {
+					add(files, filepath.Join(root, "telegram", "channels", observation.Channel, info.FileName), entry.Value)
+				}
 			}
-			add(files, filepath.Join(directory, info.FileName), entry.Value)
-			if options.WritePerChannel && observation.Kind == domain.SourceTelegram && observation.Channel != "" {
-				add(files, filepath.Join(root, "telegram", "channels", observation.Channel, info.FileName), entry.Value)
+			if options.WriteCombined {
+				add(files, filepath.Join(root, sourceDir+"_all.txt"), entry.Value)
 			}
 		}
 	}

@@ -1,35 +1,4 @@
 {
-    "version":  1,
-    "sources":  [
-                    {
-                        "url":  "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/20.txt",
-                        "enabled":  true,
-                        "name":  "Hidashimora seed",
-                        "kind":  "subscription"
-                    },
-                    {
-                        "url":  "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
-                        "enabled":  true,
-                        "name":  "V2RayAggregator raw",
-                        "kind":  "subscription"
-                    },
-                    {
-                        "url":  "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt",
-                        "enabled":  true,
-                        "name":  "V2RayAggregator base64",
-                        "kind":  "subscription"
-                    },
-                    {
-                        "url":  "https://raw.githubusercontent.com/longlon/v2ray-config/main/Sub28.txt",
-                        "enabled":  true,
-                        "name":  "Longlon seed",
-                        "kind":  "subscription"
-                    },
-                    {
-                        "url":  "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt",
-                        "enabled":  true,
-                        "name":  "NoMoreWalls seed",
-                        "kind":  "subscription"
-                    }
-                ]
+  "version": 1,
+  "sources": []
 }

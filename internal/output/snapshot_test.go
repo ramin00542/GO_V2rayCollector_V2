@@ -19,7 +19,7 @@ func TestPublishSeparatesHTTPSAndTelegramProxy(t *testing.T) {
 	}
 	root := filepath.Join(t.TempDir(), "temporary")
 	start, end := DayBounds(now)
-	if err := Publish(root, entries, start, end, SnapshotOptions{WritePerChannel: true}); err != nil {
+	if err := Publish(root, entries, start, end, SnapshotOptions{WritePerChannel: true, WriteProtocols: true}); err != nil {
 		t.Fatal(err)
 	}
 	https, err := os.ReadFile(filepath.Join(root, "telegram", "protocols", "https.txt"))

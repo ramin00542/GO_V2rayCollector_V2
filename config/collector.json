@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "retention": {"daily_days": 30, "rolling_days": 7},
+  "retention": {"daily_days": 30, "rolling_days": 1},
   "output": {"keep_unknown": false, "write_per_channel": true},
   "discovery": {
     "channel_candidate_fetch_budget": 200,

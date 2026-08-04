@@ -13,6 +13,9 @@ import (
 func PublishDaily(archiveRoot string, entries []state.Entry, day time.Time, options SnapshotOptions) error {
 	start, end := DayBounds(day)
 	destination := filepath.Join(archiveRoot, "daily", start.Format("2006-01-02"))
+	options.WriteProtocols = false
+	options.WritePerChannel = false
+	options.WriteCombined = true
 	return Publish(destination, entries, start, end, options)
 }
 
@@ -22,6 +25,9 @@ func PublishRolling(archiveRoot string, entries []state.Entry, now time.Time, da
 	}
 	end := now.UTC().Add(time.Nanosecond)
 	start := end.AddDate(0, 0, -days)
+	options.WriteProtocols = false
+	options.WritePerChannel = false
+	options.WriteCombined = true
 	return Publish(filepath.Join(archiveRoot, "all"), entries, start, end, options)
 }
 

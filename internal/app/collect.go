@@ -152,7 +152,7 @@ func addConfigs(store *state.Store, result domain.ProviderResult, channel string
 func publish(data state.Data, paths config.Paths, settings domain.CollectorSettings, now time.Time) error {
 	start, end := output.DayBounds(now)
 	entries := state.EntriesForWindow(data, start, end)
-	options := output.SnapshotOptions{KeepUnknown: settings.Output.KeepUnknown, WritePerChannel: settings.Output.WritePerChannel}
+	options := output.SnapshotOptions{KeepUnknown: settings.Output.KeepUnknown, WritePerChannel: settings.Output.WritePerChannel, WriteProtocols: true, WriteCombined: true}
 	if err := output.Publish(filepath.Join(paths.OutputDir, "temporary"), entries, start, end, options); err != nil {
 		return err
 	}

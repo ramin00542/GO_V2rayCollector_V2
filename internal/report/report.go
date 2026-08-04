@@ -85,23 +85,47 @@ func writeDiscovery(path string, data state.CandidateData) error {
 		rows = append(rows, fmt.Sprintf("| `%s` | %s | `%d` | `%d` | `%d` |", c.Kind, c.Status, c.Successes, c.NoConfigCount, len(c.Origins)))
 	}
 	sort.Strings(rows)
-	body := "# Discovery Report\n\n## Queue\n\n| Status | Count |\n|---|---:|\n"
+	if len(rows) > 25 {
+		rows = rows[:25]
+	}
+	body := "# Discovery Report\n\n## Queue Summary\n\n| Status | Count |\n|---|---:|\n"
 	for _, s := range []state.CandidateStatus{state.CandidatePending, state.CandidateQualified, state.CandidatePromoted, state.CandidateNoConfig, state.CandidateNotFound, state.CandidateUnknown, state.CandidateExpired} {
 		body += fmt.Sprintf("| %s | `%d` |\n", s, counts[s])
 	}
-	body += "\n## Candidates\n\n| Type | State | Successes | No config | Origins |\n|---|---|---:|---:|---:|\n" + strings.Join(rows, "\n") + "\n"
+	body += "\n## Candidate Sample\n\nOnly the first 25 candidates are shown here. The complete machine-readable queue remains in runtime state.\n\n| Type | State | Successes | No config | Origins |\n|---|---|---:|---:|---:|\n" + strings.Join(rows, "\n") + "\n"
 	return os.WriteFile(path, []byte(body), 0644)
 }
 func writeHealth(path, title string, records map[string]health.Record) error {
 	counts := map[health.Status]int{}
-	for _, r := range records {
-		counts[r.Status]++
+	keys := make([]string, 0, len(records))
+	for key, record := range records {
+		counts[record.Status]++
+		keys = append(keys, key)
 	}
-	body := fmt.Sprintf("# %s Report\n\n| State | Count |\n|---|---:|\n", title)
-	for _, s := range []health.Status{health.StatusActive, health.StatusInactive, health.StatusNotFound, health.StatusUnknown, health.StatusDormant} {
-		body += fmt.Sprintf("| %s | `%d` |\n", s, counts[s])
+	sort.Strings(keys)
+	body := fmt.Sprintf("# %s Report\n\n## Summary\n\n| State | Count |\n|---|---:|\n", title)
+	for _, status := range []health.Status{health.StatusActive, health.StatusInactive, health.StatusNotFound, health.StatusUnknown, health.StatusDormant} {
+		body += fmt.Sprintf("| %s | `%d` |\n", status, counts[status])
+	}
+	body += "\n## Details\n\n| Target | State | Last Checked | Last Successful Config | Failures |\n|---|---|---|---|---:|\n"
+	for _, key := range keys {
+		record := records[key]
+		body += fmt.Sprintf("| `%s` | %s | `%s` | `%s` | `%d` |\n", redact(key), record.Status, reportTime(record.LastCheckedAt), reportTime(record.LastSuccessfulAt), record.ConsecutiveFailures)
 	}
 	return os.WriteFile(path, []byte(body), 0644)
+}
+
+func reportTime(value time.Time) string {
+	if value.IsZero() {
+		return "-"
+	}
+	return value.Format(time.RFC3339)
+}
+func redact(value string) string {
+	if index := strings.Index(strings.ToLower(value), "token="); index >= 0 {
+		return value[:index] + "token=REDACTED"
+	}
+	return value
 }
 func buildManifest(paths config.Paths) (Manifest, error) {
 	var files []ManifestFile
@@ -147,15 +171,46 @@ func rawURL(path string) string {
 	return "https://raw.githubusercontent.com/" + repo + "/" + branch + "/" + strings.Join(parts, "/")
 }
 func writeLinks(path string, m Manifest) error {
-	body := "# Download Links\n\nGenerated: `" + m.GeneratedAt.Format(time.RFC3339) + "`\n\n| File | Configs | Size | Raw link |\n|---|---:|---:|---|\n"
-	for _, f := range m.Files {
-		link := "Local repository"
-		if f.RawURL != "" {
-			link = "[Raw](" + f.RawURL + ")"
+	quick := make([]ManifestFile, 0)
+	telegram := make([]ManifestFile, 0)
+	subscription := make([]ManifestFile, 0)
+	daily := make([]ManifestFile, 0)
+	for _, file := range m.Files {
+		switch {
+		case strings.HasSuffix(file.Path, "/telegram_all.txt") || strings.HasSuffix(file.Path, "/subscription_all.txt"):
+			if strings.HasPrefix(file.Path, "archive/all/") || strings.HasPrefix(file.Path, "output/temporary/") {
+				quick = append(quick, file)
+			} else if strings.HasPrefix(file.Path, "archive/daily/") {
+				daily = append(daily, file)
+			}
+		case strings.HasPrefix(file.Path, "output/temporary/telegram/protocols/") || strings.HasPrefix(file.Path, "output/temporary/telegram/telegram-proxies/"):
+			telegram = append(telegram, file)
+		case strings.HasPrefix(file.Path, "output/temporary/subscription/protocols/") || strings.HasPrefix(file.Path, "output/temporary/subscription/telegram-proxies/"):
+			subscription = append(subscription, file)
 		}
-		body += fmt.Sprintf("| `%s` | `%d` | `%d B` | %s |\n", f.Path, f.Count, f.Size, link)
 	}
+	body := "# Download Center\n\nUpdated: `" + m.GeneratedAt.Format(time.RFC3339) + "`\n\n"
+	body += "## 🚀 Quick Access — Combined All Protocols\n\n" + linkTable(quick)
+	body += "\n## 📡 Telegram — Current Protocol Files\n\n" + linkTable(telegram)
+	body += "\n## 🔗 Subscription — Current Protocol Files\n\n" + linkTable(subscription)
+	body += "\n## 🗄️ Daily Archive — Combined Files\n\n" + linkTable(daily)
+	body += "\n> `archive/all` contains the latest 24-hour combined files. Per-protocol files are available only under `output/temporary/`.\n"
 	return os.WriteFile(path, []byte(body), 0644)
+}
+
+func linkTable(files []ManifestFile) string {
+	if len(files) == 0 {
+		return "No files available yet.\n"
+	}
+	body := "| File | Configs | Size | Raw link |\n|---|---:|---:|---|\n"
+	for _, file := range files {
+		link := "Local repository"
+		if file.RawURL != "" {
+			link = "[Raw](" + file.RawURL + ")"
+		}
+		body += fmt.Sprintf("| `%s` | `%d` | `%d B` | %s |\n", file.Path, file.Count, file.Size, link)
+	}
+	return body
 }
 func appendHistory(path string, r RunResult) error {
 	header := "timestamp,new_fingerprints,requests,succeeded,failed,accepted,rejected\n"
