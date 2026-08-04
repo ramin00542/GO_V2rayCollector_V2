@@ -1098,6 +1098,20 @@
         }
       }
     },
+    "03e6de6d4072705d58e1683fc24deefde50a7cc1bf923bb0168f9e08741b004c": {
+      "value": "vless://eb78e1f0-d921-4ca9-a889-261fcc5a0547@qq.utiltools.ru:443?security=reality\u0026encryption=none\u0026pbk=drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI\u0026headerType=none\u0026fp=qq\u0026type=tcp\u0026flow=xtls-rprx-vision\u0026sni=qq.utiltools.ru#Tel-%40ProxyMtAlpha%F0%9F%92%A5%201",
+      "protocol": "vless",
+      "fingerprint": "03e6de6d4072705d58e1683fc24deefde50a7cc1bf923bb0168f9e08741b004c",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        }
+      }
+    },
     "03e807cbaf9d806bd88d780874934a1302c58f3b0aa8abf5c0b3053256224a13": {
       "value": "trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@sh.xiaohouzi.club:12468?security=tls\u0026sni=$$sh.xiaohouzi.club#%F0%9F%87%BA%F0%9F%87%B8US-76.223.54.146-2987",
       "protocol": "trojan",
@@ -2071,6 +2085,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T00:57:22.50193986Z"
+        }
+      }
+    },
+    "06d4e0895d823ac20e3e4cc328855d098410f1219d4c0a430ab0a6f94653b508": {
+      "value": "vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca30.mysilipdir.com:8880?mode=gun\u0026security=none\u0026encryption=none\u0026type=grpc#Tel-%40ProxyMtAlpha%F0%9F%AB%91%203",
+      "protocol": "vless",
+      "fingerprint": "06d4e0895d823ac20e3e4cc328855d098410f1219d4c0a430ab0a6f94653b508",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -3734,6 +3762,20 @@
         }
       }
     },
+    "0c2d17b1abd2fd442ffc63f029a16d97dc4a20b716a1ec3155f912c66a46df2e": {
+      "value": "vless://17d29827-7cf1-4115-b40d-548e10ec355d@ua1.levikogjgfdd.ir:40443?security=reality\u0026encryption=none\u0026pbk=bjOGTQ4xsiFbyCPM_WzoK53L130rW5vZJtuYDJx_pkM\u0026headerType=none\u0026type=tcp\u0026flow=xtls-rprx-vision\u0026sni=deepl.com\u0026sid=aa3c#Tel-%40ProxyMtAlpha%F0%9F%8D%90%206",
+      "protocol": "vless",
+      "fingerprint": "0c2d17b1abd2fd442ffc63f029a16d97dc4a20b716a1ec3155f912c66a46df2e",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        }
+      }
+    },
     "0c3820903a16fe0ebbb4ef446adbfd77252420eb3af7b0b376c35d6062f371a8": {
       "value": "vless://18f72be7-0651-4037-928b-8a309d685796@de3.pineappled.org:443?type=tcp\u0026security=reality\u0026sni=google.com\u0026fp=chrome\u0026flow=xtls-rprx-vision\u0026pbk=qFBIVGsvXTMeJcdJz6GiL7DG0XNhCg7rItza7t0qTgU\u0026sid=9eb31eb7572c0882#DE",
       "protocol": "vless",
@@ -3942,6 +3984,20 @@
         }
       }
     },
+    "0ce07977b502aefe69b84a12ece3ab9120ab10316ef25a0ea50a3afb1d2c2b8a": {
+      "value": "vless://1a6d2f60-6c75-470b-891a-457b13d70a8e@britain.relvuno.ir:6500?security=reality\u0026encryption=none\u0026pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo\u0026headerType=none\u0026fp=qq\u0026type=tcp\u0026sni=play.google.com#Tel-%40ProxyMtAlpha%F0%9F%AB%91%204",
+      "protocol": "vless",
+      "fingerprint": "0ce07977b502aefe69b84a12ece3ab9120ab10316ef25a0ea50a3afb1d2c2b8a",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        }
+      }
+    },
     "0ce8fc8a6bc174c06f6906fa83c780bd466101f817f4d0f78bc2340882b83af2": {
       "value": "vless://497631c4-a1a4-0067-a86a-f42873473bb6@188.190.12.116:8443?security=reality\u0026encryption=none\u0026pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc\u0026host=v2rayNplus--v2rayNplus--v2rayNplus\u0026headerType=none\u0026fp=chrome\u0026type=tcp\u0026flow=xtls-rprx-vision\u0026sni=auto.quattro-tech.ru\u0026sid=43dcff53849b81e6#%40v2rayconfigamir%209988",
       "protocol": "vless",
@@ -4018,6 +4074,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T00:57:22.50193986Z"
+        }
+      }
+    },
+    "0d419b095fa452d1939509adcf312a4a9134c7ab05e23a3f307bc49419126a3a": {
+      "value": "vless://eb78e1f0-d921-4ca9-a889-261fcc5a0547@qq.utiltools.ru:443?security=reality\u0026encryption=none\u0026pbk=drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI\u0026host=%2F%3FBIA_TELEGRAM-TGRVPN\u0026headerType=none\u0026fp=qq\u0026type=tcp\u0026flow=xtls-rprx-vision\u0026sni=qq.utiltools.ru#Tel-%40ProxyMtAlpha%F0%9F%92%A5%209",
+      "protocol": "vless",
+      "fingerprint": "0d419b095fa452d1939509adcf312a4a9134c7ab05e23a3f307bc49419126a3a",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -4431,8 +4501,13 @@
       "protocol": "shadowsocks",
       "fingerprint": "0e872f55e908f148aa3fe758dd5ec143bd0c10ed33cf000c269c193a97b90c84",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-08-04T10:03:41.78760224Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
       "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        },
         "telegram:v2ray_alpha": {
           "kind": "telegram",
           "channel": "v2ray_alpha",
@@ -6204,8 +6279,13 @@
       "protocol": "vless",
       "fingerprint": "146409321f50697b0827443927306d184aabe7b52855cfd5810ae2b84f35f601",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-08-04T10:03:41.78760224Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
       "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        },
         "telegram:v2ray_alpha": {
           "kind": "telegram",
           "channel": "v2ray_alpha",
@@ -6733,6 +6813,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T10:03:41.78760224Z"
+        }
+      }
+    },
+    "15cd906e5656c0cce94c31dc43d4f7e20641e21d50e237a14fd28a182948f699": {
+      "value": "vmess://eyJhZGQiOiJzaG9wLmZhc2Zvb2QudG9wIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImFkMWIzYjhjLThkMmEtNDAwOS1iN2I3LTExZDk4YjJkNDNiYiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNzM0NCIsInBzIjoiVGVsLUBQcm94eU10QWxwaGHwn6SWIDciLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
+      "protocol": "vmess",
+      "fingerprint": "15cd906e5656c0cce94c31dc43d4f7e20641e21d50e237a14fd28a182948f699",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -9015,8 +9109,13 @@
       "protocol": "trojan",
       "fingerprint": "1ce18eac194fbeb731303357eacce62ac2b8bc7218db37ecfc0103b1ef5845ad",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-08-04T10:03:41.78760224Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
       "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        },
         "telegram:v2ray_alpha": {
           "kind": "telegram",
           "channel": "v2ray_alpha",
@@ -9633,6 +9732,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T10:03:41.78760224Z"
+        }
+      }
+    },
+    "1eefd0659b0855977228cece2d6a789bfb1e5d691e9228870ae06834bd6c1e10": {
+      "value": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.207:8080#Tel-%40ProxyMtAlpha%F0%9F%8E%AA%2011",
+      "protocol": "shadowsocks",
+      "fingerprint": "1eefd0659b0855977228cece2d6a789bfb1e5d691e9228870ae06834bd6c1e10",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -10287,6 +10400,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T10:03:41.78760224Z"
+        }
+      }
+    },
+    "20b1d2ba9134754f0008556c1b41f3d640cfa88aa67c16ef1315230b87bdc572": {
+      "value": "vless://e5cc16a6-ea42-46b2-82ae-ad2157e1641b@104.18.37.228:443?path=%2Ffp\u0026security=tls\u0026encryption=none\u0026insecure=0\u0026host=hhlfy.twiladaphne.ndjp.net\u0026type=ws\u0026allowInsecure=0\u0026sni=hhlfy.twiladaphne.ndjp.net#Tel-%40ProxyMtAlpha%F0%9F%8D%90%204",
+      "protocol": "vless",
+      "fingerprint": "20b1d2ba9134754f0008556c1b41f3d640cfa88aa67c16ef1315230b87bdc572",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -12155,8 +12282,13 @@
       "protocol": "vless",
       "fingerprint": "25d9ea07612debb607f2c92144b51f4c09eb6b44b234c949562bf8350170f283",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-08-04T10:03:41.78760224Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
       "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        },
         "telegram:v2ray_alpha": {
           "kind": "telegram",
           "channel": "v2ray_alpha",
@@ -16831,6 +16963,20 @@
         }
       }
     },
+    "34ec9a93a7c9854f10d88cf4c79029493d6db4769559f341b2586a20a82517b4": {
+      "value": "vless://1a6d2f60-6c75-470b-891a-457b13d70a8e@de.hunerux.oorluma.ir:6500?security=reality\u0026encryption=none\u0026pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo\u0026headerType=none\u0026fp=qq\u0026type=tcp\u0026sni=play.google.com#Tel-%40ProxyMtAlpha%F0%9F%AB%91%201",
+      "protocol": "vless",
+      "fingerprint": "34ec9a93a7c9854f10d88cf4c79029493d6db4769559f341b2586a20a82517b4",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        }
+      }
+    },
     "34ede4e4a7a73a4478c07b5911b32013b4d9547e6d51d20041a167c08ea987ce": {
       "value": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.216:8080#%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.216-0164",
       "protocol": "shadowsocks",
@@ -18853,6 +18999,20 @@
         }
       }
     },
+    "3bbeb3a406f7ff6c86fb3496e637460744ccf22ccecbd98c9b1a435fbcf7ba92": {
+      "value": "vless://6a1a9e36-20bd-4021-9fdb-a9a5358ada3a@d.mygoldiran.com:8443?mode=auto\u0026path=%2Ftv%2F1080\u0026security=tls\u0026encryption=none\u0026extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%2C%22xPaddingObfsMode%22%3Atrue%7D\u0026insecure=0\u0026type=xhttp\u0026allowInsecure=0\u0026sni=fi.mygoldiran.com#Tel-%40ProxyMtAlpha%F0%9F%AB%91%205",
+      "protocol": "vless",
+      "fingerprint": "3bbeb3a406f7ff6c86fb3496e637460744ccf22ccecbd98c9b1a435fbcf7ba92",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        }
+      }
+    },
     "3bc8ae2292cc387691afc51b689f7a7e7907d06342737bed45996ce5b40b0bc7": {
       "value": "vmess://ewogICAgImFkZCI6ICIyMDMuMzAuMTg5LjE5MCIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogIjIwMy4zMC4xODkuMTkwIiwKICAgICJpZCI6ICI1NmEyMTg4Yi0yYWI3LTQwMmMtYjliOC0zNDg0N2ZkZjA5NTgiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvNVFOUk9TUlYiLAogICAgInBvcnQiOiA0NDMsCiAgICAicHMiOiAi8J+PgVJFTEFZLTIwMy4zMC4xODkuMTkwLTI1MDgiLAogICAgInRscyI6ICJ0bHMiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ==",
       "protocol": "vmess",
@@ -19839,6 +19999,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T10:03:41.78760224Z"
+        }
+      }
+    },
+    "3fa5c606061395fc01f5074eaab168fe4268ab69d8cc64d0e07ddc23f425f372": {
+      "value": "vless://8b0c48db-c228-47d9-b634-6ea6edf81e22@159.69.193.221:1234?security=none\u0026encryption=none\u0026host=play.google.com\u0026headerType=http\u0026type=tcp#Tel-%40ProxyMtAlpha%F0%9F%92%A5%2012",
+      "protocol": "vless",
+      "fingerprint": "3fa5c606061395fc01f5074eaab168fe4268ab69d8cc64d0e07ddc23f425f372",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -24016,11 +24190,16 @@
       "protocol": "shadowsocks",
       "fingerprint": "4cb425002fc965fdee3a4a73a654b8598656fe46a94b02b8775edd5fc73d34ef",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-08-04T10:03:41.78760224Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
       "observations": {
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T10:03:41.78760224Z"
+        },
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -27176,6 +27355,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T10:03:41.78760224Z"
+        }
+      }
+    },
+    "55ed359b8aca327f7e75f7a9b61de5b07c39879f7106bbc4b9e710546b2154b1": {
+      "value": "vless://3ad1d277-5715-4ca1-84db-5baea72f822d@93.115.25.139:443?security=tls\u0026alpn=h2\u0026encryption=none\u0026insecure=0\u0026headerType=none\u0026fp=firefox\u0026type=tcp\u0026allowInsecure=0\u0026sni=ddc-chr2.astralweb.tech#Tel-%40ProxyMtAlpha%F0%9F%8E%AA%208",
+      "protocol": "vless",
+      "fingerprint": "55ed359b8aca327f7e75f7a9b61de5b07c39879f7106bbc4b9e710546b2154b1",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -33770,6 +33963,20 @@
         }
       }
     },
+    "6c29b4eebdceef02ba013f0f3a5f9317f8993c7e0554bfd2a4ebadc86651aec7": {
+      "value": "vless://eb78e1f0-d921-4ca9-a889-261fcc5a0547@78.159.250.214:443?security=reality\u0026encryption=none\u0026pbk=drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI\u0026host=%2F%3FJOIN_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI\u0026headerType=none\u0026fp=chrome\u0026type=tcp\u0026flow=xtls-rprx-vision\u0026sni=qq.utiltools.ru#Tel-%40ProxyMtAlpha%F0%9F%92%A511",
+      "protocol": "vless",
+      "fingerprint": "6c29b4eebdceef02ba013f0f3a5f9317f8993c7e0554bfd2a4ebadc86651aec7",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        }
+      }
+    },
     "6c3f3cd499e050fa2a3d42df6d76f9653d2653872af178eac67c113a1d3743e2": {
       "value": "vmess://ewogICAgImFkZCI6ICIxMTEuNDUuMjIuMTM2IiwKICAgICJhaWQiOiAwLAogICAgImhvc3QiOiAiMTExLjQ1LjIyLjEzNiIsCiAgICAiaWQiOiAiMDI1M2I1NzQtODAyMC0zMTg2LWE2NDctMDI2NzI5NWFjOWJiIiwKICAgICJuZXQiOiAid3MiLAogICAgInBhdGgiOiAiL3JvY2tldCIsCiAgICAicG9ydCI6IDY1MDIzLAogICAgInBzIjogIvCfh6jwn4ezQ04tMTExLjQ1LjIyLjEzNi0yMDEyIiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0=",
       "protocol": "vmess",
@@ -36532,6 +36739,20 @@
         }
       }
     },
+    "74cae25d3540f0004002e170aeb8d25ed62fc0dd03938884dd0d4f79c2237b8e": {
+      "value": "vless://eb78e1f0-d921-4ca9-a889-261fcc5a0547@qq.utiltools.ru:443?security=reality\u0026encryption=none\u0026pbk=drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI\u0026host=%2F%3FBIA_TELEGRAM%40NexVexo_NexVexo_NexVexo_NexVexo\u0026headerType=none\u0026fp=qq\u0026type=tcp\u0026flow=xtls-rprx-vision\u0026sni=qq.utiltools.ru#Tel-%40ProxyMtAlpha%F0%9F%92%A5%206",
+      "protocol": "vless",
+      "fingerprint": "74cae25d3540f0004002e170aeb8d25ed62fc0dd03938884dd0d4f79c2237b8e",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        }
+      }
+    },
     "74ce7c09d3be96e0a3312d412e2b5b396bec6b6c3d5e29694016c699c5caece8": {
       "value": "trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@15.204.20.229:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-15.204.20.229-5627",
       "protocol": "trojan",
@@ -37181,6 +37402,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T10:03:41.78760224Z"
+        }
+      }
+    },
+    "76c0af7710f1e2e480c34321d74fdd0e3f8aaadb24b1e9c58fc787d882806ef2": {
+      "value": "vless://5de3f60c-7cc2-4f66-9177-706a2693dc19@62.238.55.96:1234?security=none\u0026encryption=none\u0026host=play.google.com\u0026headerType=http\u0026type=tcp#Tel-%40ProxyMtAlpha%F0%9F%92%A5%2010",
+      "protocol": "vless",
+      "fingerprint": "76c0af7710f1e2e480c34321d74fdd0e3f8aaadb24b1e9c58fc787d882806ef2",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -40460,6 +40695,20 @@
         }
       }
     },
+    "810579280828256966b678859d395ca7002da42f0fbad2733e55ea4ede46ebd3": {
+      "value": "vless://1a6d2f60-6c75-470b-891a-457b13d70a8e@italy.relvuno.ir:6500?security=reality\u0026encryption=none\u0026pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo\u0026headerType=none\u0026fp=qq\u0026type=tcp\u0026sni=play.google.com#Tel-%40ProxyMtAlpha%F0%9F%AB%91%207",
+      "protocol": "vless",
+      "fingerprint": "810579280828256966b678859d395ca7002da42f0fbad2733e55ea4ede46ebd3",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        }
+      }
+    },
     "810e3cad5ac5538043d19ee8759603d2a0ea12c467814e0778591e14fbef954a": {
       "value": "ss://YWVzLTI1Ni1jZmI6dWVMWFZrdmg0aGNraEVyUQ==@213.183.59.214:9060#%F0%9F%87%B3%F0%9F%87%B1NL-213.183.59.214-5601",
       "protocol": "shadowsocks",
@@ -42240,11 +42489,16 @@
       "protocol": "vless",
       "fingerprint": "8803c228d6a9f69c315cdc72fa9c0ace458bb1553a84c1266fa67f056dd510fa",
       "first_seen_at": "2026-08-04T00:57:22.50193986Z",
-      "last_seen_at": "2026-08-04T04:19:38.385217797Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
       "observations": {
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T04:19:38.385217797Z"
+        },
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -42861,6 +43115,20 @@
         }
       }
     },
+    "89eaf79065f35c831a7e172a5277e730d9ce6d8c64cd53c65a51c340b46a27cb": {
+      "value": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.3:8080#Tel-%40ProxyMtAlpha%F0%9F%92%A5%203",
+      "protocol": "shadowsocks",
+      "fingerprint": "89eaf79065f35c831a7e172a5277e730d9ce6d8c64cd53c65a51c340b46a27cb",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        }
+      }
+    },
     "89fc952b8e71316a6bedc078cd516fae0f6c46dc00a806b9058cbe1f7a83e8b0": {
       "value": "vmess://ewogICAgImFkZCI6ICIxOTguNDEuMjAzLjYiLAogICAgImFpZCI6IDAsCiAgICAiaG9zdCI6ICJmcjIuY2ZjZG40Lnh5eiIsCiAgICAiaWQiOiAiZjMzOTU3ZTgtMzcyZS00ZmJhLTk5ZWQtZjRkYjMyY2NlOWU1IiwKICAgICJuZXQiOiAid3MiLAogICAgInBhdGgiOiAiL3JheSIsCiAgICAicG9ydCI6IDQ0MywKICAgICJwcyI6ICLwn4+BUkVMQVktMTk4LjQxLjIwMy42LTExODUiLAogICAgInRscyI6ICJ0bHMiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ==",
       "protocol": "vmess",
@@ -43210,6 +43478,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T10:03:41.78760224Z"
+        }
+      }
+    },
+    "8b5281eb3c421660ebe7ca143deab9e1bde559a1316af493bde1f9f529e16cec": {
+      "value": "vless://29ca503d-e6b8-4509-b666-48133f450857@cu.877774.xyz:443?path=%2Ffdip\u0026security=tls\u0026encryption=none\u0026insecure=0\u0026host=learn00.evany.de5.net\u0026fp=chrome\u0026type=ws\u0026allowInsecure=0\u0026sni=learn00.evany.de5.net#Tel-%40ProxyMtAlpha%F0%9F%8E%AA%203",
+      "protocol": "vless",
+      "fingerprint": "8b5281eb3c421660ebe7ca143deab9e1bde559a1316af493bde1f9f529e16cec",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -47481,8 +47763,13 @@
       "protocol": "trojan",
       "fingerprint": "9804ff534a306252adae1d05bbe2ddb06376ac1a66e3e41b4e76868ce4e56943",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-08-04T10:03:41.78760224Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
       "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        },
         "telegram:v2ray_alpha": {
           "kind": "telegram",
           "channel": "v2ray_alpha",
@@ -47539,6 +47826,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T04:19:38.385217797Z"
+        }
+      }
+    },
+    "981c1492517053a30f3230b22bc2c0db7ab278c3bfcf3f6d756837c16f9dedf7": {
+      "value": "vless://9a274b1d-788c-4a15-b3fa-7ea525198362@94.130.179.44:1234?security=none\u0026encryption=none\u0026host=play.google.com\u0026headerType=http\u0026type=tcp#Tel-%40ProxyMtAlpha%F0%9F%8E%AA%209",
+      "protocol": "vless",
+      "fingerprint": "981c1492517053a30f3230b22bc2c0db7ab278c3bfcf3f6d756837c16f9dedf7",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -47781,8 +48082,13 @@
       "protocol": "vless",
       "fingerprint": "98c7f84c0f3bfc276055b92e2e151998d36d02ca86f6ccde04743dcf6b40ee17",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-08-04T10:03:41.78760224Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
       "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        },
         "telegram:v2ray_alpha": {
           "kind": "telegram",
           "channel": "v2ray_alpha",
@@ -55469,6 +55775,20 @@
         }
       }
     },
+    "b29228f27ab0c1ddaabde4f134a6af244ae98a83e4566c9dbd695b33a2aa3931": {
+      "value": "vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.38.194.199:22223?security=none\u0026encryption=none\u0026headerType=none\u0026type=tcp#Tel-%40ProxyMtAlpha%F0%9F%8E%AA%205",
+      "protocol": "vless",
+      "fingerprint": "b29228f27ab0c1ddaabde4f134a6af244ae98a83e4566c9dbd695b33a2aa3931",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        }
+      }
+    },
     "b29cf699edb9cac996e464f60bd7856559a86517f71acf9eaff318985ac95d2d": {
       "value": "vmess://ewogICAgImFkZCI6ICIxMDQuMTYuMjE3LjI0MSIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogIm5lbGx5LmhvbWVzIiwKICAgICJpZCI6ICIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvbGlua3Z3cyIsCiAgICAicG9ydCI6IDQ0MywKICAgICJwcyI6ICLwn4+BUkVMQVktMTA0LjE2LjIxNy4yNDEtMTA1OCIsCiAgICAidGxzIjogInRscyIsCiAgICAidHlwZSI6ICJhdXRvIiwKICAgICJzZWN1cml0eSI6ICJhdXRvIiwKICAgICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwKICAgICJzbmkiOiAiIgp9",
       "protocol": "vmess",
@@ -56880,6 +57200,20 @@
         }
       }
     },
+    "b726c9066c0419ccebfe173f3abef9ebfd99929f658a8b4c32b0f1fe65716d19": {
+      "value": "vless://29ca503d-e6b8-4509-b666-48133f450857@ip.sb:443?path=%2Ffdip\u0026security=tls\u0026encryption=none\u0026insecure=0\u0026host=learn00.evany.de5.net\u0026type=ws\u0026allowInsecure=0\u0026sni=learn00.evany.de5.net#Tel-%40ProxyMtAlpha%F0%9F%8E%AA%201",
+      "protocol": "vless",
+      "fingerprint": "b726c9066c0419ccebfe173f3abef9ebfd99929f658a8b4c32b0f1fe65716d19",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        }
+      }
+    },
     "b7439f35180e210cdad02eea3766f1632f28a617ca2d599bcb1eb64c86e49884": {
       "value": "vmess://ewogICAgImFkZCI6ICIxOTguMi4yMDQuNDAiLAogICAgImFpZCI6IDY0LAogICAgImhvc3QiOiAid3d3Ljc1NTc1NzI5Lnh5eiIsCiAgICAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwKICAgICJuZXQiOiAid3MiLAogICAgInBhdGgiOiAiL3BhdGgvMTcwMzc1NTYyNTU1OCIsCiAgICAicG9ydCI6IDMwMDAwLAogICAgInBzIjogIvCfh7rwn4e4VVMtMTk4LjIuMjA0LjQwLTE3ODciLAogICAgInRscyI6ICJ0bHMiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ==",
       "protocol": "vmess",
@@ -57984,6 +58318,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T10:03:41.78760224Z"
+        }
+      }
+    },
+    "bab2b820a15c057dcb8b5a010813556fde533040d844bb1f4b651a6e93203adf": {
+      "value": "vless://a481265c-a4d8-4d1a-9ae1-48eb3f7fccb4@159.69.193.221:1234?security=none\u0026encryption=none\u0026host=play.google.com\u0026headerType=http\u0026type=tcp#Tel-%40ProxyMtAlpha%F0%9F%A4%96%205",
+      "protocol": "vless",
+      "fingerprint": "bab2b820a15c057dcb8b5a010813556fde533040d844bb1f4b651a6e93203adf",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -60232,6 +60580,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T10:03:41.78760224Z"
+        }
+      }
+    },
+    "c26d56780c3770175c26eddf3a4de0adf6e4f6d13a01842cbccce5968c8111f4": {
+      "value": "vless://eb78e1f0-d921-4ca9-a889-261fcc5a0547@78.159.250.214:443?security=reality\u0026encryption=none\u0026pbk=drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI\u0026host=v2rayNplus--v2rayNplus--v2rayNplus\u0026headerType=none\u0026fp=chrome\u0026type=tcp\u0026flow=xtls-rprx-vision\u0026sni=qq.utiltools.ru#Tel-%40ProxyMtAlpha%F0%9F%AB%91%206",
+      "protocol": "vless",
+      "fingerprint": "c26d56780c3770175c26eddf3a4de0adf6e4f6d13a01842cbccce5968c8111f4",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -68022,6 +68384,20 @@
         }
       }
     },
+    "dbfa41cd89202ad2d09f6d86b225f9af0920ea767344ab9ca7a5255b02d06a9c": {
+      "value": "vless://a5bea439-6176-4b5d-a891-bd31fc3530c9@it.speedserver.site:5039?security=reality\u0026encryption=none\u0026pbk=fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0\u0026headerType=none\u0026fp=chrome\u0026type=tcp\u0026sni=www.yahoo.com\u0026sid=2e8424a2696cb606#Tel-%40ProxyMtAlpha%F0%9F%8D%90%205",
+      "protocol": "vless",
+      "fingerprint": "dbfa41cd89202ad2d09f6d86b225f9af0920ea767344ab9ca7a5255b02d06a9c",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        }
+      }
+    },
     "dbfbf1ac1bb8265bade541aaad394a81bde9ed546221765232b9b9a4de6398c3": {
       "value": "trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.taipeicitygovernment.com.ua:8443?security=tls#%F0%9F%87%B9%F0%9F%87%BCTW-60.250.152.234-4163",
       "protocol": "trojan",
@@ -69689,6 +70065,20 @@
         }
       }
     },
+    "e197dcca4d92942025078343b75dca1083549984d797aa1b6938348d53010406": {
+      "value": "vless://800afd91-7aa5-b09b-28c2-42b382911bf9@x4g-production-a0aa.up.railway.app:443?mode=auto\u0026path=%2Fxhttp-siz10%2F800afd91-7aa5-b09b-28c2-42b382911bf9\u0026security=tls\u0026alpn=h2%2Chttp%2F1.1\u0026encryption=none\u0026insecure=0\u0026host=x4g-production-a0aa.up.railway.app\u0026fp=chrome\u0026type=xhttp\u0026allowInsecure=0\u0026sni=x4g-production-a0aa.up.railway.app#Tel-%40ProxyMtAlpha%F0%9F%8E%AA%2012",
+      "protocol": "vless",
+      "fingerprint": "e197dcca4d92942025078343b75dca1083549984d797aa1b6938348d53010406",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        }
+      }
+    },
     "e1a437d746efdc9896ef924c43e7ad347f3127f82a3e6867fb701d260887af79": {
       "value": "ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.64.138.145:5001#%F0%9F%87%BA%F0%9F%87%B8US-38.64.138.145-7776",
       "protocol": "shadowsocks",
@@ -70817,8 +71207,13 @@
       "protocol": "vless",
       "fingerprint": "e4fb0b4e0af13677c119e46c5614f630e7515a1dcdd92ab2ed4cb8a229013364",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-08-04T10:03:41.78760224Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
       "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        },
         "telegram:v2ray_alpha": {
           "kind": "telegram",
           "channel": "v2ray_alpha",
@@ -71216,6 +71611,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T10:03:41.78760224Z"
+        }
+      }
+    },
+    "e62b7816b9488e5b7a834a06eaed951d099ed9be07da87f87d1f44ca4e638f39": {
+      "value": "vless://8339035e-95b8-4d3d-9e7b-8323cce7191e@vpniran.mrconnecte.ir:5039?security=reality\u0026encryption=none\u0026pbk=GgUtX8-KCC9MJZAvDIYjn_aV5FBzxfGS5_18F9A_aQ4\u0026headerType=none\u0026fp=chrome\u0026spx=%2FEIR6OrVD6SDCRoP\u0026type=tcp\u0026sni=www.sony.com\u0026sid=5eee26#Tel-%40ProxyMtAlpha%F0%9F%8E%AA%202",
+      "protocol": "vless",
+      "fingerprint": "e62b7816b9488e5b7a834a06eaed951d099ed9be07da87f87d1f44ca4e638f39",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
@@ -74558,8 +74967,13 @@
       "protocol": "vless",
       "fingerprint": "f09c230eaafb03c805623247fe09fa2efb59f3ad23c47c3cd7aebad8ea1d3abe",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-08-04T10:03:41.78760224Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
       "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
+        },
         "telegram:v2ray_alpha": {
           "kind": "telegram",
           "channel": "v2ray_alpha",
@@ -75045,6 +75459,20 @@
         "subscription:": {
           "kind": "subscription",
           "last_seen_at": "2026-08-04T10:03:41.78760224Z"
+        }
+      }
+    },
+    "f26dc12c321f130d1a447a7268dc486a6a22324a6c39188bc752915434ce4c2b": {
+      "value": "vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@it1.levikogjgfdd.ir:8880?mode=gun\u0026security=none\u0026encryption=none\u0026type=grpc#Tel-%40ProxyMtAlpha%F0%9F%8D%90%207",
+      "protocol": "vless",
+      "fingerprint": "f26dc12c321f130d1a447a7268dc486a6a22324a6c39188bc752915434ce4c2b",
+      "first_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "last_seen_at": "2026-08-04T12:22:14.960883921Z",
+      "observations": {
+        "telegram:proxymtalpha": {
+          "kind": "telegram",
+          "channel": "proxymtalpha",
+          "last_seen_at": "2026-08-04T12:22:14.960883921Z"
         }
       }
     },
