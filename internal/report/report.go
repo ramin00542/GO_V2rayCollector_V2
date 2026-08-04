@@ -171,31 +171,40 @@ func rawURL(path string) string {
 	return "https://raw.githubusercontent.com/" + repo + "/" + branch + "/" + strings.Join(parts, "/")
 }
 func writeLinks(path string, m Manifest) error {
-	quick := make([]ManifestFile, 0)
-	telegram := make([]ManifestFile, 0)
-	subscription := make([]ManifestFile, 0)
-	daily := make([]ManifestFile, 0)
+	quick, telegramVPN, subscriptionVPN := []ManifestFile{}, []ManifestFile{}, []ManifestFile{}
+	telegramProxy, subscriptionProxy, channelFiles, daily := []ManifestFile{}, []ManifestFile{}, []ManifestFile{}, []ManifestFile{}
 	for _, file := range m.Files {
 		switch {
-		case strings.HasSuffix(file.Path, "/telegram_all.txt") || strings.HasSuffix(file.Path, "/subscription_all.txt"):
-			if strings.HasPrefix(file.Path, "archive/all/") || strings.HasPrefix(file.Path, "output/temporary/") {
-				quick = append(quick, file)
-			} else if strings.HasPrefix(file.Path, "archive/daily/") {
-				daily = append(daily, file)
-			}
-		case strings.HasPrefix(file.Path, "output/temporary/telegram/protocols/") || strings.HasPrefix(file.Path, "output/temporary/telegram/telegram-proxies/"):
-			telegram = append(telegram, file)
-		case strings.HasPrefix(file.Path, "output/temporary/subscription/protocols/") || strings.HasPrefix(file.Path, "output/temporary/subscription/telegram-proxies/"):
-			subscription = append(subscription, file)
+		case strings.HasPrefix(file.Path, "archive/daily/") && (strings.HasSuffix(file.Path, "/telegram_all.txt") || strings.HasSuffix(file.Path, "/subscription_all.txt")):
+			daily = append(daily, file)
+		case (strings.HasPrefix(file.Path, "archive/all/") || strings.HasPrefix(file.Path, "output/temporary/")) && (strings.HasSuffix(file.Path, "/telegram_all.txt") || strings.HasSuffix(file.Path, "/subscription_all.txt")):
+			quick = append(quick, file)
+		case strings.HasPrefix(file.Path, "output/temporary/telegram/channels/"):
+			channelFiles = append(channelFiles, file)
+		case strings.HasPrefix(file.Path, "output/temporary/telegram/telegram-proxies/") || (strings.HasPrefix(file.Path, "output/temporary/telegram/protocols/") && isProxyFile(file.Path)):
+			telegramProxy = append(telegramProxy, file)
+		case strings.HasPrefix(file.Path, "output/temporary/subscription/telegram-proxies/") || (strings.HasPrefix(file.Path, "output/temporary/subscription/protocols/") && isProxyFile(file.Path)):
+			subscriptionProxy = append(subscriptionProxy, file)
+		case strings.HasPrefix(file.Path, "output/temporary/telegram/protocols/"):
+			telegramVPN = append(telegramVPN, file)
+		case strings.HasPrefix(file.Path, "output/temporary/subscription/protocols/"):
+			subscriptionVPN = append(subscriptionVPN, file)
 		}
 	}
 	body := "# Download Center\n\nUpdated: `" + m.GeneratedAt.Format(time.RFC3339) + "`\n\n"
-	body += "## 🚀 Quick Access — Combined All Protocols\n\n" + linkTable(quick)
-	body += "\n## 📡 Telegram — Current Protocol Files\n\n" + linkTable(telegram)
-	body += "\n## 🔗 Subscription — Current Protocol Files\n\n" + linkTable(subscription)
-	body += "\n## 🗄️ Daily Archive — Combined Files\n\n" + linkTable(daily)
-	body += "\n> `archive/all` contains the latest 24-hour combined files. Per-protocol files are available only under `output/temporary/`.\n"
+	body += "## ⭐ Main VPN Links — Latest 24 Hours\n\n" + linkTable(quick)
+	body += "\n## 📡 Telegram — VPN Protocols\n\n" + linkTable(telegramVPN)
+	body += "\n## 🔗 Subscription — VPN Protocols\n\n" + linkTable(subscriptionVPN)
+	body += "\n## 🧦 Telegram — Proxy Links\n\n" + linkTable(telegramProxy)
+	body += "\n## 🌐 Subscription — Proxy Links\n\n" + linkTable(subscriptionProxy)
+	body += "\n## 📺 Telegram — Per-Channel Files\n\n" + linkTable(channelFiles)
+	body += "\n## 🗄️ Daily Archive — Combined VPN Files\n\n" + linkTable(daily)
+	body += "\n> Main `archive/all` links are stable and contain only VPN protocols from the latest 24 hours. Per-protocol links are stable under `output/temporary/`.\n"
 	return os.WriteFile(path, []byte(body), 0644)
+}
+
+func isProxyFile(path string) bool {
+	return strings.HasSuffix(path, "/http.txt") || strings.HasSuffix(path, "/https.txt") || strings.HasSuffix(path, "/socks.txt") || strings.HasSuffix(path, "/socks5.txt")
 }
 
 func linkTable(files []ManifestFile) string {
