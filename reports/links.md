@@ -1,15 +1,15 @@
 # Download Center
 
-Updated: `2026-08-04T12:30:13Z`
+Updated: `2026-08-04T15:17:01Z`
 
 ## 🚀 Quick Access — Combined All Protocols
 
 | File | Configs | Size | Raw link |
 |---|---:|---:|---|
 | `archive/all/subscription_all.txt` | `5776` | `1554827 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/subscription_all.txt) |
-| `archive/all/telegram_all.txt` | `309` | `58039 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/telegram_all.txt) |
+| `archive/all/telegram_all.txt` | `317` | `60069 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/telegram_all.txt) |
 | `output/temporary/subscription_all.txt` | `5724` | `1544068 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/subscription_all.txt) |
-| `output/temporary/telegram_all.txt` | `302` | `56293 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram_all.txt) |
+| `output/temporary/telegram_all.txt` | `310` | `58323 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram_all.txt) |
 
 ## 📡 Telegram — Current Protocol Files
 
@@ -17,8 +17,8 @@ Updated: `2026-08-04T12:30:13Z`
 |---|---:|---:|---|
 | `output/temporary/telegram/protocols/http.txt` | `23` | `616 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/http.txt) |
 | `output/temporary/telegram/protocols/shadowsocks.txt` | `7` | `827 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/shadowsocks.txt) |
-| `output/temporary/telegram/protocols/trojan.txt` | `17` | `4385 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/trojan.txt) |
-| `output/temporary/telegram/protocols/vless.txt` | `102` | `24151 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/vless.txt) |
+| `output/temporary/telegram/protocols/trojan.txt` | `18` | `4559 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/trojan.txt) |
+| `output/temporary/telegram/protocols/vless.txt` | `109` | `26007 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/vless.txt) |
 | `output/temporary/telegram/protocols/vmess.txt` | `42` | `13382 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/vmess.txt) |
 | `output/temporary/telegram/telegram-proxies/mtproto.txt` | `111` | `12932 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/telegram-proxies/mtproto.txt) |
 
