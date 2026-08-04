@@ -1,168 +1,45 @@
 # Discovery Report
 
-## Queue
+## Queue Summary
 
 | Status | Count |
 |---|---:|
-| pending | `5` |
-| qualified | `1` |
-| promoted | `0` |
-| no_config | `22` |
+| pending | `0` |
+| qualified | `3` |
+| promoted | `1` |
+| no_config | `24` |
 | not_found | `2` |
 | unknown_error | `120` |
 | expired | `0` |
 
-## Candidates
+## Candidate Sample
+
+Only the first 25 candidates are shown here. The complete machine-readable queue remains in runtime state.
 
 | Type | State | Successes | No config | Origins |
 |---|---|---:|---:|---:|
-| `channel` | no_config | `0` | `6` | `1` |
-| `channel` | no_config | `0` | `6` | `1` |
-| `channel` | no_config | `0` | `6` | `1` |
-| `channel` | no_config | `0` | `6` | `1` |
-| `channel` | no_config | `0` | `6` | `1` |
-| `channel` | no_config | `0` | `6` | `1` |
-| `channel` | no_config | `0` | `6` | `1` |
-| `channel` | no_config | `0` | `6` | `1` |
-| `channel` | pending | `0` | `0` | `1` |
-| `channel` | pending | `0` | `0` | `1` |
-| `channel` | pending | `0` | `0` | `1` |
-| `channel` | pending | `0` | `0` | `1` |
-| `channel` | pending | `0` | `0` | `1` |
-| `channel` | qualified | `2` | `0` | `1` |
-| `source` | no_config | `0` | `4` | `1` |
-| `source` | no_config | `0` | `4` | `1` |
-| `source` | no_config | `0` | `6` | `1` |
-| `source` | no_config | `0` | `6` | `1` |
-| `source` | no_config | `0` | `6` | `1` |
-| `source` | no_config | `0` | `6` | `1` |
-| `source` | no_config | `0` | `6` | `1` |
-| `source` | no_config | `0` | `6` | `1` |
-| `source` | no_config | `0` | `6` | `1` |
-| `source` | no_config | `0` | `6` | `1` |
-| `source` | no_config | `0` | `6` | `1` |
-| `source` | no_config | `0` | `6` | `1` |
-| `source` | no_config | `0` | `6` | `1` |
-| `source` | no_config | `0` | `6` | `1` |
-| `source` | not_found | `0` | `2` | `1` |
-| `source` | not_found | `0` | `2` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
-| `source` | unknown_error | `0` | `0` | `1` |
+| `channel` | no_config | `0` | `1` | `1` |
+| `channel` | no_config | `0` | `1` | `1` |
+| `channel` | no_config | `0` | `7` | `1` |
+| `channel` | no_config | `0` | `7` | `1` |
+| `channel` | no_config | `0` | `7` | `1` |
+| `channel` | no_config | `0` | `7` | `1` |
+| `channel` | no_config | `0` | `7` | `1` |
+| `channel` | no_config | `0` | `7` | `1` |
+| `channel` | no_config | `0` | `7` | `1` |
+| `channel` | no_config | `0` | `7` | `1` |
+| `channel` | promoted | `3` | `0` | `1` |
+| `channel` | qualified | `1` | `0` | `1` |
+| `channel` | qualified | `1` | `0` | `1` |
+| `channel` | qualified | `1` | `0` | `1` |
+| `source` | no_config | `0` | `5` | `1` |
+| `source` | no_config | `0` | `5` | `1` |
+| `source` | no_config | `0` | `7` | `1` |
+| `source` | no_config | `0` | `7` | `1` |
+| `source` | no_config | `0` | `7` | `1` |
+| `source` | no_config | `0` | `7` | `1` |
+| `source` | no_config | `0` | `7` | `1` |
+| `source` | no_config | `0` | `7` | `1` |
+| `source` | no_config | `0` | `7` | `1` |
+| `source` | no_config | `0` | `7` | `1` |
+| `source` | no_config | `0` | `7` | `1` |
