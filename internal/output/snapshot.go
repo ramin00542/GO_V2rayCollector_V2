@@ -66,7 +66,10 @@ func writeSnapshot(root string, entries []state.Entry, start, end time.Time, opt
 					add(files, filepath.Join(root, "telegram", "channels", observation.Channel, info.FileName), entry.Value)
 				}
 			}
-			if options.WriteCombined {
+			// Combined all files are intended for VPN client subscriptions.
+			// Generic HTTP/SOCKS and Telegram-native proxies remain available in
+			// their dedicated protocol/proxy outputs, but never enter *_all.txt.
+			if options.WriteCombined && isVPNProtocol(entry.Protocol) {
 				add(files, filepath.Join(root, sourceDir+"_all.txt"), entry.Value)
 			}
 		}
@@ -85,6 +88,29 @@ func writeSnapshot(root string, entries []state.Entry, start, end time.Time, opt
 		}
 	}
 	return nil
+}
+
+func isVPNProtocol(protocol domain.Protocol) bool {
+	switch protocol {
+	case domain.ProtocolVMess,
+		domain.ProtocolVLESS,
+		domain.ProtocolTrojan,
+		domain.ProtocolShadowsocks,
+		domain.ProtocolShadowsocksR,
+		domain.ProtocolHysteria,
+		domain.ProtocolHysteria2,
+		domain.ProtocolTUIC,
+		domain.ProtocolWireGuard,
+		domain.ProtocolWARP,
+		domain.ProtocolNaiveProxy,
+		domain.ProtocolBrook,
+		domain.ProtocolArgo,
+		domain.ProtocolSlipnet,
+		domain.ProtocolInvizible:
+		return true
+	default:
+		return false
+	}
 }
 
 func add(files map[string]map[string]bool, filename, value string) {

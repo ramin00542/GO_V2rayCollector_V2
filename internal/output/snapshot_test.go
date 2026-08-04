@@ -16,10 +16,11 @@ func TestPublishSeparatesHTTPSAndTelegramProxy(t *testing.T) {
 	entries := []state.Entry{
 		{Value: "https://proxy.example:443", Protocol: domain.ProtocolHTTPS, Fingerprint: "https", Observations: map[string]state.Observation{"telegram:x": {Kind: domain.SourceTelegram, Channel: "x", LastSeenAt: now}}},
 		{Value: "tg://proxy?server=x&port=443&secret=a", Protocol: domain.ProtocolMTProto, Fingerprint: "mt", Observations: map[string]state.Observation{"telegram:x": {Kind: domain.SourceTelegram, Channel: "x", LastSeenAt: now}}},
+		{Value: "vless://id@example.com:443?security=tls", Protocol: domain.ProtocolVLESS, Fingerprint: "vless", Observations: map[string]state.Observation{"telegram:x": {Kind: domain.SourceTelegram, Channel: "x", LastSeenAt: now}}},
 	}
 	root := filepath.Join(t.TempDir(), "temporary")
 	start, end := DayBounds(now)
-	if err := Publish(root, entries, start, end, SnapshotOptions{WritePerChannel: true, WriteProtocols: true}); err != nil {
+	if err := Publish(root, entries, start, end, SnapshotOptions{WritePerChannel: true, WriteProtocols: true, WriteCombined: true}); err != nil {
 		t.Fatal(err)
 	}
 	https, err := os.ReadFile(filepath.Join(root, "telegram", "protocols", "https.txt"))
@@ -35,5 +36,12 @@ func TestPublishSeparatesHTTPSAndTelegramProxy(t *testing.T) {
 	}
 	if !strings.Contains(string(mtproto), "tg://proxy") {
 		t.Fatal("MTProto config not in proxy file")
+	}
+	all, err := os.ReadFile(filepath.Join(root, "telegram_all.txt"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if !strings.Contains(string(all), "vless://") || strings.Contains(string(all), "https://proxy") || strings.Contains(string(all), "tg://proxy") {
+		t.Fatal("combined VPN file contains a non-VPN proxy or misses VLESS")
 	}
 }
