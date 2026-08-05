@@ -18,16 +18,16 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 
 | Type | State | Successes | No config | Origins |
 |---|---|---:|---:|---:|
-| `channel` | no_config | `0` | `15` | `1` |
-| `channel` | no_config | `0` | `21` | `1` |
-| `channel` | no_config | `0` | `21` | `1` |
-| `channel` | no_config | `0` | `21` | `1` |
-| `channel` | no_config | `0` | `21` | `1` |
-| `channel` | no_config | `0` | `21` | `1` |
-| `channel` | no_config | `0` | `21` | `2` |
-| `channel` | no_config | `0` | `21` | `2` |
-| `channel` | no_config | `0` | `21` | `2` |
-| `channel` | no_config | `0` | `7` | `2` |
+| `channel` | no_config | `0` | `16` | `1` |
+| `channel` | no_config | `0` | `22` | `1` |
+| `channel` | no_config | `0` | `22` | `1` |
+| `channel` | no_config | `0` | `22` | `1` |
+| `channel` | no_config | `0` | `22` | `1` |
+| `channel` | no_config | `0` | `22` | `1` |
+| `channel` | no_config | `0` | `22` | `2` |
+| `channel` | no_config | `0` | `22` | `2` |
+| `channel` | no_config | `0` | `22` | `2` |
+| `channel` | no_config | `0` | `8` | `2` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `2` |
@@ -35,11 +35,11 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 | `channel` | promoted | `3` | `0` | `2` |
 | `channel` | promoted | `3` | `5` | `1` |
 | `channel` | qualified | `2` | `0` | `1` |
-| `source` | no_config | `0` | `1` | `1` |
-| `source` | no_config | `0` | `1` | `1` |
-| `source` | no_config | `0` | `21` | `1` |
+| `source` | no_config | `0` | `22` | `1` |
 | `source` | no_config | `0` | `2` | `1` |
 | `source` | no_config | `0` | `2` | `1` |
-| `source` | no_config | `0` | `7` | `1` |
-| `source` | no_config | `0` | `7` | `1` |
-| `source` | no_config | `0` | `7` | `1` |
+| `source` | no_config | `0` | `3` | `1` |
+| `source` | no_config | `0` | `3` | `1` |
+| `source` | no_config | `0` | `8` | `1` |
+| `source` | no_config | `0` | `8` | `1` |
+| `source` | no_config | `0` | `8` | `1` |

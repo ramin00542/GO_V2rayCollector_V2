@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-05T16:21:36.757892378Z",
+  "generated_at": "2026-08-05T18:04:43.555489152Z",
   "files": [
     {
       "path": "archive/all/telegram_all.txt",
-      "count": 202,
-      "size": 47987,
+      "count": 207,
+      "size": 49179,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/telegram_all.txt"
     },
     {
@@ -183,9 +183,15 @@
     },
     {
       "path": "output/temporary/telegram/channels/napsternetvirani/vless.txt",
-      "count": 15,
-      "size": 2955,
+      "count": 19,
+      "size": 3714,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/vless.txt"
+    },
+    {
+      "path": "output/temporary/telegram/channels/napsternetvirani/vmess.txt",
+      "count": 1,
+      "size": 433,
+      "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/vmess.txt"
     },
     {
       "path": "output/temporary/telegram/channels/v2ray_alpha/shadowsocks.txt",
@@ -267,14 +273,14 @@
     },
     {
       "path": "output/temporary/telegram/protocols/vless.txt",
-      "count": 99,
-      "size": 21926,
+      "count": 103,
+      "size": 22685,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/vless.txt"
     },
     {
       "path": "output/temporary/telegram/protocols/vmess.txt",
-      "count": 34,
-      "size": 10962,
+      "count": 35,
+      "size": 11395,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/vmess.txt"
     },
     {
@@ -285,8 +291,8 @@
     },
     {
       "path": "output/temporary/telegram_all.txt",
-      "count": 166,
-      "size": 39558,
+      "count": 171,
+      "size": 40750,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram_all.txt"
     }
   ]
