@@ -1,12 +1,12 @@
 # Download Center
 
-Updated: `2026-08-08T21:12:05Z`
+Updated: `2026-08-08T21:59:11Z`
 
 ## ⭐ Main VPN Links — Latest 24 Hours
 
 | File | Configs | Size | Raw link |
 |---|---:|---:|---|
-| `archive/all/telegram_all.txt` | `362` | `88045 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/telegram_all.txt) |
+| `archive/all/telegram_all.txt` | `361` | `87799 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/telegram_all.txt) |
 | `output/temporary/telegram_all.txt` | `360` | `87548 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram_all.txt) |
 
 ## 📡 Telegram — VPN Protocols
@@ -44,7 +44,7 @@ No files available yet.
 | `output/temporary/telegram/channels/freev2rays/vmess.txt` | `20` | `6672 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/freev2rays/vmess.txt) |
 | `output/temporary/telegram/channels/napsternetvirani/shadowsocks.txt` | `2` | `221 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/shadowsocks.txt) |
 | `output/temporary/telegram/channels/napsternetvirani/trojan.txt` | `1` | `207 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/trojan.txt) |
-| `output/temporary/telegram/channels/napsternetvirani/vless.txt` | `29` | `6514 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/vless.txt) |
+| `output/temporary/telegram/channels/napsternetvirani/vless.txt` | `30` | `6788 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/vless.txt) |
 | `output/temporary/telegram/channels/napsternetvirani/vmess.txt` | `1` | `393 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/vmess.txt) |
 | `output/temporary/telegram/channels/v2ray_alpha/shadowsocks.txt` | `2` | `228 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/v2ray_alpha/shadowsocks.txt) |
 | `output/temporary/telegram/channels/v2ray_alpha/trojan.txt` | `6` | `2001 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/v2ray_alpha/trojan.txt) |
