@@ -18,21 +18,21 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 
 | Type | State | Successes | No config | Origins |
 |---|---|---:|---:|---:|
-| `channel` | no_config | `0` | `100` | `1` |
-| `channel` | no_config | `0` | `100` | `1` |
-| `channel` | no_config | `0` | `100` | `1` |
-| `channel` | no_config | `0` | `100` | `1` |
-| `channel` | no_config | `0` | `100` | `2` |
-| `channel` | no_config | `0` | `100` | `2` |
-| `channel` | no_config | `0` | `100` | `2` |
-| `channel` | no_config | `0` | `100` | `2` |
-| `channel` | no_config | `0` | `55` | `1` |
-| `channel` | no_config | `0` | `55` | `1` |
-| `channel` | no_config | `0` | `59` | `1` |
-| `channel` | no_config | `0` | `59` | `1` |
-| `channel` | no_config | `0` | `76` | `1` |
-| `channel` | no_config | `0` | `86` | `2` |
-| `channel` | no_config | `0` | `94` | `1` |
+| `channel` | no_config | `0` | `101` | `1` |
+| `channel` | no_config | `0` | `101` | `1` |
+| `channel` | no_config | `0` | `101` | `1` |
+| `channel` | no_config | `0` | `101` | `1` |
+| `channel` | no_config | `0` | `101` | `2` |
+| `channel` | no_config | `0` | `101` | `2` |
+| `channel` | no_config | `0` | `101` | `2` |
+| `channel` | no_config | `0` | `101` | `2` |
+| `channel` | no_config | `0` | `56` | `1` |
+| `channel` | no_config | `0` | `56` | `1` |
+| `channel` | no_config | `0` | `60` | `1` |
+| `channel` | no_config | `0` | `60` | `1` |
+| `channel` | no_config | `0` | `77` | `1` |
+| `channel` | no_config | `0` | `87` | `2` |
+| `channel` | no_config | `0` | `95` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `2` |
@@ -40,6 +40,6 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 | `channel` | promoted | `3` | `0` | `2` |
 | `channel` | promoted | `3` | `0` | `2` |
 | `channel` | promoted | `3` | `5` | `1` |
-| `source` | no_config | `0` | `100` | `1` |
-| `source` | no_config | `0` | `15` | `1` |
-| `source` | no_config | `0` | `15` | `1` |
+| `source` | no_config | `0` | `101` | `1` |
+| `source` | no_config | `0` | `16` | `1` |
+| `source` | no_config | `0` | `16` | `1` |
