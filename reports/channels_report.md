@@ -14,10 +14,10 @@
 
 | Target | State | Last Checked | Last Successful Config | Failures |
 |---|---|---|---|---:|
-| `configx2ray` | active | `2026-08-08T03:49:40Z` | `2026-08-08T03:49:40Z` | `0` |
-| `freev2rays` | active | `2026-08-08T03:49:40Z` | `2026-08-08T03:49:40Z` | `0` |
-| `napsternetvirani` | active | `2026-08-08T03:49:40Z` | `2026-08-08T03:49:40Z` | `0` |
-| `v2ray_alpha` | active | `2026-08-08T03:49:40Z` | `2026-08-08T03:49:40Z` | `0` |
-| `v2rayconfigamir` | active | `2026-08-08T03:49:40Z` | `2026-08-08T03:49:40Z` | `0` |
+| `configx2ray` | active | `2026-08-09T04:03:09Z` | `2026-08-09T04:03:09Z` | `0` |
+| `freev2rays` | active | `2026-08-09T04:03:09Z` | `2026-08-09T04:03:09Z` | `0` |
+| `napsternetvirani` | active | `2026-08-09T04:03:09Z` | `2026-08-09T04:03:09Z` | `0` |
+| `v2ray_alpha` | active | `2026-08-09T04:03:09Z` | `2026-08-09T04:03:09Z` | `0` |
+| `v2rayconfigamir` | active | `2026-08-09T04:03:09Z` | `2026-08-09T04:03:09Z` | `0` |
 | `v2rayenglish` | inactive_no_config | `2026-08-04T05:28:57Z` | `-` | `0` |
-| `vpn_ete` | active | `2026-08-08T03:49:40Z` | `2026-08-08T03:49:40Z` | `0` |
+| `vpn_ete` | active | `2026-08-09T04:03:09Z` | `2026-08-09T04:03:09Z` | `0` |
