@@ -8,7 +8,7 @@
 | qualified | `0` |
 | promoted | `7` |
 | no_config | `28` |
-| not_found | `74` |
+| not_found | `77` |
 | unknown_error | `120` |
 | expired | `0` |
 
@@ -18,21 +18,21 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 
 | Type | State | Successes | No config | Origins |
 |---|---|---:|---:|---:|
-| `channel` | no_config | `0` | `101` | `2` |
-| `channel` | no_config | `0` | `109` | `1` |
-| `channel` | no_config | `0` | `115` | `1` |
-| `channel` | no_config | `0` | `115` | `1` |
-| `channel` | no_config | `0` | `115` | `1` |
-| `channel` | no_config | `0` | `115` | `1` |
-| `channel` | no_config | `0` | `115` | `2` |
-| `channel` | no_config | `0` | `115` | `2` |
-| `channel` | no_config | `0` | `115` | `2` |
-| `channel` | no_config | `0` | `115` | `2` |
-| `channel` | no_config | `0` | `70` | `1` |
-| `channel` | no_config | `0` | `70` | `1` |
-| `channel` | no_config | `0` | `74` | `1` |
-| `channel` | no_config | `0` | `74` | `1` |
-| `channel` | no_config | `0` | `91` | `1` |
+| `channel` | no_config | `0` | `102` | `2` |
+| `channel` | no_config | `0` | `110` | `1` |
+| `channel` | no_config | `0` | `116` | `1` |
+| `channel` | no_config | `0` | `116` | `1` |
+| `channel` | no_config | `0` | `116` | `1` |
+| `channel` | no_config | `0` | `116` | `1` |
+| `channel` | no_config | `0` | `116` | `2` |
+| `channel` | no_config | `0` | `116` | `2` |
+| `channel` | no_config | `0` | `116` | `2` |
+| `channel` | no_config | `0` | `116` | `2` |
+| `channel` | no_config | `0` | `71` | `1` |
+| `channel` | no_config | `0` | `71` | `1` |
+| `channel` | no_config | `0` | `75` | `1` |
+| `channel` | no_config | `0` | `75` | `1` |
+| `channel` | no_config | `0` | `92` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `2` |
@@ -40,6 +40,6 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 | `channel` | promoted | `3` | `0` | `2` |
 | `channel` | promoted | `3` | `0` | `2` |
 | `channel` | promoted | `3` | `5` | `1` |
-| `source` | no_config | `0` | `10` | `1` |
-| `source` | no_config | `0` | `10` | `1` |
-| `source` | no_config | `0` | `115` | `1` |
+| `source` | no_config | `0` | `116` | `1` |
+| `source` | no_config | `0` | `11` | `1` |
+| `source` | no_config | `0` | `11` | `1` |
