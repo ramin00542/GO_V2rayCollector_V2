@@ -8,7 +8,7 @@
 | qualified | `0` |
 | promoted | `7` |
 | no_config | `28` |
-| not_found | `89` |
+| not_found | `91` |
 | unknown_error | `120` |
 | expired | `0` |
 
@@ -18,21 +18,21 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 
 | Type | State | Successes | No config | Origins |
 |---|---|---:|---:|---:|
-| `channel` | no_config | `0` | `116` | `1` |
-| `channel` | no_config | `0` | `126` | `2` |
-| `channel` | no_config | `0` | `134` | `1` |
-| `channel` | no_config | `0` | `140` | `1` |
-| `channel` | no_config | `0` | `140` | `1` |
-| `channel` | no_config | `0` | `140` | `1` |
-| `channel` | no_config | `0` | `140` | `1` |
-| `channel` | no_config | `0` | `140` | `2` |
-| `channel` | no_config | `0` | `140` | `2` |
-| `channel` | no_config | `0` | `140` | `2` |
-| `channel` | no_config | `0` | `140` | `2` |
-| `channel` | no_config | `0` | `95` | `1` |
-| `channel` | no_config | `0` | `95` | `1` |
-| `channel` | no_config | `0` | `99` | `1` |
-| `channel` | no_config | `0` | `99` | `1` |
+| `channel` | no_config | `0` | `100` | `1` |
+| `channel` | no_config | `0` | `100` | `1` |
+| `channel` | no_config | `0` | `117` | `1` |
+| `channel` | no_config | `0` | `127` | `2` |
+| `channel` | no_config | `0` | `135` | `1` |
+| `channel` | no_config | `0` | `141` | `1` |
+| `channel` | no_config | `0` | `141` | `1` |
+| `channel` | no_config | `0` | `141` | `1` |
+| `channel` | no_config | `0` | `141` | `1` |
+| `channel` | no_config | `0` | `141` | `2` |
+| `channel` | no_config | `0` | `141` | `2` |
+| `channel` | no_config | `0` | `141` | `2` |
+| `channel` | no_config | `0` | `141` | `2` |
+| `channel` | no_config | `0` | `96` | `1` |
+| `channel` | no_config | `0` | `96` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `2` |
@@ -40,6 +40,6 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 | `channel` | promoted | `3` | `0` | `2` |
 | `channel` | promoted | `3` | `0` | `2` |
 | `channel` | promoted | `3` | `5` | `1` |
-| `source` | no_config | `0` | `11` | `1` |
-| `source` | no_config | `0` | `11` | `1` |
-| `source` | no_config | `0` | `140` | `1` |
+| `source` | no_config | `0` | `12` | `1` |
+| `source` | no_config | `0` | `12` | `1` |
+| `source` | no_config | `0` | `141` | `1` |
