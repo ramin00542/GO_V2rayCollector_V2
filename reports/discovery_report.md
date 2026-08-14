@@ -7,7 +7,7 @@
 | pending | `0` |
 | qualified | `0` |
 | promoted | `7` |
-| no_config | `31` |
+| no_config | `32` |
 | not_found | `120` |
 | unknown_error | `120` |
 | expired | `0` |
@@ -18,22 +18,22 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 
 | Type | State | Successes | No config | Origins |
 |---|---|---:|---:|---:|
-| `channel` | no_config | `0` | `143` | `1` |
-| `channel` | no_config | `0` | `143` | `1` |
-| `channel` | no_config | `0` | `147` | `1` |
-| `channel` | no_config | `0` | `147` | `1` |
-| `channel` | no_config | `0` | `164` | `1` |
-| `channel` | no_config | `0` | `174` | `2` |
-| `channel` | no_config | `0` | `182` | `1` |
-| `channel` | no_config | `0` | `188` | `1` |
-| `channel` | no_config | `0` | `188` | `1` |
-| `channel` | no_config | `0` | `188` | `1` |
-| `channel` | no_config | `0` | `188` | `1` |
-| `channel` | no_config | `0` | `188` | `2` |
-| `channel` | no_config | `0` | `188` | `2` |
-| `channel` | no_config | `0` | `188` | `2` |
-| `channel` | no_config | `0` | `188` | `2` |
-| `channel` | no_config | `0` | `36` | `1` |
+| `channel` | no_config | `0` | `144` | `1` |
+| `channel` | no_config | `0` | `144` | `1` |
+| `channel` | no_config | `0` | `148` | `1` |
+| `channel` | no_config | `0` | `148` | `1` |
+| `channel` | no_config | `0` | `165` | `1` |
+| `channel` | no_config | `0` | `175` | `2` |
+| `channel` | no_config | `0` | `183` | `1` |
+| `channel` | no_config | `0` | `189` | `1` |
+| `channel` | no_config | `0` | `189` | `1` |
+| `channel` | no_config | `0` | `189` | `1` |
+| `channel` | no_config | `0` | `189` | `1` |
+| `channel` | no_config | `0` | `189` | `2` |
+| `channel` | no_config | `0` | `189` | `2` |
+| `channel` | no_config | `0` | `189` | `2` |
+| `channel` | no_config | `0` | `189` | `2` |
+| `channel` | no_config | `0` | `37` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `2` |
@@ -41,5 +41,5 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 | `channel` | promoted | `3` | `0` | `2` |
 | `channel` | promoted | `3` | `0` | `2` |
 | `channel` | promoted | `3` | `5` | `1` |
-| `source` | no_config | `0` | `12` | `1` |
-| `source` | no_config | `0` | `12` | `1` |
+| `source` | no_config | `0` | `10` | `1` |
+| `source` | no_config | `0` | `10` | `1` |
