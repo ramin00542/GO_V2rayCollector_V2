@@ -18,25 +18,25 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 
 | Type | State | Successes | No config | Origins |
 |---|---|---:|---:|---:|
-| `channel` | no_config | `0` | `170` | `1` |
-| `channel` | no_config | `0` | `170` | `1` |
-| `channel` | no_config | `0` | `174` | `1` |
-| `channel` | no_config | `0` | `174` | `1` |
-| `channel` | no_config | `0` | `191` | `1` |
-| `channel` | no_config | `0` | `201` | `2` |
-| `channel` | no_config | `0` | `209` | `1` |
-| `channel` | no_config | `0` | `215` | `1` |
-| `channel` | no_config | `0` | `215` | `1` |
-| `channel` | no_config | `0` | `215` | `1` |
-| `channel` | no_config | `0` | `215` | `1` |
-| `channel` | no_config | `0` | `215` | `2` |
-| `channel` | no_config | `0` | `215` | `2` |
-| `channel` | no_config | `0` | `215` | `2` |
-| `channel` | no_config | `0` | `215` | `2` |
-| `channel` | no_config | `0` | `63` | `1` |
-| `channel` | no_config | `0` | `7` | `1` |
-| `channel` | no_config | `0` | `7` | `1` |
-| `channel` | no_config | `0` | `7` | `1` |
+| `channel` | no_config | `0` | `171` | `1` |
+| `channel` | no_config | `0` | `171` | `1` |
+| `channel` | no_config | `0` | `175` | `1` |
+| `channel` | no_config | `0` | `175` | `1` |
+| `channel` | no_config | `0` | `192` | `1` |
+| `channel` | no_config | `0` | `202` | `2` |
+| `channel` | no_config | `0` | `210` | `1` |
+| `channel` | no_config | `0` | `216` | `1` |
+| `channel` | no_config | `0` | `216` | `1` |
+| `channel` | no_config | `0` | `216` | `1` |
+| `channel` | no_config | `0` | `216` | `1` |
+| `channel` | no_config | `0` | `216` | `2` |
+| `channel` | no_config | `0` | `216` | `2` |
+| `channel` | no_config | `0` | `216` | `2` |
+| `channel` | no_config | `0` | `216` | `2` |
+| `channel` | no_config | `0` | `64` | `1` |
+| `channel` | no_config | `0` | `8` | `1` |
+| `channel` | no_config | `0` | `8` | `1` |
+| `channel` | no_config | `0` | `8` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `2` |
