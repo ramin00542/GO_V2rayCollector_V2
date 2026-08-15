@@ -18,25 +18,25 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 
 | Type | State | Successes | No config | Origins |
 |---|---|---:|---:|---:|
-| `channel` | no_config | `0` | `183` | `1` |
-| `channel` | no_config | `0` | `183` | `1` |
-| `channel` | no_config | `0` | `186` | `1` |
+| `channel` | no_config | `0` | `184` | `1` |
+| `channel` | no_config | `0` | `184` | `1` |
 | `channel` | no_config | `0` | `187` | `1` |
-| `channel` | no_config | `0` | `204` | `1` |
-| `channel` | no_config | `0` | `20` | `1` |
-| `channel` | no_config | `0` | `20` | `1` |
-| `channel` | no_config | `0` | `20` | `1` |
-| `channel` | no_config | `0` | `214` | `2` |
-| `channel` | no_config | `0` | `222` | `1` |
-| `channel` | no_config | `0` | `228` | `1` |
-| `channel` | no_config | `0` | `228` | `1` |
-| `channel` | no_config | `0` | `228` | `1` |
-| `channel` | no_config | `0` | `228` | `1` |
-| `channel` | no_config | `0` | `228` | `2` |
-| `channel` | no_config | `0` | `228` | `2` |
-| `channel` | no_config | `0` | `228` | `2` |
-| `channel` | no_config | `0` | `228` | `2` |
-| `channel` | no_config | `0` | `76` | `1` |
+| `channel` | no_config | `0` | `188` | `1` |
+| `channel` | no_config | `0` | `205` | `1` |
+| `channel` | no_config | `0` | `215` | `2` |
+| `channel` | no_config | `0` | `21` | `1` |
+| `channel` | no_config | `0` | `21` | `1` |
+| `channel` | no_config | `0` | `21` | `1` |
+| `channel` | no_config | `0` | `223` | `1` |
+| `channel` | no_config | `0` | `229` | `1` |
+| `channel` | no_config | `0` | `229` | `1` |
+| `channel` | no_config | `0` | `229` | `1` |
+| `channel` | no_config | `0` | `229` | `1` |
+| `channel` | no_config | `0` | `229` | `2` |
+| `channel` | no_config | `0` | `229` | `2` |
+| `channel` | no_config | `0` | `229` | `2` |
+| `channel` | no_config | `0` | `229` | `2` |
+| `channel` | no_config | `0` | `77` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `2` |
