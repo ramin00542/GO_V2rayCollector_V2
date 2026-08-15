@@ -18,25 +18,25 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 
 | Type | State | Successes | No config | Origins |
 |---|---|---:|---:|---:|
-| `channel` | no_config | `0` | `10` | `1` |
-| `channel` | no_config | `0` | `10` | `1` |
-| `channel` | no_config | `0` | `10` | `1` |
-| `channel` | no_config | `0` | `173` | `1` |
-| `channel` | no_config | `0` | `173` | `1` |
-| `channel` | no_config | `0` | `177` | `1` |
-| `channel` | no_config | `0` | `177` | `1` |
-| `channel` | no_config | `0` | `194` | `1` |
-| `channel` | no_config | `0` | `204` | `2` |
-| `channel` | no_config | `0` | `212` | `1` |
-| `channel` | no_config | `0` | `218` | `1` |
-| `channel` | no_config | `0` | `218` | `1` |
-| `channel` | no_config | `0` | `218` | `1` |
-| `channel` | no_config | `0` | `218` | `1` |
-| `channel` | no_config | `0` | `218` | `2` |
-| `channel` | no_config | `0` | `218` | `2` |
-| `channel` | no_config | `0` | `218` | `2` |
-| `channel` | no_config | `0` | `218` | `2` |
-| `channel` | no_config | `0` | `66` | `1` |
+| `channel` | no_config | `0` | `11` | `1` |
+| `channel` | no_config | `0` | `11` | `1` |
+| `channel` | no_config | `0` | `11` | `1` |
+| `channel` | no_config | `0` | `174` | `1` |
+| `channel` | no_config | `0` | `174` | `1` |
+| `channel` | no_config | `0` | `178` | `1` |
+| `channel` | no_config | `0` | `178` | `1` |
+| `channel` | no_config | `0` | `195` | `1` |
+| `channel` | no_config | `0` | `205` | `2` |
+| `channel` | no_config | `0` | `213` | `1` |
+| `channel` | no_config | `0` | `219` | `1` |
+| `channel` | no_config | `0` | `219` | `1` |
+| `channel` | no_config | `0` | `219` | `1` |
+| `channel` | no_config | `0` | `219` | `1` |
+| `channel` | no_config | `0` | `219` | `2` |
+| `channel` | no_config | `0` | `219` | `2` |
+| `channel` | no_config | `0` | `219` | `2` |
+| `channel` | no_config | `0` | `219` | `2` |
+| `channel` | no_config | `0` | `67` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `2` |
