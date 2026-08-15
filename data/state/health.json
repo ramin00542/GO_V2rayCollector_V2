@@ -1,33 +1,33 @@
 {
   "channels": {
     "configx2ray": {
-      "status": "inactive_no_config",
-      "last_checked_at": "2026-08-14T04:21:27.405472604Z",
-      "last_successful_at": "2026-08-10T04:19:48.736975194Z",
+      "status": "active",
+      "last_checked_at": "2026-08-15T03:10:24.577684391Z",
+      "last_successful_at": "2026-08-15T03:10:24.577684391Z",
       "consecutive_failures": 0
     },
     "freev2rays": {
       "status": "active",
-      "last_checked_at": "2026-08-14T04:21:27.405472604Z",
-      "last_successful_at": "2026-08-14T04:21:27.405472604Z",
+      "last_checked_at": "2026-08-15T03:10:24.577684391Z",
+      "last_successful_at": "2026-08-15T03:10:24.577684391Z",
       "consecutive_failures": 0
     },
     "napsternetvirani": {
       "status": "active",
-      "last_checked_at": "2026-08-14T04:21:27.405472604Z",
-      "last_successful_at": "2026-08-14T04:21:27.405472604Z",
+      "last_checked_at": "2026-08-15T03:10:24.577684391Z",
+      "last_successful_at": "2026-08-15T03:10:24.577684391Z",
       "consecutive_failures": 0
     },
     "v2ray_alpha": {
       "status": "active",
-      "last_checked_at": "2026-08-14T04:21:27.405472604Z",
-      "last_successful_at": "2026-08-14T04:21:27.405472604Z",
+      "last_checked_at": "2026-08-15T03:10:24.577684391Z",
+      "last_successful_at": "2026-08-15T03:10:24.577684391Z",
       "consecutive_failures": 0
     },
     "v2rayconfigamir": {
       "status": "active",
-      "last_checked_at": "2026-08-14T04:21:27.405472604Z",
-      "last_successful_at": "2026-08-14T04:21:27.405472604Z",
+      "last_checked_at": "2026-08-15T03:10:24.577684391Z",
+      "last_successful_at": "2026-08-15T03:10:24.577684391Z",
       "consecutive_failures": 0
     },
     "v2rayenglish": {
@@ -38,8 +38,8 @@
     },
     "vpn_ete": {
       "status": "active",
-      "last_checked_at": "2026-08-14T04:21:27.405472604Z",
-      "last_successful_at": "2026-08-14T04:21:27.405472604Z",
+      "last_checked_at": "2026-08-15T03:10:24.577684391Z",
+      "last_successful_at": "2026-08-15T03:10:24.577684391Z",
       "consecutive_failures": 0
     }
   },
