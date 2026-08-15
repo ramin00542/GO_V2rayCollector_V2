@@ -1,6 +1,6 @@
 # Download Center
 
-Updated: `2026-08-15T16:38:43Z`
+Updated: `2026-08-15T17:06:58Z`
 
 ## ⭐ Main VPN Links — Latest 24 Hours
 
@@ -42,7 +42,7 @@ No files available yet.
 | `output/temporary/telegram/channels/configx2ray/vless.txt` | `9` | `2150 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/configx2ray/vless.txt) |
 | `output/temporary/telegram/channels/freev2rays/vmess.txt` | `20` | `6672 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/freev2rays/vmess.txt) |
 | `output/temporary/telegram/channels/napsternetvirani/http.txt` | `2` | `113 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/http.txt) |
-| `output/temporary/telegram/channels/napsternetvirani/shadowsocks.txt` | `3` | `283 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/shadowsocks.txt) |
+| `output/temporary/telegram/channels/napsternetvirani/shadowsocks.txt` | `4` | `388 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/shadowsocks.txt) |
 | `output/temporary/telegram/channels/napsternetvirani/vless.txt` | `18` | `3458 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/vless.txt) |
 | `output/temporary/telegram/channels/napsternetvirani/vmess.txt` | `2` | `822 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/vmess.txt) |
 | `output/temporary/telegram/channels/v2ray_alpha/shadowsocks.txt` | `1` | `105 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/v2ray_alpha/shadowsocks.txt) |
