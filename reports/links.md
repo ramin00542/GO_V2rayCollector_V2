@@ -1,6 +1,6 @@
 # Download Center
 
-Updated: `2026-08-15T05:54:15Z`
+Updated: `2026-08-15T06:52:11Z`
 
 ## ⭐ Main VPN Links — Latest 24 Hours
 
@@ -26,6 +26,7 @@ No files available yet.
 
 | File | Configs | Size | Raw link |
 |---|---:|---:|---|
+| `output/temporary/telegram/protocols/http.txt` | `1` | `57 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/http.txt) |
 | `output/temporary/telegram/protocols/socks.txt` | `1` | `61 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/socks.txt) |
 | `output/temporary/telegram/telegram-proxies/mtproto.txt` | `126` | `14326 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/telegram-proxies/mtproto.txt) |
 
@@ -40,6 +41,7 @@ No files available yet.
 | `output/temporary/telegram/channels/configx2ray/shadowsocks.txt` | `1` | `112 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/configx2ray/shadowsocks.txt) |
 | `output/temporary/telegram/channels/configx2ray/vless.txt` | `9` | `2150 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/configx2ray/vless.txt) |
 | `output/temporary/telegram/channels/freev2rays/vmess.txt` | `20` | `6672 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/freev2rays/vmess.txt) |
+| `output/temporary/telegram/channels/napsternetvirani/http.txt` | `1` | `57 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/http.txt) |
 | `output/temporary/telegram/channels/napsternetvirani/shadowsocks.txt` | `3` | `283 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/shadowsocks.txt) |
 | `output/temporary/telegram/channels/napsternetvirani/vless.txt` | `14` | `2646 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/vless.txt) |
 | `output/temporary/telegram/channels/napsternetvirani/vmess.txt` | `1` | `397 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/vmess.txt) |

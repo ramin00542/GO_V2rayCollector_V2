@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T05:54:15.93481389Z",
+  "generated_at": "2026-08-15T06:52:11.34615702Z",
   "files": [
     {
       "path": "archive/all/telegram_all.txt",
@@ -242,6 +242,12 @@
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/freev2rays/vmess.txt"
     },
     {
+      "path": "output/temporary/telegram/channels/napsternetvirani/http.txt",
+      "count": 1,
+      "size": 57,
+      "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/http.txt"
+    },
+    {
       "path": "output/temporary/telegram/channels/napsternetvirani/shadowsocks.txt",
       "count": 3,
       "size": 283,
@@ -342,6 +348,12 @@
       "count": 3,
       "size": 1263,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/vpn_ete/vmess.txt"
+    },
+    {
+      "path": "output/temporary/telegram/protocols/http.txt",
+      "count": 1,
+      "size": 57,
+      "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/http.txt"
     },
     {
       "path": "output/temporary/telegram/protocols/shadowsocks.txt",
