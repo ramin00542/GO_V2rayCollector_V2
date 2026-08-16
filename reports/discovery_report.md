@@ -8,7 +8,7 @@
 | qualified | `0` |
 | promoted | `8` |
 | no_config | `35` |
-| not_found | `142` |
+| not_found | `144` |
 | unknown_error | `120` |
 | expired | `0` |
 
@@ -18,25 +18,25 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 
 | Type | State | Successes | No config | Origins |
 |---|---|---:|---:|---:|
-| `channel` | no_config | `0` | `195` | `1` |
-| `channel` | no_config | `0` | `195` | `1` |
-| `channel` | no_config | `0` | `198` | `1` |
+| `channel` | no_config | `0` | `196` | `1` |
+| `channel` | no_config | `0` | `196` | `1` |
 | `channel` | no_config | `0` | `199` | `1` |
-| `channel` | no_config | `0` | `216` | `1` |
-| `channel` | no_config | `0` | `226` | `2` |
-| `channel` | no_config | `0` | `234` | `1` |
-| `channel` | no_config | `0` | `240` | `1` |
-| `channel` | no_config | `0` | `240` | `1` |
-| `channel` | no_config | `0` | `240` | `1` |
-| `channel` | no_config | `0` | `240` | `1` |
-| `channel` | no_config | `0` | `240` | `2` |
-| `channel` | no_config | `0` | `240` | `2` |
-| `channel` | no_config | `0` | `240` | `2` |
-| `channel` | no_config | `0` | `240` | `3` |
-| `channel` | no_config | `0` | `32` | `1` |
-| `channel` | no_config | `0` | `32` | `1` |
-| `channel` | no_config | `0` | `32` | `2` |
-| `channel` | no_config | `0` | `88` | `1` |
+| `channel` | no_config | `0` | `200` | `1` |
+| `channel` | no_config | `0` | `217` | `1` |
+| `channel` | no_config | `0` | `227` | `2` |
+| `channel` | no_config | `0` | `235` | `1` |
+| `channel` | no_config | `0` | `241` | `1` |
+| `channel` | no_config | `0` | `241` | `1` |
+| `channel` | no_config | `0` | `241` | `1` |
+| `channel` | no_config | `0` | `241` | `1` |
+| `channel` | no_config | `0` | `241` | `2` |
+| `channel` | no_config | `0` | `241` | `2` |
+| `channel` | no_config | `0` | `241` | `2` |
+| `channel` | no_config | `0` | `241` | `3` |
+| `channel` | no_config | `0` | `33` | `1` |
+| `channel` | no_config | `0` | `33` | `1` |
+| `channel` | no_config | `0` | `33` | `2` |
+| `channel` | no_config | `0` | `89` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `2` |
