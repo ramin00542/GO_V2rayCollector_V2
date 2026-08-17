@@ -7,8 +7,8 @@
 | pending | `0` |
 | qualified | `0` |
 | promoted | `8` |
-| no_config | `38` |
-| not_found | `169` |
+| no_config | `40` |
+| not_found | `170` |
 | unknown_error | `120` |
 | expired | `0` |
 
@@ -18,28 +18,28 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 
 | Type | State | Successes | No config | Origins |
 |---|---|---:|---:|---:|
-| `channel` | no_config | `0` | `152` | `1` |
-| `channel` | no_config | `0` | `18` | `1` |
-| `channel` | no_config | `0` | `259` | `1` |
-| `channel` | no_config | `0` | `259` | `1` |
-| `channel` | no_config | `0` | `262` | `1` |
+| `channel` | no_config | `0` | `153` | `1` |
+| `channel` | no_config | `0` | `19` | `1` |
+| `channel` | no_config | `0` | `260` | `1` |
+| `channel` | no_config | `0` | `260` | `1` |
 | `channel` | no_config | `0` | `263` | `1` |
-| `channel` | no_config | `0` | `280` | `1` |
-| `channel` | no_config | `0` | `290` | `2` |
-| `channel` | no_config | `0` | `298` | `1` |
-| `channel` | no_config | `0` | `304` | `1` |
-| `channel` | no_config | `0` | `304` | `1` |
-| `channel` | no_config | `0` | `304` | `1` |
-| `channel` | no_config | `0` | `304` | `1` |
-| `channel` | no_config | `0` | `304` | `2` |
-| `channel` | no_config | `0` | `304` | `2` |
-| `channel` | no_config | `0` | `304` | `2` |
-| `channel` | no_config | `0` | `304` | `3` |
-| `channel` | no_config | `0` | `57` | `1` |
-| `channel` | no_config | `0` | `57` | `1` |
-| `channel` | no_config | `0` | `96` | `1` |
-| `channel` | no_config | `0` | `96` | `1` |
-| `channel` | no_config | `0` | `96` | `2` |
+| `channel` | no_config | `0` | `264` | `1` |
+| `channel` | no_config | `0` | `281` | `1` |
+| `channel` | no_config | `0` | `291` | `2` |
+| `channel` | no_config | `0` | `299` | `1` |
+| `channel` | no_config | `0` | `305` | `1` |
+| `channel` | no_config | `0` | `305` | `1` |
+| `channel` | no_config | `0` | `305` | `1` |
+| `channel` | no_config | `0` | `305` | `1` |
+| `channel` | no_config | `0` | `305` | `2` |
+| `channel` | no_config | `0` | `305` | `2` |
+| `channel` | no_config | `0` | `305` | `2` |
+| `channel` | no_config | `0` | `305` | `3` |
+| `channel` | no_config | `0` | `58` | `1` |
+| `channel` | no_config | `0` | `58` | `1` |
+| `channel` | no_config | `0` | `97` | `1` |
+| `channel` | no_config | `0` | `97` | `1` |
+| `channel` | no_config | `0` | `97` | `2` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `2` |
