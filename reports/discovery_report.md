@@ -18,27 +18,27 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 
 | Type | State | Successes | No config | Origins |
 |---|---|---:|---:|---:|
-| `channel` | no_config | `0` | `126` | `1` |
-| `channel` | no_config | `0` | `233` | `1` |
-| `channel` | no_config | `0` | `233` | `1` |
-| `channel` | no_config | `0` | `236` | `1` |
+| `channel` | no_config | `0` | `127` | `1` |
+| `channel` | no_config | `0` | `234` | `1` |
+| `channel` | no_config | `0` | `234` | `1` |
 | `channel` | no_config | `0` | `237` | `1` |
-| `channel` | no_config | `0` | `254` | `1` |
-| `channel` | no_config | `0` | `264` | `2` |
-| `channel` | no_config | `0` | `272` | `1` |
-| `channel` | no_config | `0` | `278` | `1` |
-| `channel` | no_config | `0` | `278` | `1` |
-| `channel` | no_config | `0` | `278` | `1` |
-| `channel` | no_config | `0` | `278` | `1` |
-| `channel` | no_config | `0` | `278` | `2` |
-| `channel` | no_config | `0` | `278` | `2` |
-| `channel` | no_config | `0` | `278` | `2` |
-| `channel` | no_config | `0` | `278` | `3` |
-| `channel` | no_config | `0` | `31` | `1` |
-| `channel` | no_config | `0` | `31` | `1` |
-| `channel` | no_config | `0` | `70` | `1` |
-| `channel` | no_config | `0` | `70` | `1` |
-| `channel` | no_config | `0` | `70` | `2` |
+| `channel` | no_config | `0` | `238` | `1` |
+| `channel` | no_config | `0` | `255` | `1` |
+| `channel` | no_config | `0` | `265` | `2` |
+| `channel` | no_config | `0` | `273` | `1` |
+| `channel` | no_config | `0` | `279` | `1` |
+| `channel` | no_config | `0` | `279` | `1` |
+| `channel` | no_config | `0` | `279` | `1` |
+| `channel` | no_config | `0` | `279` | `1` |
+| `channel` | no_config | `0` | `279` | `2` |
+| `channel` | no_config | `0` | `279` | `2` |
+| `channel` | no_config | `0` | `279` | `2` |
+| `channel` | no_config | `0` | `279` | `3` |
+| `channel` | no_config | `0` | `32` | `1` |
+| `channel` | no_config | `0` | `32` | `1` |
+| `channel` | no_config | `0` | `71` | `1` |
+| `channel` | no_config | `0` | `71` | `1` |
+| `channel` | no_config | `0` | `71` | `2` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `2` |
