@@ -4,12 +4,12 @@
 
 | Metric | Value |
 |---|---:|
-| Started (UTC) | `2026-08-17T09:22:59Z` |
-| Finished (UTC) | `2026-08-17T09:31:14Z` |
+| Started (UTC) | `2026-08-17T10:14:38Z` |
+| Finished (UTC) | `2026-08-17T10:23:18Z` |
 | New fingerprints | `1` |
 | Requests | `7` |
 | Successful requests | `7` |
 | Failed requests | `0` |
 | Accepted configs | `334` |
-| Rejected candidates | `866` |
-| Bytes read | `1077947` |
+| Rejected candidates | `864` |
+| Bytes read | `1077468` |
