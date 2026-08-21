@@ -1,6 +1,6 @@
 # Download Center
 
-Updated: `2026-08-21T11:03:56Z`
+Updated: `2026-08-21T11:48:44Z`
 
 ## ⭐ Main VPN Links — Latest 24 Hours
 
