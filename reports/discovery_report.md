@@ -7,8 +7,8 @@
 | pending | `0` |
 | qualified | `0` |
 | promoted | `8` |
-| no_config | `24` |
-| not_found | `174` |
+| no_config | `22` |
+| not_found | `176` |
 | unknown_error | `0` |
 | expired | `196` |
 
@@ -33,13 +33,13 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 | `channel` | expired | `0` | `383` | `1` |
 | `channel` | expired | `0` | `385` | `1` |
 | `channel` | expired | `0` | `385` | `1` |
-| `channel` | no_config | `0` | `159` | `1` |
-| `channel` | no_config | `0` | `198` | `1` |
-| `channel` | no_config | `0` | `198` | `1` |
-| `channel` | no_config | `0` | `237` | `1` |
-| `channel` | no_config | `0` | `237` | `1` |
-| `channel` | no_config | `0` | `237` | `2` |
-| `channel` | no_config | `0` | `293` | `1` |
-| `channel` | no_config | `0` | `74` | `1` |
+| `channel` | no_config | `0` | `160` | `1` |
+| `channel` | no_config | `0` | `199` | `1` |
+| `channel` | no_config | `0` | `199` | `1` |
+| `channel` | no_config | `0` | `238` | `1` |
+| `channel` | no_config | `0` | `238` | `1` |
+| `channel` | no_config | `0` | `238` | `2` |
+| `channel` | no_config | `0` | `294` | `1` |
+| `channel` | no_config | `0` | `75` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
