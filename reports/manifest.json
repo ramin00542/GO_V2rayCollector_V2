@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-30T22:35:42.269652119Z",
+  "generated_at": "2026-08-31T00:52:23.278121923Z",
   "files": [
     {
       "path": "archive/all/telegram_all.txt",
-      "count": 372,
-      "size": 93605,
+      "count": 367,
+      "size": 92252,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/telegram_all.txt"
     },
     {
@@ -344,6 +344,12 @@
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/daily/2026-08-29/telegram_all.txt"
     },
     {
+      "path": "archive/daily/2026-08-30/telegram_all.txt",
+      "count": 372,
+      "size": 93605,
+      "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/daily/2026-08-30/telegram_all.txt"
+    },
+    {
       "path": "output/temporary/telegram/channels/cybrix_network/https.txt",
       "count": 1,
       "size": 48,
@@ -357,8 +363,8 @@
     },
     {
       "path": "output/temporary/telegram/channels/cybrix_network/vless.txt",
-      "count": 19,
-      "size": 5557,
+      "count": 18,
+      "size": 5243,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/cybrix_network/vless.txt"
     },
     {
@@ -405,8 +411,8 @@
     },
     {
       "path": "output/temporary/telegram/channels/napsternetvirani/vless.txt",
-      "count": 36,
-      "size": 9483,
+      "count": 19,
+      "size": 5057,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/napsternetvirani/vless.txt"
     },
     {
@@ -417,8 +423,8 @@
     },
     {
       "path": "output/temporary/telegram/channels/v2ray_alpha/shadowsocks.txt",
-      "count": 9,
-      "size": 1223,
+      "count": 7,
+      "size": 933,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/v2ray_alpha/shadowsocks.txt"
     },
     {
@@ -429,8 +435,8 @@
     },
     {
       "path": "output/temporary/telegram/channels/v2ray_alpha/vless.txt",
-      "count": 75,
-      "size": 18338,
+      "count": 62,
+      "size": 15355,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/v2ray_alpha/vless.txt"
     },
     {
@@ -441,38 +447,32 @@
     },
     {
       "path": "output/temporary/telegram/channels/v2rayconfigamir/http.txt",
-      "count": 6,
-      "size": 158,
+      "count": 15,
+      "size": 404,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/v2rayconfigamir/http.txt"
     },
     {
       "path": "output/temporary/telegram/channels/v2rayconfigamir/mtproto.txt",
-      "count": 123,
-      "size": 15221,
+      "count": 96,
+      "size": 11417,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/v2rayconfigamir/mtproto.txt"
     },
     {
-      "path": "output/temporary/telegram/channels/v2rayconfigamir/shadowsocks.txt",
-      "count": 5,
-      "size": 662,
-      "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/v2rayconfigamir/shadowsocks.txt"
-    },
-    {
       "path": "output/temporary/telegram/channels/v2rayconfigamir/trojan.txt",
-      "count": 13,
-      "size": 1810,
+      "count": 7,
+      "size": 1105,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/v2rayconfigamir/trojan.txt"
     },
     {
       "path": "output/temporary/telegram/channels/v2rayconfigamir/vless.txt",
-      "count": 74,
-      "size": 18091,
+      "count": 48,
+      "size": 10932,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/v2rayconfigamir/vless.txt"
     },
     {
       "path": "output/temporary/telegram/channels/v2rayconfigamir/vmess.txt",
-      "count": 8,
-      "size": 2504,
+      "count": 7,
+      "size": 2055,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/v2rayconfigamir/vmess.txt"
     },
     {
@@ -489,8 +489,8 @@
     },
     {
       "path": "output/temporary/telegram/channels/vpn_ete/shadowsocks.txt",
-      "count": 13,
-      "size": 1496,
+      "count": 10,
+      "size": 1208,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/vpn_ete/shadowsocks.txt"
     },
     {
@@ -501,14 +501,14 @@
     },
     {
       "path": "output/temporary/telegram/channels/vpn_ete/vless.txt",
-      "count": 92,
-      "size": 25551,
+      "count": 85,
+      "size": 23215,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/vpn_ete/vless.txt"
     },
     {
       "path": "output/temporary/telegram/channels/vpn_ete/vmess.txt",
-      "count": 5,
-      "size": 2141,
+      "count": 4,
+      "size": 1680,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/vpn_ete/vmess.txt"
     },
     {
@@ -525,8 +525,8 @@
     },
     {
       "path": "output/temporary/telegram/protocols/http.txt",
-      "count": 6,
-      "size": 158,
+      "count": 15,
+      "size": 404,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/http.txt"
     },
     {
@@ -543,8 +543,8 @@
     },
     {
       "path": "output/temporary/telegram/protocols/shadowsocks.txt",
-      "count": 27,
-      "size": 3381,
+      "count": 17,
+      "size": 2141,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/shadowsocks.txt"
     },
     {
@@ -555,32 +555,32 @@
     },
     {
       "path": "output/temporary/telegram/protocols/trojan.txt",
-      "count": 13,
-      "size": 1810,
+      "count": 7,
+      "size": 1105,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/trojan.txt"
     },
     {
       "path": "output/temporary/telegram/protocols/vless.txt",
-      "count": 290,
-      "size": 75233,
+      "count": 232,
+      "size": 59602,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/vless.txt"
     },
     {
       "path": "output/temporary/telegram/protocols/vmess.txt",
-      "count": 34,
-      "size": 11646,
+      "count": 32,
+      "size": 10736,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/vmess.txt"
     },
     {
       "path": "output/temporary/telegram/telegram-proxies/mtproto.txt",
-      "count": 176,
-      "size": 19819,
+      "count": 152,
+      "size": 16280,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/telegram-proxies/mtproto.txt"
     },
     {
       "path": "output/temporary/telegram_all.txt",
-      "count": 372,
-      "size": 93605,
+      "count": 296,
+      "size": 75119,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram_all.txt"
     }
   ]
