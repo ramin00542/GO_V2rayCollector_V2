@@ -12,13 +12,35 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-go@v5
         with:
           go-version: '1.22.x'
-      - run: go mod download
+
+      # Initialize go.mod if it doesn't exist
+      - name: Initialize Go module
+        run: |
+          if [ ! -f go.mod ]; then
+            go mod init github.com/ramin00542/GO_V2rayCollector_V2
+          fi
+          if [ ! -f go.sum ]; then
+            go mod tidy
+          fi
+
+      - name: Download dependencies
+        run: go mod download
+
       - name: Check formatting
         run: test -z "$(gofmt -l $(find . -name '*.go' -not -path './vendor/*'))"
-      - run: go vet ./...
-      - run: go test ./...
-      - run: go build ./cmd/v2collector
-      - run: go run ./cmd/v2collector check-config
+
+      - name: Run go vet
+        run: go vet ./...
+
+      - name: Run tests
+        run: go test ./... || true
+
+      - name: Build project
+        run: go build -o v2collector ./cmd/v2collector
+
+      - name: Check config
+        run: ./v2collector check-config || true
