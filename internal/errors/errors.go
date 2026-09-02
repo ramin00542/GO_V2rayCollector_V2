@@ -2,6 +2,7 @@
 package errors
 
 import (
+	"context"
 	"errors"
 	"fmt"
 	"strings"
@@ -46,7 +47,7 @@ func (e *AppError) Error() string {
 	
 	// Add details if present
 	if e.Details != "" {
-		sb.WriteString(" ("")
+		sb.WriteString(" (")
 		sb.WriteString(e.Details)
 		sb.WriteString(")")
 	}

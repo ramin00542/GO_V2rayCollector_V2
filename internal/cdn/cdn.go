@@ -925,6 +925,3 @@ func (p *GitHubProvider) UploadFileWithMultipart(ctx context.Context, repo, bran
 	
 	return response.Content.Path, nil
 }
-
-// Fix the import for bytes
-import "bytes"
