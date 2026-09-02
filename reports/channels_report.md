@@ -4,7 +4,7 @@
 
 | State | Count |
 |---|---:|
-| active | `11` |
+| active | `13` |
 | inactive_no_config | `3` |
 | not_found | `0` |
 | unknown_error | `0` |
@@ -14,17 +14,19 @@
 
 | Target | State | Last Checked | Last Successful Config | Failures |
 |---|---|---|---|---:|
-| `configx2ray` | inactive_no_config | `2026-09-01T07:54:55Z` | `2026-08-26T03:31:34Z` | `0` |
-| `cybrix_network` | active | `2026-09-01T07:54:55Z` | `2026-09-01T07:54:55Z` | `0` |
-| `cybrix_official` | active | `2026-09-01T07:54:55Z` | `2026-09-01T07:54:55Z` | `0` |
-| `freev2rays` | active | `2026-09-01T07:54:55Z` | `2026-09-01T07:54:55Z` | `0` |
-| `kali_tnt` | active | `2026-09-01T07:54:55Z` | `2026-09-01T07:54:55Z` | `0` |
-| `metivip` | active | `2026-09-01T07:54:55Z` | `2026-09-01T07:54:55Z` | `0` |
-| `mtmuxvpn` | active | `2026-09-01T07:54:55Z` | `2026-09-01T07:54:55Z` | `0` |
-| `napsternetvirani` | active | `2026-09-01T07:54:55Z` | `2026-09-01T07:54:55Z` | `0` |
-| `nullactive` | inactive_no_config | `2026-09-01T07:54:55Z` | `-` | `0` |
-| `v2ray_alpha` | active | `2026-09-01T07:54:55Z` | `2026-09-01T07:54:55Z` | `0` |
-| `v2rayconfigamir` | active | `2026-09-01T07:54:55Z` | `2026-09-01T07:54:55Z` | `0` |
+| `cactusblack_chanel` | active | `2026-09-02T07:12:55Z` | `2026-09-02T07:12:55Z` | `0` |
+| `configx2ray` | inactive_no_config | `2026-09-02T07:12:55Z` | `2026-08-26T03:31:34Z` | `0` |
+| `cybrix_network` | active | `2026-09-02T07:12:55Z` | `2026-09-02T07:12:55Z` | `0` |
+| `cybrix_official` | active | `2026-09-02T07:12:55Z` | `2026-09-02T07:12:55Z` | `0` |
+| `freev2rays` | active | `2026-09-02T07:12:55Z` | `2026-09-02T07:12:55Z` | `0` |
+| `kali_tnt` | active | `2026-09-02T07:12:55Z` | `2026-09-02T07:12:55Z` | `0` |
+| `metivip` | active | `2026-09-02T07:12:55Z` | `2026-09-02T07:12:55Z` | `0` |
+| `mtmuxvpn` | active | `2026-09-02T07:12:55Z` | `2026-09-02T07:12:55Z` | `0` |
+| `napsternetvirani` | active | `2026-09-02T07:12:55Z` | `2026-09-02T07:12:55Z` | `0` |
+| `nullactive` | inactive_no_config | `2026-09-02T07:12:55Z` | `-` | `0` |
+| `pinkproxy` | active | `2026-09-02T07:12:55Z` | `2026-09-02T07:12:55Z` | `0` |
+| `v2ray_alpha` | active | `2026-09-02T07:12:55Z` | `2026-09-02T07:12:55Z` | `0` |
+| `v2rayconfigamir` | active | `2026-09-02T07:12:55Z` | `2026-09-02T07:12:55Z` | `0` |
 | `v2rayenglish` | inactive_no_config | `2026-08-04T05:28:57Z` | `-` | `0` |
-| `vpn_ete` | active | `2026-09-01T07:54:55Z` | `2026-09-01T07:54:55Z` | `0` |
-| `vynx_vpn` | active | `2026-09-01T07:54:55Z` | `2026-09-01T07:54:55Z` | `0` |
+| `vpn_ete` | active | `2026-09-02T07:12:55Z` | `2026-09-02T07:12:55Z` | `0` |
+| `vynx_vpn` | active | `2026-09-02T07:12:55Z` | `2026-09-02T07:12:55Z` | `0` |
