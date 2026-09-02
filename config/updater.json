@@ -1,0 +1,6 @@
+{
+  "check_interval": 24,
+  "max_retries": 3,
+  "notify_on_update": true,
+  "notify_on_error": true
+}

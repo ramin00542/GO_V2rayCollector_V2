@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>داشبورد - V2ray Collector</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>🛡️ V2ray Collector</h1>
+                    <p class="subtitle">داشبورد مدیریت کانفیگ‌ها</p>
+                </div>
+                <nav class="nav">
+                    <a href="/">خانه</a>
+                    <a href="/dashboard" class="active">داشبورد</a>
+                    <a href="/configs">کانفیگ‌ها</a>
+                    <a href="/reports">گزارش‌ها</a>
+                    <a href="/test">تست دستی</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main dashboard-page">
+            <!-- Dashboard Header -->
+            <section class="dashboard-header">
+                <h2>داشبورد</h2>
+                <p>مشاهده آمار و وضعیت سیستم</p>
+            </section>
+
+            <!-- Stats Cards -->
+            <section class="stats">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">📊</div>
+                        <div class="stat-info">
+                            <div class="stat-value" id="total-configs">-</div>
+                            <div class="stat-label">کل کانفیگ‌ها</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">✅</div>
+                        <div class="stat-info">
+                            <div class="stat-value" id="valid-configs">-</div>
+                            <div class="stat-label">کانفیگ‌های معتبر</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🚀</div>
+                        <div class="stat-info">
+                            <div class="stat-value" id="working-configs">-</div>
+                            <div class="stat-label">کانفیگ‌های کارکن</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⏳</div>
+                        <div class="stat-info">
+                            <div class="stat-value" id="test-success-rate">-</div>
+                            <div class="stat-label">نرخ موفقیت تست</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Charts Section -->
+            <section class="charts-section">
+                <h3>نمودارها</h3>
+                <div class="dashboard-grid">
+                    <div class="dashboard-card">
+                        <h3>توزیع پروتکل‌ها</h3>
+                        <div id="protocol-chart"></div>
+                    </div>
+                    <div class="dashboard-card">
+                        <h3>دسترسی به سایت‌ها</h3>
+                        <div id="site-chart"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recent Activity -->
+            <section class="recent-activity-section">
+                <h3>فعالیت‌های اخیر</h3>
+                <div class="dashboard-card">
+                    <div class="recent-activity"></div>
+                </div>
+            </section>
+
+            <!-- Quick Actions -->
+            <section class="quick-actions">
+                <h3>عملیات سریع</h3>
+                <div class="actions-grid">
+                    <a href="/configs" class="action-card">
+                        <div class="action-icon">📋</div>
+                        <div class="action-text">مشاهده کانفیگ‌ها</div>
+                    </a>
+                    <a href="/reports" class="action-card">
+                        <div class="action-icon">📄</div>
+                        <div class="action-text">گزارش‌ها</div>
+                    </a>
+                    <a href="/test" class="action-card">
+                        <div class="action-icon">🧪</div>
+                        <div class="action-text">تست دستی</div>
+                    </a>
+                    <a href="/" class="action-card">
+                        <div class="action-icon">🏠</div>
+                        <div class="action-text">بازگشت به خانه</div>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>V2ray Collector v2.0 | ساخت: ramin00542</p>
+        </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

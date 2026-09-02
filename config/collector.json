@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "retention": {"daily_days": 30, "rolling_days": 1},
+  "retention": {"daily_days": 30, "rolling_days": 7},
   "output": {"keep_unknown": false, "write_per_channel": true},
   "discovery": {
     "channel_candidate_fetch_budget": 200,
@@ -10,5 +10,13 @@
     "promotion_min_interval_hours": 6,
     "candidate_expiry_days": 14,
     "dormant_after_days": 365
+  },
+  "testing": {
+    "enabled": true,
+    "max_configs_to_test": 50,
+    "test_timeout_seconds": 15,
+    "retry_attempts": 2,
+    "save_individual_results": true,
+    "update_on_new_configs": true
   }
 }

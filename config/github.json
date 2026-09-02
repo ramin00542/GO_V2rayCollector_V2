@@ -1,6 +1,6 @@
 {
   "enabled": false,
-  "repository": "owner/repository",
+  "repository": "",
   "max_forks": 30,
   "max_pages": 1,
   "paths": ["sub.txt", "subscription.txt", "configs.txt"]

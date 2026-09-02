@@ -91,6 +91,10 @@ func writeSnapshot(root string, entries []state.Entry, start, end time.Time, opt
 }
 
 func isVPNProtocol(protocol domain.Protocol) bool {
+	// VPN protocols are those that provide full VPN functionality
+	// and are suitable for inclusion in combined subscription files.
+	// Telegram-native proxies (MTProto, TelegramSOCKS) and generic HTTP/SOCKS
+	// proxies are NOT considered VPN protocols and should not enter *_all.txt files.
 	switch protocol {
 	case domain.ProtocolVMess,
 		domain.ProtocolVLESS,
@@ -107,6 +111,22 @@ func isVPNProtocol(protocol domain.Protocol) bool {
 		domain.ProtocolArgo,
 		domain.ProtocolSlipnet,
 		domain.ProtocolInvizible:
+		return true
+	default:
+		return false
+	}
+}
+
+// isProxyProtocol returns true for protocols that are proxies rather than full VPNs
+func isProxyProtocol(protocol domain.Protocol) bool {
+	switch protocol {
+	case domain.ProtocolHTTP,
+		domain.ProtocolHTTPS,
+		domain.ProtocolSOCKS,
+		domain.ProtocolSOCKS5,
+		domain.ProtocolMTProto,
+		domain.ProtocolTelegramSOCKS,
+		domain.ProtocolSSH:
 		return true
 	default:
 		return false

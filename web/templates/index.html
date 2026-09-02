@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V2ray Collector - Dashboard</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>🛡️ V2ray Collector</h1>
+                    <p class="subtitle">Config Collector & Tester</p>
+                </div>
+                <nav class="nav">
+                    <a href="/" class="active">خانه</a>
+                    <a href="/dashboard">داشبورد</a>
+                    <a href="/configs">کانفیگ‌ها</a>
+                    <a href="/reports">گزارش‌ها</a>
+                    <a href="/test">تست دستی</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Hero Section -->
+            <section class="hero">
+                <h2>به V2ray Collector خوش آمدید</h2>
+                <p>سیستم کامل جمع‌آوری، تست و مدیریت کانفیگ‌های V2ray/Nexus</p>
+                <div class="hero-actions">
+                    <a href="/dashboard" class="btn btn-primary">مشاهده داشبورد</a>
+                    <a href="/configs" class="btn btn-secondary">لیست کانفیگ‌ها</a>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="features">
+                <h3>ویژگی‌ها</h3>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📥</div>
+                        <h4>جمع‌آوری خودکار</h4>
+                        <p>جمع‌آوری کانفیگ‌ها از تلگرام، ساب‌ها و گیت‌هاب</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🧪</div>
+                        <h4>تست خودکار</h4>
+                        <p>تست کانفیگ‌ها روی سایت‌های هدف</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h4>گزارش‌های کامل</h4>
+                        <p>گزارش‌های JSON و Markdown با جزئیات کامل</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌐</div>
+                        <h4>داشبورد وب</h4>
+                        <p>مشاهده نتایج به صورت بصری</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick Stats -->
+            <section class="stats">
+                <h3>آمار سریع</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-configs">-</div>
+                        <div class="stat-label">کل کانفیگ‌ها</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="valid-configs">-</div>
+                        <div class="stat-label">کانفیگ‌های معتبر</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="working-configs">-</div>
+                        <div class="stat-label">کانفیگ‌های کارکن</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="last-update">-</div>
+                        <div class="stat-label">آخرین آپدیت</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick Actions -->
+            <section class="quick-actions">
+                <h3>عملیات سریع</h3>
+                <div class="actions-grid">
+                    <a href="/dashboard" class="action-card">
+                        <div class="action-icon">📊</div>
+                        <div class="action-text">مشاهده داشبورد</div>
+                    </a>
+                    <a href="/configs" class="action-card">
+                        <div class="action-icon">📋</div>
+                        <div class="action-text">لیست کانفیگ‌ها</div>
+                    </a>
+                    <a href="/reports" class="action-card">
+                        <div class="action-icon">📄</div>
+                        <div class="action-text">گزارش‌ها</div>
+                    </a>
+                    <a href="/test" class="action-card">
+                        <div class="action-icon">🧪</div>
+                        <div class="action-text">تست دستی</div>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>V2ray Collector v2.0 | ساخت: ramin00542</p>
+        </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+    <script>
+        // Load quick stats
+        fetch('/api/stats')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('total-configs').textContent = data.total_configs || '0';
+                document.getElementById('valid-configs').textContent = data.valid_configs || '0';
+                document.getElementById('working-configs').textContent = data.working_configs || '0';
+                document.getElementById('last-update').textContent = new Date().toLocaleString('fa-IR');
+            })
+            .catch(err => console.error('Error loading stats:', err));
+    </script>
+</body>
+</html>
