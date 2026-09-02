@@ -8,7 +8,7 @@ import (
 	"github.com/ramin00542/GO_V2rayCollector_V2/internal/repository"
 )
 
-var telegramLink = regexp.MustCompile(`(?i)https?://t\.me/(?:s/)?[a-zA-Z0-9_]+`)
+var telegramLink = regexp.MustCompile(`(?i)https?://(?:t\.me|telegram\.me)/(?:s/)?[a-zA-Z0-9_]+(?:/[^\s<>'"]*)?`)
 var httpsLink = regexp.MustCompile(`https://[^\s<>'"]+`)
 
 // DiscoverPublicLinks extracts public references only; validation happens before promotion.

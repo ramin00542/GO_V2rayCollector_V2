@@ -19,13 +19,19 @@ type sourceFile struct {
 func LoadSources(path string) ([]domain.Source, error) {
 	data, err := os.ReadFile(path)
 	if err != nil {
+		// If file doesn't exist, return empty list
+		if os.IsNotExist(err) {
+			return []domain.Source{}, nil
+		}
 		return nil, fmt.Errorf("read sources file: %w", err)
 	}
 	var file sourceFile
 	if err := json.Unmarshal(data, &file); err != nil {
 		return nil, fmt.Errorf("decode sources JSON: %w", err)
 	}
-	if file.Version != 1 {
+	
+	// Support version 1 or no version (for backward compatibility)
+	if file.Version != 0 && file.Version != 1 {
 		return nil, fmt.Errorf("unsupported sources version: %d", file.Version)
 	}
 

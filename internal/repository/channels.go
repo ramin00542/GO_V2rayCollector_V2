@@ -3,6 +3,7 @@ package repository
 import (
 	"encoding/csv"
 	"fmt"
+	"net/url"
 	"os"
 	"strconv"
 	"strings"
@@ -29,7 +30,28 @@ func LoadChannels(path string) ([]domain.Channel, error) {
 		if len(row) == 0 || (index == 0 && strings.EqualFold(strings.TrimSpace(row[0]), "url")) {
 			continue
 		}
-		name := NormalizeTelegramChannel(row[0])
+		
+		// Extract the first column (URL or name)
+		rawURL := strings.TrimSpace(row[0])
+		
+		// Try to extract channel name from URL or use as-is
+		name := NormalizeTelegramChannel(rawURL)
+		
+		// If normalization failed, try to extract from URL format
+		if name == "" {
+			// Try to parse as URL
+			if strings.Contains(rawURL, "t.me") || strings.Contains(rawURL, "telegram.me") {
+				// Extract path from URL
+				parsed, err := url.Parse(rawURL)
+				if err == nil && parsed.Path != "" {
+					// Remove leading slash and "s/" if present
+					path := strings.TrimPrefix(parsed.Path, "/s/")
+					path = strings.TrimPrefix(path, "/")
+					name = NormalizeTelegramChannel(path)
+				}
+			}
+		}
+		
 		if name == "" || seen[name] {
 			continue
 		}
@@ -52,18 +74,36 @@ func LoadChannels(path string) ([]domain.Channel, error) {
 func NormalizeTelegramChannel(raw string) string {
 	value := strings.ToLower(strings.TrimSpace(raw))
 	value = strings.TrimPrefix(value, "@")
-	for _, prefix := range []string{"https://t.me/s/", "http://t.me/s/", "https://t.me/", "http://t.me/"} {
+	
+	// Remove various Telegram URL prefixes
+	prefixes := []string{
+		"https://t.me/s/",
+		"http://t.me/s/",
+		"https://t.me/",
+		"http://t.me/",
+		"t.me/s/",
+		"t.me/",
+	}
+	
+	for _, prefix := range prefixes {
 		value = strings.TrimPrefix(value, prefix)
 	}
-	value = strings.Trim(value, "/ ")
+	
+	// Remove trailing characters
+	value = strings.Trim(value, "/ .,;:!?#")
+	
+	// Validate the channel name
 	if value == "" || strings.ContainsAny(value, "?#/ ") {
 		return ""
 	}
+	
+	// Check if all characters are valid for Telegram channel names
 	for _, r := range value {
 		if !(unicode.IsLower(r) || unicode.IsDigit(r) || r == '_') {
 			return ""
 		}
 	}
+	
 	return value
 }
 

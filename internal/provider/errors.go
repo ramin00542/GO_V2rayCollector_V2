@@ -12,5 +12,11 @@ func recordError(result *domain.ProviderResult, err error) {
 	var httpError *fetch.HTTPError
 	if errors.As(err, &httpError) {
 		result.HTTPStatus = httpError.StatusCode
+	} else {
+		// Set default status code for non-HTTP errors
+		// Use 0 for unknown errors, but for classification purposes we'll use 500
+		if result.HTTPStatus == 0 {
+			result.HTTPStatus = 500
+		}
 	}
 }

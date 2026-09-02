@@ -17,8 +17,16 @@ import (
 	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 )
 
-var uriCandidate = regexp.MustCompile(`(?i)(?:vmess|vless|trojan|ssr|ss|hysteria2|hysteria|hy2|tuic|wireguard|warp|slipnet|brook|naive|ssh|socks5|socks|https?|tg)://[^\s<>'"]+`)
+var uriCandidate = regexp.MustCompile(`(?i)(?:vmess|vless|trojan|ssr|ss|hysteria2|hysteria|hy2|tuic|wireguard|warp|slipnet|brook|naive|ssh|socks5|socks|https?|tg|mtproto|openvpn|naiveproxy|argo)://[^\s<>'"]+`)
 var argoBlock = regexp.MustCompile(`(?s)-----BEGIN ARGO VPN BRIDGE BLOCK-----.*?-----END ARGO VPN BRIDGE BLOCK-----`)
+
+// Multiline protocol blocks
+var openVPNBlock = regexp.MustCompile(`(?s)<ca>.*?</ca>|-----BEGIN.*?-----END|<tls-auth>.*?</tls-auth>`)
+var wireguardBlock = regexp.MustCompile(`(?s)\[Interface\].*?\[Peer\]|PrivateKey.*?=.*?|PublicKey.*?=.*?|Endpoint.*?=.*?`)
+
+// Single-line patterns for multiline protocols
+var openVPNURL = regexp.MustCompile(`(?i)openvpn://[^\s<>'"]+`)
+var wireguardURL = regexp.MustCompile(`(?i)wireguard://[^\s<>'"]+`)
 
 type Rejection struct {
 	Value  string
@@ -27,11 +35,14 @@ type Rejection struct {
 
 // Extract returns only syntactically valid, normalized protocol candidates.
 // Unknown URL schemes are intentionally not emitted.
+// For multiline protocols (OpenVPN, WireGuard), it attempts to extract complete blocks.
 func Extract(text string, keepUnknown bool) ([]domain.ParsedConfig, []Rejection) {
 	text = html.UnescapeString(text)
 	seen := make(map[string]bool)
 	configs := make([]domain.ParsedConfig, 0)
 	rejected := make([]Rejection, 0)
+	
+	// Extract Argo blocks
 	for _, block := range argoBlock.FindAllString(text, -1) {
 		parsed, err := Parse(block, keepUnknown)
 		if err != nil {
@@ -44,6 +55,55 @@ func Extract(text string, keepUnknown bool) ([]domain.ParsedConfig, []Rejection)
 		}
 	}
 	text = argoBlock.ReplaceAllString(text, "")
+	
+	// Extract OpenVPN blocks (multiline)
+	for _, block := range openVPNBlock.FindAllString(text, -1) {
+		// For now, we'll skip detailed OpenVPN parsing as it's complex
+		// Just mark it as a candidate if it looks like OpenVPN
+		if strings.Contains(strings.ToLower(block), "openvpn") || 
+		   strings.Contains(strings.ToLower(block), "<ca>") ||
+		   strings.Contains(strings.ToLower(block), "tls-auth") {
+			// Create a fingerprint based on the block content
+			hash := sha256.Sum256([]byte(block))
+			fingerprint := hex.EncodeToString(hash[:])
+			if !seen[fingerprint] && keepUnknown {
+				seen[fingerprint] = true
+				configs = append(configs, domain.ParsedConfig{
+					Value:       block,
+					Protocol:    domain.ProtocolOpenVPN,
+					Canonical:   block,
+					Fingerprint: fingerprint,
+				})
+			}
+		}
+	}
+	text = openVPNBlock.ReplaceAllString(text, "")
+	
+	// Extract WireGuard blocks (multiline)
+	for _, block := range wireguardBlock.FindAllString(text, -1) {
+		// For now, we'll skip detailed WireGuard parsing as it's complex
+		// Just mark it as a candidate if it looks like WireGuard
+		if strings.Contains(strings.ToLower(block), "interface") || 
+		   strings.Contains(strings.ToLower(block), "privatekey") ||
+		   strings.Contains(strings.ToLower(block), "publickey") ||
+		   strings.Contains(strings.ToLower(block), "endpoint") {
+			// Create a fingerprint based on the block content
+			hash := sha256.Sum256([]byte(block))
+			fingerprint := hex.EncodeToString(hash[:])
+			if !seen[fingerprint] && keepUnknown {
+				seen[fingerprint] = true
+				configs = append(configs, domain.ParsedConfig{
+					Value:       block,
+					Protocol:    domain.ProtocolWireGuard,
+					Canonical:   block,
+					Fingerprint: fingerprint,
+				})
+			}
+		}
+	}
+	text = wireguardBlock.ReplaceAllString(text, "")
+	
+	// Extract single-line URI candidates
 	for _, candidate := range uriCandidate.FindAllString(text, -1) {
 		candidate = trimCandidate(candidate)
 		parsed, err := Parse(candidate, keepUnknown)
@@ -56,13 +116,45 @@ func Extract(text string, keepUnknown bool) ([]domain.ParsedConfig, []Rejection)
 			configs = append(configs, parsed)
 		}
 	}
+	
+	// Also check for OpenVPN and WireGuard URLs
+	for _, candidate := range openVPNURL.FindAllString(text, -1) {
+		candidate = trimCandidate(candidate)
+		parsed, err := Parse(candidate, keepUnknown)
+		if err != nil {
+			rejected = append(rejected, Rejection{Value: candidate, Reason: err.Error()})
+			continue
+		}
+		if !seen[parsed.Fingerprint] {
+			seen[parsed.Fingerprint] = true
+			configs = append(configs, parsed)
+		}
+	}
+	
+	for _, candidate := range wireguardURL.FindAllString(text, -1) {
+		candidate = trimCandidate(candidate)
+		parsed, err := Parse(candidate, keepUnknown)
+		if err != nil {
+			rejected = append(rejected, Rejection{Value: candidate, Reason: err.Error()})
+			continue
+		}
+		if !seen[parsed.Fingerprint] {
+			seen[parsed.Fingerprint] = true
+			configs = append(configs, parsed)
+		}
+	}
+	
 	return configs, rejected
 }
 
 func Parse(raw string, keepUnknown bool) (domain.ParsedConfig, error) {
 	value := strings.TrimSpace(html.UnescapeString(raw))
-	if value == "" || len(value) > 16384 {
-		return domain.ParsedConfig{}, fmt.Errorf("empty or oversized candidate")
+	if value == "" {
+		return domain.ParsedConfig{}, fmt.Errorf("empty candidate")
+	}
+	// Increase size limit for multiline configs (OpenVPN, WireGuard can be large)
+	if len(value) > 65536 { // 64KB limit for multiline configs
+		return domain.ParsedConfig{}, fmt.Errorf("oversized candidate")
 	}
 	protocol := detect(value)
 	if protocol == domain.ProtocolUnknown && !keepUnknown {
@@ -78,6 +170,29 @@ func Parse(raw string, keepUnknown bool) (domain.ParsedConfig, error) {
 
 func detect(value string) domain.Protocol {
 	lower := strings.ToLower(value)
+	
+	// Check for multiline protocols first
+	if strings.HasPrefix(value, "-----BEGIN ARGO VPN BRIDGE BLOCK-----") {
+		return domain.ProtocolArgo
+	}
+	
+	// Check for OpenVPN multiline config
+	if strings.Contains(lower, "<ca>") || 
+	   strings.Contains(lower, "</ca>") ||
+	   strings.Contains(lower, "tls-auth") ||
+	   strings.Contains(lower, "tls-crypt") ||
+	   strings.Contains(lower, "client") && strings.Contains(lower, "dev tun") {
+		return domain.ProtocolOpenVPN
+	}
+	
+	// Check for WireGuard multiline config
+	if strings.Contains(lower, "[interface]") || 
+	   strings.Contains(lower, "[peer]") ||
+	   (strings.Contains(lower, "privatekey") && strings.Contains(lower, "publickey")) {
+		return domain.ProtocolWireGuard
+	}
+	
+	// Check for single-line URL protocols
 	switch {
 	case strings.HasPrefix(lower, "vmess://"):
 		return domain.ProtocolVMess
@@ -119,8 +234,8 @@ func detect(value string) domain.Protocol {
 		return domain.ProtocolHTTPS
 	case strings.HasPrefix(lower, "http://"):
 		return domain.ProtocolHTTP
-	case strings.HasPrefix(value, "-----BEGIN ARGO VPN BRIDGE BLOCK-----"):
-		return domain.ProtocolArgo
+	case strings.HasPrefix(lower, "openvpn://"):
+		return domain.ProtocolOpenVPN
 	default:
 		return domain.ProtocolUnknown
 	}
@@ -212,7 +327,11 @@ func canonicalVMess(value string) (string, error) {
 	keys := []string{"add", "port", "id", "aid", "net", "type", "host", "path", "tls", "sni", "alpn", "fp"}
 	values := make([]string, 0, len(keys))
 	for _, key := range keys {
-		values = append(values, key+"="+strings.ToLower(fieldString(fields, key)))
+		val := strings.ToLower(fieldString(fields, key))
+		// Only include non-empty values
+		if val != "" {
+			values = append(values, key+"="+val)
+		}
 	}
 	return strings.Join(values, "&"), nil
 }

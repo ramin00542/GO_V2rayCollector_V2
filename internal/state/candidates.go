@@ -94,6 +94,36 @@ func (s *CandidateStore) Eligible(kind domain.DiscoveryKind, now time.Time, budg
 	}
 	return out
 }
+
+// EligibleAll returns all eligible candidates without budget limit
+// This is useful for processing all candidates in batches
+func (s *CandidateStore) EligibleAll(kind domain.DiscoveryKind, now time.Time, expiryDays int) []Candidate {
+	var out []Candidate
+	for _, c := range s.data.Candidates {
+		if c.Kind != kind || c.Status == CandidatePromoted || c.Status == CandidateExpired {
+			continue
+		}
+		if now.Sub(c.FirstSeenAt) > time.Duration(expiryDays)*24*time.Hour {
+			c.Status = CandidateExpired
+			s.data.Candidates[c.ID] = c
+			continue
+		}
+		out = append(out, c)
+	}
+	sort.Slice(out, func(i, j int) bool { return score(out[i]) > score(out[j]) })
+	return out
+}
+
+// Prune removes expired candidates from the store
+func (s *CandidateStore) Prune(before time.Time, expiryDays int) {
+	for id, c := range s.data.Candidates {
+		if c.Status == CandidateExpired {
+			if before.Sub(c.FirstSeenAt) > time.Duration(expiryDays)*24*time.Hour {
+				delete(s.data.Candidates, id)
+			}
+		}
+	}
+}
 func score(c Candidate) int {
 	return c.Successes*100 + len(c.Origins)*20 - int(c.NoConfigCount)*30 - int(c.NotFoundCount)*50 + int(c.LastSeenAt.Unix()%17)
 }

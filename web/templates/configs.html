@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کانفیگ‌ها - V2ray Collector</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>🛡️ V2ray Collector</h1>
+                    <p class="subtitle">لیست کانفیگ‌ها</p>
+                </div>
+                <nav class="nav">
+                    <a href="/">خانه</a>
+                    <a href="/dashboard">داشبورد</a>
+                    <a href="/configs" class="active">کانفیگ‌ها</a>
+                    <a href="/reports">گزارش‌ها</a>
+                    <a href="/test">تست دستی</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main configs-page">
+            <!-- Page Header -->
+            <section class="page-header">
+                <h2>کانفیگ‌ها</h2>
+                <p>لیست همه کانفیگ‌های جمع‌آوری شده</p>
+            </section>
+
+            <!-- Filters and Search -->
+            <section class="filters-section">
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="protocol-filter">فیلتر پروتکل:</label>
+                        <select id="protocol-filter">
+                            <option value="">همه پروتکل‌ها</option>
+                            <option value="vmess">VMESS</option>
+                            <option value="vless">VLESS</option>
+                            <option value="trojan">Trojan</option>
+                            <option value="shadowsocks">Shadowsocks</option>
+                            <option value="shadowsocksr">ShadowsocksR</option>
+                            <option value="hysteria">Hysteria</option>
+                            <option value="hysteria2">Hysteria2</option>
+                            <option value="tuic">TUIC</option>
+                            <option value="wireguard">WireGuard</option>
+                            <option value="openvpn">OpenVPN</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="config-search">جستجو:</label>
+                        <input type="text" id="config-search" placeholder="جستجوی کانفیگ...">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Configs Table -->
+            <section class="table-section">
+                <div class="table-responsive">
+                    <table class="configs-table">
+                        <thead>
+                            <tr>
+                                <th>کانفیگ</th>
+                                <th>پروتکل</th>
+                                <th>اولین مشاهده</th>
+                                <th>آخرین مشاهده</th>
+                                <th>عملیات</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="5" class="text-center">در حال بارگذاری...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Pagination -->
+            <section class="pagination-section">
+                <div class="pagination">
+                    <button class="btn btn-secondary" id="prev-page">قبلی</button>
+                    <span id="page-info">صفحه 1 از 1</span>
+                    <button class="btn btn-secondary" id="next-page">بعدی</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>V2ray Collector v2.0 | ساخت: ramin00542</p>
+        </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+    <script>
+        // Load configs on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadConfigs();
+        });
+        
+        // Pagination
+        let currentPage = 1;
+        const itemsPerPage = 50;
+        
+        document.getElementById('prev-page').addEventListener('click', function() {
+            if (currentPage > 1) {
+                currentPage--;
+                loadConfigs('', itemsPerPage, (currentPage - 1) * itemsPerPage);
+                updatePagination();
+            }
+        });
+        
+        document.getElementById('next-page').addEventListener('click', function() {
+            currentPage++;
+            loadConfigs('', itemsPerPage, (currentPage - 1) * itemsPerPage);
+            updatePagination();
+        });
+        
+        function updatePagination() {
+            document.getElementById('page-info').textContent = `صفحه ${currentPage} از 1`;
+        }
+    </script>
+</body>
+</html>

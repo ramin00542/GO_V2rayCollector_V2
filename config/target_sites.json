@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "sites": [
+    {
+      "name": "Google",
+      "url": "https://www.google.com",
+      "category": "search",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "Google Search",
+      "url": "https://www.google.com/search?q=test",
+      "category": "search",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com",
+      "category": "video",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "category": "code",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "Bing",
+      "url": "https://www.bing.com",
+      "category": "search",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "BBC News",
+      "url": "https://www.bbc.com",
+      "category": "news",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org",
+      "category": "encyclopedia",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "Fast.com",
+      "url": "https://fast.com",
+      "category": "speedtest",
+      "expected_status": 200,
+      "timeout_seconds": 15
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://www.cloudflare.com",
+      "category": "network",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "Twitter/X",
+      "url": "https://x.com",
+      "category": "social",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com",
+      "category": "social",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com",
+      "category": "social",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "category": "code",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "Gemini AI",
+      "url": "https://gemini.google.com",
+      "category": "ai",
+      "expected_status": 200,
+      "timeout_seconds": 15
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co",
+      "category": "ai",
+      "expected_status": 200,
+      "timeout_seconds": 15
+    },
+    {
+      "name": "GitLab",
+      "url": "https://gitlab.com",
+      "category": "code",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "DuckDuckGo",
+      "url": "https://duckduckgo.com",
+      "category": "search",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "Netflix",
+      "url": "https://www.netflix.com",
+      "category": "streaming",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "Amazon",
+      "url": "https://www.amazon.com",
+      "category": "shopping",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    },
+    {
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com",
+      "category": "corporate",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    }
+  ],
+  "test_settings": {
+    "max_concurrent_tests": 10,
+    "request_timeout": 15,
+    "retry_count": 2,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) ConfigTester/1.0"
+  }
+}

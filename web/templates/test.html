@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تست دستی - V2ray Collector</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>🛡️ V2ray Collector</h1>
+                    <p class="subtitle">تست دستی کانفیگ</p>
+                </div>
+                <nav class="nav">
+                    <a href="/">خانه</a>
+                    <a href="/dashboard">داشبورد</a>
+                    <a href="/configs">کانفیگ‌ها</a>
+                    <a href="/reports">گزارش‌ها</a>
+                    <a href="/test" class="active">تست دستی</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main test-page">
+            <!-- Page Header -->
+            <section class="page-header">
+                <h2>تست دستی کانفیگ</h2>
+                <p>کانفیگ خود را وارد کنید و آن را تست نمایید</p>
+            </section>
+
+            <!-- Test Form -->
+            <section class="form-section">
+                <form id="test-form" class="test-form">
+                    <div class="form-group">
+                        <label for="config-input">کانفیگ:</label>
+                        <textarea 
+                            id="config-input" 
+                            rows="5" 
+                            placeholder="مثال: vless://user@server:443?type=ws&path=/vless"
+                            required
+                        ></textarea>
+                        <p class="form-hint">کانفیگ خود را در اینجا وارد کنید (می‌تواند URL ساب یا کانفیگ مستقیم باشد)</p>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">
+                            <span id="test-loading" style="display: none;">
+                                <span class="loading"></span> در حال تست...
+                            </span>
+                            <span id="test-button-text">تست کن</span>
+                        </button>
+                        <button type="button" class="btn btn-secondary" onclick="clearResults()">پاک کردن</button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Test Results -->
+            <section class="results-section">
+                <h3>نتایج تست</h3>
+                <div id="test-results" class="results-container">
+                    <p class="text-secondary">نتایج در اینجا نمایش داده خواهد شد...</p>
+                </div>
+            </section>
+
+            <!-- Quick Test Buttons -->
+            <section class="quick-test-section">
+                <h3>تست سریع</h3>
+                <p>یا یکی از کانفیگ‌های نمونه را تست کنید:</p>
+                <div class="quick-test-buttons">
+                    <button class="btn btn-secondary" onclick="testSampleConfig('vless')">تست VLESS نمونه</button>
+                    <button class="btn btn-secondary" onclick="testSampleConfig('vmess')">تست VMESS نمونه</button>
+                    <button class="btn btn-secondary" onclick="testSampleConfig('trojan')">تست Trojan نمونه</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>V2ray Collector v2.0 | ساخت: ramin00542</p>
+        </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+    <script>
+        // Sample configs for quick testing
+        const sampleConfigs = {
+            vless: 'vless://test@example.com:443?type=ws&path=/vless&encryption=none',
+            vmess: 'vmess://eyJ2IjogIiIsInBvcnQiOiA0NDMsImhvc3QiOiAibG9jYWxob3N0IiwiaWQiOiAiY2FiY2RlZmdoIiwibmV0IjogIm5ldCIsInNuaSIjogInRlc3QiLCAidGxzIjogInRyd2UiLCJhbHBuIjogInRlc3QifQ==',
+            trojan: 'trojan://test@example.com:443'
+        };
+        
+        // Test sample config
+        function testSampleConfig(type) {
+            const configInput = document.getElementById('config-input');
+            configInput.value = sampleConfigs[type];
+            testConfig();
+        }
+        
+        // Clear results
+        function clearResults() {
+            document.getElementById('test-results').innerHTML = '<p class="text-secondary">نتایج در اینجا نمایش داده خواهد شد...</p>';
+            document.getElementById('config-input').value = '';
+        }
+    </script>
+</body>
+</html>

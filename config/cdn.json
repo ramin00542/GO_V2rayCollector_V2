@@ -1,0 +1,9 @@
+{
+  "provider": "local",
+  "api_key": "",
+  "api_secret": "",
+  "bucket_name": "data/cdn",
+  "base_url": "",
+  "public_files": true,
+  "expire_after": "30d"
+}

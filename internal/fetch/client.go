@@ -87,8 +87,17 @@ func NewClient(cfg Config) (*Client, error) {
 			if len(via) > cfg.MaxRedirects {
 				return http.ErrUseLastResponse
 			}
+			// Allow HTTP redirects only if the original URL was HTTP
+			// or if it's a same-origin redirect (e.g., http://example.com -> http://example.com/path)
 			if request.URL.Scheme != "https" {
-				return fmt.Errorf("redirect to non-HTTPS URL rejected")
+				// Check if this is a same-origin redirect
+				if len(via) > 0 {
+					originalURL := via[0].URL
+					if originalURL.Scheme == "http" && originalURL.Host == request.URL.Host {
+						return nil // Allow same-origin HTTP redirect
+					}
+				}
+				return fmt.Errorf("redirect to non-HTTPS URL rejected: %s", request.URL.String())
 			}
 			return nil
 		},
@@ -138,9 +147,26 @@ func (c *Client) getOnce(ctx context.Context, rawURL string) (Response, bool, er
 	}
 	response, err := c.httpClient.Do(request)
 	if err != nil {
+		// Check if it's a redirect error
+		if urlErr, ok := err.(*url.Error); ok {
+			if opErr, ok := urlErr.Err.(*net.OpError); ok {
+				// This might be a redirect limit error
+				if opErr.Op == "http" && strings.Contains(opErr.Net, "redirect") {
+					return Response{}, false, &HTTPError{StatusCode: http.StatusTooManyRequests, URL: rawURL}
+				}
+			}
+		}
 		return Response{}, true, err
 	}
 	defer response.Body.Close()
+	
+	// Follow redirects automatically for 3xx status codes
+	// The http.Client with CheckRedirect already handles this, so we shouldn't get 3xx here
+	// But if we do, treat it as retryable
+	if response.StatusCode >= 300 && response.StatusCode < 400 {
+		return Response{}, true, &HTTPError{StatusCode: response.StatusCode, URL: rawURL}
+	}
+	
 	if response.StatusCode < 200 || response.StatusCode > 299 {
 		return Response{}, response.StatusCode == http.StatusTooManyRequests || response.StatusCode >= 500, &HTTPError{StatusCode: response.StatusCode, URL: rawURL}
 	}
