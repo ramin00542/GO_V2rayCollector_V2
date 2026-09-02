@@ -167,17 +167,17 @@ func exitError(err error) { fmt.Fprintln(os.Stderr, "error:", err); os.Exit(1) }
 func runUpdater(paths config.Paths) {
 	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
 	defer stop()
-	
+
 	// Load updater configuration
 	updaterConfig, err := updater.LoadUpdaterConfig(filepath.Join(paths.ConfigDir, "updater.json"))
 	if err != nil {
 		exitError(err)
 	}
-	
+
 	// Create logger
 	logger := logging.NewLogger()
 	logger.SetLevel(logging.LevelInfo)
-	
+
 	// Create notifier (optional)
 	notifier, err := notification.CreateNotifiersFromConfig(filepath.Join(paths.ConfigDir, "notifiers.json"))
 	if err != nil {
@@ -185,24 +185,24 @@ func runUpdater(paths config.Paths) {
 		notifier = []notification.Notifier{&notification.NopNotifier{}}
 	}
 	multiNotifier := notification.NewMultiNotifier(notifier...)
-	
+
 	// Create updater
 	updater, err := updater.NewUpdater(updaterConfig, paths, logger, multiNotifier)
 	if err != nil {
 		exitError(err)
 	}
-	
+
 	// Start updater
 	fmt.Println("Starting subscription updater...")
 	fmt.Println("Press Ctrl+C to stop")
-	
+
 	if err := updater.Start(ctx); err != nil {
 		exitError(err)
 	}
-	
+
 	// Wait for interrupt
 	<-ctx.Done()
-	
+
 	// Stop updater
 	updater.Stop()
 	fmt.Println("Updater stopped")
@@ -211,17 +211,17 @@ func runUpdater(paths config.Paths) {
 func runCompare(paths config.Paths, args []string) {
 	// Create comparator
 	comparator := compare.NewComparator(paths.ReportsDir)
-	
+
 	if len(args) == 0 {
 		// Compare latest reports
 		comparison, err := comparator.CompareLatest()
 		if err != nil {
 			exitError(err)
 		}
-		
+
 		// Print comparison
 		fmt.Println(comparator.GenerateComparisonReport(comparison))
-		
+
 		// Save comparison
 		timestamp := time.Now().Format("20060102_150405")
 		comparisonPath := filepath.Join(paths.ReportsDir, fmt.Sprintf("comparison_%s.md", timestamp))
@@ -230,7 +230,7 @@ func runCompare(paths config.Paths, args []string) {
 		} else {
 			fmt.Printf("Comparison saved to: %s\n", comparisonPath)
 		}
-		
+
 	} else if len(args) == 1 {
 		// Compare with latest
 		reportPath := filepath.Join(paths.ReportsDir, args[0])
@@ -238,24 +238,24 @@ func runCompare(paths config.Paths, args []string) {
 		if err != nil {
 			exitError(err)
 		}
-		
+
 		fmt.Println(comparator.GenerateComparisonReport(comparison))
-		
+
 	} else if len(args) >= 2 {
 		// Compare two specific reports
 		reportPath1 := filepath.Join(paths.ReportsDir, args[0])
 		reportPath2 := filepath.Join(paths.ReportsDir, args[1])
-		
+
 		comparison, err := comparator.CompareReports(reportPath1, reportPath2)
 		if err != nil {
 			exitError(err)
 		}
-		
+
 		fmt.Println(comparator.GenerateComparisonReport(comparison))
-		
+
 		// Save comparison
 		timestamp := time.Now().Format("20060102_150405")
-		comparisonPath := filepath.Join(paths.ReportsDir, fmt.Sprintf("comparison_%s_%s.md", args[0], args[1]))
+		comparisonPath := filepath.Join(paths.ReportsDir, fmt.Sprintf("comparison_%s_%s_%s.md", args[0], args[1], timestamp))
 		if err := comparator.SaveComparison(comparison, comparisonPath); err != nil {
 			fmt.Fprintf(os.Stderr, "warning: failed to save comparison: %v\n", err)
 		} else {
@@ -267,30 +267,30 @@ func runCompare(paths config.Paths, args []string) {
 func runCDNUpload(paths config.Paths) {
 	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
 	defer stop()
-	
+
 	// Load CDN configuration
 	cdnConfig, err := cdn.LoadCDNConfig(filepath.Join(paths.ConfigDir, "cdn.json"))
 	if err != nil {
 		exitError(err)
 	}
-	
+
 	// Create logger
 	logger := logging.NewLogger()
 	logger.SetLevel(logging.LevelInfo)
-	
+
 	// Create CDN manager
 	cdnManager, err := cdn.NewCDNManager(cdnConfig, logger)
 	if err != nil {
 		exitError(err)
 	}
-	
+
 	// Load all configs
 	configFiles := []string{
 		filepath.Join(paths.OutputDir, "temporary", "telegram", "protocols"),
 		filepath.Join(paths.OutputDir, "temporary", "subscription", "protocols"),
 		filepath.Join(paths.ArchiveDir, "all"),
 	}
-	
+
 	var allConfigs []string
 	for _, dir := range configFiles {
 		configs, err := loadConfigsFromDirectory(dir)
@@ -300,24 +300,24 @@ func runCDNUpload(paths config.Paths) {
 		}
 		allConfigs = append(allConfigs, configs...)
 	}
-	
+
 	// Remove duplicates
 	allConfigs = removeDuplicateConfigs(allConfigs)
-	
+
 	if len(allConfigs) == 0 {
 		exitError(fmt.Errorf("no configs found to upload"))
 	}
-	
+
 	fmt.Printf("Uploading %d configs to CDN...\n", len(allConfigs))
-	
+
 	// Upload all configs
 	files, err := cdnManager.UploadAllConfigs(ctx, allConfigs)
 	if err != nil {
 		exitError(err)
 	}
-	
+
 	fmt.Printf("Uploaded %d files to CDN\n", len(files))
-	
+
 	// Generate subscription link
 	if len(files) > 0 {
 		subscriptionURL, err := cdnManager.GenerateSubscriptionLink(ctx, allConfigs)
@@ -327,7 +327,7 @@ func runCDNUpload(paths config.Paths) {
 			fmt.Printf("Subscription URL: %s\n", subscriptionURL)
 		}
 	}
-	
+
 	// List all files on CDN
 	cdnFiles, err := cdnManager.ListFiles(ctx)
 	if err != nil {
@@ -345,19 +345,19 @@ func runWebServer(paths config.Paths) {
 	webFlags := flag.NewFlagSet("web", flag.ExitOnError)
 	host := webFlags.String("host", "localhost", "host to bind the web server to")
 	port := webFlags.Int("port", 8080, "port to bind the web server to")
-	
+
 	// Parse flags
 	if err := webFlags.Parse(flag.Args()[1:]); err != nil {
 		exitError(err)
 	}
-	
+
 	fmt.Printf("Starting web server on %s:%d\n", *host, *port)
 	fmt.Println("Press Ctrl+C to stop")
-	
+
 	// Create context for graceful shutdown
 	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
 	defer stop()
-	
+
 	// Start web server
 	server := web.NewServer(web.ServerConfig{
 		Host:   *host,
@@ -365,14 +365,14 @@ func runWebServer(paths config.Paths) {
 		Paths:  paths,
 		Logger: logging.GetGlobalLogger(),
 	})
-	
+
 	if err := server.Start(); err != nil {
 		exitError(err)
 	}
-	
+
 	// Wait for interrupt signal
 	<-ctx.Done()
-	
+
 	// Stop server
 	if err := server.Stop(); err != nil {
 		exitError(err)
@@ -427,9 +427,6 @@ func testConfigs(paths config.Paths, args ...string) {
 		exitError(err)
 	}
 
-	// Generate report
-	report := tester.GenerateReport(results, targetSitesConfig.Sites)
-
 	// Create reports directory if it doesn't exist
 	if err := os.MkdirAll(paths.ReportsDir, 0755); err != nil {
 		exitError(err)
@@ -442,10 +439,13 @@ func testConfigs(paths config.Paths, args ...string) {
 		MarkdownReport: true,
 		JSONReport:     true,
 	}
-	_, err = tester.GenerateAndSaveReport(results, targetSitesConfig.Sites, reportConfig)
+	report, err := tester.GenerateAndSaveReport(results, targetSitesConfig.Sites, reportConfig)
 	if err != nil {
 		exitError(err)
 	}
+
+	fmt.Printf("Total: %d configs, valid: %d, working: %d, skipped: %d\n",
+		report.TotalConfigs, report.ValidConfigs, report.WorkingConfigs, report.SkippedConfigs)
 
 	// Save individual config results
 	if err := tester.SaveIndividualConfigReports(results, filepath.Join(paths.ReportsDir, "individual")); err != nil {
@@ -494,6 +494,7 @@ func testSubscription(paths config.Paths, subURL string) {
 	fmt.Printf("Total configs: %d\n", report.TotalConfigs)
 	fmt.Printf("Valid configs: %d\n", report.ValidConfigs)
 	fmt.Printf("Working configs: %d\n", report.WorkingConfigs)
+	fmt.Printf("Skipped configs: %d\n", report.SkippedConfigs)
 	fmt.Printf("Reports saved to: %s\n", paths.ReportsDir)
 }
 
@@ -530,6 +531,7 @@ func testFile(paths config.Paths, filePath string) {
 	fmt.Printf("Total configs: %d\n", report.TotalConfigs)
 	fmt.Printf("Valid configs: %d\n", report.ValidConfigs)
 	fmt.Printf("Working configs: %d\n", report.WorkingConfigs)
+	fmt.Printf("Skipped configs: %d\n", report.SkippedConfigs)
 	fmt.Printf("Reports saved to: %s\n", paths.ReportsDir)
 }
 
@@ -570,9 +572,6 @@ func testManual(paths config.Paths, input string) {
 		exitError(err)
 	}
 
-	// Generate report
-	report := tester.GenerateReport(results, targetSitesConfig.Sites)
-
 	// Create reports directory if it doesn't exist
 	if err := os.MkdirAll(paths.ReportsDir, 0755); err != nil {
 		exitError(err)
@@ -586,10 +585,13 @@ func testManual(paths config.Paths, input string) {
 		MarkdownReport: true,
 		JSONReport:     true,
 	}
-	_, err = tester.GenerateAndSaveReport(results, targetSitesConfig.Sites, reportConfig)
+	report, err := tester.GenerateAndSaveReport(results, targetSitesConfig.Sites, reportConfig)
 	if err != nil {
 		exitError(err)
 	}
+
+	fmt.Printf("Total: %d configs, valid: %d, working: %d\n",
+		report.TotalConfigs, report.ValidConfigs, report.WorkingConfigs)
 
 	// Print results
 	fmt.Printf("\n=== Test Results ===\n\n")
@@ -618,7 +620,7 @@ func testManual(paths config.Paths, input string) {
 // Helper functions
 func loadConfigsFromDirectory(dir string) ([]string, error) {
 	var configs []string
-	
+
 	// Check if directory exists
 	if _, err := os.Stat(dir); os.IsNotExist(err) {
 		return nil, nil
@@ -647,7 +649,7 @@ func loadConfigsFromDirectory(dir string) ([]string, error) {
 		}
 		return nil
 	})
-	
+
 	return configs, err
 }
 

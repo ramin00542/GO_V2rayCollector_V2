@@ -134,6 +134,30 @@ func (c *Client) Get(ctx context.Context, rawURL string, limiter *Limiter) (Resp
 	return Response{}, lastErr
 }
 
+// Do executes an arbitrary HTTP request with the configured client.
+// It exists for API calls that need methods other than GET (for example the
+// PUT/POST requests used by CDN providers). Unlike Get, the raw
+// *http.Response is returned, so the caller is responsible for closing the
+// response body.
+func (c *Client) Do(req *http.Request) (*http.Response, error) {
+	if c == nil {
+		return nil, fmt.Errorf("nil fetch client")
+	}
+	if req == nil {
+		return nil, fmt.Errorf("nil request")
+	}
+	if req.Header.Get("User-Agent") == "" {
+		req.Header.Set("User-Agent", c.userAgent)
+	}
+	if req.URL != nil && strings.HasPrefix(req.URL.String(), "https://api.github.com/") && req.Header.Get("Authorization") == "" {
+		if token := os.Getenv("GITHUB_TOKEN"); token != "" {
+			req.Header.Set("Authorization", "Bearer "+token)
+			req.Header.Set("X-GitHub-Api-Version", "2022-11-28")
+		}
+	}
+	return c.httpClient.Do(req)
+}
+
 func (c *Client) getOnce(ctx context.Context, rawURL string) (Response, bool, error) {
 	request, err := http.NewRequestWithContext(ctx, http.MethodGet, rawURL, nil)
 	if err != nil {
@@ -159,14 +183,14 @@ func (c *Client) getOnce(ctx context.Context, rawURL string) (Response, bool, er
 		return Response{}, true, err
 	}
 	defer response.Body.Close()
-	
+
 	// Follow redirects automatically for 3xx status codes
 	// The http.Client with CheckRedirect already handles this, so we shouldn't get 3xx here
 	// But if we do, treat it as retryable
 	if response.StatusCode >= 300 && response.StatusCode < 400 {
 		return Response{}, true, &HTTPError{StatusCode: response.StatusCode, URL: rawURL}
 	}
-	
+
 	if response.StatusCode < 200 || response.StatusCode > 299 {
 		return Response{}, response.StatusCode == http.StatusTooManyRequests || response.StatusCode >= 500, &HTTPError{StatusCode: response.StatusCode, URL: rawURL}
 	}

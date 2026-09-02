@@ -41,7 +41,7 @@ func Extract(text string, keepUnknown bool) ([]domain.ParsedConfig, []Rejection)
 	seen := make(map[string]bool)
 	configs := make([]domain.ParsedConfig, 0)
 	rejected := make([]Rejection, 0)
-	
+
 	// Extract Argo blocks
 	for _, block := range argoBlock.FindAllString(text, -1) {
 		parsed, err := Parse(block, keepUnknown)
@@ -55,14 +55,14 @@ func Extract(text string, keepUnknown bool) ([]domain.ParsedConfig, []Rejection)
 		}
 	}
 	text = argoBlock.ReplaceAllString(text, "")
-	
+
 	// Extract OpenVPN blocks (multiline)
 	for _, block := range openVPNBlock.FindAllString(text, -1) {
 		// For now, we'll skip detailed OpenVPN parsing as it's complex
 		// Just mark it as a candidate if it looks like OpenVPN
-		if strings.Contains(strings.ToLower(block), "openvpn") || 
-		   strings.Contains(strings.ToLower(block), "<ca>") ||
-		   strings.Contains(strings.ToLower(block), "tls-auth") {
+		if strings.Contains(strings.ToLower(block), "openvpn") ||
+			strings.Contains(strings.ToLower(block), "<ca>") ||
+			strings.Contains(strings.ToLower(block), "tls-auth") {
 			// Create a fingerprint based on the block content
 			hash := sha256.Sum256([]byte(block))
 			fingerprint := hex.EncodeToString(hash[:])
@@ -78,15 +78,15 @@ func Extract(text string, keepUnknown bool) ([]domain.ParsedConfig, []Rejection)
 		}
 	}
 	text = openVPNBlock.ReplaceAllString(text, "")
-	
+
 	// Extract WireGuard blocks (multiline)
 	for _, block := range wireguardBlock.FindAllString(text, -1) {
 		// For now, we'll skip detailed WireGuard parsing as it's complex
 		// Just mark it as a candidate if it looks like WireGuard
-		if strings.Contains(strings.ToLower(block), "interface") || 
-		   strings.Contains(strings.ToLower(block), "privatekey") ||
-		   strings.Contains(strings.ToLower(block), "publickey") ||
-		   strings.Contains(strings.ToLower(block), "endpoint") {
+		if strings.Contains(strings.ToLower(block), "interface") ||
+			strings.Contains(strings.ToLower(block), "privatekey") ||
+			strings.Contains(strings.ToLower(block), "publickey") ||
+			strings.Contains(strings.ToLower(block), "endpoint") {
 			// Create a fingerprint based on the block content
 			hash := sha256.Sum256([]byte(block))
 			fingerprint := hex.EncodeToString(hash[:])
@@ -102,7 +102,7 @@ func Extract(text string, keepUnknown bool) ([]domain.ParsedConfig, []Rejection)
 		}
 	}
 	text = wireguardBlock.ReplaceAllString(text, "")
-	
+
 	// Extract single-line URI candidates
 	for _, candidate := range uriCandidate.FindAllString(text, -1) {
 		candidate = trimCandidate(candidate)
@@ -116,7 +116,7 @@ func Extract(text string, keepUnknown bool) ([]domain.ParsedConfig, []Rejection)
 			configs = append(configs, parsed)
 		}
 	}
-	
+
 	// Also check for OpenVPN and WireGuard URLs
 	for _, candidate := range openVPNURL.FindAllString(text, -1) {
 		candidate = trimCandidate(candidate)
@@ -130,7 +130,7 @@ func Extract(text string, keepUnknown bool) ([]domain.ParsedConfig, []Rejection)
 			configs = append(configs, parsed)
 		}
 	}
-	
+
 	for _, candidate := range wireguardURL.FindAllString(text, -1) {
 		candidate = trimCandidate(candidate)
 		parsed, err := Parse(candidate, keepUnknown)
@@ -143,7 +143,7 @@ func Extract(text string, keepUnknown bool) ([]domain.ParsedConfig, []Rejection)
 			configs = append(configs, parsed)
 		}
 	}
-	
+
 	return configs, rejected
 }
 
@@ -170,28 +170,28 @@ func Parse(raw string, keepUnknown bool) (domain.ParsedConfig, error) {
 
 func detect(value string) domain.Protocol {
 	lower := strings.ToLower(value)
-	
+
 	// Check for multiline protocols first
 	if strings.HasPrefix(value, "-----BEGIN ARGO VPN BRIDGE BLOCK-----") {
 		return domain.ProtocolArgo
 	}
-	
+
 	// Check for OpenVPN multiline config
-	if strings.Contains(lower, "<ca>") || 
-	   strings.Contains(lower, "</ca>") ||
-	   strings.Contains(lower, "tls-auth") ||
-	   strings.Contains(lower, "tls-crypt") ||
-	   strings.Contains(lower, "client") && strings.Contains(lower, "dev tun") {
+	if strings.Contains(lower, "<ca>") ||
+		strings.Contains(lower, "</ca>") ||
+		strings.Contains(lower, "tls-auth") ||
+		strings.Contains(lower, "tls-crypt") ||
+		strings.Contains(lower, "client") && strings.Contains(lower, "dev tun") {
 		return domain.ProtocolOpenVPN
 	}
-	
+
 	// Check for WireGuard multiline config
-	if strings.Contains(lower, "[interface]") || 
-	   strings.Contains(lower, "[peer]") ||
-	   (strings.Contains(lower, "privatekey") && strings.Contains(lower, "publickey")) {
+	if strings.Contains(lower, "[interface]") ||
+		strings.Contains(lower, "[peer]") ||
+		(strings.Contains(lower, "privatekey") && strings.Contains(lower, "publickey")) {
 		return domain.ProtocolWireGuard
 	}
-	
+
 	// Check for single-line URL protocols
 	switch {
 	case strings.HasPrefix(lower, "vmess://"):

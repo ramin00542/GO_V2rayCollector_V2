@@ -3,7 +3,6 @@ on:
   workflow_dispatch:
   pull_request:
   push:
-    branches: [main]
 permissions:
   contents: read
 jobs:
@@ -11,21 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-go@v5
+      - uses: actions/setup-go@v6
         with:
           go-version: '1.22.x'
-
-      # Initialize go.mod if it doesn't exist
-      - name: Initialize Go module
-        run: |
-          if [ ! -f go.mod ]; then
-            go mod init github.com/ramin00542/GO_V2rayCollector_V2
-          fi
-          if [ ! -f go.sum ]; then
-            go mod tidy
-          fi
 
       - name: Download dependencies
         run: go mod download
@@ -37,10 +26,10 @@ jobs:
         run: go vet ./...
 
       - name: Run tests
-        run: go test ./... || true
+        run: go test ./...
 
       - name: Build project
         run: go build -o v2collector ./cmd/v2collector
 
       - name: Check config
-        run: ./v2collector check-config || true
+        run: ./v2collector check-config

@@ -16,7 +16,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ramin00542/GO_V2rayCollector_V2/internal/config"
 	"github.com/ramin00542/GO_V2rayCollector_V2/internal/fetch"
 	"github.com/ramin00542/GO_V2rayCollector_V2/internal/logging"
 )
@@ -32,12 +31,12 @@ type CDNProvider interface {
 
 // CDNFile represents a file on the CDN
 type CDNFile struct {
-	ID        string    `json:"id"`
-	Name      string    `json:"name"`
-	URL       string    `json:"url"`
-	Size      int64     `json:"size"`
+	ID         string    `json:"id"`
+	Name       string    `json:"name"`
+	URL        string    `json:"url"`
+	Size       int64     `json:"size"`
 	UploadedAt time.Time `json:"uploaded_at"`
-	Public    bool      `json:"public"`
+	Public     bool      `json:"public"`
 }
 
 // CDNManager manages uploads to various CDN providers
@@ -51,13 +50,13 @@ type CDNManager struct {
 
 // CDNConfig holds configuration for CDN uploads
 type CDNConfig struct {
-	Provider     string `json:"provider"`
-	APIKey       string `json:"api_key"`
-	APISecret    string `json:"api_secret"`
-	BucketName   string `json:"bucket_name"`
-	BaseURL      string `json:"base_url"`
-	PublicFiles  bool   `json:"public_files"`
-	ExpireAfter  string `json:"expire_after"` // Duration string
+	Provider    string `json:"provider"`
+	APIKey      string `json:"api_key"`
+	APISecret   string `json:"api_secret"`
+	BucketName  string `json:"bucket_name"`
+	BaseURL     string `json:"base_url"`
+	PublicFiles bool   `json:"public_files"`
+	ExpireAfter string `json:"expire_after"` // Duration string
 }
 
 // NewCDNManager creates a new CDN manager
@@ -66,7 +65,7 @@ func NewCDNManager(cfg CDNConfig, logger *logging.Logger) (*CDNManager, error) {
 	if err != nil {
 		return nil, err
 	}
-	
+
 	m := &CDNManager{
 		providers: make(map[string]CDNProvider),
 		config:    cfg,
@@ -74,12 +73,12 @@ func NewCDNManager(cfg CDNConfig, logger *logging.Logger) (*CDNManager, error) {
 		client:    client,
 		cache:     make(map[string]CDNFile),
 	}
-	
+
 	// Initialize provider based on configuration
 	if err := m.initProvider(); err != nil {
 		return nil, err
 	}
-	
+
 	return m, nil
 }
 
@@ -92,29 +91,29 @@ func (m *CDNManager) initProvider() error {
 			return err
 		}
 		m.providers["cloudflare"] = provider
-		
+
 	case "aws", "s3":
 		provider, err := NewS3Provider(m.config, m.client, m.logger)
 		if err != nil {
 			return err
 		}
 		m.providers["aws"] = provider
-		
+
 	case "github":
 		provider, err := NewGitHubProvider(m.config, m.client, m.logger)
 		if err != nil {
 			return err
 		}
 		m.providers["github"] = provider
-		
+
 	case "local":
 		provider := NewLocalProvider(m.config, m.logger)
 		m.providers["local"] = provider
-		
+
 	default:
 		return fmt.Errorf("unsupported CDN provider: %s", m.config.Provider)
 	}
-	
+
 	return nil
 }
 
@@ -123,12 +122,12 @@ func (m *CDNManager) GetProvider() (CDNProvider, error) {
 	if len(m.providers) == 0 {
 		return nil, fmt.Errorf("no CDN provider configured")
 	}
-	
+
 	// Return the first (and only) provider
 	for _, provider := range m.providers {
 		return provider, nil
 	}
-	
+
 	return nil, fmt.Errorf("no CDN provider available")
 }
 
@@ -139,32 +138,32 @@ func (m *CDNManager) UploadFile(ctx context.Context, filePath string) (CDNFile, 
 	if err != nil {
 		return CDNFile{}, err
 	}
-	
+
 	// Get provider
 	provider, err := m.GetProvider()
 	if err != nil {
 		return CDNFile{}, err
 	}
-	
+
 	// Upload to CDN
 	fileID, err := provider.Upload(ctx, filePath, content)
 	if err != nil {
 		return CDNFile{}, err
 	}
-	
+
 	// Create CDN file info
 	file := CDNFile{
-		ID:        fileID,
-		Name:      filepath.Base(filePath),
-		URL:       provider.GetURL(fileID),
-		Size:      int64(len(content)),
+		ID:         fileID,
+		Name:       filepath.Base(filePath),
+		URL:        provider.GetURL(fileID),
+		Size:       int64(len(content)),
 		UploadedAt: time.Now().UTC(),
-		Public:    m.config.PublicFiles,
+		Public:     m.config.PublicFiles,
 	}
-	
+
 	// Cache the file
 	m.cache[filePath] = file
-	
+
 	return file, nil
 }
 
@@ -172,60 +171,60 @@ func (m *CDNManager) UploadFile(ctx context.Context, filePath string) (CDNFile, 
 func (m *CDNManager) UploadConfig(ctx context.Context, configValue string) (CDNFile, error) {
 	// Generate a unique filename
 	filename := generateConfigFilename(configValue)
-	
+
 	// Create temporary file
 	tmpDir := os.TempDir()
 	tmpPath := filepath.Join(tmpDir, filename)
 	defer os.Remove(tmpPath)
-	
+
 	if err := os.WriteFile(tmpPath, []byte(configValue), 0644); err != nil {
 		return CDNFile{}, err
 	}
-	
+
 	return m.UploadFile(ctx, tmpPath)
 }
 
 // UploadSubscription uploads all configs from a subscription to the CDN
 func (m *CDNManager) UploadSubscription(ctx context.Context, subURL string, configs []string) ([]CDNFile, error) {
 	var files []CDNFile
-	
+
 	for i, config := range configs {
 		// Create a unique filename for each config
 		filename := fmt.Sprintf("sub_%s_config_%d.txt", sanitizeFilename(subURL), i+1)
 		tmpDir := os.TempDir()
 		tmpPath := filepath.Join(tmpDir, filename)
 		defer os.Remove(tmpPath)
-		
+
 		if err := os.WriteFile(tmpPath, []byte(config), 0644); err != nil {
 			return nil, err
 		}
-		
+
 		file, err := m.UploadFile(ctx, tmpPath)
 		if err != nil {
 			return files, err
 		}
-		
+
 		files = append(files, file)
 	}
-	
+
 	return files, nil
 }
 
 // UploadAllConfigs uploads all configs to the CDN
 func (m *CDNManager) UploadAllConfigs(ctx context.Context, configs []string) ([]CDNFile, error) {
 	var files []CDNFile
-	
+
 	for i, config := range configs {
 		file, err := m.UploadConfig(ctx, config)
 		if err != nil {
 			return files, err
 		}
 		files = append(files, file)
-		
+
 		// Log progress
 		m.logger.Info("uploaded config to CDN", "index", i+1, "total", len(configs))
 	}
-	
+
 	return files, nil
 }
 
@@ -236,30 +235,30 @@ func (m *CDNManager) GenerateSubscriptionLink(ctx context.Context, configs []str
 	if err != nil {
 		return "", err
 	}
-	
+
 	// Generate subscription content
 	var sb strings.Builder
 	for _, file := range files {
 		sb.WriteString(file.URL)
 		sb.WriteString("\n")
 	}
-	
+
 	// Upload subscription file
 	subscriptionContent := sb.String()
 	tmpDir := os.TempDir()
 	tmpPath := filepath.Join(tmpDir, "subscription.txt")
 	defer os.Remove(tmpPath)
-	
+
 	if err := os.WriteFile(tmpPath, []byte(subscriptionContent), 0644); err != nil {
 		return "", err
 	}
-	
+
 	// Upload to CDN
 	file, err := m.UploadFile(ctx, tmpPath)
 	if err != nil {
 		return "", err
 	}
-	
+
 	return file.URL, nil
 }
 
@@ -269,7 +268,7 @@ func (m *CDNManager) DeleteFile(ctx context.Context, fileID string) error {
 	if err != nil {
 		return err
 	}
-	
+
 	return provider.Delete(ctx, fileID)
 }
 
@@ -279,7 +278,7 @@ func (m *CDNManager) ListFiles(ctx context.Context) ([]CDNFile, error) {
 	if err != nil {
 		return nil, err
 	}
-	
+
 	return provider.List(ctx)
 }
 
@@ -289,7 +288,7 @@ func (m *CDNManager) GetFileURL(fileID string) string {
 	if err != nil {
 		return ""
 	}
-	
+
 	return provider.GetURL(fileID)
 }
 
@@ -298,17 +297,17 @@ func generateConfigFilename(config string) string {
 	// Create hash of config
 	hash := sha256.Sum256([]byte(config))
 	hashStr := hex.EncodeToString(hash[:])[:16]
-	
+
 	// Get protocol from config
 	protocol := extractProtocol(config)
-	
+
 	return fmt.Sprintf("%s_%s.txt", protocol, hashStr)
 }
 
 // extractProtocol extracts the protocol from a config string
 func extractProtocol(config string) string {
 	config = strings.ToLower(strings.TrimSpace(config))
-	
+
 	if strings.HasPrefix(config, "vmess://") {
 		return "vmess"
 	}
@@ -324,7 +323,7 @@ func extractProtocol(config string) string {
 	if strings.HasPrefix(config, "ss://") {
 		return "ss"
 	}
-	
+
 	return "config"
 }
 
@@ -333,26 +332,26 @@ func sanitizeFilename(url string) string {
 	// Remove protocol
 	url = strings.TrimPrefix(url, "http://")
 	url = strings.TrimPrefix(url, "https://")
-	
+
 	// Remove special characters
 	url = strings.ReplaceAll(url, "/", "_")
 	url = strings.ReplaceAll(url, "?", "_")
 	url = strings.ReplaceAll(url, "=", "_")
 	url = strings.ReplaceAll(url, "&", "_")
 	url = strings.ReplaceAll(url, "#", "_")
-	
+
 	// Trim to reasonable length
 	if len(url) > 50 {
 		url = url[:50]
 	}
-	
+
 	return url
 }
 
 // LoadCDNConfig loads CDN configuration from file
 func LoadCDNConfig(path string) (CDNConfig, error) {
 	var cfg CDNConfig
-	
+
 	// Use default config if file doesn't exist
 	if _, err := os.Stat(path); os.IsNotExist(err) {
 		return CDNConfig{
@@ -360,16 +359,16 @@ func LoadCDNConfig(path string) (CDNConfig, error) {
 			PublicFiles: true,
 		}, nil
 	}
-	
+
 	data, err := os.ReadFile(path)
 	if err != nil {
 		return CDNConfig{}, err
 	}
-	
+
 	if err := json.Unmarshal(data, &cfg); err != nil {
 		return CDNConfig{}, err
 	}
-	
+
 	return cfg, nil
 }
 
@@ -379,17 +378,17 @@ func SaveCDNConfig(cfg CDNConfig, path string) error {
 	if err := os.MkdirAll(filepath.Dir(path), 0755); err != nil {
 		return err
 	}
-	
+
 	data, err := json.MarshalIndent(cfg, "", "  ")
 	if err != nil {
 		return err
 	}
-	
+
 	tmpPath := path + ".tmp"
 	if err := os.WriteFile(tmpPath, data, 0644); err != nil {
 		return err
 	}
-	
+
 	return os.Rename(tmpPath, path)
 }
 
@@ -397,8 +396,8 @@ func SaveCDNConfig(cfg CDNConfig, path string) error {
 
 // LocalProvider is a local file system "CDN" for testing
 type LocalProvider struct {
-	config CDNConfig
-	logger *logging.Logger
+	config  CDNConfig
+	logger  *logging.Logger
 	baseDir string
 }
 
@@ -408,10 +407,10 @@ func NewLocalProvider(cfg CDNConfig, logger *logging.Logger) *LocalProvider {
 	if cfg.BucketName != "" {
 		baseDir = cfg.BucketName
 	}
-	
+
 	return &LocalProvider{
 		config:  cfg,
-		logger: logger,
+		logger:  logger,
 		baseDir: baseDir,
 	}
 }
@@ -422,22 +421,22 @@ func (p *LocalProvider) Upload(ctx context.Context, filePath string, content []b
 	if err := os.MkdirAll(p.baseDir, 0755); err != nil {
 		return "", err
 	}
-	
+
 	// Generate file ID
 	fileID := generateFileID(filePath, content)
-	
+
 	// Save file
 	path := filepath.Join(p.baseDir, fileID)
 	tmpPath := path + ".tmp"
-	
+
 	if err := os.WriteFile(tmpPath, content, 0644); err != nil {
 		return "", err
 	}
-	
+
 	if err := os.Rename(tmpPath, path); err != nil {
 		return "", err
 	}
-	
+
 	return fileID, nil
 }
 
@@ -450,7 +449,7 @@ func (p *LocalProvider) Delete(ctx context.Context, fileID string) error {
 // List lists all files in the local directory
 func (p *LocalProvider) List(ctx context.Context) ([]CDNFile, error) {
 	var files []CDNFile
-	
+
 	// List all files in the directory
 	entries, err := os.ReadDir(p.baseDir)
 	if err != nil {
@@ -459,27 +458,27 @@ func (p *LocalProvider) List(ctx context.Context) ([]CDNFile, error) {
 		}
 		return nil, err
 	}
-	
+
 	for _, entry := range entries {
 		if entry.IsDir() {
 			continue
 		}
-		
+
 		info, err := entry.Info()
 		if err != nil {
 			continue
 		}
-		
+
 		files = append(files, CDNFile{
-			ID:        entry.Name(),
-			Name:      entry.Name(),
-			URL:       p.GetURL(entry.Name()),
-			Size:      info.Size(),
+			ID:         entry.Name(),
+			Name:       entry.Name(),
+			URL:        p.GetURL(entry.Name()),
+			Size:       info.Size(),
 			UploadedAt: info.ModTime(),
-			Public:    true,
+			Public:     true,
 		})
 	}
-	
+
 	return files, nil
 }
 
@@ -501,13 +500,13 @@ func generateFileID(filePath string, content []byte) string {
 	// Create hash of content
 	hash := sha256.Sum256(content)
 	hashStr := hex.EncodeToString(hash[:])
-	
+
 	// Add extension based on original file
 	ext := filepath.Ext(filePath)
 	if ext == "" {
 		ext = ".txt"
 	}
-	
+
 	return hashStr + ext
 }
 
@@ -526,7 +525,7 @@ func NewCloudflareProvider(cfg CDNConfig, client *fetch.Client, logger *logging.
 	if cfg.APIKey == "" || cfg.BucketName == "" {
 		return nil, fmt.Errorf("Cloudflare requires API key and bucket name")
 	}
-	
+
 	return &CloudflareProvider{
 		config: cfg,
 		client: client,
@@ -538,18 +537,18 @@ func NewCloudflareProvider(cfg CDNConfig, client *fetch.Client, logger *logging.
 func (p *CloudflareProvider) Upload(ctx context.Context, filePath string, content []byte) (string, error) {
 	// In a real implementation, this would use the Cloudflare R2 API
 	// For now, we'll simulate the upload
-	
+
 	fileID := generateFileID(filePath, content)
-	
+
 	// Log the upload
 	p.logger.Info("uploading to Cloudflare R2", "file", filePath, "size", len(content))
-	
+
 	// In a real implementation:
 	// 1. Create a multipart form
 	// 2. Add the file content
 	// 3. Send to Cloudflare R2 API
 	// 4. Return the file ID or URL
-	
+
 	return fileID, nil
 }
 
@@ -595,7 +594,7 @@ func NewS3Provider(cfg CDNConfig, client *fetch.Client, logger *logging.Logger) 
 	if cfg.APIKey == "" || cfg.APISecret == "" || cfg.BucketName == "" {
 		return nil, fmt.Errorf("S3 requires API key, API secret, and bucket name")
 	}
-	
+
 	return &S3Provider{
 		config: cfg,
 		client: client,
@@ -607,14 +606,14 @@ func NewS3Provider(cfg CDNConfig, client *fetch.Client, logger *logging.Logger) 
 func (p *S3Provider) Upload(ctx context.Context, filePath string, content []byte) (string, error) {
 	// In a real implementation, this would use the AWS SDK
 	fileID := generateFileID(filePath, content)
-	
+
 	p.logger.Info("uploading to S3", "file", filePath, "size", len(content))
-	
+
 	// In a real implementation:
 	// 1. Create a new S3 client
 	// 2. Upload the file to the specified bucket
 	// 3. Return the object key
-	
+
 	return fileID, nil
 }
 
@@ -657,7 +656,7 @@ func NewGitHubProvider(cfg CDNConfig, client *fetch.Client, logger *logging.Logg
 	if cfg.APIKey == "" || cfg.BucketName == "" {
 		return nil, fmt.Errorf("GitHub requires API token and repository")
 	}
-	
+
 	return &GitHubProvider{
 		config: cfg,
 		client: client,
@@ -669,15 +668,15 @@ func NewGitHubProvider(cfg CDNConfig, client *fetch.Client, logger *logging.Logg
 func (p *GitHubProvider) Upload(ctx context.Context, filePath string, content []byte) (string, error) {
 	// In a real implementation, this would use the GitHub API
 	fileID := generateFileID(filePath, content)
-	
+
 	p.logger.Info("uploading to GitHub", "file", filePath, "size", len(content))
-	
+
 	// In a real implementation:
 	// 1. Create a new GitHub client
 	// 2. Get the repository info from config.BucketName (format: owner/repo)
 	// 3. Upload the file to the repository (e.g., to a specific branch/path)
 	// 4. Return the file path
-	
+
 	return fileID, nil
 }
 
@@ -714,91 +713,91 @@ func (p *GitHubProvider) GetName() string {
 // UploadToGitHubWithAPI uploads a file to GitHub using the API
 func (p *GitHubProvider) UploadToGitHubWithAPI(ctx context.Context, repo, branch, path string, content []byte) (string, error) {
 	// This is a more complete implementation using GitHub API
-	
+
 	// Get GitHub token from config
 	token := p.config.APIKey
 	if token == "" {
 		return "", fmt.Errorf("GitHub token is required")
 	}
-	
+
 	// Create URL for GitHub API
 	url := fmt.Sprintf("https://api.github.com/repos/%s/contents/%s", repo, path)
-	
+
 	// Create request
 	req, err := http.NewRequestWithContext(ctx, http.MethodPut, url, nil)
 	if err != nil {
 		return "", err
 	}
-	
+
 	// Set headers
 	req.Header.Set("Authorization", "Bearer "+token)
 	req.Header.Set("Accept", "application/vnd.github.v3+json")
 	req.Header.Set("X-GitHub-Api-Version", "2022-11-28")
-	
+
 	// Get existing file SHA if it exists
 	var sha string
-	resp, err := p.client.Get(ctx, url, nil)
-	if err == nil && resp.StatusCode == http.StatusOK {
+	existing, err := p.client.Get(ctx, url, nil)
+	if err == nil && existing.StatusCode == http.StatusOK {
 		var fileInfo struct {
 			SHA string `json:"sha"`
 		}
-		if err := json.Unmarshal(resp.Body, &fileInfo); err == nil {
+		if err := json.Unmarshal(existing.Body, &fileInfo); err == nil {
 			sha = fileInfo.SHA
 		}
 	}
-	
+
 	// Prepare the request body
 	body := map[string]interface{}{
 		"message": "Update config file",
 		"content": string(content),
 		"branch":  branch,
 	}
-	
+
 	// If file exists, include SHA for update
 	if sha != "" {
 		body["sha"] = sha
 	}
-	
+
 	// Marshal body
 	bodyBytes, err := json.Marshal(body)
 	if err != nil {
 		return "", err
 	}
-	
+
 	// Create new request with body
 	req, err = http.NewRequestWithContext(ctx, http.MethodPut, url, strings.NewReader(string(bodyBytes)))
 	if err != nil {
 		return "", err
 	}
-	
+
 	// Set headers again
 	req.Header.Set("Authorization", "Bearer "+token)
 	req.Header.Set("Accept", "application/vnd.github.v3+json")
 	req.Header.Set("X-GitHub-Api-Version", "2022-11-28")
-	
+
 	// Send request
-	resp, err = p.client.Do(req)
+	resp, err := p.client.Do(req)
 	if err != nil {
 		return "", err
 	}
 	defer resp.Body.Close()
-	
+
 	if resp.StatusCode != http.StatusOK && resp.StatusCode != http.StatusCreated {
 		body, _ := io.ReadAll(resp.Body)
 		return "", fmt.Errorf("GitHub API error: %s - %s", resp.Status, string(body))
 	}
-	
+
 	// Parse response
 	var response struct {
 		Content struct {
 			Path string `json:"path"`
 		} `json:"content"`
 	}
-	
+
 	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
 		return "", err
 	}
-	
+
 	return response.Content.Path, nil
 }
 
@@ -806,45 +805,45 @@ func (p *GitHubProvider) UploadToGitHubWithAPI(ctx context.Context, repo, branch
 func (p *GitHubProvider) UploadLargeFileToGitHub(ctx context.Context, repo, branch, path string, content []byte) (string, error) {
 	// For large files, we need to use a different approach
 	// This implementation uses the GitHub API for large files
-	
+
 	token := p.config.APIKey
 	if token == "" {
 		return "", fmt.Errorf("GitHub token is required")
 	}
-	
+
 	// Step 1: Create an upload URL
 	url := fmt.Sprintf("https://api.github.com/repos/%s/git/blobs", repo)
-	
+
 	req, err := http.NewRequestWithContext(ctx, http.MethodPost, url, strings.NewReader(string(content)))
 	if err != nil {
 		return "", err
 	}
-	
+
 	req.Header.Set("Authorization", "Bearer "+token)
 	req.Header.Set("Accept", "application/vnd.github.v3+json")
 	req.Header.Set("X-GitHub-Api-Version", "2022-11-28")
 	req.Header.Set("Content-Type", "application/octet-stream")
-	
+
 	resp, err := p.client.Do(req)
 	if err != nil {
 		return "", err
 	}
 	defer resp.Body.Close()
-	
+
 	if resp.StatusCode != http.StatusCreated {
 		body, _ := io.ReadAll(resp.Body)
 		return "", fmt.Errorf("GitHub API error: %s - %s", resp.Status, string(body))
 	}
-	
+
 	// Parse response to get SHA
 	var blob struct {
 		SHA string `json:"sha"`
 	}
-	
+
 	if err := json.NewDecoder(resp.Body).Decode(&blob); err != nil {
 		return "", err
 	}
-	
+
 	// Step 2: Create a tree
 	// This is simplified - in a real implementation, you would need to:
 	// 1. Get the current tree
@@ -852,7 +851,7 @@ func (p *GitHubProvider) UploadLargeFileToGitHub(ctx context.Context, repo, bran
 	// 3. Create a new tree
 	// 4. Create a new commit
 	// 5. Update the reference
-	
+
 	// For simplicity, we'll just return the blob SHA
 	// In a real implementation, you would complete the process
 	return blob.SHA, nil
@@ -863,17 +862,17 @@ func (p *GitHubProvider) UploadFileWithMultipart(ctx context.Context, repo, bran
 	// Create a buffer for the multipart form
 	var bodyBuf bytes.Buffer
 	writer := multipart.NewWriter(&bodyBuf)
-	
+
 	// Add the file
 	fileWriter, err := writer.CreateFormFile("file", path)
 	if err != nil {
 		return "", err
 	}
-	
+
 	if _, err := fileWriter.Write(content); err != nil {
 		return "", err
 	}
-	
+
 	// Add other fields
 	if err := writer.WriteField("message", "Update config file"); err != nil {
 		return "", err
@@ -881,47 +880,47 @@ func (p *GitHubProvider) UploadFileWithMultipart(ctx context.Context, repo, bran
 	if err := writer.WriteField("branch", branch); err != nil {
 		return "", err
 	}
-	
+
 	// Close the multipart writer
 	if err := writer.Close(); err != nil {
 		return "", err
 	}
-	
+
 	// Create request
 	url := fmt.Sprintf("https://api.github.com/repos/%s/contents/%s", repo, path)
 	req, err := http.NewRequestWithContext(ctx, http.MethodPut, url, &bodyBuf)
 	if err != nil {
 		return "", err
 	}
-	
+
 	// Set headers
 	req.Header.Set("Authorization", "Bearer "+p.config.APIKey)
 	req.Header.Set("Accept", "application/vnd.github.v3+json")
 	req.Header.Set("X-GitHub-Api-Version", "2022-11-28")
 	req.Header.Set("Content-Type", writer.FormDataContentType())
-	
+
 	// Send request
 	resp, err := p.client.Do(req)
 	if err != nil {
 		return "", err
 	}
 	defer resp.Body.Close()
-	
+
 	if resp.StatusCode != http.StatusOK && resp.StatusCode != http.StatusCreated {
 		body, _ := io.ReadAll(resp.Body)
 		return "", fmt.Errorf("GitHub API error: %s - %s", resp.Status, string(body))
 	}
-	
+
 	// Parse response
 	var response struct {
 		Content struct {
 			Path string `json:"path"`
 		} `json:"content"`
 	}
-	
+
 	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
 		return "", err
 	}
-	
+
 	return response.Content.Path, nil
 }

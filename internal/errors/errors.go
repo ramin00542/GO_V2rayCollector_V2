@@ -12,52 +12,52 @@ import (
 type ErrorType string
 
 const (
-	ErrorTypeUnknown     ErrorType = "unknown"
-	ErrorTypeNetwork     ErrorType = "network"
-	ErrorTypeValidation  ErrorType = "validation"
-	ErrorTypeIO          ErrorType = "io"
-	ErrorTypeNotFound    ErrorType = "not_found"
-	ErrorTypeTimeout     ErrorType = "timeout"
-	ErrorTypeRateLimit   ErrorType = "rate_limit"
-	ErrorTypePermission  ErrorType = "permission"
-	ErrorTypeConfig      ErrorType = "config"
-	ErrorTypeParse       ErrorType = "parse"
+	ErrorTypeUnknown    ErrorType = "unknown"
+	ErrorTypeNetwork    ErrorType = "network"
+	ErrorTypeValidation ErrorType = "validation"
+	ErrorTypeIO         ErrorType = "io"
+	ErrorTypeNotFound   ErrorType = "not_found"
+	ErrorTypeTimeout    ErrorType = "timeout"
+	ErrorTypeRateLimit  ErrorType = "rate_limit"
+	ErrorTypePermission ErrorType = "permission"
+	ErrorTypeConfig     ErrorType = "config"
+	ErrorTypeParse      ErrorType = "parse"
 )
 
 // AppError is an enhanced error type with additional context
 type AppError struct {
-	Type     ErrorType `json:"type"`
-	Message  string    `json:"message"`
-	Code     int       `json:"code,omitempty"`
-	URL      string    `json:"url,omitempty"`
-	Details  string    `json:"details,omitempty"`
-	Cause    error     `json:"-"` // Excluded from JSON
+	Type    ErrorType `json:"type"`
+	Message string    `json:"message"`
+	Code    int       `json:"code,omitempty"`
+	URL     string    `json:"url,omitempty"`
+	Details string    `json:"details,omitempty"`
+	Cause   error     `json:"-"` // Excluded from JSON
 }
 
 // Error implements the error interface
 func (e *AppError) Error() string {
 	var sb strings.Builder
-	
+
 	// Add type
 	sb.WriteString(string(e.Type))
 	if e.Message != "" {
 		sb.WriteString(": ")
 		sb.WriteString(e.Message)
 	}
-	
+
 	// Add details if present
 	if e.Details != "" {
 		sb.WriteString(" (")
 		sb.WriteString(e.Details)
 		sb.WriteString(")")
 	}
-	
+
 	// Add cause if present
 	if e.Cause != nil {
 		sb.WriteString(". Cause: ")
 		sb.WriteString(e.Cause.Error())
 	}
-	
+
 	return sb.String()
 }
 
@@ -87,14 +87,14 @@ func Wrap(errorType ErrorType, err error, message string) *AppError {
 	if err == nil {
 		return nil
 	}
-	
+
 	var appErr *AppError
 	if errors.As(err, &appErr) {
 		// Already an AppError, just update the message
 		appErr.Message = message
 		return appErr
 	}
-	
+
 	return &AppError{
 		Type:    errorType,
 		Message: message,
@@ -107,7 +107,7 @@ func Wrapf(errorType ErrorType, err error, format string, args ...interface{}) *
 	if err == nil {
 		return nil
 	}
-	
+
 	return &AppError{
 		Type:    errorType,
 		Message: fmt.Sprintf(format, args...),
@@ -156,7 +156,7 @@ func Retryable(err error) bool {
 	if err == nil {
 		return false
 	}
-	
+
 	switch Type(err) {
 	case ErrorTypeNetwork, ErrorTypeTimeout, ErrorTypeRateLimit:
 		return true
@@ -243,15 +243,15 @@ func FormatError(err error) string {
 	if err == nil {
 		return ""
 	}
-	
+
 	var sb strings.Builder
 	chain := ErrorChain(err)
-	
+
 	for i, e := range chain {
 		if i > 0 {
 			sb.WriteString(" -> ")
 		}
-		
+
 		// Check if it's an AppError
 		var appErr *AppError
 		if errors.As(e, &appErr) {
@@ -265,7 +265,7 @@ func FormatError(err error) string {
 			sb.WriteString(e.Error())
 		}
 	}
-	
+
 	return sb.String()
 }
 
@@ -274,7 +274,7 @@ func HTTPStatusFromError(err error) int {
 	if err == nil {
 		return 200
 	}
-	
+
 	switch Type(err) {
 	case ErrorTypeNotFound:
 		return 404

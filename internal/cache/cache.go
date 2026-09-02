@@ -13,9 +13,9 @@ import (
 
 // Cache provides a simple in-memory cache with TTL support
 type Cache struct {
-	mu       sync.RWMutex
-	data     map[string]cacheEntry
-	basePath string
+	mu         sync.RWMutex
+	data       map[string]cacheEntry
+	basePath   string
 	defaultTTL time.Duration
 }
 
@@ -30,10 +30,10 @@ func NewCache(basePath string, defaultTTL time.Duration) (*Cache, error) {
 	if err := os.MkdirAll(basePath, 0755); err != nil {
 		return nil, fmt.Errorf("failed to create cache directory: %w", err)
 	}
-	
+
 	return &Cache{
-		data:        make(map[string]cacheEntry),
-		basePath:    basePath,
+		data:       make(map[string]cacheEntry),
+		basePath:   basePath,
 		defaultTTL: defaultTTL,
 	}, nil
 }
@@ -42,17 +42,17 @@ func NewCache(basePath string, defaultTTL time.Duration) (*Cache, error) {
 func (c *Cache) Get(key string) ([]byte, bool) {
 	c.mu.RLock()
 	defer c.mu.RUnlock()
-	
+
 	entry, ok := c.data[key]
 	if !ok {
 		return nil, false
 	}
-	
+
 	// Check if expired
 	if time.Now().After(entry.expiresAt) {
 		return nil, false
 	}
-	
+
 	// Update last access time
 	c.mu.RUnlock()
 	c.mu.Lock()
@@ -60,7 +60,7 @@ func (c *Cache) Get(key string) ([]byte, bool) {
 	c.data[key] = entry
 	c.mu.Unlock()
 	c.mu.RLock()
-	
+
 	return entry.value, true
 }
 
@@ -68,7 +68,7 @@ func (c *Cache) Get(key string) ([]byte, bool) {
 func (c *Cache) Set(key string, value []byte) {
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	
+
 	c.data[key] = cacheEntry{
 		value:      value,
 		expiresAt:  time.Now().Add(c.defaultTTL),
@@ -80,7 +80,7 @@ func (c *Cache) Set(key string, value []byte) {
 func (c *Cache) SetWithTTL(key string, value []byte, ttl time.Duration) {
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	
+
 	c.data[key] = cacheEntry{
 		value:      value,
 		expiresAt:  time.Now().Add(ttl),
@@ -92,7 +92,7 @@ func (c *Cache) SetWithTTL(key string, value []byte, ttl time.Duration) {
 func (c *Cache) Delete(key string) {
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	
+
 	delete(c.data, key)
 }
 
@@ -100,7 +100,7 @@ func (c *Cache) Delete(key string) {
 func (c *Cache) Clear() {
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	
+
 	c.data = make(map[string]cacheEntry)
 }
 
@@ -108,7 +108,7 @@ func (c *Cache) Clear() {
 func (c *Cache) Size() int {
 	c.mu.RLock()
 	defer c.mu.RUnlock()
-	
+
 	return len(c.data)
 }
 
@@ -116,7 +116,7 @@ func (c *Cache) Size() int {
 func (c *Cache) Cleanup() {
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	
+
 	now := time.Now()
 	for key, entry := range c.data {
 		if now.After(entry.expiresAt) {
@@ -129,48 +129,48 @@ func (c *Cache) Cleanup() {
 func (c *Cache) SaveToDisk(filename string) error {
 	c.mu.RLock()
 	defer c.mu.RUnlock()
-	
+
 	// Convert cache to serializable format
 	type cacheData map[string]struct {
-		Value      []byte   `json:"value"`
-		ExpiresAt  string   `json:"expires_at"`
-		LastAccess string   `json:"last_access"`
+		Value      []byte `json:"value"`
+		ExpiresAt  string `json:"expires_at"`
+		LastAccess string `json:"last_access"`
 	}
-	
+
 	data := make(cacheData)
 	for key, entry := range c.data {
 		data[key] = struct {
-			Value      []byte
-			ExpiresAt  string
-			LastAccess string
+			Value      []byte `json:"value"`
+			ExpiresAt  string `json:"expires_at"`
+			LastAccess string `json:"last_access"`
 		}{
 			Value:      entry.value,
 			ExpiresAt:  entry.expiresAt.Format(time.RFC3339),
 			LastAccess: entry.lastAccess.Format(time.RFC3339),
 		}
 	}
-	
+
 	// Marshal to JSON
 	jsonData, err := json.MarshalIndent(data, "", "  ")
 	if err != nil {
 		return fmt.Errorf("failed to marshal cache: %w", err)
 	}
-	
+
 	// Write to file
 	path := filepath.Join(c.basePath, filename)
 	tmpPath := path + ".tmp"
-	
+
 	if err := os.WriteFile(tmpPath, jsonData, 0644); err != nil {
 		return fmt.Errorf("failed to write cache file: %w", err)
 	}
-	
+
 	return os.Rename(tmpPath, path)
 }
 
 // LoadFromDisk loads the cache from disk
 func (c *Cache) LoadFromDisk(filename string) error {
 	path := filepath.Join(c.basePath, filename)
-	
+
 	data, err := os.ReadFile(path)
 	if err != nil {
 		if os.IsNotExist(err) {
@@ -178,23 +178,23 @@ func (c *Cache) LoadFromDisk(filename string) error {
 		}
 		return fmt.Errorf("failed to read cache file: %w", err)
 	}
-	
+
 	// Unmarshal JSON
 	type cacheData map[string]struct {
 		Value      []byte `json:"value"`
 		ExpiresAt  string `json:"expires_at"`
 		LastAccess string `json:"last_access"`
 	}
-	
+
 	var loadedData cacheData
 	if err := json.Unmarshal(data, &loadedData); err != nil {
 		return fmt.Errorf("failed to unmarshal cache: %w", err)
 	}
-	
+
 	// Convert to cache entries
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	
+
 	for key, entry := range loadedData {
 		expiresAt, err := time.Parse(time.RFC3339, entry.ExpiresAt)
 		if err != nil {
@@ -204,14 +204,14 @@ func (c *Cache) LoadFromDisk(filename string) error {
 		if err != nil {
 			continue
 		}
-		
+
 		c.data[key] = cacheEntry{
 			value:      entry.Value,
 			expiresAt:  expiresAt,
 			lastAccess: lastAccess,
 		}
 	}
-	
+
 	return nil
 }
 
@@ -279,16 +279,16 @@ func (f *CachedFetcher) Fetch(ctx context.Context, url string) ([]byte, error) {
 	if data, ok := f.cache.Get(url); ok {
 		return data, nil
 	}
-	
+
 	// Fetch from source
 	data, err := f.fetchFunc(ctx, url)
 	if err != nil {
 		return nil, err
 	}
-	
+
 	// Store in cache
 	f.cache.Set(url, data)
-	
+
 	return data, nil
 }
 
@@ -312,16 +312,16 @@ func (c *ContextCache) GetOrLoad(ctx context.Context, key string, loader func() 
 	if data, ok := c.cache.Get(key); ok {
 		return data, nil
 	}
-	
+
 	// Load the data
 	data, err := loader()
 	if err != nil {
 		return nil, err
 	}
-	
+
 	// Store in cache
 	c.cache.Set(key, data)
-	
+
 	return data, nil
 }
 
@@ -331,16 +331,16 @@ func (c *ContextCache) GetOrLoadWithTTL(ctx context.Context, key string, ttl tim
 	if data, ok := c.cache.Get(key); ok {
 		return data, nil
 	}
-	
+
 	// Load the data
 	data, err := loader()
 	if err != nil {
 		return nil, err
 	}
-	
+
 	// Store in cache with custom TTL
 	c.cache.SetWithTTL(key, data, ttl)
-	
+
 	return data, nil
 }
 
@@ -349,7 +349,7 @@ func (c *Cache) PeriodicCleanup(interval time.Duration) {
 	go func() {
 		ticker := time.NewTicker(interval)
 		defer ticker.Stop()
-		
+
 		for range ticker.C {
 			c.Cleanup()
 		}
@@ -361,7 +361,7 @@ func (c *Cache) StartPeriodicSave(interval time.Duration, filename string) {
 	go func() {
 		ticker := time.NewTicker(interval)
 		defer ticker.Stop()
-		
+
 		for range ticker.C {
 			if err := c.SaveToDisk(filename); err != nil {
 				// Log error but continue
