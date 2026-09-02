@@ -18,17 +18,27 @@ import (
 	"github.com/ramin00542/GO_V2rayCollector_V2/internal/state"
 )
 
+// ServerConfig configures a Server
+type ServerConfig struct {
+	Host   string
+	Port   int
+	Paths  Paths
+	Logger *logging.Logger
+}
+
 // Server represents the web server
 type Server struct {
-	paths       config.Paths
-	logger      *logging.Logger
-	server      *http.Server
-	wg          sync.WaitGroup
-	stopChan    chan struct{}
-	startTime   time.Time
-	lastUpdate  time.Time
-	mu          sync.RWMutex
-	apiHandler  *APIHandler
+	paths      config.Paths
+	host       string
+	port       int
+	logger     *logging.Logger
+	server     *http.Server
+	wg         sync.WaitGroup
+	stopChan   chan struct{}
+	startTime  time.Time
+	lastUpdate time.Time
+	mu         sync.RWMutex
+	apiHandler *APIHandler
 }
 
 // NewServer creates a new web server
@@ -37,59 +47,78 @@ func NewServer(cfg ServerConfig) *Server {
 		cfg.Logger = logging.NewLogger()
 		cfg.Logger.SetLevel(logging.LevelInfo)
 	}
-	
+
+	host := cfg.Host
+	if host == "" {
+		host = "0.0.0.0"
+	}
+	port := cfg.Port
+	if port == 0 {
+		port = 8080
+	}
+
+	startTime := time.Now().UTC()
+
 	// Create API handler
 	apiHandler := NewAPIHandler(cfg.Paths)
-	apiHandler.SetStartTime(time.Now().UTC())
-	
+	apiHandler.SetStartTime(startTime)
+
 	return &Server{
 		paths:      cfg.Paths,
-		logger:    cfg.Logger,
-		startTime: time.Now().UTC(),
-		lastUpdate: time.Now().UTC(),
-		stopChan:  make(chan struct{}),
+		host:       host,
+		port:       port,
+		logger:     cfg.Logger,
+		startTime:  startTime,
+		lastUpdate: startTime,
+		stopChan:   make(chan struct{}),
 		apiHandler: apiHandler,
 	}
+}
+
+// Addr returns the address the server listens on
+func (s *Server) Addr() string {
+	return fmt.Sprintf("%s:%d", s.host, s.port)
 }
 
 // Start starts the web server
 func (s *Server) Start() error {
 	// Create HTTP server
 	s.server = &http.Server{
-		Addr:    fmt.Sprintf("%s:%d", s.paths.Root, 8080),
-		Handler: s.createRouter(),
+		Addr:              s.Addr(),
+		Handler:           s.createRouter(),
+		ReadHeaderTimeout: 30 * time.Second,
 	}
-	
+
 	s.logger.Info("Starting web server", "address", s.server.Addr)
-	
+
 	s.wg.Add(1)
 	go func() {
 		defer s.wg.Done()
-		
+
 		if err := s.server.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 			s.logger.Error("Web server error", "error", err)
 		}
 	}()
-	
+
 	return nil
 }
 
 // Stop stops the web server
 func (s *Server) Stop() error {
 	close(s.stopChan)
-	
+
 	// Give some time for graceful shutdown
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 	defer cancel()
-	
+
 	if err := s.server.Shutdown(ctx); err != nil {
 		s.logger.Error("Error shutting down web server", "error", err)
 		return err
 	}
-	
+
 	s.wg.Wait()
 	s.logger.Info("Web server stopped")
-	
+
 	return nil
 }
 
@@ -103,10 +132,10 @@ func (s *Server) UpdateLastUpdate() {
 // createRouter creates the HTTP router
 func (s *Server) createRouter() *http.ServeMux {
 	mux := http.NewServeMux()
-	
+
 	// Static files
 	mux.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir(filepath.Join(s.paths.Root, "web", "static")))))
-	
+
 	// API endpoints - using the APIHandler
 	mux.HandleFunc("/api/health", s.apiHandler.GetHealthHandler(s))
 	mux.HandleFunc("/api/stats", s.apiHandler.GetStatsHandler(s))
@@ -116,14 +145,14 @@ func (s *Server) createRouter() *http.ServeMux {
 	mux.HandleFunc("/api/reports", s.apiHandler.GetReportsHandler(s))
 	mux.HandleFunc("/api/test", s.apiHandler.GetTestHandler(s))
 	mux.HandleFunc("/reports/", s.apiHandler.ServeReport)
-	
+
 	// Web pages
 	mux.HandleFunc("/", s.handleIndex)
 	mux.HandleFunc("/dashboard", s.handleDashboard)
 	mux.HandleFunc("/configs", s.handleConfigsPage)
 	mux.HandleFunc("/reports", s.handleReportsPage)
 	mux.HandleFunc("/test", s.handleTestPage)
-	
+
 	return mux
 }
 
@@ -133,13 +162,13 @@ func (s *Server) handleHealth(w http.ResponseWriter, r *http.Request) {
 	s.mu.RLock()
 	uptime := time.Since(s.startTime)
 	s.mu.RUnlock()
-	
+
 	response := map[string]interface{}{
 		"status":    "healthy",
-		"uptime":   uptime.String(),
+		"uptime":    uptime.String(),
 		"timestamp": time.Now().UTC().Format(time.RFC3339),
 	}
-	
+
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(response)
 }
@@ -151,7 +180,7 @@ func (s *Server) handleStats(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	
+
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(stats)
 }
@@ -162,14 +191,14 @@ func (s *Server) handleConfigs(w http.ResponseWriter, r *http.Request) {
 	protocol := query.Get("protocol")
 	limit := query.Get("limit")
 	offset := query.Get("offset")
-	
+
 	// Load configs
 	configs, err := s.loadConfigs(protocol, limit, offset)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	
+
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(configs)
 }
@@ -182,14 +211,14 @@ func (s *Server) handleConfigDetail(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	configID := parts[2]
-	
+
 	// Load config details
 	config, err := s.loadConfigDetail(configID)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusNotFound)
 		return
 	}
-	
+
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(config)
 }
@@ -201,7 +230,7 @@ func (s *Server) handleSites(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	
+
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(sites)
 }
@@ -213,7 +242,7 @@ func (s *Server) handleReports(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	
+
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(reports)
 }
@@ -223,7 +252,7 @@ func (s *Server) handleTest(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
 		return
 	}
-	
+
 	// Parse request body
 	var request struct {
 		Config string `json:"config"`
@@ -232,14 +261,14 @@ func (s *Server) handleTest(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 		return
 	}
-	
+
 	// Test the config
 	result, err := s.testConfig(request.Config)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	
+
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(result)
 }
@@ -255,7 +284,7 @@ func (s *Server) handleDashboard(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		stats = map[string]interface{}{}
 	}
-	
+
 	s.serveTemplate(w, "dashboard.html", stats)
 }
 
@@ -264,7 +293,7 @@ func (s *Server) handleConfigsPage(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		configs = []interface{}{}
 	}
-	
+
 	s.serveTemplate(w, "configs.html", map[string]interface{}{
 		"configs": configs,
 	})
@@ -275,7 +304,7 @@ func (s *Server) handleReportsPage(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		reports = []interface{}{}
 	}
-	
+
 	s.serveTemplate(w, "reports.html", map[string]interface{}{
 		"reports": reports,
 	})
@@ -289,20 +318,20 @@ func (s *Server) handleTestPage(w http.ResponseWriter, r *http.Request) {
 			result, err := s.testConfig(config)
 			if err != nil {
 				s.serveTemplate(w, "test.html", map[string]interface{}{
-					"error":   err.Error(),
-					"config":  config,
+					"error":  err.Error(),
+					"config": config,
 				})
 				return
 			}
-			
+
 			s.serveTemplate(w, "test.html", map[string]interface{}{
-				"result":  result,
-				"config":  config,
+				"result": result,
+				"config": config,
 			})
 			return
 		}
 	}
-	
+
 	s.serveTemplate(w, "test.html", nil)
 }
 
@@ -311,7 +340,7 @@ func (s *Server) handleTestPage(w http.ResponseWriter, r *http.Request) {
 func (s *Server) serveTemplate(w http.ResponseWriter, name string, data interface{}) {
 	// Try to load template from web/templates directory
 	templatePath := filepath.Join(s.paths.Root, "web", "templates", name)
-	
+
 	// Check if template exists
 	if _, err := os.Stat(templatePath); os.IsNotExist(err) {
 		// Try to create a simple HTML response
@@ -319,14 +348,14 @@ func (s *Server) serveTemplate(w http.ResponseWriter, name string, data interfac
 		fmt.Fprintf(w, "<html><body><h1>Template not found: %s</h1></body></html>", name)
 		return
 	}
-	
+
 	// Parse template
 	tmpl, err := template.ParseFiles(templatePath)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	
+
 	// Execute template
 	if err := tmpl.Execute(w, data); err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -348,15 +377,15 @@ func (s *Server) loadStats() (map[string]interface{}, error) {
 		}
 		return nil, err
 	}
-	
+
 	// Parse stats from markdown
 	stats := parseStatsFromMarkdown(string(data))
-	
+
 	// Add system info
 	stats["system"] = map[string]interface{}{
 		"uptime": time.Since(s.startTime).String(),
 	}
-	
+
 	return stats, nil
 }
 
@@ -367,12 +396,12 @@ func (s *Server) loadConfigs(protocol, limit, offset string) ([]interface{}, err
 	if err != nil {
 		return nil, err
 	}
-	
+
 	var stateData state.Data
 	if err := json.Unmarshal(data, &stateData); err != nil {
 		return nil, err
 	}
-	
+
 	// Convert to list
 	var configs []interface{}
 	for _, entry := range stateData.Entries {
@@ -381,13 +410,13 @@ func (s *Server) loadConfigs(protocol, limit, offset string) ([]interface{}, err
 		}
 		configs = append(configs, map[string]interface{}{
 			"fingerprint": entry.Fingerprint,
-			"value":      entry.Value,
-			"protocol":   entry.Protocol,
-			"first_seen": entry.FirstSeenAt,
-			"last_seen":  entry.LastSeenAt,
+			"value":       entry.Value,
+			"protocol":    entry.Protocol,
+			"first_seen":  entry.FirstSeenAt,
+			"last_seen":   entry.LastSeenAt,
 		})
 	}
-	
+
 	return configs, nil
 }
 
@@ -398,24 +427,24 @@ func (s *Server) loadConfigDetail(fingerprint string) (map[string]interface{}, e
 	if err != nil {
 		return nil, err
 	}
-	
+
 	var stateData state.Data
 	if err := json.Unmarshal(data, &stateData); err != nil {
 		return nil, err
 	}
-	
+
 	// Find the config
 	entry, ok := stateData.Entries[fingerprint]
 	if !ok {
 		return nil, fmt.Errorf("config not found")
 	}
-	
+
 	return map[string]interface{}{
-		"fingerprint": entry.Fingerprint,
-		"value":      entry.Value,
-		"protocol":   entry.Protocol,
-		"first_seen": entry.FirstSeenAt,
-		"last_seen":  entry.LastSeenAt,
+		"fingerprint":  entry.Fingerprint,
+		"value":        entry.Value,
+		"protocol":     entry.Protocol,
+		"first_seen":   entry.FirstSeenAt,
+		"last_seen":    entry.LastSeenAt,
 		"observations": entry.Observations,
 	}, nil
 }
@@ -426,12 +455,12 @@ func (s *Server) loadTargetSites() ([]interface{}, error) {
 	if err != nil {
 		return nil, err
 	}
-	
+
 	var sites []interface{}
 	if err := json.Unmarshal(data, &sites); err != nil {
 		return nil, err
 	}
-	
+
 	return sites, nil
 }
 
@@ -441,44 +470,45 @@ func (s *Server) loadReports() ([]interface{}, error) {
 	if err != nil {
 		return nil, err
 	}
-	
+
 	var reports []interface{}
 	for _, file := range files {
 		if file.IsDir() {
 			continue
 		}
-		
+
 		// Skip non-report files
 		if !strings.HasSuffix(file.Name(), ".md") && !strings.HasSuffix(file.Name(), ".json") {
 			continue
 		}
-		
+
+		info, err := file.Info()
+		if err != nil {
+			continue
+		}
+
 		reports = append(reports, map[string]interface{}{
-			"name": file.Name(),
-			"size": file.Size(),
-			"mod_time": file.ModTime(),
+			"name":     file.Name(),
+			"size":     info.Size(),
+			"mod_time": info.ModTime(),
 		})
 	}
-	
+
 	return reports, nil
 }
 
 func (s *Server) testConfig(configValue string) (map[string]interface{}, error) {
-	// This is a placeholder for actual config testing
-	// In a real implementation, you would use the tester package
-	
-	return map[string]interface{}{
-		"config":   configValue,
-		"valid":    true,
-		"tested_at": time.Now().UTC().Format(time.RFC3339),
-		"message":  "Config test placeholder",
-	}, nil
+	if s.apiHandler == nil {
+		return nil, fmt.Errorf("api handler is not configured")
+	}
+
+	return s.apiHandler.testConfig(context.Background(), strings.TrimSpace(configValue))
 }
 
 // Helper function to parse stats from markdown
 func parseStatsFromMarkdown(content string) map[string]interface{} {
 	stats := make(map[string]interface{})
-	
+
 	// Simple parsing - in a real implementation, use a proper markdown parser
 	lines := strings.Split(content, "\n")
 	for _, line := range lines {
@@ -492,7 +522,7 @@ func parseStatsFromMarkdown(content string) map[string]interface{} {
 			}
 		}
 	}
-	
+
 	return stats
 }
 
@@ -504,14 +534,14 @@ func RunServer(host string, port int, paths config.Paths) error {
 		Paths:  paths,
 		Logger: logging.GetGlobalLogger(),
 	}
-	
+
 	server := NewServer(cfg)
-	
+
 	// Update last update time periodically
 	go func() {
 		ticker := time.NewTicker(1 * time.Minute)
 		defer ticker.Stop()
-		
+
 		for {
 			select {
 			case <-ticker.C:
@@ -519,6 +549,6 @@ func RunServer(host string, port int, paths config.Paths) error {
 			}
 		}
 	}()
-	
+
 	return server.Start()
 }

@@ -63,11 +63,11 @@ type Fields map[string]interface{}
 
 // Logger provides structured logging capabilities
 type Logger struct {
-	mu       sync.Mutex
-	outputs  []io.Writer
-	level    LogLevel
-	format   string // "text" or "json"
-	caller   bool   // Include caller information
+	mu      sync.Mutex
+	outputs []io.Writer
+	level   LogLevel
+	format  string // "text" or "json"
+	caller  bool   // Include caller information
 	colors  bool   // Use ANSI colors
 }
 
@@ -119,12 +119,12 @@ func (l *Logger) AddFileOutput(path string) error {
 			return err
 		}
 	}
-	
+
 	file, err := os.OpenFile(path, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		return err
 	}
-	
+
 	l.AddOutput(file)
 	return nil
 }
@@ -134,22 +134,22 @@ func (l *Logger) log(level LogLevel, msg string, fields Fields) {
 	if level < l.level {
 		return
 	}
-	
+
 	l.mu.Lock()
 	defer l.mu.Unlock()
-	
+
 	timestamp := time.Now().UTC().Format(time.RFC3339)
-	
+
 	for _, output := range l.outputs {
 		var line string
-		
+
 		switch l.format {
 		case "json":
 			line = l.formatJSON(timestamp, level, msg, fields)
 		default:
 			line = l.formatText(timestamp, level, msg, fields)
 		}
-		
+
 		fmt.Fprintln(output, line)
 	}
 }
@@ -158,36 +158,36 @@ func (l *Logger) log(level LogLevel, msg string, fields Fields) {
 func (l *Logger) formatJSON(timestamp string, level LogLevel, msg string, fields Fields) string {
 	logEntry := map[string]interface{}{
 		"timestamp": timestamp,
-		"level":    level.String(),
-		"message":  msg,
+		"level":     level.String(),
+		"message":   msg,
 	}
-	
+
 	// Add fields
 	for k, v := range fields {
 		logEntry[k] = v
 	}
-	
+
 	data, err := json.Marshal(logEntry)
 	if err != nil {
 		return fmt.Sprintf(`{"timestamp":"%s","level":"%s","message":"%s","error":"json marshal failed"}`,
 			timestamp, level.String(), msg)
 	}
-	
+
 	return string(data)
 }
 
 // formatText formats a log message as text
 func (l *Logger) formatText(timestamp string, level LogLevel, msg string, fields Fields) string {
 	var sb string
-	
+
 	// Add color if enabled
 	if l.colors {
 		sb += level.Color()
 	}
-	
+
 	// Format: [timestamp] [LEVEL] message
 	sb += fmt.Sprintf("[%s] [%s] %s", timestamp, level.String(), msg)
-	
+
 	// Add fields
 	if len(fields) > 0 {
 		sb += " "
@@ -200,12 +200,12 @@ func (l *Logger) formatText(timestamp string, level LogLevel, msg string, fields
 			first = false
 		}
 	}
-	
+
 	// Reset color if enabled
 	if l.colors {
 		sb += "\033[0m"
 	}
-	
+
 	return sb
 }
 
@@ -300,12 +300,12 @@ func (l *Logger) WithFields(fields Fields) *Logger {
 		caller:  l.caller,
 		colors:  l.colors,
 	}
-	
+
 	// Add fields to all log entries
 	// This is a bit tricky, but for simplicity we'll just store them
 	// and include them in the log method
 	// For a more complete solution, we'd need to modify the logger structure
-	
+
 	return newLogger
 }
 
@@ -354,11 +354,11 @@ func NewFileLogger(path string, level LogLevel, format string) (*Logger, error) 
 	logger := NewLogger()
 	logger.SetLevel(level)
 	logger.SetFormat(format)
-	
+
 	if err := logger.AddFileOutput(path); err != nil {
 		return nil, err
 	}
-	
+
 	return logger, nil
 }
 
@@ -368,17 +368,17 @@ func NewMultiLogger(outputs []io.Writer, level LogLevel, format string) *Logger 
 	logger.SetLevel(level)
 	logger.SetFormat(format)
 	logger.outputs = outputs
-	
+
 	return logger
 }
 
 // RotatingFileWriter implements io.Writer for rotating log files
 type RotatingFileWriter struct {
-	basePath string
-	maxSize  int64
-	maxFiles int
-	current  *os.File
-	mu       sync.Mutex
+	basePath    string
+	maxSize     int64
+	maxFiles    int
+	current     *os.File
+	mu          sync.Mutex
 	currentSize int64
 }
 
@@ -390,17 +390,17 @@ func NewRotatingFileWriter(basePath string, maxSize int64, maxFiles int) (*Rotat
 	if maxFiles <= 0 {
 		maxFiles = 5
 	}
-	
+
 	w := &RotatingFileWriter{
 		basePath: basePath,
 		maxSize:  maxSize,
 		maxFiles: maxFiles,
 	}
-	
+
 	if err := w.rotate(); err != nil {
 		return nil, err
 	}
-	
+
 	return w, nil
 }
 
@@ -408,26 +408,26 @@ func NewRotatingFileWriter(basePath string, maxSize int64, maxFiles int) (*Rotat
 func (w *RotatingFileWriter) Write(p []byte) (n int, err error) {
 	w.mu.Lock()
 	defer w.mu.Unlock()
-	
+
 	if w.current == nil {
 		if err := w.rotate(); err != nil {
 			return 0, err
 		}
 	}
-	
+
 	// Check if we need to rotate
 	if w.currentSize+int64(len(p)) > w.maxSize {
 		if err := w.rotate(); err != nil {
 			return 0, err
 		}
 	}
-	
+
 	// Write to current file
 	n, err = w.current.Write(p)
 	if err != nil {
 		return n, err
 	}
-	
+
 	w.currentSize += int64(n)
 	return n, nil
 }
@@ -439,7 +439,7 @@ func (w *RotatingFileWriter) rotate() error {
 		w.current.Close()
 		w.current = nil
 	}
-	
+
 	// Create directory if it doesn't exist
 	dir := filepath.Dir(w.basePath)
 	if dir != "" && dir != "." {
@@ -447,26 +447,26 @@ func (w *RotatingFileWriter) rotate() error {
 			return err
 		}
 	}
-	
+
 	// Get current file path with timestamp
 	timestamp := time.Now().Format("20060102_150405")
 	currentPath := fmt.Sprintf("%s.%s.log", w.basePath, timestamp)
-	
+
 	// Open new file
 	file, err := os.OpenFile(currentPath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		return err
 	}
-	
+
 	w.current = file
 	w.currentSize = 0
-	
+
 	// Clean up old files
 	if err := w.cleanup(); err != nil {
 		// Log error but don't fail
 		return nil
 	}
-	
+
 	return nil
 }
 
@@ -478,13 +478,13 @@ func (w *RotatingFileWriter) cleanup() error {
 	if err != nil {
 		return err
 	}
-	
+
 	// Sort by modification time (oldest first)
 	type fileInfo struct {
-		path string
+		path    string
 		modTime time.Time
 	}
-	
+
 	var files []fileInfo
 	for _, match := range matches {
 		info, err := os.Stat(match)
@@ -493,7 +493,7 @@ func (w *RotatingFileWriter) cleanup() error {
 		}
 		files = append(files, fileInfo{path: match, modTime: info.ModTime()})
 	}
-	
+
 	// Sort by modTime (oldest first)
 	for i := 0; i < len(files)-1; i++ {
 		for j := i + 1; j < len(files); j++ {
@@ -502,7 +502,7 @@ func (w *RotatingFileWriter) cleanup() error {
 			}
 		}
 	}
-	
+
 	// Remove old files if we have more than maxFiles
 	if len(files) > w.maxFiles {
 		toRemove := len(files) - w.maxFiles
@@ -513,7 +513,7 @@ func (w *RotatingFileWriter) cleanup() error {
 			}
 		}
 	}
-	
+
 	return nil
 }
 
@@ -521,7 +521,7 @@ func (w *RotatingFileWriter) cleanup() error {
 func (w *RotatingFileWriter) Close() error {
 	w.mu.Lock()
 	defer w.mu.Unlock()
-	
+
 	if w.current != nil {
 		return w.current.Close()
 	}

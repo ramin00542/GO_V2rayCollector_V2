@@ -49,16 +49,16 @@ func LoadGitHubSettings(pathname string) (domain.GitHubSettings, error) {
 	if !settings.Enabled {
 		return settings, nil
 	}
-	
+
 	// Extract repository owner and name from various formats
 	repo := strings.TrimSpace(settings.Repository)
 	if repo == "" {
 		return settings, fmt.Errorf("repository is required")
 	}
-	
+
 	// Handle different repository formats
 	var owner, name string
-	
+
 	// Format: owner/repository
 	if strings.Contains(repo, "/") && !strings.HasPrefix(repo, "http") {
 		parts := strings.SplitN(repo, "/", 2)
@@ -78,11 +78,11 @@ func LoadGitHubSettings(pathname string) (domain.GitHubSettings, error) {
 			name = strings.TrimSpace(pathParts[1])
 		}
 	}
-	
+
 	if owner == "" || name == "" {
 		return settings, fmt.Errorf("repository must use owner/repository format (e.g., 'owner/repo' or 'https://github.com/owner/repo')")
 	}
-	
+
 	if settings.MaxForks < 1 || settings.MaxForks > 100 {
 		return settings, fmt.Errorf("max_forks must be between 1 and 100")
 	}

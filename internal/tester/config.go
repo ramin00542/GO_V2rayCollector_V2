@@ -22,18 +22,18 @@ import (
 
 // TargetSite represents a site to test against
 type TargetSite struct {
-	Name            string `json:"name"`
-	URL             string `json:"url"`
-	Category        string `json:"category"`
-	ExpectedStatus  int    `json:"expected_status"`
-	TimeoutSeconds  int    `json:"timeout_seconds"`
+	Name           string `json:"name"`
+	URL            string `json:"url"`
+	Category       string `json:"category"`
+	ExpectedStatus int    `json:"expected_status"`
+	TimeoutSeconds int    `json:"timeout_seconds"`
 }
 
 // TargetSitesConfig represents the configuration for target sites
 type TargetSitesConfig struct {
-	Version       int            `json:"version"`
-	Sites         []TargetSite   `json:"sites"`
-	TestSettings  TestSettings    `json:"test_settings"`
+	Version      int          `json:"version"`
+	Sites        []TargetSite `json:"sites"`
+	TestSettings TestSettings `json:"test_settings"`
 }
 
 // TestSettings contains settings for the testing process
@@ -46,70 +46,70 @@ type TestSettings struct {
 
 // ConfigTestResult represents the result of testing a single config
 type ConfigTestResult struct {
-	ConfigValue    string                 `json:"config_value"`
-	ConfigType    domain.Protocol        `json:"config_type"`
-	IsValid       bool                   `json:"is_valid"`
-	ValidationErr string                 `json:"validation_error,omitempty"`
-	SiteResults   map[string]SiteResult  `json:"site_results"`
-	TotalSuccess  int                    `json:"total_success"`
-	TotalFailed   int                    `json:"total_failed"`
-	TotalTested   int                    `json:"total_tested"`
+	ConfigValue    string                `json:"config_value"`
+	ConfigType     domain.Protocol       `json:"config_type"`
+	IsValid        bool                  `json:"is_valid"`
+	ValidationErr  string                `json:"validation_error,omitempty"`
+	SiteResults    map[string]SiteResult `json:"site_results"`
+	TotalSuccess   int                   `json:"total_success"`
+	TotalFailed    int                   `json:"total_failed"`
+	TotalTested    int                   `json:"total_tested"`
 	AverageLatency time.Duration         `json:"average_latency_ms"`
-	TestTimestamp time.Time              `json:"test_timestamp"`
+	TestTimestamp  time.Time             `json:"test_timestamp"`
 }
 
 // SiteResult represents the result of testing a config against a specific site
 type SiteResult struct {
-	StatusCode   int           `json:"status_code"`
-	Success      bool          `json:"success"`
-	Latency      time.Duration `json:"latency_ms"`
-	Error        string        `json:"error,omitempty"`
-	RedirectURL  string        `json:"redirect_url,omitempty"`
+	StatusCode  int           `json:"status_code"`
+	Success     bool          `json:"success"`
+	Latency     time.Duration `json:"latency_ms"`
+	Error       string        `json:"error,omitempty"`
+	RedirectURL string        `json:"redirect_url,omitempty"`
 	TestedAt    time.Time     `json:"tested_at"`
 }
 
 // TestReport represents the complete test report
 type TestReport struct {
-	GeneratedAt     time.Time                     `json:"generated_at"`
-	TotalConfigs    int                          `json:"total_configs"`
-	ValidConfigs    int                          `json:"valid_configs"`
-	TestedConfigs   int                          `json:"tested_configs"`
-	WorkingConfigs  int                          `json:"working_configs"`
-	ConfigResults   []ConfigTestResult            `json:"config_results"`
-	SiteStatistics map[string]SiteStatistics      `json:"site_statistics"`
-	Summary        string                       `json:"summary"`
+	GeneratedAt    time.Time                 `json:"generated_at"`
+	TotalConfigs   int                       `json:"total_configs"`
+	ValidConfigs   int                       `json:"valid_configs"`
+	TestedConfigs  int                       `json:"tested_configs"`
+	WorkingConfigs int                       `json:"working_configs"`
+	ConfigResults  []ConfigTestResult        `json:"config_results"`
+	SiteStatistics map[string]SiteStatistics `json:"site_statistics"`
+	Summary        string                    `json:"summary"`
 }
 
 // SiteStatistics represents statistics for a specific site
 type SiteStatistics struct {
-	TotalTested   int   `json:"total_tested"`
-	TotalSuccess  int   `json:"total_success"`
-	SuccessRate   float64 `json:"success_rate"`
+	TotalTested   int      `json:"total_tested"`
+	TotalSuccess  int      `json:"total_success"`
+	SuccessRate   float64  `json:"success_rate"`
 	AccessibleVia []string `json:"accessible_via"`
 }
 
 // LoadTargetSites loads target sites configuration from a file
 func LoadTargetSites(path string) (TargetSitesConfig, error) {
 	var config TargetSitesConfig
-	
+
 	// Use default config if file doesn't exist
 	if _, err := os.Stat(path); os.IsNotExist(err) {
 		return getDefaultTargetSitesConfig(), nil
 	}
-	
+
 	data, err := os.ReadFile(path)
 	if err != nil {
 		return TargetSitesConfig{}, fmt.Errorf("failed to read target sites config: %w", err)
 	}
-	
+
 	if err := json.Unmarshal(data, &config); err != nil {
 		return TargetSitesConfig{}, fmt.Errorf("failed to parse target sites config: %w", err)
 	}
-	
+
 	if config.Version != 1 {
 		return TargetSitesConfig{}, fmt.Errorf("unsupported target sites config version: %d", config.Version)
 	}
-	
+
 	// Set defaults if not provided
 	if config.TestSettings.UserAgent == "" {
 		config.TestSettings.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) ConfigTester/1.0"
@@ -120,7 +120,7 @@ func LoadTargetSites(path string) (TargetSitesConfig, error) {
 	if config.TestSettings.RequestTimeout <= 0 {
 		config.TestSettings.RequestTimeout = 15
 	}
-	
+
 	return config, nil
 }
 
@@ -145,9 +145,9 @@ func getDefaultTargetSitesConfig() TargetSitesConfig {
 // TestConfig tests a single config against all target sites
 func TestConfig(ctx context.Context, configValue string, sites []TargetSite, settings TestSettings) ConfigTestResult {
 	result := ConfigTestResult{
-		ConfigValue: configValue,
-		ConfigType: domain.ProtocolUnknown,
-		SiteResults: make(map[string]SiteResult),
+		ConfigValue:   configValue,
+		ConfigType:    domain.ProtocolUnknown,
+		SiteResults:   make(map[string]SiteResult),
 		TestTimestamp: time.Now().UTC(),
 	}
 
@@ -168,11 +168,11 @@ func TestConfig(ctx context.Context, configValue string, sites []TargetSite, set
 		if err := ctx.Err(); err != nil {
 			break
 		}
-		
+
 		siteResult := testSiteAccess(ctx, configValue, site, settings)
 		result.SiteResults[site.Name] = siteResult
 		result.TotalTested++
-		
+
 		if siteResult.Success {
 			result.TotalSuccess++
 			totalLatency += siteResult.Latency
@@ -198,7 +198,7 @@ func testSiteAccess(ctx context.Context, configValue string, site TargetSite, se
 	// Create a custom transport that uses the config as a proxy
 	// For now, we'll use a direct connection since implementing proxy for all protocols is complex
 	// In a real implementation, you would need to convert the config to a proxy address
-	
+
 	transport := &http.Transport{
 		Proxy: http.ProxyFromEnvironment,
 		DialContext: (&net.Dialer{
@@ -222,6 +222,14 @@ func testSiteAccess(ctx context.Context, configValue string, site TargetSite, se
 	parsedURL, err := url.Parse(site.URL)
 	if err != nil {
 		result.Error = fmt.Sprintf("invalid URL: %v", err)
+		return result
+	}
+	if parsedURL.Scheme != "http" && parsedURL.Scheme != "https" {
+		result.Error = fmt.Sprintf("unsupported URL scheme: %s", parsedURL.Scheme)
+		return result
+	}
+	if parsedURL.Host == "" {
+		result.Error = fmt.Sprintf("invalid URL: missing host in %q", site.URL)
 		return result
 	}
 
@@ -339,7 +347,7 @@ func TestConfigs(ctx context.Context, configs []string, sites []TargetSite, sett
 		wg.Add(1)
 		go func(cfg string) {
 			defer wg.Done()
-			
+
 			// Acquire semaphore
 			select {
 			case sem <- struct{}{}:
@@ -349,7 +357,7 @@ func TestConfigs(ctx context.Context, configs []string, sites []TargetSite, sett
 			}
 
 			result := TestConfig(ctx, cfg, sites, settings)
-			
+
 			mu.Lock()
 			results = append(results, result)
 			mu.Unlock()
@@ -372,9 +380,9 @@ func TestConfigs(ctx context.Context, configs []string, sites []TargetSite, sett
 // GenerateReport generates a comprehensive test report
 func GenerateReport(results []ConfigTestResult, sites []TargetSite) TestReport {
 	report := TestReport{
-		GeneratedAt:     time.Now().UTC(),
-		TotalConfigs:    len(results),
-		ConfigResults:   results,
+		GeneratedAt:    time.Now().UTC(),
+		TotalConfigs:   len(results),
+		ConfigResults:  results,
 		SiteStatistics: make(map[string]SiteStatistics),
 	}
 
@@ -415,7 +423,7 @@ func GenerateReport(results []ConfigTestResult, sites []TargetSite) TestReport {
 	summary.WriteString(fmt.Sprintf("- Valid: %d\n", report.ValidConfigs))
 	summary.WriteString(fmt.Sprintf("- Tested: %d\n", report.TestedConfigs))
 	summary.WriteString(fmt.Sprintf("- Working: %d\n", report.WorkingConfigs))
-	
+
 	if report.ValidConfigs > 0 {
 		summary.WriteString(fmt.Sprintf("- Valid rate: %.1f%%\n", float64(report.ValidConfigs)/float64(report.TotalConfigs)*100))
 	}
@@ -470,7 +478,7 @@ func SaveMarkdownReport(report TestReport, path string) error {
 	sb.WriteString(fmt.Sprintf("- **Valid configs**: %d\n", report.ValidConfigs))
 	sb.WriteString(fmt.Sprintf("- **Tested configs**: %d\n", report.TestedConfigs))
 	sb.WriteString(fmt.Sprintf("- **Working configs**: %d\n", report.WorkingConfigs))
-	
+
 	if report.ValidConfigs > 0 {
 		sb.WriteString(fmt.Sprintf("- **Valid rate**: %.1f%%\n", float64(report.ValidConfigs)/float64(report.TotalConfigs)*100))
 	}
@@ -483,21 +491,21 @@ func SaveMarkdownReport(report TestReport, path string) error {
 	sb.WriteString("## Top Working Configs\n\n")
 	sb.WriteString("| Rank | Config (short) | Type | Success Rate | Working Sites | Avg Latency |\n")
 	sb.WriteString("|------|----------------|------|--------------|---------------|-------------|\n")
-	
+
 	workingConfigs := []ConfigTestResult{}
 	for _, result := range report.ConfigResults {
 		if result.TotalSuccess > 0 {
 			workingConfigs = append(workingConfigs, result)
 		}
 	}
-	
+
 	// Sort by success rate
 	sort.Slice(workingConfigs, func(i, j int) bool {
 		iRate := float64(workingConfigs[i].TotalSuccess) / float64(max(workingConfigs[i].TotalTested, 1))
 		jRate := float64(workingConfigs[j].TotalSuccess) / float64(max(workingConfigs[j].TotalTested, 1))
 		return iRate > jRate
 	})
-	
+
 	// Show top 10
 	for i, result := range workingConfigs {
 		if i >= 10 {
@@ -510,12 +518,12 @@ func SaveMarkdownReport(report TestReport, path string) error {
 				workingSites = append(workingSites, site)
 			}
 		}
-		
+
 		shortConfig := result.ConfigValue
 		if len(shortConfig) > 40 {
 			shortConfig = shortConfig[:40] + "..."
 		}
-		
+
 		sb.WriteString(fmt.Sprintf("| %d | `%s` | %s | %.1f%% | %s | %v |\n",
 			i+1, shortConfig, result.ConfigType, successRate, strings.Join(workingSites, ", "), result.AverageLatency))
 	}
@@ -525,14 +533,14 @@ func SaveMarkdownReport(report TestReport, path string) error {
 	sb.WriteString("## Site Accessibility\n\n")
 	sb.WriteString("| Site | Category | Tested | Success | Success Rate |\n")
 	sb.WriteString("|------|----------|--------|---------|--------------|\n")
-	
+
 	// Sort sites by name
 	siteNames := []string{}
 	for name := range report.SiteStatistics {
 		siteNames = append(siteNames, name)
 	}
 	sort.Strings(siteNames)
-	
+
 	for _, name := range siteNames {
 		stats := report.SiteStatistics[name]
 		sb.WriteString(fmt.Sprintf("| %s | %s | %d | %d | %.1f%% |\n",
@@ -547,12 +555,12 @@ func SaveMarkdownReport(report TestReport, path string) error {
 			invalidConfigs = append(invalidConfigs, result)
 		}
 	}
-	
+
 	if len(invalidConfigs) > 0 {
 		sb.WriteString("## Invalid Configs\n\n")
 		sb.WriteString("| Config (short) | Error |\n")
 		sb.WriteString("|----------------|-------|\n")
-		
+
 		for _, result := range invalidConfigs {
 			shortConfig := result.ConfigValue
 			if len(shortConfig) > 50 {
@@ -567,12 +575,13 @@ func SaveMarkdownReport(report TestReport, path string) error {
 	return os.WriteFile(path, []byte(sb.String()), 0644)
 }
 
-// getSiteCategory returns the category of a site
+// getSiteCategory returns the category of a site by looking it up in the
+// known target sites. Falls back to "unknown" when the site is not part of the
+// default site list.
 func getSiteCategory(siteName string, results []ConfigTestResult) string {
-	for _, result := range results {
-		for _, site := range result.SiteResults {
-			// This is a simplified approach
-			// In a real implementation, you would have a mapping
+	for _, site := range DefaultTargetSites() {
+		if site.Name == siteName {
+			return site.Category
 		}
 	}
 	return "unknown"
@@ -635,7 +644,7 @@ func LoadConfigsFromSubscription(ctx context.Context, url string, client *http.C
 
 	// Parse configs from the body
 	configs, _ := parser.Extract(string(body), true)
-	
+
 	results := []string{}
 	for _, config := range configs {
 		results = append(results, config.Value)

@@ -35,7 +35,7 @@ func (f *NotifierFactory) Create(config NotificationConfig) (Notifier, error) {
 	if !config.Enabled {
 		return &NopNotifier{}, nil
 	}
-	
+
 	switch strings.ToLower(config.Type) {
 	case "telegram":
 		return NewTelegramNotifier(config.Options)
@@ -87,12 +87,12 @@ func NewFileNotifier(options map[string]string) (*FileNotifier, error) {
 	if path == "" {
 		path = "notifications.log"
 	}
-	
+
 	file, err := os.OpenFile(path, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		return nil, err
 	}
-	
+
 	return &FileNotifier{file: file}, nil
 }
 
@@ -100,19 +100,19 @@ func (n *FileNotifier) Send(ctx context.Context, message string, details map[str
 	if n.file == nil {
 		return fmt.Errorf("file notifier not initialized")
 	}
-	
+
 	line := fmt.Sprintf("[%s] %s\n", time.Now().Format(time.RFC3339), message)
 	if _, err := n.file.WriteString(line); err != nil {
 		return err
 	}
-	
+
 	if len(details) > 0 {
 		data, _ := json.MarshalIndent(details, "  ", "  ")
 		if _, err := n.file.WriteString(fmt.Sprintf("  Details: %s\n", string(data))); err != nil {
 			return err
 		}
 	}
-	
+
 	return n.file.Sync()
 }
 
@@ -135,13 +135,13 @@ func NewWebhookNotifier(options map[string]string) (*WebhookNotifier, error) {
 	if webhookURL == "" {
 		return nil, fmt.Errorf("webhook URL is required")
 	}
-	
+
 	// Parse URL to validate
 	_, err := url.Parse(webhookURL)
 	if err != nil {
 		return nil, fmt.Errorf("invalid webhook URL: %w", err)
 	}
-	
+
 	// Build headers
 	headers := make(map[string]string)
 	if contentType, ok := options["content_type"]; ok {
@@ -149,7 +149,7 @@ func NewWebhookNotifier(options map[string]string) (*WebhookNotifier, error) {
 	} else {
 		headers["Content-Type"] = "application/json"
 	}
-	
+
 	// Add custom headers
 	for k, v := range options {
 		if strings.HasPrefix(k, "header_") {
@@ -157,7 +157,7 @@ func NewWebhookNotifier(options map[string]string) (*WebhookNotifier, error) {
 			headers[headerName] = v
 		}
 	}
-	
+
 	return &WebhookNotifier{
 		url:     webhookURL,
 		client:  &http.Client{Timeout: 30 * time.Second},
@@ -172,36 +172,36 @@ func (n *WebhookNotifier) Send(ctx context.Context, message string, details map[
 		"message":   message,
 		"details":   details,
 	}
-	
+
 	data, err := json.Marshal(payload)
 	if err != nil {
 		return err
 	}
-	
+
 	// Create request
 	req, err := http.NewRequestWithContext(ctx, http.MethodPost, n.url, bytes.NewReader(data))
 	if err != nil {
 		return err
 	}
-	
+
 	// Set headers
 	for k, v := range n.headers {
 		req.Header.Set(k, v)
 	}
-	
+
 	// Send request
 	resp, err := n.client.Do(req)
 	if err != nil {
 		return err
 	}
 	defer resp.Body.Close()
-	
+
 	// Check response
 	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
 		body, _ := io.ReadAll(resp.Body)
 		return fmt.Errorf("webhook returned status %d: %s", resp.StatusCode, string(body))
 	}
-	
+
 	return nil
 }
 
@@ -211,30 +211,30 @@ func (n *WebhookNotifier) Close() error {
 
 // TelegramNotifier sends notifications via Telegram Bot API
 type TelegramNotifier struct {
-	botToken    string
-	chatID     string
-	client     *http.Client
-	parseMode  string
+	botToken  string
+	chatID    string
+	client    *http.Client
+	parseMode string
 }
 
 func NewTelegramNotifier(options map[string]string) (*TelegramNotifier, error) {
 	botToken := options["bot_token"]
 	chatID := options["chat_id"]
-	
+
 	if botToken == "" {
 		return nil, fmt.Errorf("Telegram bot token is required")
 	}
 	if chatID == "" {
 		return nil, fmt.Errorf("Telegram chat ID is required")
 	}
-	
+
 	parseMode := options["parse_mode"]
 	if parseMode == "" {
 		parseMode = "HTML"
 	}
-	
+
 	return &TelegramNotifier{
-		botToken:   botToken,
+		botToken:  botToken,
 		chatID:    chatID,
 		client:    &http.Client{Timeout: 30 * time.Second},
 		parseMode: parseMode,
@@ -244,7 +244,7 @@ func NewTelegramNotifier(options map[string]string) (*TelegramNotifier, error) {
 func (n *TelegramNotifier) Send(ctx context.Context, message string, details map[string]interface{}) error {
 	// Build Telegram message
 	text := message
-	
+
 	// Add details if present
 	if len(details) > 0 {
 		text += "\n\n<b>Details:</b>\n"
@@ -252,52 +252,52 @@ func (n *TelegramNotifier) Send(ctx context.Context, message string, details map
 			text += fmt.Sprintf("• <b>%s:</b> <code>%v</code>\n", k, v)
 		}
 	}
-	
+
 	// Escape special characters for HTML
 	text = strings.ReplaceAll(text, "&", "&amp;")
 	text = strings.ReplaceAll(text, "<", "&lt;")
 	text = strings.ReplaceAll(text, ">", "&gt;")
-	
+
 	// Build payload
 	payload := map[string]interface{}{
 		"chat_id":    n.chatID,
-		"text":      text,
+		"text":       text,
 		"parse_mode": n.parseMode,
 	}
-	
+
 	// Add disable_web_page_preview to avoid link previews
 	payload["disable_web_page_preview"] = true
-	
+
 	data, err := json.Marshal(payload)
 	if err != nil {
 		return err
 	}
-	
+
 	// Build URL
 	url := fmt.Sprintf("https://api.telegram.org/bot%s/sendMessage", n.botToken)
-	
+
 	// Create request
 	req, err := http.NewRequestWithContext(ctx, http.MethodPost, url, bytes.NewReader(data))
 	if err != nil {
 		return err
 	}
-	
+
 	// Set headers
 	req.Header.Set("Content-Type", "application/json")
-	
+
 	// Send request
 	resp, err := n.client.Do(req)
 	if err != nil {
 		return err
 	}
 	defer resp.Body.Close()
-	
+
 	// Check response
 	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
 		body, _ := io.ReadAll(resp.Body)
 		return fmt.Errorf("Telegram API returned status %d: %s", resp.StatusCode, string(body))
 	}
-	
+
 	return nil
 }
 
@@ -316,33 +316,33 @@ func NewMultiNotifier(notifiers ...Notifier) *MultiNotifier {
 
 func (n *MultiNotifier) Send(ctx context.Context, message string, details map[string]interface{}) error {
 	var errs []string
-	
+
 	for _, notifier := range n.notifiers {
 		if err := notifier.Send(ctx, message, details); err != nil {
 			errs = append(errs, err.Error())
 		}
 	}
-	
+
 	if len(errs) > 0 {
 		return fmt.Errorf("failed to send notifications: %s", strings.Join(errs, "; "))
 	}
-	
+
 	return nil
 }
 
 func (n *MultiNotifier) Close() error {
 	var errs []string
-	
+
 	for _, notifier := range n.notifiers {
 		if err := notifier.Close(); err != nil {
 			errs = append(errs, err.Error())
 		}
 	}
-	
+
 	if len(errs) > 0 {
 		return fmt.Errorf("failed to close notifiers: %s", strings.Join(errs, "; "))
 	}
-	
+
 	return nil
 }
 
@@ -355,12 +355,12 @@ func LoadNotifierConfigFromFile(path string) ([]NotificationConfig, error) {
 		}
 		return nil, err
 	}
-	
+
 	var configs []NotificationConfig
 	if err := json.Unmarshal(data, &configs); err != nil {
 		return nil, err
 	}
-	
+
 	return configs, nil
 }
 
@@ -370,10 +370,10 @@ func CreateNotifiersFromConfig(path string) ([]Notifier, error) {
 	if err != nil {
 		return nil, err
 	}
-	
+
 	var notifiers []Notifier
 	factory := &NotifierFactory{}
-	
+
 	for _, config := range configs {
 		notifier, err := factory.Create(config)
 		if err != nil {
@@ -381,17 +381,17 @@ func CreateNotifiersFromConfig(path string) ([]Notifier, error) {
 		}
 		notifiers = append(notifiers, notifier)
 	}
-	
+
 	if len(notifiers) == 0 {
 		// Return a no-op notifier if no notifiers configured
 		return []Notifier{&NopNotifier{}}, nil
 	}
-	
+
 	// If we have multiple notifiers, wrap them in a MultiNotifier
 	if len(notifiers) > 1 {
 		return []Notifier{NewMultiNotifier(notifiers...)}, nil
 	}
-	
+
 	return notifiers, nil
 }
 
@@ -436,7 +436,7 @@ func (b *NotificationMessageBuilder) AddList(items []string) *NotificationMessag
 	if len(items) == 0 {
 		return b
 	}
-	
+
 	b.parts = append(b.parts, "")
 	for _, item := range items {
 		b.parts = append(b.parts, fmt.Sprintf("• %s", item))
@@ -455,7 +455,7 @@ func (b *NotificationMessageBuilder) Build() string {
 
 func (b *NotificationMessageBuilder) BuildWithDetails() (string, map[string]interface{}) {
 	message := b.Build()
-	
+
 	// For now, return empty details
 	// In a more complete implementation, you could extract structured data
 	return message, map[string]interface{}{}

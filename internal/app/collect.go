@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ramin00542/GO_V2rayCollector_V2/internal/config"
 	"github.com/ramin00542/GO_V2rayCollector_V2/internal/concurrency"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/config"
 	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 	"github.com/ramin00542/GO_V2rayCollector_V2/internal/fetch"
 	"github.com/ramin00542/GO_V2rayCollector_V2/internal/output"
@@ -73,22 +73,22 @@ func Collect(ctx context.Context, paths config.Paths, now time.Time) (RunResult,
 
 	telegramProvider := provider.NewTelegramProvider(client, telegramLimiter, settings.Output.KeepUnknown)
 	subscriptionProvider := provider.NewSubscriptionProvider(client, sourceLimiter, settings.Output.KeepUnknown)
-	
+
 	// Use worker pool for concurrent fetching
 	// Process channels with concurrency
 	channelResults := make([]domain.ProviderResult, 0, len(channels))
 	channelMu := &sync.Mutex{}
-	
+
 	channelPool := concurrency.NewWorkerPool(5) // 5 concurrent channel fetches
 	channelPool.Start()
 	defer channelPool.Stop()
-	
+
 	for _, channel := range channels {
 		if err := ctx.Err(); err != nil {
 			channelPool.Stop()
 			return result, err
 		}
-		
+
 		// Capture channel for closure
 		ch := channel
 		channelPool.Submit(func() {
@@ -98,10 +98,10 @@ func Collect(ctx context.Context, paths config.Paths, now time.Time) (RunResult,
 			channelMu.Unlock()
 		})
 	}
-	
+
 	// Wait for all channel fetches to complete
 	channelPool.Wait()
-	
+
 	// Process channel results
 	for _, item := range channelResults {
 		result.ProviderResults = append(result.ProviderResults, item)
@@ -113,7 +113,7 @@ func Collect(ctx context.Context, paths config.Paths, now time.Time) (RunResult,
 		}
 		observeCandidates(candidates, item, "telegram:"+channelName, now.UTC())
 	}
-	
+
 	// Process GitHub discovery if enabled
 	if githubSettings.Enabled {
 		discovery := provider.NewGitHubDiscoverer(client, sourceLimiter)
@@ -123,21 +123,21 @@ func Collect(ctx context.Context, paths config.Paths, now time.Time) (RunResult,
 		}
 		sources = append(sources, discovered...)
 	}
-	
+
 	// Process sources with concurrency
 	sourceResults := make([]domain.ProviderResult, 0, len(sources))
 	sourceMu := &sync.Mutex{}
-	
+
 	sourcePool := concurrency.NewWorkerPool(10) // 10 concurrent source fetches
 	sourcePool.Start()
 	defer sourcePool.Stop()
-	
+
 	for _, source := range sources {
 		if err := ctx.Err(); err != nil {
 			sourcePool.Stop()
 			return result, err
 		}
-		
+
 		// Capture source for closure
 		src := source
 		sourcePool.Submit(func() {
@@ -147,10 +147,10 @@ func Collect(ctx context.Context, paths config.Paths, now time.Time) (RunResult,
 			sourceMu.Unlock()
 		})
 	}
-	
+
 	// Wait for all source fetches to complete
 	sourcePool.Wait()
-	
+
 	// Process source results
 	for _, item := range sourceResults {
 		result.ProviderResults = append(result.ProviderResults, item)
@@ -235,24 +235,24 @@ func validateCandidates(ctx context.Context, candidates *state.CandidateStore, c
 		knownSources[source.URL] = true
 	}
 	interval := time.Duration(settings.Discovery.PromotionMinIntervalHrs) * time.Hour
-	
+
 	// Process channel candidates with concurrency
 	channelCandidates := candidates.EligibleAll(domain.DiscoveryChannel, now, settings.Discovery.CandidateExpiryDays)
-	
+
 	// Use worker pool for concurrent candidate validation
 	candidatePool := concurrency.NewWorkerPool(5) // 5 concurrent candidate checks
 	candidatePool.Start()
 	defer candidatePool.Stop()
-	
+
 	var candidateErr error
 	var candidateMu sync.Mutex
-	
+
 	for _, candidate := range channelCandidates {
 		if err := ctx.Err(); err != nil {
 			candidatePool.Stop()
 			return err
 		}
-		
+
 		// Capture candidate for closure
 		cand := candidate
 		candidatePool.Submit(func() {
@@ -272,30 +272,30 @@ func validateCandidates(ctx context.Context, candidates *state.CandidateStore, c
 			}
 		})
 	}
-	
+
 	// Wait for all channel candidate checks to complete
 	candidatePool.Wait()
-	
+
 	if candidateErr != nil {
 		return candidateErr
 	}
-	
+
 	// Process source candidates with concurrency
 	sourceCandidates := candidates.EligibleAll(domain.DiscoverySource, now, settings.Discovery.CandidateExpiryDays)
-	
+
 	sourcePool := concurrency.NewWorkerPool(10) // 10 concurrent source candidate checks
 	sourcePool.Start()
 	defer sourcePool.Stop()
-	
+
 	var sourceErr error
 	var sourceMu sync.Mutex
-	
+
 	for _, candidate := range sourceCandidates {
 		if err := ctx.Err(); err != nil {
 			sourcePool.Stop()
 			return err
 		}
-		
+
 		// Capture candidate for closure
 		cand := candidate
 		sourcePool.Submit(func() {
@@ -315,17 +315,17 @@ func validateCandidates(ctx context.Context, candidates *state.CandidateStore, c
 			}
 		})
 	}
-	
+
 	// Wait for all source candidate checks to complete
 	sourcePool.Wait()
-	
+
 	if sourceErr != nil {
 		return sourceErr
 	}
-	
+
 	// Prune expired candidates to prevent state file from growing indefinitely
 	candidates.Prune(now.AddDate(0, 0, -settings.Discovery.CandidateExpiryDays*2), settings.Discovery.CandidateExpiryDays)
-	
+
 	return nil
 }
 

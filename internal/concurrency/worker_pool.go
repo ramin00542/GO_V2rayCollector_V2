@@ -8,12 +8,12 @@ import (
 
 // WorkerPool provides a pool of workers for concurrent processing
 type WorkerPool struct {
-	workers    int
-	jobs       chan func()
-	wg         sync.WaitGroup
-	stopChan   chan struct{}
-	stopped    bool
-	mu         sync.Mutex
+	workers  int
+	jobs     chan func()
+	wg       sync.WaitGroup
+	stopChan chan struct{}
+	stopped  bool
+	mu       sync.Mutex
 }
 
 // NewWorkerPool creates a new worker pool with the specified number of workers
@@ -32,11 +32,11 @@ func NewWorkerPool(workers int) *WorkerPool {
 func (p *WorkerPool) Start() {
 	p.mu.Lock()
 	defer p.mu.Unlock()
-	
+
 	if p.stopped {
 		return
 	}
-	
+
 	for i := 0; i < p.workers; i++ {
 		p.wg.Add(1)
 		go p.worker()
@@ -53,10 +53,10 @@ func (p *WorkerPool) Stop() {
 	p.stopped = true
 	close(p.stopChan)
 	p.mu.Unlock()
-	
+
 	// Wait for all workers to finish
 	p.wg.Wait()
-	
+
 	// Close jobs channel to allow any pending submissions to fail
 	close(p.jobs)
 }
@@ -78,19 +78,19 @@ func (p *WorkerPool) SubmitWithContext(ctx context.Context, job func() error) er
 	if err := ctx.Err(); err != nil {
 		return err
 	}
-	
+
 	var result error
 	var done = make(chan struct{})
-	
+
 	submitted := p.Submit(func() {
 		result = job()
 		close(done)
 	})
-	
+
 	if !submitted {
 		return ctx.Err()
 	}
-	
+
 	select {
 	case <-done:
 		return result
@@ -102,7 +102,7 @@ func (p *WorkerPool) SubmitWithContext(ctx context.Context, job func() error) er
 // worker is the internal worker goroutine
 func (p *WorkerPool) worker() {
 	defer p.wg.Done()
-	
+
 	for {
 		select {
 		case job, ok := <-p.jobs:
@@ -120,12 +120,12 @@ func (p *WorkerPool) worker() {
 func (p *WorkerPool) Wait() {
 	// Create a wait channel
 	wait := make(chan struct{})
-	
+
 	// Submit a job that will close the wait channel when all jobs are done
 	p.Submit(func() {
 		close(wait)
 	})
-	
+
 	// Wait for the wait channel to be closed
 	<-wait
 }
@@ -156,12 +156,12 @@ func (p *BatchProcessor) Process(ctx context.Context, items []interface{}, fn fu
 		if err := ctx.Err(); err != nil {
 			return err
 		}
-		
+
 		end := i + p.batchSize
 		if end > len(items) {
 			end = len(items)
 		}
-		
+
 		batch := items[i:end]
 		if err := fn(batch); err != nil {
 			return err
@@ -175,20 +175,20 @@ func (p *BatchProcessor) ProcessWithConcurrency(ctx context.Context, items []int
 	pool := NewWorkerPool(p.maxWorkers)
 	pool.Start()
 	defer pool.Stop()
-	
+
 	var err error
 	var mu sync.Mutex
-	
+
 	for i := 0; i < len(items); i += p.batchSize {
 		if err := ctx.Err(); err != nil {
 			return err
 		}
-		
+
 		end := i + p.batchSize
 		if end > len(items) {
 			end = len(items)
 		}
-		
+
 		batch := items[i:end]
 		// Capture batch for closure
 		batchCopy := make([]interface{}, len(batch))
@@ -203,7 +203,7 @@ func (p *BatchProcessor) ProcessWithConcurrency(ctx context.Context, items []int
 			}
 		})
 	}
-	
+
 	pool.Wait()
 	return err
 }

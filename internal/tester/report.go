@@ -147,7 +147,7 @@ func CompareReports(oldReport, newReport TestReport) map[string]interface{} {
 	comparison := map[string]interface{}{
 		"old_total_configs":    oldReport.TotalConfigs,
 		"new_total_configs":    newReport.TotalConfigs,
-		"configs_added":         newReport.TotalConfigs - oldReport.TotalConfigs,
+		"configs_added":        newReport.TotalConfigs - oldReport.TotalConfigs,
 		"old_working_configs":  oldReport.WorkingConfigs,
 		"new_working_configs":  newReport.WorkingConfigs,
 		"working_configs_diff": newReport.WorkingConfigs - oldReport.WorkingConfigs,
@@ -272,9 +272,9 @@ func GenerateDailyReport(reports []TestReport, path string) error {
 
 	// Calculate average success rate for each config
 	type configStats struct {
-		config   string
-		avgRate  float64
-		count    int
+		config  string
+		avgRate float64
+		count   int
 	}
 	stats := []configStats{}
 	for config, rates := range configSuccessRates {

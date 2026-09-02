@@ -29,7 +29,7 @@ func LoadSources(path string) ([]domain.Source, error) {
 	if err := json.Unmarshal(data, &file); err != nil {
 		return nil, fmt.Errorf("decode sources JSON: %w", err)
 	}
-	
+
 	// Support version 1 or no version (for backward compatibility)
 	if file.Version != 0 && file.Version != 1 {
 		return nil, fmt.Errorf("unsupported sources version: %d", file.Version)
