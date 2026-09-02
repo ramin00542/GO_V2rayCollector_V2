@@ -3,8 +3,6 @@ package concurrency
 
 import (
 	"context"
-	"fmt"
-	"reflect"
 	"sync"
 )
 
@@ -132,105 +130,6 @@ func (p *WorkerPool) Wait() {
 	<-wait
 }
 
-// ParallelForEach executes a function for each item in parallel
-// with a maximum of maxWorkers concurrent goroutines
-func ParallelForEach(ctx context.Context, items interface{}, maxWorkers int, fn interface{}) error {
-	// Convert items to a slice using reflection
-	itemsVal := reflect.ValueOf(items)
-	if itemsVal.Kind() != reflect.Slice {
-		return fmt.Errorf("items must be a slice")
-	}
-	
-	pool := NewWorkerPool(maxWorkers)
-	pool.Start()
-	defer pool.Stop()
-	
-	var err error
-	var mu sync.Mutex
-	
-	fnVal := reflect.ValueOf(fn)
-	
-	for i := 0; i < itemsVal.Len(); i++ {
-		if err := ctx.Err(); err != nil {
-			return err
-		}
-		
-		item := itemsVal.Index(i)
-		pool.Submit(func() {
-			results := fnVal.Call([]reflect.Value{item})
-			if len(results) > 0 && !results[0].IsNil() {
-				if e, ok := results[0].Interface().(error); ok && e != nil {
-					mu.Lock()
-					if err == nil {
-						err = e
-					}
-					mu.Unlock()
-				}
-			}
-		})
-	}
-	
-	// Wait for all jobs to complete
-	pool.Wait()
-	
-	return err
-}
-
-// ParallelForEachWithResults executes a function for each item in parallel
-// and collects the results
-func ParallelForEachWithResults(ctx context.Context, items interface{}, maxWorkers int, fn interface{}) (interface{}, error) {
-	// Convert items to a slice using reflection
-	itemsVal := reflect.ValueOf(items)
-	if itemsVal.Kind() != reflect.Slice {
-		return nil, fmt.Errorf("items must be a slice")
-	}
-	
-	pool := NewWorkerPool(maxWorkers)
-	pool.Start()
-	defer pool.Stop()
-	
-	resultsType := reflect.SliceOf(reflect.TypeOf(fn).Out(0))
-	results := reflect.MakeSlice(resultsType, itemsVal.Len(), itemsVal.Len())
-	var err error
-	var mu sync.Mutex
-	
-	fnVal := reflect.ValueOf(fn)
-	
-	for i := 0; i < itemsVal.Len(); i++ {
-		if err := ctx.Err(); err != nil {
-			return nil, err
-		}
-		
-		index := i
-		item := itemsVal.Index(i)
-		pool.Submit(func() {
-			resultVals := fnVal.Call([]reflect.Value{item})
-			if len(resultVals) >= 2 {
-				result := resultVals[0]
-				e := resultVals[1]
-				
-				mu.Lock()
-				if !e.IsNil() {
-					if err == nil {
-						err = e.Interface().(error)
-					}
-				}
-				results.Index(index).Set(result)
-				mu.Unlock()
-			}
-		})
-	}
-	
-	// Wait for all jobs to complete
-	pool.Wait()
-	
-	if err != nil {
-		return nil, err
-	}
-	
-	return results.Interface(), nil
-}
-
 // BatchProcessor processes items in batches with controlled concurrency
 type BatchProcessor struct {
 	batchSize  int
@@ -252,74 +151,55 @@ func NewBatchProcessor(batchSize, maxWorkers int) *BatchProcessor {
 }
 
 // Process processes items in batches
-func (p *BatchProcessor) Process(ctx context.Context, items interface{}, fn interface{}) error {
-	itemsVal := reflect.ValueOf(items)
-	if itemsVal.Kind() != reflect.Slice {
-		return fmt.Errorf("items must be a slice")
-	}
-	
-	fnVal := reflect.ValueOf(fn)
-	
-	for i := 0; i < itemsVal.Len(); i += p.batchSize {
+func (p *BatchProcessor) Process(ctx context.Context, items []interface{}, fn func([]interface{}) error) error {
+	for i := 0; i < len(items); i += p.batchSize {
 		if err := ctx.Err(); err != nil {
 			return err
 		}
 		
 		end := i + p.batchSize
-		if end > itemsVal.Len() {
-			end = itemsVal.Len()
+		if end > len(items) {
+			end = len(items)
 		}
 		
-		batch := itemsVal.Slice(i, end)
-		
-		// Call the function with the batch
-		results := fnVal.Call([]reflect.Value{batch})
-		if len(results) > 0 && !results[0].IsNil() {
-			if e, ok := results[0].Interface().(error); ok && e != nil {
-				return e
-			}
+		batch := items[i:end]
+		if err := fn(batch); err != nil {
+			return err
 		}
 	}
 	return nil
 }
 
 // ProcessWithConcurrency processes items in batches with concurrency
-func (p *BatchProcessor) ProcessWithConcurrency(ctx context.Context, items interface{}, fn interface{}) error {
+func (p *BatchProcessor) ProcessWithConcurrency(ctx context.Context, items []interface{}, fn func([]interface{}) error) error {
 	pool := NewWorkerPool(p.maxWorkers)
 	pool.Start()
 	defer pool.Stop()
 	
-	itemsVal := reflect.ValueOf(items)
-	if itemsVal.Kind() != reflect.Slice {
-		return fmt.Errorf("items must be a slice")
-	}
-	
-	fnVal := reflect.ValueOf(fn)
-	
 	var err error
 	var mu sync.Mutex
 	
-	for i := 0; i < itemsVal.Len(); i += p.batchSize {
+	for i := 0; i < len(items); i += p.batchSize {
 		if err := ctx.Err(); err != nil {
 			return err
 		}
 		
 		end := i + p.batchSize
-		if end > itemsVal.Len() {
-			end = itemsVal.Len()
+		if end > len(items) {
+			end = len(items)
 		}
 		
-		batch := itemsVal.Slice(i, end)
+		batch := items[i:end]
+		// Capture batch for closure
+		batchCopy := make([]interface{}, len(batch))
+		copy(batchCopy, batch)
 		pool.Submit(func() {
-			results := fnVal.Call([]reflect.Value{batch})
-			if len(results) > 0 && !results[0].IsNil() {
-				if e, ok := results[0].Interface().(error); ok && e != nil {
-					mu.Lock()
-					if err == nil {
-						err = e
-					}
-					mu.Unlock()
+			if e := fn(batchCopy); e != nil {
+				mu.Lock()
+				if err == nil {
+					err = e
 				}
+				mu.Unlock()
 			}
 		})
 	}
