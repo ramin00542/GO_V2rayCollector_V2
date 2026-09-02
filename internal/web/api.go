@@ -506,6 +506,7 @@ func (h *APIHandler) testConfig(ctx context.Context, config string) (map[string]
 		"total_tested":       result.TotalTested,
 		"average_latency_ms": result.AverageLatency.Milliseconds(),
 		"tested_at":          result.TestTimestamp,
+		"skip_reason":        result.SkipReason,
 	}, nil
 }
 

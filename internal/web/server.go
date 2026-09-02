@@ -35,6 +35,7 @@ type Server struct {
 	server     *http.Server
 	wg         sync.WaitGroup
 	stopChan   chan struct{}
+	stopOnce   sync.Once
 	startTime  time.Time
 	lastUpdate time.Time
 	mu         sync.RWMutex
@@ -103,9 +104,9 @@ func (s *Server) Start() error {
 	return nil
 }
 
-// Stop stops the web server
+// Stop stops the web server. It is safe to call more than once.
 func (s *Server) Stop() error {
-	close(s.stopChan)
+	s.stopOnce.Do(func() { close(s.stopChan) })
 
 	// Give some time for graceful shutdown
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
@@ -157,121 +158,6 @@ func (s *Server) createRouter() *http.ServeMux {
 }
 
 // API Handlers
-
-func (s *Server) handleHealth(w http.ResponseWriter, r *http.Request) {
-	s.mu.RLock()
-	uptime := time.Since(s.startTime)
-	s.mu.RUnlock()
-
-	response := map[string]interface{}{
-		"status":    "healthy",
-		"uptime":    uptime.String(),
-		"timestamp": time.Now().UTC().Format(time.RFC3339),
-	}
-
-	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(response)
-}
-
-func (s *Server) handleStats(w http.ResponseWriter, r *http.Request) {
-	// Load stats from reports
-	stats, err := s.loadStats()
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
-
-	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(stats)
-}
-
-func (s *Server) handleConfigs(w http.ResponseWriter, r *http.Request) {
-	// Parse query parameters
-	query := r.URL.Query()
-	protocol := query.Get("protocol")
-	limit := query.Get("limit")
-	offset := query.Get("offset")
-
-	// Load configs
-	configs, err := s.loadConfigs(protocol, limit, offset)
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
-
-	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(configs)
-}
-
-func (s *Server) handleConfigDetail(w http.ResponseWriter, r *http.Request) {
-	// Extract config ID from URL
-	parts := strings.Split(r.URL.Path, "/")
-	if len(parts) < 3 {
-		http.Error(w, "config ID required", http.StatusBadRequest)
-		return
-	}
-	configID := parts[2]
-
-	// Load config details
-	config, err := s.loadConfigDetail(configID)
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusNotFound)
-		return
-	}
-
-	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(config)
-}
-
-func (s *Server) handleSites(w http.ResponseWriter, r *http.Request) {
-	// Load target sites
-	sites, err := s.loadTargetSites()
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
-
-	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(sites)
-}
-
-func (s *Server) handleReports(w http.ResponseWriter, r *http.Request) {
-	// Load reports
-	reports, err := s.loadReports()
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
-
-	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(reports)
-}
-
-func (s *Server) handleTest(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodPost {
-		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
-		return
-	}
-
-	// Parse request body
-	var request struct {
-		Config string `json:"config"`
-	}
-	if err := json.NewDecoder(r.Body).Decode(&request); err != nil {
-		http.Error(w, err.Error(), http.StatusBadRequest)
-		return
-	}
-
-	// Test the config
-	result, err := s.testConfig(request.Config)
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
-
-	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(result)
-}
 
 // Page Handlers
 

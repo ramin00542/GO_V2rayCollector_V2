@@ -18,6 +18,7 @@ import (
 
 	"github.com/ramin00542/GO_V2rayCollector_V2/internal/domain"
 	"github.com/ramin00542/GO_V2rayCollector_V2/internal/parser"
+	"github.com/ramin00542/GO_V2rayCollector_V2/internal/proxy"
 )
 
 // TargetSite represents a site to test against
@@ -56,6 +57,9 @@ type ConfigTestResult struct {
 	TotalTested    int                   `json:"total_tested"`
 	AverageLatency time.Duration         `json:"average_latency_ms"`
 	TestTimestamp  time.Time             `json:"test_timestamp"`
+	// SkipReason is set when the config parsed fine but its protocol cannot be
+	// exercised yet (for example REALITY or QUIC based transports).
+	SkipReason string `json:"skip_reason,omitempty"`
 }
 
 // SiteResult represents the result of testing a config against a specific site
@@ -75,6 +79,7 @@ type TestReport struct {
 	ValidConfigs   int                       `json:"valid_configs"`
 	TestedConfigs  int                       `json:"tested_configs"`
 	WorkingConfigs int                       `json:"working_configs"`
+	SkippedConfigs int                       `json:"skipped_configs"`
 	ConfigResults  []ConfigTestResult        `json:"config_results"`
 	SiteStatistics map[string]SiteStatistics `json:"site_statistics"`
 	Summary        string                    `json:"summary"`
@@ -162,6 +167,20 @@ func TestConfig(ctx context.Context, configValue string, sites []TargetSite, set
 	result.ConfigType = parsed.Protocol
 	result.IsValid = true
 
+	// Build the proxy client. Without it a test would only measure the
+	// collector's own connectivity instead of the config.
+	dialer, dialErr := proxy.NewDialer(configValue)
+	if dialErr != nil {
+		if proxy.ErrUnsupported(dialErr) {
+			// The link is well formed, we simply have no client for it yet.
+			result.SkipReason = dialErr.Error()
+			return result
+		}
+		result.IsValid = false
+		result.ValidationErr = fmt.Sprintf("unusable config: %v", dialErr)
+		return result
+	}
+
 	// Test against each site
 	var totalLatency time.Duration
 	for _, site := range sites {
@@ -169,7 +188,7 @@ func TestConfig(ctx context.Context, configValue string, sites []TargetSite, set
 			break
 		}
 
-		siteResult := testSiteAccess(ctx, configValue, site, settings)
+		siteResult := testSiteAccess(ctx, dialer, site, settings)
 		result.SiteResults[site.Name] = siteResult
 		result.TotalTested++
 
@@ -189,8 +208,9 @@ func TestConfig(ctx context.Context, configValue string, sites []TargetSite, set
 	return result
 }
 
-// testSiteAccess tests if a config can access a specific site
-func testSiteAccess(ctx context.Context, configValue string, site TargetSite, settings TestSettings) SiteResult {
+// testSiteAccess tests if a config can reach a specific site through the proxy
+// built from the config link.
+func testSiteAccess(ctx context.Context, dialer proxy.Dialer, site TargetSite, settings TestSettings) SiteResult {
 	result := SiteResult{
 		TestedAt: time.Now().UTC(),
 	}
@@ -199,12 +219,10 @@ func testSiteAccess(ctx context.Context, configValue string, site TargetSite, se
 	// For now, we'll use a direct connection since implementing proxy for all protocols is complex
 	// In a real implementation, you would need to convert the config to a proxy address
 
+	// Every request is tunneled through the proxy, so the result reflects the
+	// config and not the collector's own connectivity.
 	transport := &http.Transport{
-		Proxy: http.ProxyFromEnvironment,
-		DialContext: (&net.Dialer{
-			Timeout:   time.Duration(settings.RequestTimeout) * time.Second,
-			KeepAlive: 30 * time.Second,
-		}).DialContext,
+		DialContext:           dialer.DialContext,
 		MaxIdleConns:          100,
 		MaxIdleConnsPerHost:   10,
 		IdleConnTimeout:       90 * time.Second,
@@ -396,6 +414,9 @@ func GenerateReport(results []ConfigTestResult, sites []TargetSite) TestReport {
 		}
 		if result.TotalSuccess > 0 {
 			report.WorkingConfigs++
+		}
+		if result.SkipReason != "" {
+			report.SkippedConfigs++
 		}
 	}
 

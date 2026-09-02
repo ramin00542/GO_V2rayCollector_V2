@@ -444,8 +444,8 @@ func testConfigs(paths config.Paths, args ...string) {
 		exitError(err)
 	}
 
-	fmt.Printf("Total: %d configs, valid: %d, working: %d\n",
-		report.TotalConfigs, report.ValidConfigs, report.WorkingConfigs)
+	fmt.Printf("Total: %d configs, valid: %d, working: %d, skipped: %d\n",
+		report.TotalConfigs, report.ValidConfigs, report.WorkingConfigs, report.SkippedConfigs)
 
 	// Save individual config results
 	if err := tester.SaveIndividualConfigReports(results, filepath.Join(paths.ReportsDir, "individual")); err != nil {
@@ -494,6 +494,7 @@ func testSubscription(paths config.Paths, subURL string) {
 	fmt.Printf("Total configs: %d\n", report.TotalConfigs)
 	fmt.Printf("Valid configs: %d\n", report.ValidConfigs)
 	fmt.Printf("Working configs: %d\n", report.WorkingConfigs)
+	fmt.Printf("Skipped configs: %d\n", report.SkippedConfigs)
 	fmt.Printf("Reports saved to: %s\n", paths.ReportsDir)
 }
 
@@ -530,6 +531,7 @@ func testFile(paths config.Paths, filePath string) {
 	fmt.Printf("Total configs: %d\n", report.TotalConfigs)
 	fmt.Printf("Valid configs: %d\n", report.ValidConfigs)
 	fmt.Printf("Working configs: %d\n", report.WorkingConfigs)
+	fmt.Printf("Skipped configs: %d\n", report.SkippedConfigs)
 	fmt.Printf("Reports saved to: %s\n", paths.ReportsDir)
 }
 
