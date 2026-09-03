@@ -1,7 +1,7 @@
 # Channel scan
 
-- Checked: 15
-- Active: 13
+- Checked: 9
+- Active: 7
 - Inactive: 2
 - Not found: 0
 - Unknown errors: 0
