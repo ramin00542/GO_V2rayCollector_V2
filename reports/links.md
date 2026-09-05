@@ -1,24 +1,24 @@
 # Download Center
 
-Updated: `2026-09-04T23:06:30Z`
+Updated: `2026-09-05T01:06:23Z`
 
 ## ⭐ Main VPN Links — Latest 24 Hours
 
 | File | Configs | Size | Raw link |
 |---|---:|---:|---|
 | `archive/all/subscription_all.txt` | `2` | `340 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/subscription_all.txt) |
-| `archive/all/telegram_all.txt` | `716` | `173471 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/telegram_all.txt) |
-| `output/temporary/telegram_all.txt` | `265` | `63458 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram_all.txt) |
+| `archive/all/telegram_all.txt` | `712` | `172532 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/telegram_all.txt) |
+| `output/temporary/telegram_all.txt` | `188` | `46598 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram_all.txt) |
 
 ## 📡 Telegram — VPN Protocols
 
 | File | Configs | Size | Raw link |
 |---|---:|---:|---|
-| `output/temporary/telegram/protocols/hysteria2.txt` | `5` | `1037 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/hysteria2.txt) |
-| `output/temporary/telegram/protocols/shadowsocks.txt` | `15` | `1830 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/shadowsocks.txt) |
-| `output/temporary/telegram/protocols/trojan.txt` | `26` | `4956 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/trojan.txt) |
-| `output/temporary/telegram/protocols/vless.txt` | `188` | `45708 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/vless.txt) |
-| `output/temporary/telegram/protocols/vmess.txt` | `31` | `9927 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/vmess.txt) |
+| `output/temporary/telegram/protocols/hysteria2.txt` | `1` | `249 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/hysteria2.txt) |
+| `output/temporary/telegram/protocols/shadowsocks.txt` | `11` | `1309 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/shadowsocks.txt) |
+| `output/temporary/telegram/protocols/trojan.txt` | `15` | `3532 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/trojan.txt) |
+| `output/temporary/telegram/protocols/vless.txt` | `133` | `32408 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/vless.txt) |
+| `output/temporary/telegram/protocols/vmess.txt` | `28` | `9100 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/vmess.txt) |
 
 ## 🔗 Subscription — VPN Protocols
 
@@ -29,7 +29,7 @@ No files available yet.
 | File | Configs | Size | Raw link |
 |---|---:|---:|---|
 | `output/temporary/telegram/protocols/http.txt` | `6` | `163 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/http.txt) |
-| `output/temporary/telegram/telegram-proxies/mtproto.txt` | `132` | `15804 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/telegram-proxies/mtproto.txt) |
+| `output/temporary/telegram/telegram-proxies/mtproto.txt` | `111` | `12989 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/telegram-proxies/mtproto.txt) |
 
 ## 🌐 Subscription — Proxy Links
 
@@ -40,24 +40,23 @@ No files available yet.
 | File | Configs | Size | Raw link |
 |---|---:|---:|---|
 | `output/temporary/telegram/channels/https:/t.me/s/freev2rays/vmess.txt` | `20` | `6672 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/freev2rays/vmess.txt) |
-| `output/temporary/telegram/channels/https:/t.me/s/napsternetvirani/vless.txt` | `21` | `4878 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/napsternetvirani/vless.txt) |
-| `output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/hysteria2.txt` | `5` | `1037 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/hysteria2.txt) |
-| `output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/shadowsocks.txt` | `4` | `460 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/shadowsocks.txt) |
-| `output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/trojan.txt` | `10` | `2821 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/trojan.txt) |
-| `output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/vless.txt` | `109` | `27938 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/vless.txt) |
+| `output/temporary/telegram/channels/https:/t.me/s/napsternetvirani/vless.txt` | `16` | `3867 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/napsternetvirani/vless.txt) |
+| `output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/hysteria2.txt` | `1` | `249 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/hysteria2.txt) |
+| `output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/shadowsocks.txt` | `2` | `197 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/shadowsocks.txt) |
+| `output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/trojan.txt` | `9` | `2641 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/trojan.txt) |
+| `output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/vless.txt` | `76` | `19227 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/vless.txt) |
 | `output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/vmess.txt` | `2` | `666 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/vmess.txt) |
 | `output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/http.txt` | `6` | `163 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/http.txt) |
-| `output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/mtproto.txt` | `132` | `15804 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/mtproto.txt) |
-| `output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/shadowsocks.txt` | `11` | `1370 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/shadowsocks.txt) |
-| `output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/trojan.txt` | `16` | `2135 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/trojan.txt) |
-| `output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/vless.txt` | `60` | `13459 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/vless.txt) |
-| `output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/vmess.txt` | `9` | `2589 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/vmess.txt) |
+| `output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/mtproto.txt` | `111` | `12989 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/mtproto.txt) |
+| `output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/shadowsocks.txt` | `9` | `1112 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/shadowsocks.txt) |
+| `output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/trojan.txt` | `6` | `891 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/trojan.txt) |
+| `output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/vless.txt` | `41` | `9314 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/vless.txt) |
+| `output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/vmess.txt` | `6` | `1762 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2rayconfigamir/vmess.txt) |
 
 ## 🗄️ Daily Archive — Combined VPN Files
 
 | File | Configs | Size | Raw link |
 |---|---:|---:|---|
-| `archive/daily/2026-08-06/telegram_all.txt` | `313` | `74597 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/daily/2026-08-06/telegram_all.txt) |
 | `archive/daily/2026-08-07/telegram_all.txt` | `334` | `80882 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/daily/2026-08-07/telegram_all.txt) |
 | `archive/daily/2026-08-08/telegram_all.txt` | `361` | `87704 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/daily/2026-08-08/telegram_all.txt) |
 | `archive/daily/2026-08-09/telegram_all.txt` | `354` | `87261 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/daily/2026-08-09/telegram_all.txt) |
@@ -91,5 +90,6 @@ No files available yet.
 | `archive/daily/2026-09-01/telegram_all.txt` | `423` | `105203 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/daily/2026-09-01/telegram_all.txt) |
 | `archive/daily/2026-09-02/telegram_all.txt` | `375` | `93670 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/daily/2026-09-02/telegram_all.txt) |
 | `archive/daily/2026-09-03/telegram_all.txt` | `262` | `63531 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/daily/2026-09-03/telegram_all.txt) |
+| `archive/daily/2026-09-04/telegram_all.txt` | `265` | `63458 B` | [Raw](https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/daily/2026-09-04/telegram_all.txt) |
 
 > Main `archive/all` links are stable and contain only VPN protocols from the latest 24 hours. Per-protocol links are stable under `output/temporary/`.
