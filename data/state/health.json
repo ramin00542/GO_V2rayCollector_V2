@@ -130,17 +130,17 @@
     },
     "https://ux.miladux.ir:2096/sub/6biasx2axoaz4w4i": {
       "status": "unknown_error",
-      "last_checked_at": "2026-08-30T09:27:02.272550792Z",
+      "last_checked_at": "2026-09-06T08:05:43.97526053Z",
       "last_successful_at": "0001-01-01T00:00:00Z",
-      "consecutive_failures": 1,
-      "last_error": "Get \"https://ux.miladux.ir:2096/sub/6biasx2axoaz4w4i\": dial tcp 38.107.237.101:2096: connect: connection refused"
+      "consecutive_failures": 2,
+      "last_error": "Get \"https://ux.miladux.ir:2096/sub/6biasx2axoaz4w4i\": dial tcp 38.107.237.101:2096: i/o timeout"
     },
     "https://ux.miladux.ir:2096/sub/j9u62849iezd38ff": {
       "status": "unknown_error",
-      "last_checked_at": "2026-08-30T09:27:02.272550792Z",
+      "last_checked_at": "2026-09-06T08:05:43.97526053Z",
       "last_successful_at": "0001-01-01T00:00:00Z",
-      "consecutive_failures": 1,
-      "last_error": "Get \"https://ux.miladux.ir:2096/sub/j9u62849iezd38ff\": dial tcp 38.107.237.101:2096: connect: connection refused"
+      "consecutive_failures": 2,
+      "last_error": "Get \"https://ux.miladux.ir:2096/sub/j9u62849iezd38ff\": dial tcp 38.107.237.101:2096: i/o timeout"
     }
   }
 }
