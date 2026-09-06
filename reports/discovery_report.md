@@ -7,10 +7,10 @@
 | pending | `0` |
 | qualified | `1` |
 | promoted | `18` |
-| no_config | `82` |
+| no_config | `81` |
 | not_found | `750` |
-| unknown_error | `8` |
-| expired | `409` |
+| unknown_error | `9` |
+| expired | `411` |
 
 ## Candidate Sample
 
@@ -42,4 +42,4 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 | `channel` | expired | `0` | `386` | `1` |
 | `channel` | expired | `0` | `386` | `2` |
 | `channel` | expired | `0` | `433` | `2` |
-| `channel` | no_config | `0` | `104` | `1` |
+| `channel` | no_config | `0` | `105` | `1` |
