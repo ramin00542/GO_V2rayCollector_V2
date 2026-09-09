@@ -8,7 +8,7 @@
 | qualified | `0` |
 | promoted | `20` |
 | no_config | `55` |
-| not_found | `681` |
+| not_found | `683` |
 | unknown_error | `4` |
 | expired | `561` |
 
