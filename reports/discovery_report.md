@@ -7,10 +7,10 @@
 | pending | `0` |
 | qualified | `1` |
 | promoted | `19` |
-| no_config | `62` |
+| no_config | `63` |
 | not_found | `712` |
 | unknown_error | `5` |
-| expired | `514` |
+| expired | `517` |
 
 ## Candidate Sample
 
