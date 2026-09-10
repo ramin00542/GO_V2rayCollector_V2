@@ -10,6 +10,7 @@ vless://219762a7-b918-4e2b-8a3d-d309ef98bb61@45.195.111.108:443?security=reality
 vless://2ab5d143-d8be-4506-b8ae-039fee32dfa2@85.155.228.58:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=7zCzgzF_vJYAVe3uvFLfkZ_YS-4FQ0SZM9Bjf_r9OBg&sid=b868b87c347a451e&sni=al1.cdn-global.pro#%40v2rayconfigamir%203330
 vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?security=none&type=ws&path=/&host=uae.unixzone.us&sni=uae.unixzone.us#%40v2rayconfigamir%206412
 vless://399b6b23-cc40-4831-a494-61948e2df133@jp.sofast.live:52683/?type=tcp&encryption=none&flow=#%40v2rayconfigamir%204566
+vless://3ad1d277-5715-4ca1-84db-5baea72f822d@lv-ddc.astralweb.tech:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0#%40v2rayconfigamir%207585
 vless://3b940e86-7b0d-40da-acf1-12d334e41023@199.232.48.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=%2F&ed=2560&eh=Sec-WebSocket-Protocol#%40v2rayconfigamir%208165
 vless://441afe11-a180-4516-bb80-80a8a6b38705@193.163.203.253:443?security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=gE8LUmGFXik94SoDXNiAG5KprGyhjoRwDuhGebgAVWk&sid=5ee019e02e6ed99a&sni=yandex.ru#%40v2rayconfigamir%208380
 vless://489b61b6-e7fa-4254-ad2b-6ac989b75d86@91.92.250.23:25049?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=jTZuBbLwiOkK7F0kk8Q8ReFVyeLhLcVhoEjuTmZd0gM&sid=60cc81db9bc43025&sni=proxy11.h1guro.ovh#%40v2rayconfigamir%205833
@@ -41,11 +42,15 @@ vless://9a39f63e-28c8-4560-af18-b01b9916ef1b@104.18.41.138:8443?path=%2F%3Fed%3D
 vless://9a39f63e-28c8-4560-af18-b01b9916ef1b@www.visa.com.sg:8443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=pardazesh-tgws.pages.dev&fp=random&type=ws&sni=pardazesh-tgws.pages.dev#%40v2rayconfigamir%205190
 vless://9a47a8ff-8cdd-4a35-b765-fbad6d40e0a0@bz9.wba-pn.ru:2053?encryption=none&security=tls&type=ws#%40v2rayconfigamir%207511
 vless://a34b5e88-cf0d-4c01-8199-2d1002d3c787@185.66.68.72:443?flow=xtls-rprx-vision&fp=firefox&pbk=HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U&security=reality&sni=www.wikihow.com&type=tcp#%40v2rayconfigamir%202121
+vless://a3bf5677-eaa6-42c5-959c-38cfdcd58d48@104.252.53.195:21948?encryption=none&security=none&type=tcp#%40v2rayconfigamir%204688
 vless://baf36ee9-0e2c-40b9-bf1a-76e542b4da9f@153.75.88.69:110?security=none&encryption=none&headerType=none&type=tcp#%40v2rayconfigamir%207795
 vless://c20828bd-c63b-401f-b324-7b652dd353af@kr1.miyazono-kaori.com:443?security=reality&type=tcp&sni=www.coway.com&fp=chrome&flow=xtls-rprx-vision&sid=f554f56d31&pbk=aVGSSemhxqqDg75lUDBxCNZZXfuBb4QrU8yZYnJD6nk&encryption=none#%40v2rayconfigamir%202888
 vless://c7e9c591-2764-423a-afca-efbd010fd396@93.85.88.60:2053?&security=tls&fp=chrome&sni=forfreeuse.sub-flow.online&type=ws&headerType=none&host=forfreeuse.sub-flow.online&path=%2F#%40v2rayconfigamir%202942
 vless://d4cae7df-50a1-428c-bd62-881c8f3bbd90@youtube.superbuba.top:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=&fp=chrome&pbk=rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs&sid=4fa44664f6a566d3&spx=/#%40v2rayconfigamir%201959
 vless://e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d@45.88.13.3:993?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk&sni=download.nvidia.com#%40v2rayconfigamir%204770
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@31.56.197.68:2090?security=&alpn=http%2F1.1&encryption=none&headerType=none&fp=chrome&type=tcp#%40v2rayconfigamir%208787
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@31.56.205.78:2090?security=&alpn=http%2F1.1&encryption=none&headerType=none&fp=chrome&type=tcp#%40v2rayconfigamir%203746
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@31.57.105.57:2090?alpn=http/1.1&encryption=none&headerType=none&fp=chrome&type=tcp#%40v2rayconfigamir%207747
 vless://ecc19b72-2cc8-4690-b23d-960d3e3c6d40@172.64.146.118:8443?path=%2Fproxy_mtm-proxy_mtm-proxy_mtm%3Fed%3D2048&security=tls&encryption=none&host=pardazeshvpn-tg24.pages.dev&fp=random&type=ws&sni=pardazeshvpn-tg24.pages.dev#%40v2rayconfigamir%205319
 vless://ecc19b72-2cc8-4690-b23d-960d3e3c6d40@172.64.146.118:8443?path=TELEGRAM-MARAMBASHI%2F%3Fed%3D2048&security=tls&encryption=none&host=pardazeshvpn-tg24.pages.dev&fp=random&type=ws&sni=pardazeshvpn-tg24.pages.dev#%40v2rayconfigamir%204686
 vless://f1eb7fed-bc91-4285-9e7f-23d941a0204a@www.speedtest.net:443?mode=gun&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&authority=&fp=chrome&type=grpc&serviceName=%40ConfigTell%2C%40ConfigTell%2C%40ConfigTell&sni=www.felafel.org#%40v2rayconfigamir%205446
