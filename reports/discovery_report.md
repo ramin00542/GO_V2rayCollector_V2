@@ -5,10 +5,10 @@
 | Status | Count |
 |---|---:|
 | pending | `0` |
-| qualified | `2` |
-| promoted | `20` |
+| qualified | `1` |
+| promoted | `21` |
 | no_config | `54` |
-| not_found | `597` |
+| not_found | `600` |
 | unknown_error | `3` |
 | expired | `669` |
 
