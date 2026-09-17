@@ -1,5 +1,5 @@
 {
-  "current_day": "2026-09-16",
+  "current_day": "2026-09-17",
   "entries": {
     "0002cc0a21149f8eeb3fbf05e2522602e66b0a524542f76ab0ed2a43d659af25": {
       "value": "vless://acc50200-7f21-4f90-9cca-0057efcbf042@176.96.138.198:443?sid=837fa04e73d6b581\u0026type=tcp\u0026security=reality\u0026pbk=Oyd0sn1z_6uNSN6AN63Q7aBq7AUQ1bOsB9MT3FyyiRM\u0026flow=xtls-rprx-vision\u0026sni=www.ya.ru\u0026headerType=none\u0026encryption=none#%F0%9F%94%96%40vpn_ete",
@@ -105,12 +105,12 @@
       "protocol": "mtproto",
       "fingerprint": "005fbc5d850c413b330a5c74affaf408f56c5839e161f1b8839c5e0c7fdf7c45",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-07T05:51:26.368303699Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-07T05:51:26.368303699Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -162,12 +162,12 @@
       "protocol": "vless",
       "fingerprint": "00839a0462dea848440c29f04e6b7c62f601153915bf5a9c0e4dd0e303f9020f",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -406,7 +406,7 @@
       "protocol": "mtproto",
       "fingerprint": "0171604f7214b553d666f73fcf3f6e3321fb3cfc2b193f669af7a403e7c87d48",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -416,7 +416,7 @@
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -602,12 +602,12 @@
       "protocol": "vless",
       "fingerprint": "02c0b0a8cbc6154683d294e635a6d27b48afe341c052ae7df57e22cc97eb7a7a",
       "first_seen_at": "2026-09-08T22:45:19.07418524Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -663,12 +663,12 @@
       "protocol": "vless",
       "fingerprint": "02fe913b10a031392359ac5e6146cf83f7c3ae9b3dc13cf43809d43e08076311",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -743,12 +743,12 @@
       "protocol": "vless",
       "fingerprint": "031d86ceca0d3143214a48e9106afa826a7a281c97340c0efbe71334652b07f7",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -860,12 +860,12 @@
       "protocol": "mtproto",
       "fingerprint": "03b7eb601e943109fedd93e923de8e8c81a38233a5fbdd128c374427b45e35d2",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -1025,12 +1025,12 @@
       "protocol": "vless",
       "fingerprint": "0446bc0c738304cd712be14915756290c699ea130c947f4b0075719b8fda501c",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -1208,12 +1208,12 @@
       "protocol": "vmess",
       "fingerprint": "059abe79b7a93d7040f4354715ebc3ddf2b12e385f7ef769f57670313a10ea67",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -1274,7 +1274,7 @@
       "protocol": "mtproto",
       "fingerprint": "05d15485c631577bd496641e8f774903ba323b3a0a568185fcea18e29be3702c",
       "first_seen_at": "2026-08-09T12:02:59.145000649Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -1284,7 +1284,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -1836,12 +1836,12 @@
       "protocol": "vless",
       "fingerprint": "08d296f272badb8653b3c926d90963120f3ae3f82c073b12670d72386efab542",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -2085,12 +2085,12 @@
       "protocol": "mtproto",
       "fingerprint": "0a466b1c780e1b91fd2d557da759dca30730e0abe4de1d44716b3337c89d0b9e",
       "first_seen_at": "2026-09-08T22:45:19.07418524Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -2099,12 +2099,12 @@
       "protocol": "mtproto",
       "fingerprint": "0a4fbd06cba27eaa35046f0f610b45257201e7bb47ace41c3480bfc674d17999",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-07T05:51:26.368303699Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-07T05:51:26.368303699Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -2231,12 +2231,12 @@
       "protocol": "mtproto",
       "fingerprint": "0abe224e6b48de93a3935a2f8d7142ca255ea5c0a321ef6bfe9708ce57fb2f98",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -2744,12 +2744,12 @@
       "protocol": "mtproto",
       "fingerprint": "0d74505a3329ab4b3263331785cdbaf38d0fbd507719e5e74437895f1c07af7b",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -2871,12 +2871,12 @@
       "protocol": "vless",
       "fingerprint": "0df41fdcec1bb4ff1caea9ee39cfce2a783ecba00fb8e4e195c8395aadb92792",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -2981,6 +2981,34 @@
           "kind": "telegram",
           "channel": "v2ray_alpha",
           "last_seen_at": "2026-08-31T06:49:26.163510559Z"
+        }
+      }
+    },
+    "0e7feb02111fcf3037f64ef61d6cb3acfd2482dd495fb4ead59b56491e144cb4": {
+      "value": "https://t.me/proxy?server=www.sinlx.ir.\u0026port=8443\u0026secret=3RBEYoISSb16xRkTAiDCXQk",
+      "protocol": "mtproto",
+      "fingerprint": "0e7feb02111fcf3037f64ef61d6cb3acfd2482dd495fb4ead59b56491e144cb4",
+      "first_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "observations": {
+        "telegram:https://t.me/s/v2rayconfigamir": {
+          "kind": "telegram",
+          "channel": "https://t.me/s/v2rayconfigamir",
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
+        }
+      }
+    },
+    "0e877bd1516f9ea94850333ff133eaaf8c6dc9b3a83dcc2901ece0ad149040db": {
+      "value": "vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@185.234.52.200:13868?type=tcp\u0026security=reality\u0026encryption=none\u0026flow=xtls-rprx-vision\u0026fp=firefox\u0026pbk=0fpKjFQCqqneYHXsYHW2q3fi6N0q0CcF2zjq4xsoV1Y\u0026sid=e852dc\u0026sni=www.speedtest.net#%40v2rayconfigamir%208047",
+      "protocol": "vless",
+      "fingerprint": "0e877bd1516f9ea94850333ff133eaaf8c6dc9b3a83dcc2901ece0ad149040db",
+      "first_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "observations": {
+        "telegram:https://t.me/s/v2rayconfigamir": {
+          "kind": "telegram",
+          "channel": "https://t.me/s/v2rayconfigamir",
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -3454,7 +3482,7 @@
       "protocol": "mtproto",
       "fingerprint": "111f2b1232bafb08462b36371867eced2bc03d91cbd8b0a3650037acc54f13d4",
       "first_seen_at": "2026-08-11T13:48:06.200956022Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -3464,7 +3492,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -3535,12 +3563,12 @@
       "protocol": "vless",
       "fingerprint": "118645aa47b4da1c76541e6d2f991b30725ca201b1a052c5a93a26bdb650efef",
       "first_seen_at": "2026-09-04T15:05:36.301343294Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -3816,12 +3844,12 @@
       "protocol": "vless",
       "fingerprint": "12f6e2127305193b198be0670d6d24f0ff7bb14dc47dc521183d3d294f986e8a",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -4060,12 +4088,12 @@
       "protocol": "vless",
       "fingerprint": "145447a63ff55f170f5ef051489d97e8476c8b9f6f57bcc2a1c4c50c9b50b71e",
       "first_seen_at": "2026-09-16T19:41:34.414164576Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -4088,12 +4116,12 @@
       "protocol": "shadowsocks",
       "fingerprint": "148b2ffc2e76de462429c5db019bcb457944d918cf19c4d5547068dd7bc99978",
       "first_seen_at": "2026-09-16T19:41:34.414164576Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -4224,12 +4252,12 @@
       "protocol": "mtproto",
       "fingerprint": "14e0566296844ba0a4027f49a02a74914e90492f11475e53b9a15f484b319e19",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-02T21:58:08.512547128Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-02T21:58:08.512547128Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -4374,7 +4402,7 @@
       "protocol": "mtproto",
       "fingerprint": "15d566149b70872502c64386bd4b45d1ba085d34549174e64c7d0b833f7ba390",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -4384,7 +4412,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -4446,12 +4474,12 @@
       "protocol": "shadowsocks",
       "fingerprint": "15dfc95142d1ee4e17a3db8ed09b1af75c27c062b174209c88b447f77e43ce43",
       "first_seen_at": "2026-09-04T18:29:07.472148487Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -5038,20 +5066,6 @@
         }
       }
     },
-    "19602280a576452b17e592467b32f793a467121d0cf7c812dc4fbfedfee11e5c": {
-      "value": "vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@45.82.13.48:13868?type=tcp\u0026security=reality\u0026encryption=none\u0026flow=xtls-rprx-vision\u0026fp=firefox\u0026pbk=sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk\u0026sid=e852dc\u0026sni=booking.com#%40v2rayconfigamir%208701",
-      "protocol": "vless",
-      "fingerprint": "19602280a576452b17e592467b32f793a467121d0cf7c812dc4fbfedfee11e5c",
-      "first_seen_at": "2026-08-16T04:04:01.971619505Z",
-      "last_seen_at": "2026-08-17T23:56:49.265413824Z",
-      "observations": {
-        "telegram:v2rayconfigamir": {
-          "kind": "telegram",
-          "channel": "v2rayconfigamir",
-          "last_seen_at": "2026-08-17T23:56:49.265413824Z"
-        }
-      }
-    },
     "1983683552e26cfb70cea9d6dff0a44556a86eb9aa9b77f3b2842408419216d2": {
       "value": "http://47.245.165.201:1080/",
       "protocol": "http",
@@ -5528,12 +5542,12 @@
       "protocol": "vless",
       "fingerprint": "1c4dca6733a396659fbbc0da588a647202c555272241893f54886d6b970643b7",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -5716,12 +5730,12 @@
       "protocol": "trojan",
       "fingerprint": "1d8423966427755c14baec7eca0e54c9aca57d1bdd5f48b0d88a67d70c2fab13",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -5758,12 +5772,12 @@
       "protocol": "vmess",
       "fingerprint": "1d9f6effdeb04dee7a76afc9ae6be663bff7bcc122462c8e68bfaa6d163963aa",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -5914,12 +5928,12 @@
       "protocol": "mtproto",
       "fingerprint": "1e96b56bcc9e420ff8ece9efb0965150e9cae81442edcbf89a9c17cb57f864da",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -5961,12 +5975,12 @@
       "protocol": "vless",
       "fingerprint": "1ec9834561dea25d923a1ae8230f38b326e3371bf531a2473a6bae5c12bdb8fd",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -6116,12 +6130,12 @@
       "protocol": "mtproto",
       "fingerprint": "1fb4bf201e6eb9a65e03481ed99ee507cc14322b5a46b0cad292934a07eab45c",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -6135,12 +6149,12 @@
       "protocol": "trojan",
       "fingerprint": "1fcafb43521cabc089bc3cba64bd9f61e8f9be8dc8d9e903404b95e6d3bfb788",
       "first_seen_at": "2026-09-08T17:30:45.325703997Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -6187,12 +6201,12 @@
       "protocol": "mtproto",
       "fingerprint": "2027371067f8ca3c6c983c76c7b35488906d279b2b74cfafd0abd844f58602d7",
       "first_seen_at": "2026-09-06T10:36:39.423598051Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -6778,12 +6792,12 @@
       "protocol": "vmess",
       "fingerprint": "24f22fbb10b087409403aeb94f03740ad629848ea5c50ed209a0ecbb9e38bd91",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -6991,12 +7005,12 @@
       "protocol": "vless",
       "fingerprint": "267c6abaa857088236c15b4a2917061661e21d24119239322115daa347b082cf",
       "first_seen_at": "2026-08-05T22:31:33.277166424Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2ray_alpha": {
           "kind": "telegram",
@@ -7189,12 +7203,12 @@
       "protocol": "mtproto",
       "fingerprint": "27a12b150413b09935927c84ba212ac4e72da2369e8d77dd4635a6e1520eb1cf",
       "first_seen_at": "2026-08-05T00:17:34.413033263Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -7396,12 +7410,12 @@
       "protocol": "trojan",
       "fingerprint": "2896fb617ce97deba7831eae216a565b93ed07835dcc473fefeced469a1308d4",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -7997,7 +8011,7 @@
       "protocol": "mtproto",
       "fingerprint": "2c36f3f5add9d6307a763f376c10a209226e889f79bd16603cccb6a9011fe2b3",
       "first_seen_at": "2026-08-24T10:57:37.570961552Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -8007,7 +8021,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -8120,12 +8134,12 @@
       "protocol": "mtproto",
       "fingerprint": "2ccefe32fe66594fe81f073fc36ed89d75d93165b98b93dcb731c5540846ecfe",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-07T05:51:26.368303699Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-07T05:51:26.368303699Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -8720,12 +8734,12 @@
       "protocol": "vless",
       "fingerprint": "2f91a7b6a0971866fffe6bc1cc56d8c2bbeeba0d208d3edfbf152c7b312b988d",
       "first_seen_at": "2026-09-08T22:45:19.07418524Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -9011,12 +9025,12 @@
       "protocol": "vless",
       "fingerprint": "308de60c7259234a84c9847cf6a72e68dbf8ae3ce39464b346e81b6b5529b6d0",
       "first_seen_at": "2026-09-16T22:46:21.799731039Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/napsternetvirani": {
           "kind": "telegram",
           "channel": "https://t.me/s/napsternetvirani",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -9461,12 +9475,12 @@
       "protocol": "vless",
       "fingerprint": "333ca92d381c048424116c494b2d2bc5a90ab9c598dc11f7b0d340a525eada23",
       "first_seen_at": "2026-08-21T08:01:36.368250477Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -9519,12 +9533,12 @@
       "protocol": "http",
       "fingerprint": "337a7b4b0b63eb08543bebf496a2745d537ef10086ffdc40945ad30d799c1581",
       "first_seen_at": "2026-09-05T13:28:36.250887291Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -9716,8 +9730,13 @@
       "protocol": "mtproto",
       "fingerprint": "345d4b22f0bef0065fdbdfc45d1c7bbab9e651a318d5919e73218de67b9439fd",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-08-25T11:49:12.300683403Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
+        "telegram:https://t.me/s/v2rayconfigamir": {
+          "kind": "telegram",
+          "channel": "https://t.me/s/v2rayconfigamir",
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
+        },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
           "channel": "v2rayconfigamir",
@@ -9772,12 +9791,12 @@
       "protocol": "vless",
       "fingerprint": "348f95ae0645690400be216fa2275106f6d508c11b04caea63088453671eb279",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -10184,12 +10203,12 @@
       "protocol": "vless",
       "fingerprint": "3783786bfac651fef856686f6746c623f048095e24c67767a309a61e8df39ce3",
       "first_seen_at": "2026-09-06T10:36:39.423598051Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -10198,12 +10217,12 @@
       "protocol": "vless",
       "fingerprint": "37a8caa41dc2059344eba62dc3b0fa3ab8c3e660bc01571cbdfb1c53c84e48ed",
       "first_seen_at": "2026-09-05T16:15:19.066176073Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -10231,12 +10250,12 @@
       "protocol": "vmess",
       "fingerprint": "37ccc43f0627e3d2c24a240ccde919cd7aea39261809dc38cc578a418ab0f647",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -10321,12 +10340,12 @@
       "protocol": "trojan",
       "fingerprint": "3834830fdf0edffb3bb72d91532f2c376fbedb20942b1ef7f2dc9f67c928bc25",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -10391,12 +10410,12 @@
       "protocol": "trojan",
       "fingerprint": "386197a9ef338a75775a5af61d621d32ac4978c2c75b9dbb76b9e3e7b342f526",
       "first_seen_at": "2026-09-13T12:06:53.209211704Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -10985,20 +11004,6 @@
         }
       }
     },
-    "3b47f6f9c5656402108aa729f8e0b090e04a20d7747c505d736fb21e47f4f8c5": {
-      "value": "vless://8bc63720-5ec8-45b5-b6a6-9a21ffb490e8@lb1.auragg.org:25332?encryption=none\u0026fp=chrome\u0026pbk=4iK2MvJODGj37OQE588278o4abt70zkFZzmQJg47NiA\u0026security=reality\u0026serviceName=auragrpc\u0026sid=a3d8f1e9b2c7d4e6\u0026sni=cloudflare.com\u0026type=grpc#%40v2rayconfigamir%207216",
-      "protocol": "vless",
-      "fingerprint": "3b47f6f9c5656402108aa729f8e0b090e04a20d7747c505d736fb21e47f4f8c5",
-      "first_seen_at": "2026-08-16T04:04:01.971619505Z",
-      "last_seen_at": "2026-08-17T23:56:49.265413824Z",
-      "observations": {
-        "telegram:v2rayconfigamir": {
-          "kind": "telegram",
-          "channel": "v2rayconfigamir",
-          "last_seen_at": "2026-08-17T23:56:49.265413824Z"
-        }
-      }
-    },
     "3b84e49365b3ca79b10f9c45292d740e6e0399e52f72d604ef2e88765eb6fbf3": {
       "value": "vless://7f21c3b5-91d2-492f-803d-5112fe648f21@iP.mEloV2raY.shOp:443?type=ws\u0026path=%2Fmelov2ray\u0026security=none#%40v2rayconfigamir%205880",
       "protocol": "vless",
@@ -11018,12 +11023,12 @@
       "protocol": "mtproto",
       "fingerprint": "3b8c96363683aba972917f2e6f996ccbb0f27a4712c7404f02fdd0d42d87039a",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-07T05:51:26.368303699Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-07T05:51:26.368303699Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -11267,12 +11272,12 @@
       "protocol": "vless",
       "fingerprint": "3d82e12f1f9033f69a54781b0018e6c5bb9e74055e321c12fb9b44fe4465e679",
       "first_seen_at": "2026-09-13T01:08:49.166383208Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -11885,12 +11890,12 @@
       "protocol": "vless",
       "fingerprint": "40cbacb31c95f9f2eb2492f1cdfdb035c53b4ca5b7a02f5c03181604cd220763",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -11899,12 +11904,12 @@
       "protocol": "vless",
       "fingerprint": "40f5ab39fc3e54d47e3edfeba878d0f2f0acdab9e367a426aca48b99d5adfbe8",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -12105,7 +12110,7 @@
       "protocol": "mtproto",
       "fingerprint": "4267e3b1fb83004af764443d8925875e0f6f439140d3b7d5246914a444badb48",
       "first_seen_at": "2026-08-07T13:57:48.231401Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -12115,7 +12120,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -12243,12 +12248,12 @@
       "protocol": "vless",
       "fingerprint": "430bfd0206ee9179abf9ed431af299320534f257d8d7fdbfd2eba34d03670a86",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -12304,12 +12309,12 @@
       "protocol": "vmess",
       "fingerprint": "433c31f836cd64ebaf30b301042b21dabf3ff33f607ef8856bb5470c12d651f9",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -12416,12 +12421,12 @@
       "protocol": "vless",
       "fingerprint": "43a19e2a78ed149b8240485ed4fa5089eafcf2a3417085c63709c57c083d1774",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -12477,12 +12482,12 @@
       "protocol": "vless",
       "fingerprint": "43f3349f31b6c0f02768a1e4fdb7e0e00dbff407ef45218a905a13a821c4411b",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -12524,12 +12529,12 @@
       "protocol": "vless",
       "fingerprint": "43fe641a39228c3d876780ba29829a49e803e2b3b1d091a1795e21c7c7c9445c",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -12772,12 +12777,12 @@
       "protocol": "mtproto",
       "fingerprint": "4571004f064b44aa4a3932e2b0ad42231a29f37c60b590c2164853981af366a1",
       "first_seen_at": "2026-09-08T22:45:19.07418524Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -12955,12 +12960,12 @@
       "protocol": "vless",
       "fingerprint": "464ebe5c0ac9219c6f3a709cbb9713a59905772cc42e194d7e9c0f4619b48f34",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -13054,12 +13059,12 @@
       "protocol": "vless",
       "fingerprint": "470a6f78395190791357e93b764c6d80b8930d4e95f3cc8679b24540d9ad96b1",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -13425,12 +13430,12 @@
       "protocol": "vless",
       "fingerprint": "48ecb77b26650a84f87394ec501f8018deae7d4693e035ddd874ed65a63d1ae0",
       "first_seen_at": "2026-09-05T16:15:19.066176073Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -13524,12 +13529,12 @@
       "protocol": "mtproto",
       "fingerprint": "495b0c003b44fefa97b17bcee57c93cc74e7252bc5404c41769ab7a055ee819b",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -13820,12 +13825,12 @@
       "protocol": "vless",
       "fingerprint": "4b5448cb83a90f5ab0e20601da2773fd4e6007b65c1ebcc4387268f1cfb51d43",
       "first_seen_at": "2026-09-05T16:15:19.066176073Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -13895,12 +13900,12 @@
       "protocol": "vless",
       "fingerprint": "4bfb81dfba927731915eb8a8b2d727806864323b0143b9fc0efdd5e8bc022396",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -14065,7 +14070,7 @@
       "protocol": "mtproto",
       "fingerprint": "4cc533bd04d93eac5e90c566024436c902739309160851324c38783e4c01d66c",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -14075,7 +14080,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -14132,12 +14137,12 @@
       "protocol": "vmess",
       "fingerprint": "4cdc3a6f729a94e24a6deba8c3b2d3f911fe1083b0e97353b74d7def40c16fb5",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -14330,12 +14335,12 @@
       "protocol": "vless",
       "fingerprint": "4dbb42e06e0910386af56a6ba2aaf4b9f457b808f2b54f68b37fab6d1561be4a",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -14358,12 +14363,12 @@
       "protocol": "vless",
       "fingerprint": "4e49a02739cc8f7c0d30f252d998ab741b03d7e670fc9b064267706b0223b83b",
       "first_seen_at": "2026-09-12T18:45:05.861466486Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/vpn_ete": {
           "kind": "telegram",
@@ -14405,12 +14410,12 @@
       "protocol": "vless",
       "fingerprint": "4e99283bf41c1cc492139ba137986fae54a3bab384b151c3e09bb17372de400f",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -14477,20 +14482,6 @@
           "kind": "telegram",
           "channel": "v2rayconfigamir",
           "last_seen_at": "2026-08-29T07:10:56.208412691Z"
-        }
-      }
-    },
-    "4f081491c14057fb7658d9250f1cc514b2369ea1c02b963286bceabf1c209b0f": {
-      "value": "vless://59da5351-5151-417d-b2f7-6923848b717e@alban2.helper-internet.com:443?type=tcp\u0026headerType=none\u0026security=reality\u0026encryption=none\u0026sni=alban2.helper-internet.com\u0026fp=chrome\u0026pbk=W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE\u0026sid=ff776ff77be48b88\u0026spx=%2F\u0026flow=xtls-rprx-vision#%40v2rayconfigamir%203481",
-      "protocol": "vless",
-      "fingerprint": "4f081491c14057fb7658d9250f1cc514b2369ea1c02b963286bceabf1c209b0f",
-      "first_seen_at": "2026-08-16T04:04:01.971619505Z",
-      "last_seen_at": "2026-08-17T23:56:49.265413824Z",
-      "observations": {
-        "telegram:v2rayconfigamir": {
-          "kind": "telegram",
-          "channel": "v2rayconfigamir",
-          "last_seen_at": "2026-08-17T23:56:49.265413824Z"
         }
       }
     },
@@ -14744,17 +14735,17 @@
       "protocol": "vless",
       "fingerprint": "4fbf8f496efc80a83b40d103dd26ea28a257354cfd9cb927fca71d69aeaa2837",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/napsternetvirani": {
           "kind": "telegram",
           "channel": "https://t.me/s/napsternetvirani",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -15302,12 +15293,12 @@
       "protocol": "shadowsocks",
       "fingerprint": "52d37fd6de1ce8ece6682efc5d907b48ca5228c2872c2128ad19a2a39787a431",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -15494,12 +15485,12 @@
       "protocol": "vless",
       "fingerprint": "53eb9f38dd41cd386e06c2b0f223b584abf1899c8b8247be4cb809e620c1f9e3",
       "first_seen_at": "2026-09-05T10:16:32.089800724Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -15569,12 +15560,12 @@
       "protocol": "vmess",
       "fingerprint": "544551f1f82d308043bd7fade2eb0710a085d7cde6e105c1355a1c2f80af31bc",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -15776,12 +15767,12 @@
       "protocol": "vless",
       "fingerprint": "55ac5088a3128b54a5df311643021c85acf3c06fa13c63261c479a822c3f6405",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -15818,12 +15809,12 @@
       "protocol": "mtproto",
       "fingerprint": "56002fd356fe89a4f9947651b98829a1d1a95cfb9ba9090a8d9f659efced8794",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -15945,12 +15936,12 @@
       "protocol": "vless",
       "fingerprint": "56cbe2dc0331f9587f42e4a5d3782ba8fbea1ee41c01e4c8ef9a4ff9faf33ac6",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -16208,12 +16199,12 @@
       "protocol": "vless",
       "fingerprint": "587af3b230e76da8a3e103adb2fdacc32cc045b91db985891fac3c6ce075037f",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -16739,6 +16730,20 @@
         }
       }
     },
+    "5ad2d66c48f7748fb94bff6117a78b0e3deafcdbde83e548db6cccf731c391fa": {
+      "value": "vless://59da5351-5151-417d-b2f7-6923848b717e@grek.helper-internet.com:443?encryption=none\u0026flow=xtls-rprx-vision\u0026security=reality\u0026sni=grek.helper-internet.com\u0026fp=chrome\u0026pbk=W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE\u0026sid=ff776ff77be48b88\u0026spx=%2F\u0026type=tcp\u0026headerType=none#%40v2rayconfigamir%202226",
+      "protocol": "vless",
+      "fingerprint": "5ad2d66c48f7748fb94bff6117a78b0e3deafcdbde83e548db6cccf731c391fa",
+      "first_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "observations": {
+        "telegram:https://t.me/s/v2rayconfigamir": {
+          "kind": "telegram",
+          "channel": "https://t.me/s/v2rayconfigamir",
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
+        }
+      }
+    },
     "5ae04f6d5ea343f286bf5ec312771203570622e9a115b1d0c02a690aa6c509c9": {
       "value": "vless://80d02a71-54a5-4c5b-976d-5ee573c502af@194.26.192.76:443?security=reality\u0026encryption=none\u0026pbk=tzOeyllk2VtPXZ_BJ2lOZcGtsnn41ZHBa9dE6s9sFiQ\u0026headerType=none\u0026fp=firefox\u0026type=tcp\u0026flow=xtls-rprx-vision\u0026sni=nl1.tsumshop.org\u0026sid=c8c75aaf699259b4#%40Napsternetvirani",
       "protocol": "vless",
@@ -16758,12 +16763,12 @@
       "protocol": "vless",
       "fingerprint": "5ae8bb312ac92b0ca430a92fadc9ad050f86a2251f9fb8ca21209036daf34b45",
       "first_seen_at": "2026-09-05T10:16:32.089800724Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -16983,17 +16988,17 @@
       "protocol": "vless",
       "fingerprint": "5c25d49c71edf9332f9026e7c4ec111a83b8638b5784577b990e1071efc93e8a",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -17016,8 +17021,13 @@
       "protocol": "mtproto",
       "fingerprint": "5c39785bad4cde9ddfbdba9b82232e5fa5fb650794df996bee9f6f66b82efffc",
       "first_seen_at": "2026-08-24T01:41:39.188847062Z",
-      "last_seen_at": "2026-08-25T15:48:00.762938695Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
+        "telegram:https://t.me/s/v2rayconfigamir": {
+          "kind": "telegram",
+          "channel": "https://t.me/s/v2rayconfigamir",
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
+        },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
           "channel": "v2rayconfigamir",
@@ -17077,12 +17087,12 @@
       "protocol": "vless",
       "fingerprint": "5ccc121e6e9c86170eeb50661e5c7c06955073365c3f8f75b938ee8f4a327ab8",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -17152,12 +17162,12 @@
       "protocol": "vless",
       "fingerprint": "5d53335a69a406d75a50a522b0d668e51ed167aba2441dd27b1d3588b61a14bd",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -17396,12 +17406,12 @@
       "protocol": "mtproto",
       "fingerprint": "5eb976acd05e8680356a75f029fc02f572dc448917460cefd863453e6cf4d14b",
       "first_seen_at": "2026-08-31T00:49:31.478439377Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -17748,12 +17758,12 @@
       "protocol": "vless",
       "fingerprint": "60c0ad302531c249bca61fb88d6feef707fcf049cc4a57189c1c8c65b09a3464",
       "first_seen_at": "2026-09-05T13:28:36.250887291Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -17795,12 +17805,12 @@
       "protocol": "vless",
       "fingerprint": "60fa5a0662ebd66031a10ab7524ae6b3ba9613202b292417771c13a1a75896b6",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -17828,12 +17838,12 @@
       "protocol": "vless",
       "fingerprint": "6101596e3749afe62c5d9e463e8340b92ab79f021b6d9f5f41834bc75efc87d0",
       "first_seen_at": "2026-09-01T18:38:24.027509024Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/vpn_ete": {
           "kind": "telegram",
@@ -17852,12 +17862,12 @@
       "protocol": "vless",
       "fingerprint": "610a593a8aeb7e9cb37d737a7def4ad78275672458eb21f4a70ccb5eb4946810",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -17946,12 +17956,12 @@
       "protocol": "shadowsocks",
       "fingerprint": "6185cf6be52576e6d0e1c36e1ffb150cf8c5873a9bb795dadfdb6aa010891958",
       "first_seen_at": "2026-08-05T00:17:34.413033263Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -17965,17 +17975,17 @@
       "protocol": "trojan",
       "fingerprint": "61a1501a6a25c9138fa121017ce2b91273c32843a6a674dc05a28c68223b1337",
       "first_seen_at": "2026-09-03T13:51:43.657605189Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/vpn_ete": {
           "kind": "telegram",
@@ -18055,12 +18065,12 @@
       "protocol": "trojan",
       "fingerprint": "61f426255974806326d04ab3313d2d9f3f0a6fea741e67c372861532492f9910",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -18271,12 +18281,12 @@
       "protocol": "vless",
       "fingerprint": "632e8203a17282992021d51b4e1b888243febec8c06698f21345a9b80aebb588",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -18892,12 +18902,12 @@
       "protocol": "mtproto",
       "fingerprint": "679dde1316c2cfae22a2c884d8c288fca05927aabadd974af7cbc4813869db3b",
       "first_seen_at": "2026-09-06T10:36:39.423598051Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -18958,12 +18968,12 @@
       "protocol": "vless",
       "fingerprint": "67d556728eb6aeb9fda8887c5edd5df5d1413b50c0037bf62016cdf3b1592ffa",
       "first_seen_at": "2026-09-04T15:05:36.301343294Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -19019,12 +19029,12 @@
       "protocol": "vless",
       "fingerprint": "68160235aea843f6977fc353371deec9e02760cf3a7a7cc22fe02ffdb548abb9",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -19089,12 +19099,12 @@
       "protocol": "mtproto",
       "fingerprint": "68b41b0e89bd8bc3db950dd9e8c95b1dd3dc7295686a99f80137234aef86524b",
       "first_seen_at": "2026-08-30T12:13:08.922919471Z",
-      "last_seen_at": "2026-09-13T06:18:38.658463868Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-13T06:18:38.658463868Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -19122,12 +19132,12 @@
       "protocol": "vless",
       "fingerprint": "68fb7c633ea38d5e62fa081727937f01364fffd5c671c975ad261e62987559f1",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -19592,12 +19602,12 @@
       "protocol": "vmess",
       "fingerprint": "6b67fb4e0ce63861762bb97d7ebbdc9981435b774f269608bf93d18f8f971c8a",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -19976,12 +19986,12 @@
       "protocol": "trojan",
       "fingerprint": "6dd405b087c8ccb29f027143cd4a65a10f12f11f5eefcf606676662de478d093",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -20390,12 +20400,12 @@
       "protocol": "mtproto",
       "fingerprint": "6fed0a9886d52d7b3275432e9aa52a560e11054cd17d6b08ac29cc7e14f801f0",
       "first_seen_at": "2026-08-05T16:14:12.786835904Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -20592,12 +20602,12 @@
       "protocol": "mtproto",
       "fingerprint": "710d18f144bc2329d159ea299d942c9d785a957aaed72528f29bd65b6cd49a0c",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-07T05:51:26.368303699Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-07T05:51:26.368303699Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -20611,12 +20621,12 @@
       "protocol": "vless",
       "fingerprint": "711522120d69f55cd0eb43a57bc28f572da6283497ff40bb5282337243e0e67f",
       "first_seen_at": "2026-09-16T19:41:34.414164576Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -20625,12 +20635,12 @@
       "protocol": "vmess",
       "fingerprint": "7138ab47fb9c99c28087a41dc3104453b0755659bad6ff1dab56c770d10cea3a",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -20757,12 +20767,12 @@
       "protocol": "vless",
       "fingerprint": "719d2664e57c7788159f4fc903b43987b32496ca03e81f0d9e6196d177209997",
       "first_seen_at": "2026-09-03T20:45:22.350046514Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -21180,12 +21190,12 @@
       "protocol": "vless",
       "fingerprint": "7467fe988ba4ea70d70f075471ebb96e7bf357cbd48ef44cbba7bfed6d245a9f",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -21274,12 +21284,12 @@
       "protocol": "trojan",
       "fingerprint": "75214b86306c881e587eaff4bbac280a5abd493c779c2f5b802c523b5f227c0c",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -21496,12 +21506,12 @@
       "protocol": "vless",
       "fingerprint": "765bc5ddd44a22d6b0d534fc0bd742a45ff5b4dce764ca981118f1fc663a3507",
       "first_seen_at": "2026-09-05T13:28:36.250887291Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -21674,12 +21684,12 @@
       "protocol": "mtproto",
       "fingerprint": "770cd47f118d78dfcfe6a1be8a29441b6a74b8c36db1b0a9ca9fc7510320b96c",
       "first_seen_at": "2026-08-24T01:41:39.188847062Z",
-      "last_seen_at": "2026-09-13T06:18:38.658463868Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-13T06:18:38.658463868Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -21906,7 +21916,7 @@
       "protocol": "mtproto",
       "fingerprint": "785cfc4efc5d94074d2b09b9c0863abd126ded4d82a9702c90bbfa8ed927c7de",
       "first_seen_at": "2026-08-09T12:02:59.145000649Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -21916,7 +21926,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-11T03:52:38.62015138Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -22072,12 +22082,12 @@
       "protocol": "mtproto",
       "fingerprint": "794307d984a5b5573f65056cdcd4f5afebcd710289e5899aa3b4dee2a6daa111",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-07T05:51:26.368303699Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-07T05:51:26.368303699Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -22307,12 +22317,12 @@
       "protocol": "vless",
       "fingerprint": "7a098726aeb97d6c905da8f941ae51a1679a71048ebfbabcd6026aa9ce2c9fa7",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -22424,7 +22434,7 @@
       "protocol": "mtproto",
       "fingerprint": "7a90c27e89935a1e123d749eb0649e1a6219450fc27d6bc25bbe12d56b7ab152",
       "first_seen_at": "2026-08-07T13:57:48.231401Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -22434,12 +22444,12 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/vpn_ete": {
           "kind": "telegram",
@@ -22608,12 +22618,12 @@
       "protocol": "trojan",
       "fingerprint": "7b3bed79704bf0d742a9966817cf065eb612259b5d1d7377c0aaefb38345008f",
       "first_seen_at": "2026-09-02T11:42:58.468518236Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2ray_alpha": {
           "kind": "telegram",
@@ -23205,12 +23215,12 @@
       "protocol": "vless",
       "fingerprint": "7e50b7b0407b47d7a481ed709c5e69dbe4686fe55ee5fb9b13d6d17bb49839aa",
       "first_seen_at": "2026-09-16T19:41:34.414164576Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/napsternetvirani": {
           "kind": "telegram",
           "channel": "https://t.me/s/napsternetvirani",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -23266,12 +23276,12 @@
       "protocol": "vless",
       "fingerprint": "7eb2ce9850947588b41053a7f61bc700b3344a4b84d5d3f4eca565bc7b22c7cf",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -23514,12 +23524,12 @@
       "protocol": "mtproto",
       "fingerprint": "80e9f380e79eca3829688201e4d66cd62a273c540f8ac28cfe60b182ad25fbbd",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-07T05:51:26.368303699Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-07T05:51:26.368303699Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -23552,12 +23562,12 @@
       "protocol": "vless",
       "fingerprint": "815beda5f367c499f1ed6f18788a5c351811cb004e4044c3d1849a85c3044cb3",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -23947,12 +23957,12 @@
       "protocol": "vless",
       "fingerprint": "835d91d263ebb8bcd3ac19fe78eced41e105522176752c723753ba2db2268e8a",
       "first_seen_at": "2026-09-05T10:16:32.089800724Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -24131,12 +24141,12 @@
       "protocol": "vmess",
       "fingerprint": "8439f5813c163f6978fd1d295ff60644cd39fd1641cd446c3a6af245347b6e41",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -24248,12 +24258,12 @@
       "protocol": "vless",
       "fingerprint": "8505aed3fb7412109bbc466ca91f86b5ccb838977fee55720bfe19d5be62b73b",
       "first_seen_at": "2026-09-16T19:41:34.414164576Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -24347,12 +24357,12 @@
       "protocol": "vmess",
       "fingerprint": "857596ce534716432e3fc679e09121114d41f49ce90ca2cac26e01a573a87205",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -24502,12 +24512,12 @@
       "protocol": "http",
       "fingerprint": "86165e1064de58006b776927f6e0f9666462925dbaaef2de29ce2f57605a3dbd",
       "first_seen_at": "2026-09-05T13:28:36.250887291Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -24577,8 +24587,13 @@
       "protocol": "mtproto",
       "fingerprint": "86a7531e4e886fb243c84aa8232eb8882e07ea95658170a365049a25f42f6b61",
       "first_seen_at": "2026-08-24T01:41:39.188847062Z",
-      "last_seen_at": "2026-08-25T15:48:00.762938695Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
+        "telegram:https://t.me/s/v2rayconfigamir": {
+          "kind": "telegram",
+          "channel": "https://t.me/s/v2rayconfigamir",
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
+        },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
           "channel": "v2rayconfigamir",
@@ -24755,12 +24770,12 @@
       "protocol": "vless",
       "fingerprint": "86f65ba43a17e86746c48d0c4ac039f576ce9d64599854d65403ca43cd4337ee",
       "first_seen_at": "2026-08-18T04:40:07.507757819Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -24774,12 +24789,12 @@
       "protocol": "mtproto",
       "fingerprint": "8709e06550ec7d1c15c83ba903ee3724e3c594c214b4b87bf885c80e5f5c121e",
       "first_seen_at": "2026-08-05T16:14:12.786835904Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -24949,6 +24964,20 @@
           "kind": "telegram",
           "channel": "vpn_ete",
           "last_seen_at": "2026-09-02T11:42:58.468518236Z"
+        }
+      }
+    },
+    "87df0767da7ec86ab48d62d3bdf0c9c37e88b831f9321e3070f3972a4b676880": {
+      "value": "https://t.me/proxy?server=8f3d1c4e-a9b2-475c-8e1f-2d6a9b4c7e3f.casa\u0026port=80\u0026secret=eefc56fb73c972a2309c4787bc1364c2207777772e636c6f7564666c6172652e636f6d",
+      "protocol": "mtproto",
+      "fingerprint": "87df0767da7ec86ab48d62d3bdf0c9c37e88b831f9321e3070f3972a4b676880",
+      "first_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "observations": {
+        "telegram:https://t.me/s/v2rayconfigamir": {
+          "kind": "telegram",
+          "channel": "https://t.me/s/v2rayconfigamir",
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -25290,12 +25319,12 @@
       "protocol": "vmess",
       "fingerprint": "89fbd4f9e17945e5064b7db4fc7f42b3d52df59f9f087c06c50fef37e6594f24",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -25449,12 +25478,12 @@
       "protocol": "vless",
       "fingerprint": "8adc9880ba657ff72d581ca3e3864cd5b8c7f18a5847c50857f7041b6db3c8c7",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -25482,7 +25511,7 @@
       "protocol": "mtproto",
       "fingerprint": "8afe43e1116db57a94f4cd7f33f3a1fb30c7d043497ed275b1a23d803b6fd562",
       "first_seen_at": "2026-08-07T13:57:48.231401Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -25492,7 +25521,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -25629,7 +25658,7 @@
       "protocol": "mtproto",
       "fingerprint": "8bafd2e0da368e54c90ebb3babcbca763cdc1c237eefbe92643b3fb63d18d1ca",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -25639,7 +25668,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -25668,12 +25697,12 @@
       "protocol": "vless",
       "fingerprint": "8bd3ce5eebf72a5ca00a4939f0b554c3b2f1b8381e6669ae1a0df93bb2aa95e2",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -25776,12 +25805,12 @@
       "protocol": "vless",
       "fingerprint": "8c2ae6ae204da16324782bd91cc588f3aff4e4ae15c1712c06712ad668c7877c",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -25790,7 +25819,7 @@
       "protocol": "mtproto",
       "fingerprint": "8c3719214f423be4a58a4479983d61d07bc89c832ad019d9437067ba1153d7aa",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -25800,12 +25829,12 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/vpn_ete": {
           "kind": "telegram",
@@ -25975,12 +26004,12 @@
       "protocol": "shadowsocks",
       "fingerprint": "8cc30cc6dc44868b29715a2b137f139688cc16a34adcc0bfc1c43f607cf904c0",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -26055,12 +26084,12 @@
       "protocol": "vless",
       "fingerprint": "8ced93da85295059d9228ee55ce1136391fdd1e25262f193a55f3abe686908e6",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -26384,12 +26413,12 @@
       "protocol": "vless",
       "fingerprint": "8e604275a7696bc21ef9e9296715e7426305841830f02bb2df275d79b1fd4d1d",
       "first_seen_at": "2026-09-16T19:41:34.414164576Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -26595,12 +26624,26 @@
       "protocol": "vless",
       "fingerprint": "903dc719579e8e03a6ce7792d20578f54d53b46ea704617bc8bd6a5542f750a9",
       "first_seen_at": "2026-09-06T10:36:39.423598051Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
+        }
+      }
+    },
+    "90558acb4ab8fc222e06d5d4624c9c5d20fedbf14d6bfefa0855d6ebb57b3488": {
+      "value": "vless://423b1d79-08c4-403f-9d5e-c541f791b55f@85.90.197.131:13443?type=tcp\u0026security=reality\u0026encryption=none\u0026flow=xtls-rprx-vision\u0026fp=firefox\u0026pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM\u0026sid=a7f3c91b2e6d84c0\u0026sni=auto.cendora.ru#%40v2rayconfigamir%206265",
+      "protocol": "vless",
+      "fingerprint": "90558acb4ab8fc222e06d5d4624c9c5d20fedbf14d6bfefa0855d6ebb57b3488",
+      "first_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "observations": {
+        "telegram:https://t.me/s/v2rayconfigamir": {
+          "kind": "telegram",
+          "channel": "https://t.me/s/v2rayconfigamir",
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -26609,12 +26652,12 @@
       "protocol": "vless",
       "fingerprint": "9062809dce3be1a46c4d516d6bf488ef982b5d63954808789a6d160bc83f9fbc",
       "first_seen_at": "2026-09-04T15:05:36.301343294Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -26670,12 +26713,12 @@
       "protocol": "vless",
       "fingerprint": "90d3198005daab1b975ccd09ad503e0f0f47eddaae0291608f890d796b8ed9f1",
       "first_seen_at": "2026-09-16T19:41:34.414164576Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/napsternetvirani": {
           "kind": "telegram",
           "channel": "https://t.me/s/napsternetvirani",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -26684,12 +26727,12 @@
       "protocol": "mtproto",
       "fingerprint": "90e507469e41519cd05ea68a9527faa6bf28701a31f7ed7e95575a7601e83b29",
       "first_seen_at": "2026-08-05T00:17:34.413033263Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -26731,17 +26774,17 @@
       "protocol": "vless",
       "fingerprint": "91524a743a04059ffec33cbed36b37efb6a7336238fde318334875a8dcea9e61",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/napsternetvirani": {
           "kind": "telegram",
           "channel": "https://t.me/s/napsternetvirani",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -26863,12 +26906,12 @@
       "protocol": "vless",
       "fingerprint": "92545191c0ef6b5a5ea92cb10aae293d162163fef35e78edb657518067fd7280",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -27309,12 +27352,12 @@
       "protocol": "http",
       "fingerprint": "948902095d31040c4d9840cdc2c40344dace54aec8bafd9cb244d0044f5d514d",
       "first_seen_at": "2026-09-05T13:28:36.250887291Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -27511,12 +27554,12 @@
       "protocol": "mtproto",
       "fingerprint": "953fefd8fb2475a860d2bca53f83416aecd2f45e0d09b07088d8b27e48778bb3",
       "first_seen_at": "2026-09-04T06:00:52.163040188Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -27814,17 +27857,17 @@
       "protocol": "trojan",
       "fingerprint": "96b70e5cb2e3d6b060da3fba1b5bfa295c0391cf1759028cc64b09a586eb8830",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -27955,12 +27998,12 @@
       "protocol": "mtproto",
       "fingerprint": "9808e88342ad922a73b4efa226cd189bb8af48b2e68cdbf35e92951b948662f6",
       "first_seen_at": "2026-08-05T00:17:34.413033263Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -27974,12 +28017,12 @@
       "protocol": "mtproto",
       "fingerprint": "98346b6651145e6690deee99e7248b60076e54c4628a2f783ee36d0428ff5c33",
       "first_seen_at": "2026-09-13T01:08:49.166383208Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -27988,12 +28031,12 @@
       "protocol": "vless",
       "fingerprint": "9841502ed845319f1269ed32a6e618fd23c9c5ce95808047e451c957d638b111",
       "first_seen_at": "2026-09-05T13:28:36.250887291Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -28527,12 +28570,12 @@
       "protocol": "vless",
       "fingerprint": "9aa431a1822018dbddda5dcada66840dcfa233327d05e078029c92ae5995ad21",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -28555,12 +28598,12 @@
       "protocol": "trojan",
       "fingerprint": "9ad5125c9b1122a4c1d2eb535c9417dca9c2813987cf00067273ee4c2278a566",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -28672,12 +28715,12 @@
       "protocol": "vless",
       "fingerprint": "9b95e03a1d9df813ca389ae4e42154ffb88fe2e39340dade9c44c2de6cea1082",
       "first_seen_at": "2026-09-05T13:28:36.250887291Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -28738,12 +28781,12 @@
       "protocol": "vless",
       "fingerprint": "9ba8d64a0ff0573d77d8a4918d09e4bdaa31af7486ba9bdff8b31bf9294a3fb7",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -28818,12 +28861,12 @@
       "protocol": "vmess",
       "fingerprint": "9c4a5d950c7aca948a297479a3ffb3807b8399037d66dcb4a6f7cac2b60d1e54",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -28874,12 +28917,12 @@
       "protocol": "vmess",
       "fingerprint": "9c8a492efcef288c677678d80d52082983488c626205f798780bd3acce3160a5",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -29235,6 +29278,20 @@
         }
       }
     },
+    "9ea41051b19a61db2bc0a4bdf1a6137d90e09c2ba3383e19c0134807e3ef37a7": {
+      "value": "vless://a4ccca8a-dd5a-4935-80ea-53feafe195c9@grek.helper-internet.com:443/?type=tcp\u0026encryption=none\u0026flow=xtls-rprx-vision\u0026sni=grek.helper-internet.com\u0026fp=firefox\u0026security=reality\u0026pbk=W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE\u0026sid=ff776ff77be48b88#%40v2rayconfigamir%203104",
+      "protocol": "vless",
+      "fingerprint": "9ea41051b19a61db2bc0a4bdf1a6137d90e09c2ba3383e19c0134807e3ef37a7",
+      "first_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "observations": {
+        "telegram:https://t.me/s/v2rayconfigamir": {
+          "kind": "telegram",
+          "channel": "https://t.me/s/v2rayconfigamir",
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
+        }
+      }
+    },
     "9ee3deb1bdd7ebcabcf0848a46b889da105ba7a0eee0152fcab4a71e26ddcf48": {
       "value": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@54.95.207.148:8316#%40vpn_ete",
       "protocol": "shadowsocks",
@@ -29381,7 +29438,7 @@
       "protocol": "mtproto",
       "fingerprint": "9fe49b45ce4f616f6e7cdf78a28dfbbb58a1ffee1b213e9682713fda67f4a575",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -29391,7 +29448,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -29524,12 +29581,12 @@
       "protocol": "mtproto",
       "fingerprint": "a00a89d5b20420d028c2e2c5aa89e474d746a0db8a23a949f8aeed3446b574ae",
       "first_seen_at": "2026-08-07T08:17:50.037079563Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -29618,12 +29675,12 @@
       "protocol": "http",
       "fingerprint": "a03fced0d12834f6c06f11d25def8c645cc7ae06e9ba2f3d389f58a8ffc06734",
       "first_seen_at": "2026-09-05T13:28:36.250887291Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -29646,7 +29703,7 @@
       "protocol": "mtproto",
       "fingerprint": "a06abc7e3e6b1a231c5fdd5d780f1dc3bec60318be8c06f0b8d43df411006f89",
       "first_seen_at": "2026-08-10T13:18:09.069882972Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -29656,7 +29713,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -29793,12 +29850,12 @@
       "protocol": "vless",
       "fingerprint": "a10f059898a10a86afa30650c4ed1e5b008488945486d28ddb792bb227e161c9",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -30174,7 +30231,7 @@
       "protocol": "mtproto",
       "fingerprint": "a3294fea2ee63ece209acfb7facbb415c2e2383b801f571eb91abca6fa88ace4",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -30184,7 +30241,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -30213,12 +30270,12 @@
       "protocol": "vless",
       "fingerprint": "a337481fd835fc967ec7799465711c2f8e066922ca186246543813fdc591f05e",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -30571,12 +30628,12 @@
       "protocol": "mtproto",
       "fingerprint": "a5c309f70d02c0ed4ad1c1cd70ce919ba82bcf7a484fcfdc1c2fed18511418cc",
       "first_seen_at": "2026-08-04T10:03:41.78760224Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -30684,7 +30741,7 @@
       "protocol": "mtproto",
       "fingerprint": "a6c0794c1ee8c612a724f7dcddf6dde91cafea75674055d3222043de263def08",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -30694,7 +30751,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -30723,12 +30780,12 @@
       "protocol": "trojan",
       "fingerprint": "a6d6a951caa4096b58b5b34d5ab28af5e646aacf1b9c43b48892c3367682cc62",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -30784,12 +30841,12 @@
       "protocol": "trojan",
       "fingerprint": "a72e58999f8539ef8c901b5c402b82fc2d37c1ccb1f4d6cfc71f019fb3d00fd0",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/vpn_ete": {
           "kind": "telegram",
@@ -31070,12 +31127,12 @@
       "protocol": "vless",
       "fingerprint": "a8fe16976b36bd143f28adb27a1ef3bc109dfe387f96dcfd0d6cee3f7902a8a2",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -31112,12 +31169,12 @@
       "protocol": "vless",
       "fingerprint": "a937c5cfa129f8af1ff0c952c897bd3c6245e735c5f7535a972626608ce81139",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -31126,12 +31183,12 @@
       "protocol": "vless",
       "fingerprint": "a940948a45f8991aaeeccc7792897b8a0d6a678b207756da6f349d66886b165e",
       "first_seen_at": "2026-09-05T16:15:19.066176073Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -31187,12 +31244,12 @@
       "protocol": "vless",
       "fingerprint": "a9bfd9dee7322338b224347436ed506216e550474d18446d47652977bef064a5",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -31300,12 +31357,12 @@
       "protocol": "mtproto",
       "fingerprint": "aa963ba9447f6e852998fccdc04f6a15c4564c0e8625717d08ee88a707ff5522",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-07T05:51:26.368303699Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-07T05:51:26.368303699Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -31319,12 +31376,12 @@
       "protocol": "vless",
       "fingerprint": "aa9a8a5ad2b1db5888234f5c59aa7590e18b498300a084570467bcbe57ca2755",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -31366,12 +31423,12 @@
       "protocol": "mtproto",
       "fingerprint": "aafdc03f1a8df9d522a47698fd4ae59972a72f38e142aef14d32415d010c32df",
       "first_seen_at": "2026-09-13T01:08:49.166383208Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -31380,12 +31437,12 @@
       "protocol": "vless",
       "fingerprint": "ab19d9039e871987ce5a07387fce2fc5f6168fd1ec11eb559d5554c843bc4c19",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -31554,12 +31611,12 @@
       "protocol": "shadowsocks",
       "fingerprint": "abdfe86f3fca1f8b0dc9514eafb4b9b85325ea380628a218ffd0950852c551eb",
       "first_seen_at": "2026-09-04T18:29:07.472148487Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -31648,12 +31705,12 @@
       "protocol": "vless",
       "fingerprint": "ac22c3ea944ac7bdf6b838abdc4f105d1d4f818ed5f8df072ce1a72b0cf51045",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -31775,12 +31832,12 @@
       "protocol": "mtproto",
       "fingerprint": "ad4d2c6d5678ceb964b488a47608d0b8f71e80d08f29d09a10ed27df5adf14db",
       "first_seen_at": "2026-09-06T10:36:39.423598051Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -32240,12 +32297,12 @@
       "protocol": "vmess",
       "fingerprint": "af5ab918365ca68dbeec7f500b9223f845c39588582623ba265a09aa10d52de7",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -32578,12 +32635,12 @@
       "protocol": "vless",
       "fingerprint": "b22716b58aacb54b97cd074f0d938fcaaafa14b5caf4dfbb46a0385bf0d85a20",
       "first_seen_at": "2026-09-06T10:36:39.423598051Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -32625,12 +32682,12 @@
       "protocol": "vless",
       "fingerprint": "b289e66c865a4dba94761642ffa86590d847819730983478802a4699165342f5",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -32804,12 +32861,12 @@
       "protocol": "mtproto",
       "fingerprint": "b3b637a0f6a9393c20bc25d5c3401846c125eeb2ae4c30c6b70e813c0f8efc54",
       "first_seen_at": "2026-08-05T16:14:12.786835904Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -32851,12 +32908,12 @@
       "protocol": "shadowsocks",
       "fingerprint": "b40df560f9ddea08569ad014dbcc4dcf1aad2e1040bade5e015580362a289798",
       "first_seen_at": "2026-08-05T00:17:34.413033263Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -32982,17 +33039,31 @@
         }
       }
     },
+    "b50aaa25f15c12df8cf22689b4dadffc8e604d1970d56278ac4346cc17b46333": {
+      "value": "https://t.me/proxy?server=wolverhampton.goooalir.co.uk\u0026port=8443\u0026secret=dd104462821249bd7ac519130220c25d09",
+      "protocol": "mtproto",
+      "fingerprint": "b50aaa25f15c12df8cf22689b4dadffc8e604d1970d56278ac4346cc17b46333",
+      "first_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "observations": {
+        "telegram:https://t.me/s/v2rayconfigamir": {
+          "kind": "telegram",
+          "channel": "https://t.me/s/v2rayconfigamir",
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
+        }
+      }
+    },
     "b51c2bfc4a8a7d89c856e0a6234fe1b0a5efddc331ddbfd803a9f267e9fce362": {
       "value": "vless://2f35965a-9a9b-45fd-ba32-987296dfb6be@150.40.126.18:443?sid=ed0cd5cc2e26e6e7\u0026serviceName=node.v2.ObjectService\u0026fp=firefox\u0026security=reality\u0026encryption=none\u0026type=grpc\u0026pbk=upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY\u0026mode=gun\u0026sni=rs1.univesalsrv.com#%40vpn_ete",
       "protocol": "vless",
       "fingerprint": "b51c2bfc4a8a7d89c856e0a6234fe1b0a5efddc331ddbfd803a9f267e9fce362",
       "first_seen_at": "2026-09-06T18:57:15.888547274Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/vpn_ete": {
           "kind": "telegram",
@@ -33082,12 +33153,12 @@
       "protocol": "vmess",
       "fingerprint": "b5aa254ebd188aeeca410a6b86f1c1ed57d2277fa6a2474d8d23364d3e7a4a29",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -33096,12 +33167,12 @@
       "protocol": "http",
       "fingerprint": "b5da31f504c14d9e44978cf55e472ac78dbe18d88dd03a72d6972d2b0cf305ac",
       "first_seen_at": "2026-09-05T13:28:36.250887291Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -33232,12 +33303,12 @@
       "protocol": "vmess",
       "fingerprint": "b6aff0bc3c59960ec763b0f16922d0c66beaccfedd416e84963d432202b99ece",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -33288,12 +33359,12 @@
       "protocol": "vless",
       "fingerprint": "b6eafcfcf5e7d824a66c18a5b79b57963c173ade30ff57c4aaca32c753adc778",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -33321,12 +33392,12 @@
       "protocol": "mtproto",
       "fingerprint": "b799807c7e62896081930fd40c0911535a36ea641c046058ab1034ab7fe0cdb9",
       "first_seen_at": "2026-08-08T05:06:11.287597201Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -33354,12 +33425,12 @@
       "protocol": "vless",
       "fingerprint": "b7b67939e75bb7f1dd750e8a350fa22ad4e8ab880f648aeaee5ad817e9d25d59",
       "first_seen_at": "2026-09-04T15:05:36.301343294Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -33368,12 +33439,12 @@
       "protocol": "vless",
       "fingerprint": "b7c945e6f1807b319f1c5f6ffd408a2f644c7a43c6e4627cd70fc9f5f017ed60",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -33763,12 +33834,12 @@
       "protocol": "vless",
       "fingerprint": "ba678b91cab118be22bfcfad59355f5bfac6b622a7c378b8c5233fb13f11059b",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -33867,12 +33938,12 @@
       "protocol": "vless",
       "fingerprint": "bad359c806fc1b2f2411c71705a2772a12e69a54b0fb7f7492be1b67775d3021",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -34026,12 +34097,12 @@
       "protocol": "vless",
       "fingerprint": "bc4520a0d0d87fae8bff94e79b732496da8d1f1d499c4cf2122cbe1c01ac548c",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -34191,7 +34262,7 @@
       "protocol": "mtproto",
       "fingerprint": "bced6a2e5c1f5efd0e0e6249f5a013f554bc9c6fefaeeff83d60c03c877a26a3",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -34201,7 +34272,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -34230,12 +34301,12 @@
       "protocol": "vmess",
       "fingerprint": "bcf18ec0041a56d62f542651789a7694d26d722e12094321b0202bfe2f115314",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -34417,6 +34488,20 @@
         }
       }
     },
+    "bdc0558110753e2b5d8c1a9a904f5933c547728c5c48a94342fa269261c1670c": {
+      "value": "https://t.me/proxy?server=www.5-6-7-8.ir.\u0026port=8443\u0026secret=3RYDAQIAAQAB_AMDhuJMOt0AAq5W5G55ZWt0YW5ldC5jb21mYXJheqF2LmNvbXZhbi5uYWp2YS5jb20AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "protocol": "mtproto",
+      "fingerprint": "bdc0558110753e2b5d8c1a9a904f5933c547728c5c48a94342fa269261c1670c",
+      "first_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "observations": {
+        "telegram:https://t.me/s/v2rayconfigamir": {
+          "kind": "telegram",
+          "channel": "https://t.me/s/v2rayconfigamir",
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
+        }
+      }
+    },
     "bdc8a63d769d43838b67576951ba8bbfafa715f4d264a1c32af2ec20a87bdd71": {
       "value": "trojan://MiTiVPN@151.101.56.7:443?path=%40bored_vpn\u0026security=tls\u0026alpn=http%2F1.1\u0026insecure=0\u0026host=mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net\u0026fp=firefox\u0026type=ws\u0026allowInsecure=0\u0026sni=ssl.fastly.com#%40V2ray_Alpha%F0%9F%9B%8E%EF%B8%8F%202",
       "protocol": "trojan",
@@ -34530,12 +34615,12 @@
       "protocol": "vless",
       "fingerprint": "bedcfa2f42cfcca671986780206a6538d8d2ad0b7761569083e882fd181bd997",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -34544,12 +34629,12 @@
       "protocol": "vless",
       "fingerprint": "bee078241a6c4ccc3b520ee96b9578a980719412f99de7cb91ee1541b37c0c11",
       "first_seen_at": "2026-09-05T16:15:19.066176073Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -34582,12 +34667,12 @@
       "protocol": "vless",
       "fingerprint": "bf00d10d0075d99bc584d25d39eae08c04583944778d4e1e0385cafdc3f3b867",
       "first_seen_at": "2026-09-06T10:36:39.423598051Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -34629,12 +34714,12 @@
       "protocol": "vless",
       "fingerprint": "bf4acb0c9d5919f6c0d6f0f488f1aec222973e292d2dcd4d6bc98ff0329a0622",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -34690,12 +34775,12 @@
       "protocol": "mtproto",
       "fingerprint": "bfadb53a172e059735fcffe2afb4e1e111cea4bd117cd1e6969f110931183e8a",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -34822,12 +34907,12 @@
       "protocol": "vmess",
       "fingerprint": "c023ed2172b6b051aba4bffe462a879449ca1644a825ee9d1776e2a47a8e5c1c",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -34902,12 +34987,12 @@
       "protocol": "mtproto",
       "fingerprint": "c10645025c756e821bcf6a30120b233f262edbd9a2b371d013012ee5104332cb",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -35086,12 +35171,12 @@
       "protocol": "vless",
       "fingerprint": "c18e3a95f31b7b2b0d7fc99faea227abf3f2e899a66598c8ddac23285b8b7ee1",
       "first_seen_at": "2026-09-16T19:41:34.414164576Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -35133,12 +35218,12 @@
       "protocol": "vless",
       "fingerprint": "c1d7b9cd28f30d4fbbba7f8baebe7a306abec31e3b3bb0a0dc3c62797a8d8dcb",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -35189,12 +35274,12 @@
       "protocol": "vless",
       "fingerprint": "c210875ddcb21a394f9c1dd507bbd0f7153bdadd57742c528fabcf9382744ca4",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -35326,12 +35411,12 @@
       "protocol": "vless",
       "fingerprint": "c2ba89f1d54673a8a9151c3f6553236c39c9c24780c30f196999e34363a62410",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -35552,12 +35637,12 @@
       "protocol": "vmess",
       "fingerprint": "c42aca01fdf77a49b6b0e8b74b223a3e3babe003ce73c4f18ad592755da8737b",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -35726,12 +35811,12 @@
       "protocol": "vmess",
       "fingerprint": "c58e9e1ff63c284b4a3c7d18d9fd479a645787c46b51175ac3919bb0a91d6d76",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -35778,12 +35863,12 @@
       "protocol": "vless",
       "fingerprint": "c5de49d5cad41965cef9d1d67b8ab8f8206eae548c0c5f827075a9fbd933104c",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -35890,12 +35975,12 @@
       "protocol": "http",
       "fingerprint": "c63c760d156be7a0b52cff78dbec18242c7eb69887a360ffc3f4f2fdf6bd1973",
       "first_seen_at": "2026-09-05T13:28:36.250887291Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -36307,12 +36392,12 @@
       "protocol": "vless",
       "fingerprint": "c8b50595119b6bb7a81f7a4221cf3ee8817979c9ff01f9b4edf7fa90a63b14ad",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -36355,12 +36440,12 @@
       "protocol": "mtproto",
       "fingerprint": "c8f35ce89edf6d08c1dba6df02b45db84d6418c94eeb144189a81e3b40757d57",
       "first_seen_at": "2026-09-08T22:45:19.07418524Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -36515,12 +36600,12 @@
       "protocol": "vless",
       "fingerprint": "c9bc873585bebf4b08097c91ede13355d0ab249af92afc2296783c54e6353ba1",
       "first_seen_at": "2026-09-13T01:08:49.166383208Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -36637,12 +36722,12 @@
       "protocol": "vless",
       "fingerprint": "ca0f4a51e7ee782679bc8d86135082332753e01788d084b9f775524b49161dde",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -36806,12 +36891,12 @@
       "protocol": "mtproto",
       "fingerprint": "cab2bc80abe6cccbfec276dabd08a46c6f470f89cfb1e1ca375b11faaf2b07c3",
       "first_seen_at": "2026-08-08T05:06:11.287597201Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -36895,12 +36980,12 @@
       "protocol": "vless",
       "fingerprint": "cb21f1fae642bd50f0f95549d0ff0dac1c2005e9123fda55d287b3d2f9b15ac8",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -36948,12 +37033,12 @@
       "protocol": "mtproto",
       "fingerprint": "cb3743c3f3ea8903efef0c01e70335fb8c75d425386020bdd792f10259cbbe68",
       "first_seen_at": "2026-09-13T01:08:49.166383208Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -36986,12 +37071,12 @@
       "protocol": "shadowsocks",
       "fingerprint": "cb4d79267c4ff207fa988660402777405af817011c4c438535081e9814803d9e",
       "first_seen_at": "2026-09-04T18:29:07.472148487Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -37178,12 +37263,12 @@
       "protocol": "shadowsocks",
       "fingerprint": "cc15b8830668f764ff5a66c5a87915066a169a65ddb109a3ab68e4737e967509",
       "first_seen_at": "2026-09-04T18:29:07.472148487Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -37329,12 +37414,12 @@
       "protocol": "http",
       "fingerprint": "ccdc6225f3b6ba19c734585d8f5a89773eef6ed4b9f41b928b672940ff44a20a",
       "first_seen_at": "2026-09-05T13:28:36.250887291Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -37743,12 +37828,12 @@
       "protocol": "shadowsocks",
       "fingerprint": "cf24311a66a20610b1fdfc33b8b8417799a986db645855e74f2b063043685407",
       "first_seen_at": "2026-08-05T00:17:34.413033263Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -38100,12 +38185,12 @@
       "protocol": "vless",
       "fingerprint": "d143f116bf98454fce88826a04eacf6fd4020d5d03cb0bb9a41ebc185f23cd29",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -38114,12 +38199,12 @@
       "protocol": "vmess",
       "fingerprint": "d163704279dc0a41cafac5731d9f1d6b2bc29a9b63869187b0f57094f87724d5",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -38250,20 +38335,6 @@
         }
       }
     },
-    "d1f250219170a38134837cea4c8f0a70af730816f0b6f65bdcf4fb7c77e84ba4": {
-      "value": "vless://8f273bcc-15f2-4c96-8942-8aae51eddd8e@144.31.129.42:443?encryption=none\u0026fp=firefox\u0026pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM\u0026security=reality\u0026serviceName=nexusGrpc\u0026sid=0bc73dd1f045\u0026sni=morphbinerkkw.ru\u0026type=grpc#%40v2rayconfigamir%208517",
-      "protocol": "vless",
-      "fingerprint": "d1f250219170a38134837cea4c8f0a70af730816f0b6f65bdcf4fb7c77e84ba4",
-      "first_seen_at": "2026-08-16T04:04:01.971619505Z",
-      "last_seen_at": "2026-08-17T23:56:49.265413824Z",
-      "observations": {
-        "telegram:v2rayconfigamir": {
-          "kind": "telegram",
-          "channel": "v2rayconfigamir",
-          "last_seen_at": "2026-08-17T23:56:49.265413824Z"
-        }
-      }
-    },
     "d239c287e572bab5c3e9f695233a09a395f9ed08e3133fd0dae0e36dc61c0082": {
       "value": "vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@pp.alertyagency.com:9443?type=grpc\u0026security=reality\u0026serviceName=grpc\u0026sni=api-maps.yandex.ru\u0026pbk=kUuy5M4V5bfjri7m_XBryv1YTLLlPLPIwPotJJgpgEc\u0026sid=87922049\u0026fp=firefox\u0026spx=%2F\u0026encryption=none#%40v2rayconfigamir%207197",
       "protocol": "vless",
@@ -38283,12 +38354,12 @@
       "protocol": "mtproto",
       "fingerprint": "d285b989453d282792908fe31f1c716e97e26add3c51082ff1aed8f7680d8078",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -38302,12 +38373,12 @@
       "protocol": "vless",
       "fingerprint": "d2a1a27ae99dfdb2eb4ae4da5201df772d593896ac394b225b49441e138bb67c",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -38358,12 +38429,12 @@
       "protocol": "mtproto",
       "fingerprint": "d2d12f994dca78520981eb1bcdf5cb31f4445e5b699c7577e095e3c5744c092a",
       "first_seen_at": "2026-09-02T11:42:58.468518236Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:pinkproxy": {
           "kind": "telegram",
@@ -38447,12 +38518,12 @@
       "protocol": "vless",
       "fingerprint": "d3421dfe485089d6d73f8be48cca61772cdcaf69540a5465172b2787a8cb5dc9",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/vpn_ete": {
           "kind": "telegram",
@@ -38494,12 +38565,12 @@
       "protocol": "vless",
       "fingerprint": "d387a150cba0dceb52a072bc9191220020b655e39432407f037744d50e3d44b7",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -38677,7 +38748,7 @@
       "protocol": "mtproto",
       "fingerprint": "d4f18c63fe4618f9fbac0ada35eebb96cb8ab8b12ced79ef0e47ad4fa4edaacc",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -38687,7 +38758,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -38773,12 +38844,12 @@
       "protocol": "http",
       "fingerprint": "d53fb36e62bd22ae9c4b832303a18a63c90775a88b355b1758092f42bb6c2365",
       "first_seen_at": "2026-09-05T13:28:36.250887291Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -38867,12 +38938,12 @@
       "protocol": "mtproto",
       "fingerprint": "d5df6bed00f90050486cb5e4f7db108f7060f83089c171aa04f24e18b120e4d7",
       "first_seen_at": "2026-09-06T10:36:39.423598051Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -38900,12 +38971,12 @@
       "protocol": "vless",
       "fingerprint": "d63c443ddd29c45ea59505a9c4dd87766212dc21b9cd4c96520c7996448f362b",
       "first_seen_at": "2026-09-16T22:46:21.799731039Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/napsternetvirani": {
           "kind": "telegram",
           "channel": "https://t.me/s/napsternetvirani",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -38942,17 +39013,17 @@
       "protocol": "vless",
       "fingerprint": "d65fa430dad5875be5da7487ebacf0482d5feb298deeaabee07893d5ee79b834",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -38989,12 +39060,12 @@
       "protocol": "trojan",
       "fingerprint": "d6eb20c237b4b696376f701c116f314b997b27607a2a63573e77f6dbd80db770",
       "first_seen_at": "2026-09-11T08:46:57.887611741Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/vpn_ete": {
           "kind": "telegram",
@@ -39083,12 +39154,12 @@
       "protocol": "trojan",
       "fingerprint": "d76ddfb325786735c5374a25c97b3d289797a6d5eb0c4432746d9591a2695e9c",
       "first_seen_at": "2026-09-12T13:08:52.773759579Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -39097,12 +39168,12 @@
       "protocol": "vless",
       "fingerprint": "d780dc505e86ae34c2cf11f3def11ec5b3f1207f5218ad8f892b44f2ccd41825",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -39186,12 +39257,12 @@
       "protocol": "mtproto",
       "fingerprint": "d8340e65486ac55b30a48fb515a92ffc7edd2415e67fcb021f1f77efbedf221a",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -39247,12 +39318,12 @@
       "protocol": "trojan",
       "fingerprint": "d8a860b56f423decac645fac70c4b4413e3454f4b09e54a3485c7cf80c6b8bb1",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -39275,12 +39346,12 @@
       "protocol": "vless",
       "fingerprint": "d91d239f68f7fa2b046832f5ba732dba83921fede691317eea96e0949ebc20f9",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -39790,12 +39861,12 @@
       "protocol": "trojan",
       "fingerprint": "dc714e9597da0c29482afc90739d647cf7b08e64838f7388d60bfe5b7671f790",
       "first_seen_at": "2026-09-13T12:06:53.209211704Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
@@ -39992,7 +40063,7 @@
       "protocol": "mtproto",
       "fingerprint": "dd5dbc3c5657a5818af96be974c8f776267899044a8785054ec069e20430ad63",
       "first_seen_at": "2026-08-16T06:54:17.052956003Z",
-      "last_seen_at": "2026-09-15T22:46:24.937255276Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -40002,7 +40073,7 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -40706,12 +40777,12 @@
       "protocol": "mtproto",
       "fingerprint": "e229766b4e5da9258c3891e01ebdae536cc14774c177281caafe2bcfdb7424ed",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
@@ -40881,12 +40952,12 @@
       "protocol": "vless",
       "fingerprint": "e3e2c1c9f96ce4e552e240a2ebd12117e9ec66a9d375a7690ca1faa10d730707",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -40895,12 +40966,12 @@
       "protocol": "vless",
       "fingerprint": "e3ec354852a216d6e2dbd784ad2b5abe8ac6ba6569f53cf78cf1af950b203880",
       "first_seen_at": "2026-09-06T10:36:39.423598051Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -41163,12 +41234,12 @@
       "protocol": "mtproto",
       "fingerprint": "e56293d719af28f58c2ea319afd2dc76e9b67634cd7d36b50fa81fb61ffeaddd",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -41497,12 +41568,12 @@
       "protocol": "vless",
       "fingerprint": "e6cd112cc0d6958535e6af3afe3719d295a589819af997a199738aced210a700",
       "first_seen_at": "2026-09-05T10:16:32.089800724Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -41525,12 +41596,12 @@
       "protocol": "mtproto",
       "fingerprint": "e6ec14f06e9dc4d088ada89a1b1a09849064e00cc3f82b68da6ade3f18c47459",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:pinkproxy": {
           "kind": "telegram",
@@ -41940,12 +42011,12 @@
       "protocol": "vmess",
       "fingerprint": "e974e9884ce0015ce92f4c317e34d8a8044c7e2d78007d5b77669e0827d2d9f5",
       "first_seen_at": "2026-09-16T11:48:20.219987077Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -42668,12 +42739,12 @@
       "protocol": "mtproto",
       "fingerprint": "ec9bd1609f12e2dfc2c30f56737637528b17ef9e7157268dedd17bbc99b2043f",
       "first_seen_at": "2026-08-04T00:57:22.50193986Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -42701,12 +42772,12 @@
       "protocol": "mtproto",
       "fingerprint": "ecfe3cb17fcbbe6e4f934462fb59606763ab5706bfc7c421a074ec25b84aa7ed",
       "first_seen_at": "2026-08-05T00:17:34.413033263Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -42861,12 +42932,12 @@
       "protocol": "vless",
       "fingerprint": "ee6a69f7e5134efcb01871ceb7c2583d34eab44f63395ce23a79142d43a42a1b",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -43142,7 +43213,7 @@
       "protocol": "mtproto",
       "fingerprint": "ef6fc1fb6873ce3591ca93a3f9f74c889b6c07dbe1b3516d7bc843f5bf9bfd6f",
       "first_seen_at": "2026-08-07T13:57:48.231401Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:cybrix_network": {
           "kind": "telegram",
@@ -43152,12 +43223,12 @@
         "telegram:https://t.me/s/cybrix_network": {
           "kind": "telegram",
           "channel": "https://t.me/s/cybrix_network",
-          "last_seen_at": "2026-09-15T22:46:24.937255276Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/vpn_ete": {
           "kind": "telegram",
@@ -43359,12 +43430,12 @@
       "protocol": "vless",
       "fingerprint": "f08abae0f844d5d14bb5b03b7ae4bb37074d90a3f6335ff959471b9899b57f6e",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -43472,12 +43543,12 @@
       "protocol": "vless",
       "fingerprint": "f124f749d87b5936c83e7632422cfd0aae5c6e8b7404eb07ea057e86fe25e23d",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -43486,12 +43557,12 @@
       "protocol": "trojan",
       "fingerprint": "f138c1f3076a07e2ba74b3061788b436a6215b7df1c446f53c509390efb07768",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -43627,12 +43698,12 @@
       "protocol": "vless",
       "fingerprint": "f257d866d233f6f0194aec6bc246d0f1c5d832863163ff81df3a4bad2fb2c4f3",
       "first_seen_at": "2026-09-15T16:37:38.001010758Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -43782,12 +43853,12 @@
       "protocol": "shadowsocks",
       "fingerprint": "f2da13dd03173984e9992a507d232fe8d0773b436f6af39415d83666bb0262b4",
       "first_seen_at": "2026-08-05T00:17:34.413033263Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -43862,12 +43933,12 @@
       "protocol": "mtproto",
       "fingerprint": "f3b1e42de6d680a5d49400797cf78b204868110f3b3530f1e6eb652c724d3695",
       "first_seen_at": "2026-09-04T15:05:36.301343294Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -43876,12 +43947,12 @@
       "protocol": "vless",
       "fingerprint": "f3b1ece1dc673a2a30c4d63c8fd91d8f90412b76f12b5a5959df6d6a161c2fa8",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -44129,12 +44200,12 @@
       "protocol": "vless",
       "fingerprint": "f522a45c187032c2bd353b0e9e12817db71efd976fa7587e3e7f8249384ac1a6",
       "first_seen_at": "2026-09-04T15:05:36.301343294Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -44251,12 +44322,12 @@
       "protocol": "vless",
       "fingerprint": "f6222374e0b4aecd4f23f2c5f8a17d4782f4a621ac956c792f03a4ee86add4b3",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -44420,12 +44491,12 @@
       "protocol": "mtproto",
       "fingerprint": "f7361224f5d148d51572afa20d6c1f73e3d9cba0038ddd469d75e6beb70109ea",
       "first_seen_at": "2026-09-06T10:36:39.423598051Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -44434,17 +44505,17 @@
       "protocol": "vless",
       "fingerprint": "f76290cada753384d5858be38cac7e066c30d63b2e84d081c30c07c87bce5564",
       "first_seen_at": "2026-09-14T19:28:39.045197509Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/configx2ray": {
           "kind": "telegram",
           "channel": "https://t.me/s/configx2ray",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -44594,12 +44665,12 @@
       "protocol": "vless",
       "fingerprint": "f8532359b9ebf25d32039ecab6de3695864c6ac6522cc07b9282f2745c542abb",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -44716,12 +44787,12 @@
       "protocol": "vless",
       "fingerprint": "f9498f91c9bd395951e91fa7b3b8bc2ac0b7abc21e15c20095fb295d7989b107",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -44787,12 +44858,12 @@
       "protocol": "trojan",
       "fingerprint": "f9dab60a84f2041c37992e901797b3903f862aca5120ef2ae36bef39ea95d393",
       "first_seen_at": "2026-09-15T19:50:01.692053512Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2ray_alpha": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2ray_alpha",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:https://t.me/s/vpn_ete": {
           "kind": "telegram",
@@ -45247,6 +45318,20 @@
         }
       }
     },
+    "fd283c29e731f7e3d5535b2a890f9aad9d39f3fa6692325f9b7986620d93f799": {
+      "value": "vless://c04bf2df-2b7f-44da-a893-3792d3910fd8@gre01.myxasecure.space:443?security=reality\u0026flow=xtls-rprx-vision\u0026type=raw\u0026sni=gre01.myxasecure.space\u0026fp=qq\u0026pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw\u0026sid=d67ec5a8fc40ebea#%40v2rayconfigamir%207555",
+      "protocol": "vless",
+      "fingerprint": "fd283c29e731f7e3d5535b2a890f9aad9d39f3fa6692325f9b7986620d93f799",
+      "first_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
+      "observations": {
+        "telegram:https://t.me/s/v2rayconfigamir": {
+          "kind": "telegram",
+          "channel": "https://t.me/s/v2rayconfigamir",
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
+        }
+      }
+    },
     "fd2b264f41b5e0a79d1c270e5175ccf771b3783df9e3a3a5d6bbbba90a5becf2": {
       "value": "vless://91eb52ec-e3f5-4ab9-90da-43104995aef7@144.31.129.2:443?flow=xtls-rprx-vision\u0026fp=firefox\u0026pbk=y3EIsxDGDJrBGk3j4YmjI5R_8jiCsEDRDMeL4bv5TTI\u0026security=reality\u0026sid=6ba85179e30d4fc2\u0026sni=by1.un1.pro#%40v2rayconfigamir%201640",
       "protocol": "vless",
@@ -45449,12 +45534,12 @@
       "protocol": "mtproto",
       "fingerprint": "fde3ca09cbb6470c461912bb0ba441f92f238022217b05ef21183a25d361fea6",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         },
         "telegram:v2rayconfigamir": {
           "kind": "telegram",
@@ -45576,12 +45661,12 @@
       "protocol": "vless",
       "fingerprint": "fec0fea595d49e28be9efe5d98367e503630a909db3836fff71654139edc461c",
       "first_seen_at": "2026-09-05T10:16:32.089800724Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/v2rayconfigamir": {
           "kind": "telegram",
           "channel": "https://t.me/s/v2rayconfigamir",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -45637,12 +45722,12 @@
       "protocol": "vmess",
       "fingerprint": "ff38b5c14fab5b99e45eb3aca26976cda69ff75509151c50b7f3a4543c52e884",
       "first_seen_at": "2026-09-02T19:25:32.484378461Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/freev2rays": {
           "kind": "telegram",
           "channel": "https://t.me/s/freev2rays",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
@@ -45750,12 +45835,12 @@
       "protocol": "vless",
       "fingerprint": "ffa939d0c71752f200a588857d4b4bcf28236fc1295feb8548d8c951bdd12aa6",
       "first_seen_at": "2026-09-16T16:30:18.533661498Z",
-      "last_seen_at": "2026-09-16T22:46:21.799731039Z",
+      "last_seen_at": "2026-09-17T01:12:19.007256373Z",
       "observations": {
         "telegram:https://t.me/s/napsternetvirani": {
           "kind": "telegram",
           "channel": "https://t.me/s/napsternetvirani",
-          "last_seen_at": "2026-09-16T22:46:21.799731039Z"
+          "last_seen_at": "2026-09-17T01:12:19.007256373Z"
         }
       }
     },
