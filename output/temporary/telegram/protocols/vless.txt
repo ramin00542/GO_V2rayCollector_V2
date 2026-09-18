@@ -42,6 +42,7 @@ vless://255386a8-aec5-4425-bfe7-ca49b7448deb@193.160.32.36:2053?security=reality
 vless://255386a8-aec5-4425-bfe7-ca49b7448deb@193.160.32.36:2053?sni=play.google.com&type=tcp&fp=firefox&security=reality&pbk=Sh2F8IDDBaFvXPI59IwN-25UR1G0fjXNmuVqwNbTpUk&headerType=none&encryption=none&sid=c87bfa39a28a95b9#%40vpn_ete
 vless://255386a8-aec5-4425-bfe7-ca49b7448deb@5.255.126.104:46142?pbk=l-OE7EwER1Z_jAifGE_UZ3FqHDMGzaR0jQHFYj5RNAk&encryption=none&sni=www.yahoo.com&type=tcp&security=reality&headerType=none&fp=firefox&sid=39feeba3085c#%40vpn_ete
 vless://255386a8-aec5-4425-bfe7-ca49b7448deb@5.255.126.104:46142?pbk=l-OE7EwER1Z_jAifGE_UZ3FqHDMGzaR0jQHFYj5RNAk&sid=39feeba3085c&security=reality&type=tcp&encryption=none&sni=www.yahoo.com&headerType=none#%40vpn_ete
+vless://26bb3a99-4583-4744-bb8e-a5c823ad29e9@159.75.20.13:40082?security=reality&type=tcp&sni=www.cloudflare.com&fp=chrome&flow=xtls-rprx-vision&sid=d32620c540976780&pbk=GBCcf9j7irjlYN4Z5SW5ssP9ACHCnTvHk8PI9LHkqmI#%40v2rayconfigamir%202894
 vless://28cec4eb-2c82-4089-a69b-d61db4fb8006@104.21.51.132:8080?path=%2Fplay&security=none&encryption=mlkem768x25519plus.native.0rtt.WAc6bqm9bM6YteuKtv84PJogmTI2R5RsWLvIB_WGeXw&host=th3ee3322.th3store.ir&type=httpupgrade#%40V2ray_Alpha%F0%9F%8E%AA%209
 vless://2e6532d5-3e05-4d2a-9000-fc9d549e707b@49.13.19.156:28112?security=none&encryption=none&host=www.google.com&headerType=http&type=tcp#%40V2ray_Alpha%D8%8C%20%F0%9F%8E%8D%205
 vless://2f35965a-9a9b-45fd-ba32-987296dfb6be@150.40.126.18:443?mode=gun&security=reality&encryption=none&authority=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI&pbk=upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY&fp=firefox&type=grpc&serviceName=node.v2.ObjectService&sni=rs1.univesalsrv.com&sid=ed0cd5cc2e26e6e7#%40V2ray_Alpha%F0%9F%90%AC%207
@@ -99,6 +100,7 @@ vless://51231507-67c3-4141-ab08-a69eb121c716@yesilove.beer:8443?sni=tradingview.
 vless://5245cd34-f70c-4770-8bb8-7e143d6a6144@uae.irchatgpt.sbs:31729?security=reality&encryption=none&pbk=Va_L4Xfe5283dn2vQkLL8gLhXqO203nueKZVgfFMFh4&headerType=none&fp=chrome&spx=%2FvTf6Vvhppq6eIrg&type=tcp&flow=xtls-rprx-vision&sni=digikala.com&sid=31861a46#%40V2ray_Alpha%F0%9F%A5%B6%206
 vless://532c9a78-307b-4e57-863d-b8d812708308@188.114.97.3:443?path=%2FdkU-cln2-GSPOV-q%3Fed%3D2048&security=tls&encryption=none&alpn=http/1.1&host=FREE-AZadNet.PAges.dEV&fp=randomized&type=ws&sni=FreE-azADnet.pagEs.DeV#%40v2rayconfigamir%209263
 vless://5626ce32-dad0-468b-952c-e53d609100f1@212.87.199.122:58416?security=none&encryption=none&headerType=none&type=tcp#%40V2ray_Alpha%F0%9F%A7%A0%202
+vless://5aaa5259-f924-4682-a4a3-149d472a9dcc@8.148.237.121:52683?type=tcp#%40v2rayconfigamir%202718
 vless://5bfc6650-8b56-0012-b0e9-b98fc6367c0d@82.40.62.229:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=auto.api-yandex.net&fp=firefox&pbk=NBjOloEUgyAHoLqvcGo_t3jTY8Jya77j5dsNB1VJ8Bo&sid=0f4dacffd272e65f&type=tcp&headerType=none#%40Napsternetvirani
 vless://5d8cf280-e0f4-4539-b35c-7ff90659c0d0@72.56.75.54:443?sni=app2.jarvesitw.ru&sid=c481d750&encryption=none&pbk=iTCQz0n0AolvGxU2ZASJIsSVoKOR9PAFbnZVQDnSnF8&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision#%40vpn_ete
 vless://5e243126-4a2a-84b6-782a-73b14797fb5f@45.88.13.3:993?security=reality&encryption=none&pbk=FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=download.nvidia.com#%40v2rayconfigamir%202328
@@ -177,6 +179,7 @@ vless://dabb9a19-03ab-4cdf-8963-d3c45eb0f80d@193.108.112.245:443?pbk=bZpzmeWiEJy
 vless://de5906f3-df38-4463-aa9d-2b01320cc6ea@31.76.76.28:443?security=none&encryption=none&path=%2F&type=ws#%40vpn_ete
 vless://de5906f3-df38-4463-aa9d-2b01320cc6ea@31.76.76.28:8443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=neth4.lckdwn.ru#%40V2ray_Alpha%F0%9F%8E%AA%2011
 vless://e2088306-8c10-4100-b775-747011c39c65@31.76.27.32:8443?security=reality&encryption=none&pbk=Pxqqq-cbFslG1Wla5VAcqPBCpNJbwH1O3IyKQ45uD0M&headerType=none&fp=firefox&type=tcp&sni=google.com&sid=99115a#%40V2ray_Alpha%F0%9F%AB%98%207
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.37.81.71:22223?encryption=none&security=none&type=tcp#%40Napsternetvirani
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.134.201:22224?security=none&encryption=none&headerType=none&type=tcp#%40V2ray_Alpha%F0%9F%8E%8D%208
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.160.193:22222?security=&encryption=none&headerType=&type=tcp#%40Napsternetvirani
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.160.193:22223?encryption=none&security=none&type=tcp#%40Napsternetvirani
