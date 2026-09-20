@@ -10,7 +10,7 @@
 | no_config | `42` |
 | not_found | `208` |
 | unknown_error | `0` |
-| expired | `1042` |
+| expired | `1038` |
 
 ## Candidate Sample
 
