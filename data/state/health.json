@@ -135,34 +135,34 @@
       "consecutive_failures": 0
     },
     "https://sub.speedest.org/sub/djMsMTM5MzMsMTc4OTA5MjAxNg.lVGtpcluVHnjq70bCRJvyuCvxYouBbskmw3vZSTc5yw": {
-      "status": "active",
-      "last_checked_at": "2026-09-13T08:31:11.919693897Z",
+      "status": "not_found",
+      "last_checked_at": "2026-09-20T08:47:56.107276819Z",
       "last_successful_at": "2026-09-13T08:31:11.919693897Z",
       "consecutive_failures": 0
     },
     "https://ux.miladux.ir:2096/sub/6biasx2axoaz4w4i": {
       "status": "unknown_error",
-      "last_checked_at": "2026-09-13T08:31:11.919693897Z",
+      "last_checked_at": "2026-09-20T08:47:56.107276819Z",
       "last_successful_at": "0001-01-01T00:00:00Z",
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_error": "Get \"https://ux.miladux.ir:2096/sub/6biasx2axoaz4w4i\": dial tcp 38.107.237.101:2096: i/o timeout"
     },
     "https://ux.miladux.ir:2096/sub/j9u62849iezd38ff": {
       "status": "unknown_error",
-      "last_checked_at": "2026-09-13T08:31:11.919693897Z",
+      "last_checked_at": "2026-09-20T08:47:56.107276819Z",
       "last_successful_at": "0001-01-01T00:00:00Z",
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_error": "Get \"https://ux.miladux.ir:2096/sub/j9u62849iezd38ff\": dial tcp 38.107.237.101:2096: i/o timeout"
     },
     "https://v2.cybrix9.dpdns.org/sub/0dunyp3xbsig3p7e": {
-      "status": "active",
-      "last_checked_at": "2026-09-13T08:31:11.919693897Z",
+      "status": "not_found",
+      "last_checked_at": "2026-09-20T08:47:56.107276819Z",
       "last_successful_at": "2026-09-13T08:31:11.919693897Z",
       "consecutive_failures": 0
     },
     "https://v2.cybrix9.dpdns.org/sub/ucpnhykel2rd2blk": {
-      "status": "active",
-      "last_checked_at": "2026-09-13T08:31:11.919693897Z",
+      "status": "not_found",
+      "last_checked_at": "2026-09-20T08:47:56.107276819Z",
       "last_successful_at": "2026-09-13T08:31:11.919693897Z",
       "consecutive_failures": 0
     }
