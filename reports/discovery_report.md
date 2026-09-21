@@ -7,8 +7,8 @@
 | pending | `0` |
 | qualified | `0` |
 | promoted | `22` |
-| no_config | `41` |
-| not_found | `223` |
+| no_config | `36` |
+| not_found | `231` |
 | unknown_error | `0` |
 | expired | `1041` |
 
