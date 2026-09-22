@@ -8,9 +8,9 @@
 | qualified | `0` |
 | promoted | `22` |
 | no_config | `31` |
-| not_found | `240` |
+| not_found | `238` |
 | unknown_error | `0` |
-| expired | `1046` |
+| expired | `1044` |
 
 ## Candidate Sample
 
