@@ -5,8 +5,11 @@ vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.108.244.178:9881?mode=gun&secur
 vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.108.244.38:9881?encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&sid=aabb&type=grpc&serviceName=grpc-tunnel&mode=gun#%40Napsternetvirani
 vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.123.165.180:9881?mode=gun&security=reality&encryption=none&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&fp=qq&type=grpc&serviceName=grpc-tunnel&sni=dl.google.com&sid=aabbccdd#%40Napsternetvirani
 vless://8924c255-b59e-4ffc-8a59-6069557010f9@167.233.178.237:80?encryption=none&security=none&type=ws&host=&path=%2F#%40Napsternetvirani
+vless://8df2e661-6f46-471b-9133-7fc13a0daa35@65.109.28.164:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=web.eitaa.com&fp=firefox&pbk=jDoORbrtDrvAlFSo19CJbc99C4ev8SAo1MwczSUt9no&sid=90ec9bba2019&type=tcp&headerType=none#%40Napsternetvirani
+vless://8df2e661-6f46-471b-9133-7fc13a0daa35@65.109.28.164:443?security=reality&type=tcp&sni=web.eitaa.com&fp=firefox&flow=xtls-rprx-vision&sid=90ec9bba2019&pbk=jDoORbrtDrvAlFSo19CJbc99C4ev8SAo1MwczSUt9no#%40Napsternetvirani
 vless://94877739-3af6-4fbb-85b6-ca6fe86c7696@195.189.98.120:443?mode=gun&security=reality&encryption=none&pbk=SiyX5MHMfE_232cYFpidAhU4eBxaoNphSSnNbVc1xnc&fp=firefox&type=grpc&serviceName=BookCatalog&sni=reg.jarbook.net&sid=085f6d90#%40Napsternetvirani
 vless://9b1062f6-3c63-4c98-917e-d228f5df9e20@178.104.219.134:8881?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#%40Napsternetvirani
+vless://d0054d2b-3fea-486e-9592-ea6ce8d7b380@104.143.223.83:2085?type=grpc&mode=multi&serviceName=vless#%40Napsternetvirani
 vless://d9365fed-f9bb-4b23-ab83-5d7c48e5ddbe@91.107.174.119:8881?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#%40Napsternetvirani
 vless://de178eba-d2c0-419b-849c-d66dcc0c0e3d@91.107.191.110:443?security=reality&encryption=none&pbk=AUlUBgfu10aO2aTaT-YwKbdh00NU1SP4uzZVt6Q0Th8&headerType=none&fp=firefox&spx=%2F583c1d205c1b22e&type=tcp&sni=es-us.vida-estilo.yahoo.com&sid=ee93f78385e68258#%40Napsternetvirani
 vless://e0ff8a9b-dad3-4671-baf4-c8d466d1eb48@185.143.233.130:2052?path=%2Feyurri&security=none&encryption=none&host=afra4.nimbaha9.ir&type=ws#%40Napsternetvirani
