@@ -9,8 +9,8 @@
 | promoted | `22` |
 | no_config | `20` |
 | not_found | `298` |
-| unknown_error | `2` |
-| expired | `1078` |
+| unknown_error | `3` |
+| expired | `1082` |
 
 ## Candidate Sample
 
