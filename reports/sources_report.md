@@ -19,8 +19,8 @@
 | `https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt` | active | `2026-08-03T21:06:14Z` | `2026-08-03T21:06:14Z` | `0` |
 | `https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt` | active | `2026-08-03T21:06:14Z` | `2026-08-03T21:06:14Z` | `0` |
 | `https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt` | active | `2026-08-03T21:06:14Z` | `2026-08-03T21:06:14Z` | `0` |
-| `https://sub.speedest.org/sub/djMsMTM5MzMsMTc4OTA5MjAxNg.lVGtpcluVHnjq70bCRJvyuCvxYouBbskmw3vZSTc5yw` | not_found | `2026-09-27T09:29:49Z` | `2026-09-13T08:31:11Z` | `0` |
-| `https://ux.miladux.ir:2096/sub/6biasx2axoaz4w4i` | unknown_error | `2026-09-27T09:29:49Z` | `-` | `5` |
-| `https://ux.miladux.ir:2096/sub/j9u62849iezd38ff` | unknown_error | `2026-09-27T09:29:49Z` | `-` | `5` |
-| `https://v2.cybrix9.dpdns.org/sub/0dunyp3xbsig3p7e` | not_found | `2026-09-27T09:29:49Z` | `2026-09-13T08:31:11Z` | `0` |
-| `https://v2.cybrix9.dpdns.org/sub/ucpnhykel2rd2blk` | not_found | `2026-09-27T09:29:49Z` | `2026-09-13T08:31:11Z` | `0` |
+| `https://sub.speedest.org/sub/djMsMTM5MzMsMTc4OTA5MjAxNg.lVGtpcluVHnjq70bCRJvyuCvxYouBbskmw3vZSTc5yw` | not_found | `2026-10-04T10:03:28Z` | `2026-09-13T08:31:11Z` | `0` |
+| `https://ux.miladux.ir:2096/sub/6biasx2axoaz4w4i` | unknown_error | `2026-10-04T10:03:28Z` | `-` | `6` |
+| `https://ux.miladux.ir:2096/sub/j9u62849iezd38ff` | unknown_error | `2026-10-04T10:03:28Z` | `-` | `6` |
+| `https://v2.cybrix9.dpdns.org/sub/0dunyp3xbsig3p7e` | not_found | `2026-10-04T10:03:28Z` | `2026-09-13T08:31:11Z` | `0` |
+| `https://v2.cybrix9.dpdns.org/sub/ucpnhykel2rd2blk` | not_found | `2026-10-04T10:03:28Z` | `2026-09-13T08:31:11Z` | `0` |
