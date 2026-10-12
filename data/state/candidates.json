@@ -23,10 +23,10 @@
       "status": "no_config",
       "first_seen_at": "2026-10-06T23:06:55.785755513Z",
       "last_seen_at": "2026-10-11T01:44:12.80341543Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 23,
+      "no_config_count": 24,
       "not_found_count": 0,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-11T01:44:12.80341543Z"
@@ -54,14 +54,14 @@
       "value": "alpha_v2ray_group",
       "status": "expired",
       "first_seen_at": "2026-09-15T01:17:05.980997959Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-09-28T22:30:20.594859034Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 83,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2ray_alpha": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2ray_alpha": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:alpha_v2ray_iran": {
@@ -70,14 +70,14 @@
       "value": "alpha_v2ray_iran",
       "status": "expired",
       "first_seen_at": "2026-09-15T01:17:05.980997959Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-09-28T22:30:20.594859034Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 83,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2ray_alpha": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2ray_alpha": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:alphav2ray_ads": {
@@ -86,14 +86,14 @@
       "value": "alphav2ray_ads",
       "status": "expired",
       "first_seen_at": "2026-09-15T01:17:05.980997959Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-09-28T22:30:20.594859034Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 83,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2ray_alpha": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2ray_alpha": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:binggames_bot": {
@@ -200,14 +200,14 @@
       "value": "configx2ray",
       "status": "promoted",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-08-05T11:45:08.514346769Z",
       "last_success_at": "2026-08-05T11:45:08.514346769Z",
       "successes": 3,
       "no_config_count": 5,
       "not_found_count": 0,
       "origins": {
-        "telegram:configx2ray": "2026-10-11T23:09:29.532134412Z"
+        "telegram:configx2ray": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:cybrix_instabot": {
@@ -272,10 +272,10 @@
       "status": "no_config",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 17,
+      "no_config_count": 18,
       "not_found_count": 0,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
@@ -287,14 +287,14 @@
       "value": "durov",
       "status": "expired",
       "first_seen_at": "2026-09-15T01:17:05.980997959Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-09-28T22:30:20.594859034Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 83,
       "not_found_count": 0,
       "origins": {
-        "telegram:configx2ray": "2026-10-11T23:09:29.532134412Z"
+        "telegram:configx2ray": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:forionews": {
@@ -304,10 +304,10 @@
       "status": "no_config",
       "first_seen_at": "2026-09-29T15:32:29.670296734Z",
       "last_seen_at": "2026-09-30T11:00:41.566280028Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 58,
+      "no_config_count": 59,
       "not_found_count": 0,
       "origins": {
         "telegram:napsternetvirani": "2026-09-30T11:00:41.566280028Z"
@@ -319,14 +319,14 @@
       "value": "freev2rays",
       "status": "promoted",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-08-04T23:10:33.268837111Z",
       "last_success_at": "2026-08-04T23:10:33.268837111Z",
       "successes": 3,
       "no_config_count": 0,
       "not_found_count": 0,
       "origins": {
-        "telegram:freev2rays": "2026-10-11T23:09:29.532134412Z"
+        "telegram:freev2rays": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:game_iran_amir_bot": {
@@ -415,14 +415,14 @@
       "value": "irx2rayngbot",
       "status": "expired",
       "first_seen_at": "2026-09-15T01:17:05.980997959Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-09-28T22:30:20.594859034Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 83,
       "not_found_count": 0,
       "origins": {
-        "telegram:configx2ray": "2026-10-11T23:09:29.532134412Z"
+        "telegram:configx2ray": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:itsecgp": {
@@ -547,14 +547,14 @@
       "value": "napsternetiran_bot",
       "status": "expired",
       "first_seen_at": "2026-09-16T06:09:35.429754218Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-09-30T04:51:35.279520575Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 83,
       "not_found_count": 0,
       "origins": {
-        "telegram:napsternetvirani": "2026-10-11T23:09:29.532134412Z",
+        "telegram:napsternetvirani": "2026-10-12T02:29:42.281825383Z",
         "telegram:v2ray_alpha": "2026-10-05T02:07:47.386477315Z"
       }
     },
@@ -564,14 +564,14 @@
       "value": "napsternetvirani",
       "status": "promoted",
       "first_seen_at": "2026-08-05T00:17:34.413033263Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-08-05T14:19:49.414663789Z",
       "last_success_at": "2026-08-05T14:19:49.414663789Z",
       "successes": 3,
       "no_config_count": 0,
       "not_found_count": 0,
       "origins": {
-        "telegram:napsternetvirani": "2026-10-11T23:09:29.532134412Z",
+        "telegram:napsternetvirani": "2026-10-12T02:29:42.281825383Z",
         "telegram:v2ray_alpha": "2026-10-05T02:07:47.386477315Z"
       }
     },
@@ -649,7 +649,7 @@
       "value": "proxy",
       "status": "expired",
       "first_seen_at": "2026-09-15T01:17:05.980997959Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-09-28T22:30:20.594859034Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
@@ -658,7 +658,7 @@
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z",
         "telegram:v2rayconfigamir": "2026-09-24T10:11:14.711422799Z",
-        "telegram:vpn_ete": "2026-10-11T23:09:29.532134412Z"
+        "telegram:vpn_ete": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:proxymtalpha": {
@@ -667,7 +667,7 @@
       "value": "proxymtalpha",
       "status": "promoted",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-08-04T10:28:45.337702443Z",
       "last_success_at": "2026-08-04T10:28:45.337702443Z",
       "successes": 3,
@@ -675,7 +675,7 @@
       "not_found_count": 0,
       "origins": {
         "telegram:proxymtalpha": "2026-08-04T18:59:07.233604911Z",
-        "telegram:v2ray_alpha": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2ray_alpha": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:toolkitbot": {
@@ -700,7 +700,7 @@
       "value": "v2ray_alpha",
       "status": "promoted",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-08-04T23:10:33.268837111Z",
       "last_success_at": "2026-08-04T23:10:33.268837111Z",
       "successes": 3,
@@ -708,7 +708,7 @@
       "not_found_count": 0,
       "origins": {
         "telegram:proxymtalpha": "2026-08-04T18:59:07.233604911Z",
-        "telegram:v2ray_alpha": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2ray_alpha": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:v2rayconfigamir": {
@@ -717,14 +717,14 @@
       "value": "v2rayconfigamir",
       "status": "promoted",
       "first_seen_at": "2026-08-03T21:56:44.767545164Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-08-04T23:10:33.268837111Z",
       "last_success_at": "2026-08-04T23:10:33.268837111Z",
       "successes": 3,
       "no_config_count": 0,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2rayconfigamir": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2rayconfigamir": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:v2rayconfigamirbot": {
@@ -733,14 +733,14 @@
       "value": "v2rayconfigamirbot",
       "status": "expired",
       "first_seen_at": "2026-09-27T17:16:32.842585942Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-10-11T15:04:20.938975966Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 65,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2rayconfigamir": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2rayconfigamir": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:vip_channel": {
@@ -765,7 +765,7 @@
       "value": "vpn_ete",
       "status": "promoted",
       "first_seen_at": "2026-08-05T06:32:01.945626691Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-08-05T21:16:03.035401466Z",
       "last_success_at": "2026-08-05T21:16:03.035401466Z",
       "successes": 3,
@@ -773,7 +773,7 @@
       "not_found_count": 0,
       "origins": {
         "telegram:v2rayconfigamir": "2026-08-07T06:51:59.891287891Z",
-        "telegram:vpn_ete": "2026-10-11T23:09:29.532134412Z"
+        "telegram:vpn_ete": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:vvamiry": {
@@ -782,14 +782,14 @@
       "value": "vvamiry",
       "status": "expired",
       "first_seen_at": "2026-09-17T06:12:02.142835899Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-10-01T00:38:33.245695402Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 81,
       "not_found_count": 0,
       "origins": {
-        "telegram:vpn_ete": "2026-10-11T23:09:29.532134412Z"
+        "telegram:vpn_ete": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:vynx_vpn": {
@@ -832,14 +832,14 @@
       "value": "websokete",
       "status": "expired",
       "first_seen_at": "2026-09-27T17:16:32.842585942Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
       "last_checked_at": "2026-10-11T15:04:20.938975966Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 65,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2rayconfigamir": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2rayconfigamir": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "channel:yebekhe": {
@@ -1425,11 +1425,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-28T17:00:02.369373886Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 1,
-      "not_found_count": 61,
+      "not_found_count": 62,
       "origins": {
         "telegram:cybrix_network": "2026-09-28T17:00:02.369373886Z"
       }
@@ -1601,11 +1601,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 1,
-      "not_found_count": 16,
+      "not_found_count": 17,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -1713,11 +1713,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 1,
-      "not_found_count": 16,
+      "not_found_count": 17,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -1953,11 +1953,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-28T17:00:02.369373886Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 1,
-      "not_found_count": 61,
+      "not_found_count": 62,
       "origins": {
         "telegram:cybrix_network": "2026-09-28T17:00:02.369373886Z"
       }
@@ -3169,11 +3169,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-05T18:34:51.374903092Z",
       "last_seen_at": "2026-10-06T13:37:08.984562516Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 24,
+      "not_found_count": 25,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-06T13:37:08.984562516Z"
       }
@@ -3185,11 +3185,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T13:37:08.984562516Z",
       "last_seen_at": "2026-10-07T09:14:58.191720155Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 20,
+      "not_found_count": 21,
       "origins": {
         "telegram:napsternetvirani": "2026-10-07T09:14:58.191720155Z"
       }
@@ -3201,11 +3201,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T19:34:55.80904399Z",
       "last_seen_at": "2026-10-10T15:34:12.641098086Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 7,
+      "not_found_count": 8,
       "origins": {
         "telegram:configx2ray": "2026-10-10T15:34:12.641098086Z"
       }
@@ -3248,14 +3248,14 @@
       "value": "https://cdn4.telesco.pe/file/a5ETzM_ncXnwsoMOqddvBdqAvRa6FL1yM81cJB7tkDVJrGF4MPsaOLyAoZMMqdoez1TXkcCfwFsnJdMg7tHzAolCAavnAA-JIF_aEfub2ZW2PnoNKVq8BlWHaBLh5inY03Imd1orl3gg3dUZvkkSlVNygeFZZgmlSoIM1Z_lSsLb4dionqG0zeiUnLo6ugWBFqvRWCwNRrnCsFTKtQkI3T99bYxJTiaw68bCxC3bXcFqqRo5f2VCNuLBYAkjFNeqW9d-_Ky8TXpmHtbL0J4IvArKHKYCAbvs1l8KoM6khbEbUwOY3IdWj-MkItAoWnDOH6_AIWN81-D2sPY2HWXXqA.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T08:31:36.905703181Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 4,
+      "no_config_count": 5,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2rayconfigamir": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2rayconfigamir": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/a6cn6hztjcbnfn9fb576fot1tlhsxht0bczxdj5m_rdadti-q5qv4ikwh9srgyve-zzoth824pjd33-osoamh05ndhhwgm3-2ctfen1rb_7uzvvylh_50tdprdyo0wtoosxtlmwstgdr7_bl_smwiuyawxafin3pgdzxktirx5l-skmjtim9zszi-fdoanqtx6ekgz0s2petxtxlqsdihsuv9o1vl957qscxdhim2rztq6h3mds2qkfhihlu1uktf8j1aixd5k0h36jscr0uiyapkhwpanvzkjxljzb0haky0uykerr_303wced9neewkqqaq1o3rrzjsaefu97y_a.jpg": {
@@ -3265,11 +3265,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -3329,11 +3329,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -3361,11 +3361,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T12:37:21.328449777Z",
       "last_seen_at": "2026-10-05T09:14:46.120203733Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 28,
+      "not_found_count": 29,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-05T09:14:46.120203733Z"
       }
@@ -3425,11 +3425,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T12:37:21.328449777Z",
       "last_seen_at": "2026-10-05T09:14:46.120203733Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 28,
+      "not_found_count": 29,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-05T09:14:46.120203733Z"
       }
@@ -3441,11 +3441,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T20:37:50.259199233Z",
       "last_seen_at": "2026-10-09T14:15:00.244707418Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 12,
+      "not_found_count": 13,
       "origins": {
         "telegram:configx2ray": "2026-10-09T14:15:00.244707418Z"
       }
@@ -3489,11 +3489,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T13:53:30.893665689Z",
       "last_seen_at": "2026-10-02T09:00:04.962610327Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 44,
+      "not_found_count": 45,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-02T09:00:04.962610327Z"
       }
@@ -3505,11 +3505,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T20:13:08.950351098Z",
       "last_seen_at": "2026-09-30T16:51:26.821611921Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 52,
+      "not_found_count": 53,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-30T16:51:26.821611921Z"
       }
@@ -3537,11 +3537,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T13:53:30.893665689Z",
       "last_seen_at": "2026-10-02T09:00:04.962610327Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 44,
+      "not_found_count": 45,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-02T09:00:04.962610327Z"
       }
@@ -3729,11 +3729,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T22:30:20.594859034Z",
       "last_seen_at": "2026-09-29T20:13:08.950351098Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 56,
+      "not_found_count": 57,
       "origins": {
         "telegram:configx2ray": "2026-09-29T20:13:08.950351098Z"
       }
@@ -3745,11 +3745,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T09:00:04.962610327Z",
       "last_seen_at": "2026-10-02T23:59:23.88253612Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 40,
+      "not_found_count": 41,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-02T23:59:23.88253612Z"
       }
@@ -3777,11 +3777,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T09:36:06.248215652Z",
       "last_seen_at": "2026-10-11T01:44:12.80341543Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 4,
+      "not_found_count": 5,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-11T01:44:12.80341543Z"
       }
@@ -3809,11 +3809,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T18:35:49.986551114Z",
       "last_seen_at": "2026-10-04T12:37:21.328449777Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 33,
+      "not_found_count": 34,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-04T12:37:21.328449777Z"
       }
@@ -3841,11 +3841,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T21:19:49.41430998Z",
       "last_seen_at": "2026-10-01T19:20:57.892920894Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 47,
+      "not_found_count": 48,
       "origins": {
         "telegram:configx2ray": "2026-10-01T19:20:57.892920894Z"
       }
@@ -3857,11 +3857,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 2,
-      "not_found_count": 15,
+      "not_found_count": 16,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -3952,14 +3952,14 @@
       "value": "https://cdn4.telesco.pe/file/BKwUvYu6hJow9488e3A5xnZCBIaei7cTHrtUN58ZUyEDe9Ye2Sdq_ZdiwztsHTFmL04zDVDvkdZGHzcaZV6vaVTJAaFMU80JbgyLNr6ezekB7e6smY0WToHJvBpf86lC2sxgQCV1coHV-F_XOGEEQFXyK5H12quSzCdAR_g-6NO5RE1FEmqJ_2SF8bkMpA5YMgSufWaV7HWgcwt4EUjHSVTvSxB-ZAMQA5O9DMyUShyqAWf8z4xT6qH6W5nCifLGBBM0FQjKppNXlTPX5AX_U6XIt9BIXRca87BZ8EUwrFCBfZ568wJ-02ClfSYVikyeSh8mLKG-83foKs8rwzJuWQ.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T15:04:20.938975966Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 3,
+      "no_config_count": 4,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2rayconfigamir": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2rayconfigamir": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/bl6yifju-dcfa5vmwd2yryhzuoimwyjmo9zfxproj9umqgce7e_tio7hscfliimetobxkww_udmoxus9cxrxsfibnfegybqjfvose_jqdfnszavlkoh7bmnk9lepe5dkrk-z3vsgjxhugte5jmbje3_wrnxzxl8d69_sw48pkqoiehbfz_q2mrvb3stgfznexl9-j4jvnfvrtbju1ndnxuh3crc44xae90wtj0by3jn9peprhdmxgskjeuij9lqbw3w_ewanc8rqlmz4o3s72mnfdzoxgvvy9bkkaxde9gor4i2dyinl9gzkm9-z4bdubcend4pdquugcqeourwxsg.jpg": {
@@ -4049,11 +4049,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T22:30:20.594859034Z",
       "last_seen_at": "2026-09-29T15:32:29.670296734Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 57,
+      "not_found_count": 58,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-29T15:32:29.670296734Z"
       }
@@ -4065,11 +4065,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T18:35:49.986551114Z",
       "last_seen_at": "2026-10-04T17:02:27.322306439Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 32,
+      "not_found_count": 33,
       "origins": {
         "telegram:vpn_ete": "2026-10-04T17:02:27.322306439Z"
       }
@@ -4161,11 +4161,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 1,
-      "not_found_count": 16,
+      "not_found_count": 17,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -4225,11 +4225,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T14:54:23.40049827Z",
       "last_seen_at": "2026-10-04T06:20:09.972558595Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 34,
+      "not_found_count": 35,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-04T06:20:09.972558595Z"
       }
@@ -4305,11 +4305,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-05T18:34:51.374903092Z",
       "last_seen_at": "2026-10-06T06:35:46.834527145Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 25,
+      "not_found_count": 26,
       "origins": {
         "telegram:napsternetvirani": "2026-10-06T06:35:46.834527145Z"
       }
@@ -4336,14 +4336,14 @@
       "value": "https://cdn4.telesco.pe/file/CfYVYasQ0SbVdEniz1utzLAbilWXRIr6uFlzLcZ6gcNEhsO3Xw0i8HMvf_snltxqgYQZ2iz5mdhry6Rox90rguJO6R5FvWoXmyNiwcIPfN8_l2RSTUCEWm5jnYaAlK3oSFMHrhEsO_e6kG8j7rbmY-iiq_GjWM-5hI-ixX8kpAMcgpAxLdwQYOpDsKNMlOcE_WLHPd13rr6gTfPPOf-2VNUnn6zLWv8QCoRVqB-K6KmBZ8N7Coroq2T5nn9DvUBm6L-mXo6gPHSEIpvrNHUkSQGoKF-ykA8aD6Y2NORVa8DJ6GIzsl2jKBNIzYf6z-8c-Fy_-l_F7_p_Z_gR1ewcYQ.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T15:04:20.938975966Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 3,
+      "no_config_count": 4,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2rayconfigamir": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2rayconfigamir": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/cgaj42iuczycmre81ct_gyw5gdl1avj7vsznzlr_usj-rzygfaezwzd_ddsxqqmkgoziivns1d6_-jxol3aautpriy5kixuu_cllvmj1jveajop_kctlladciwdwodgbrokuxajii1ierfot7l6fxvkp2vnfkajzioytuenazscykinhk3babb0kegaojpcqluwbstpygmu8uiutmw36g52x5ibqzcda1fdrgxplz1glgqv6vjmg1qj8nzmyw1lfciiuhqaraghgenhz9surgbrpplq1akpyowrhp8v24jeckgfmv6z659umx7c-i-fbmeybkqu1zz_zpgkecwrkxq": {
@@ -4369,11 +4369,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T13:53:30.893665689Z",
       "last_seen_at": "2026-10-02T09:00:04.962610327Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 44,
+      "not_found_count": 45,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-02T09:00:04.962610327Z"
       }
@@ -4433,11 +4433,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T19:20:57.892920894Z",
       "last_seen_at": "2026-10-02T15:43:32.881383222Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 43,
+      "not_found_count": 44,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-02T15:43:32.881383222Z"
       }
@@ -4480,14 +4480,14 @@
       "value": "https://cdn4.telesco.pe/file/CnQTrUIHGzOlqVIqS6YZNQzQvJNZjcPtqkFRDJ4L2cbNVWKlgOKY-u2hhmiL-7OrFmEKcNluYuEAjq0dvF2-FC7-C_UBFcjVjXhzW_yEsSg7KuiGXQmIdoDOpYhj1ExuX-IoODT4ATuvLLgzcIJMMfdHq5tfQo6LFyS_NAYs6_Q_TfS8eZJa1coRrpTZd_D7mj-bLgyQSFZR1m5fQP9HO-6N3gCmy8qxwhbAXnNCo_lSZMZCKO9TF5aZX57jDl7r8pQKlu11kAoaJRLOnaOdBVhfcNlxFXuk7SQTvy1lLcOEjhclq2DwXq7sHYPoc9vwB4QbDFHd_iy55Vq1jw4-Lg.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T15:04:20.938975966Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 3,
+      "no_config_count": 4,
       "not_found_count": 0,
       "origins": {
-        "telegram:napsternetvirani": "2026-10-11T23:09:29.532134412Z"
+        "telegram:napsternetvirani": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/co1vjbvpds5zcpzikdznagupaujtbpiqpr_ifbfksmlgzs6gx45snh1ugt1raawkg_nof1mjzg1ux0vlyouthfijt-nlwczyr3xdni5a-k6totf9o2utabinwiqxv7kxnx_lnaev503zxieqq-weqr2-jbsw6b6kfwonzrsrvlcdj3vqsgqbvausfvcopu-vdz-0vtg0khjzd1q-9_52m0mdtaudangv0d4amw_co4l3ogzyx2la-6zbwov8wn6us55pq7qlkvrxqnyw6b3642j6ijrs1-cth6o2jhmtsruugfr1khole_l3ga0sn1cr5eo9uje3uh5kz3wyvhphtw.jpg": {
@@ -4513,11 +4513,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T18:35:49.986551114Z",
       "last_seen_at": "2026-10-04T17:02:27.322306439Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 32,
+      "not_found_count": 33,
       "origins": {
         "telegram:vpn_ete": "2026-10-04T17:02:27.322306439Z"
       }
@@ -4577,11 +4577,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T11:00:41.566280028Z",
       "last_seen_at": "2026-09-30T11:00:41.566280028Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 49,
+      "not_found_count": 50,
       "origins": {
         "telegram:napsternetvirani": "2026-09-30T11:00:41.566280028Z"
       }
@@ -4672,14 +4672,14 @@
       "value": "https://cdn4.telesco.pe/file/cshgTldASaTobeSvYgWFLrS4s7o9m9hvxbOhUvkAaQSQynoPaCJf8jkXI4Ea9HgXod67Kch-TvmbQpSERxL-ooYzN-OPZSHtd3Lc4tkIcevfywq05NTqtAOzFzzc90_bu1NuP5S2O31ymFdl800OY8ial7ehXgFEXbAN8g93YvRI5KDRvNSfOQikiIBuS34gGTK7YbeqFgdmuZehXonw3TEv59Y37pTDPenRVNpTs3uoYslNqOS2-xBp50bLqZHwp_xGDuJyHyODTHgyjFBZhEguplA8SDPsw6wGL3YmWdnS0It3z9wfAlg7w-XehZX4RydeHnQ6u6s6rsw7FCwmmw.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T08:31:36.905703181Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 4,
+      "no_config_count": 5,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2ray_alpha": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2ray_alpha": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/ctgfpeynhbg_zvvepv0blwlecycmjfkewkpkjevwyp52afghvhm_2n5l5tdd5eh5eij401pedzrld_ezkgjbrupttey3a0ry5hy0tbqm0zcpwj-c6_d731bsrx-mfdjn8lykkvrprmysd80wojxtnwxqut3f_uvplx4x6j5dmzihuvf7yjkplnmxrd3ytwdtutxmduum1j5lifxjphd3rmco755pw4vxvb_ewfe0axzemslw-umfwmg6-fc9qlezvgr9-nmhxroazi_w9ttw50fdzzdymujfpckvry8vihqrwoaicz_f736t1pgdih2ndpbegiliasjxew2eejux6a.jpg": {
@@ -4689,11 +4689,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-05T18:34:51.374903092Z",
       "last_seen_at": "2026-10-06T06:35:46.834527145Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 25,
+      "not_found_count": 26,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-06T06:35:46.834527145Z"
       }
@@ -4769,11 +4769,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T15:32:29.670296734Z",
       "last_seen_at": "2026-09-30T11:00:41.566280028Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 53,
+      "not_found_count": 54,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-30T11:00:41.566280028Z"
       }
@@ -4881,11 +4881,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-28T17:00:02.369373886Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 1,
-      "not_found_count": 61,
+      "not_found_count": 62,
       "origins": {
         "telegram:cybrix_network": "2026-09-28T17:00:02.369373886Z"
       }
@@ -4897,11 +4897,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T19:04:52.376563999Z",
       "last_seen_at": "2026-10-07T09:14:58.191720155Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 20,
+      "not_found_count": 21,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-07T09:14:58.191720155Z"
       }
@@ -5050,22 +5050,6 @@
         "telegram:cybrix_network": "2026-09-20T10:05:56.07922911Z"
       }
     },
-    "source:https://cdn4.telesco.pe/file/di-vqcosvzsftxxpgyndchtuwmbxikivprbfoy_hizo10_3si6ywvv2-_t_wngyq3gyokdgaho8oethwinxzj_8dnbg5of0a_xlmnr27sstinc8bjvq08vbjkbnethnzedxtwhajiieww7rbgempsid5anydojrtrp_w_wbz20oizemqfz0hc7-epa_b797_g4srvbi94z1xxm1bnqpych2knufh0ptkg_k_urpu0irecatp7l5snob94h8wg3mmkohbq68djasvkpx5ysnxon7ks3xsmtx0zg80ipsl3bh93nmeoe_xygg4dj7-tsnzlavx-xunhwmhztxdjwwdkg.jpg": {
-      "id": "source:https://cdn4.telesco.pe/file/di-vqcosvzsftxxpgyndchtuwmbxikivprbfoy_hizo10_3si6ywvv2-_t_wngyq3gyokdgaho8oethwinxzj_8dnbg5of0a_xlmnr27sstinc8bjvq08vbjkbnethnzedxtwhajiieww7rbgempsid5anydojrtrp_w_wbz20oizemqfz0hc7-epa_b797_g4srvbi94z1xxm1bnqpych2knufh0ptkg_k_urpu0irecatp7l5snob94h8wg3mmkohbq68djasvkpx5ysnxon7ks3xsmtx0zg80ipsl3bh93nmeoe_xygg4dj7-tsnzlavx-xunhwmhztxdjwwdkg.jpg",
-      "kind": "source",
-      "value": "https://cdn4.telesco.pe/file/Di-vQcosVZsftXxpGyNdCHtuWmbxikIVprBFoy_hiZo10_3Si6yWvV2-_t_wNGyQ3gyoKDgAho8oeTHwiNXzJ_8DNBg5OF0a_XlMnR27SstiNc8BJVq08vBjkbnetHnZEdXTWHaJiieWw7rbGeMPsId5aNydoJRtrP_w_wbZ20OiZEmQFz0Hc7-ePa_B797_g4srvbi94z1xXm1bNqpych2KnufH0ptKg_K_UrpU0iReCAtp7l5SNoB94H8WG3MMKohBq68djasVKPX5ySNXon7kS3xSmtx0zG80ipSL3bH93nMEoE_xYGG4Dj7-TSnZlAVx-XUNHwMhZTXDJwWdkg.jpg",
-      "status": "expired",
-      "first_seen_at": "2026-08-31T00:49:31.478439377Z",
-      "last_seen_at": "2026-08-31T20:45:42.586167039Z",
-      "last_checked_at": "2026-09-13T23:30:00.406763046Z",
-      "last_success_at": "0001-01-01T00:00:00Z",
-      "successes": 0,
-      "no_config_count": 4,
-      "not_found_count": 81,
-      "origins": {
-        "telegram:vpn_ete": "2026-08-31T20:45:42.586167039Z"
-      }
-    },
     "source:https://cdn4.telesco.pe/file/diemhyhx6mwhwtn9ttiucsbwkmpokfkbdydge7ir6ii1p7--emg0jbgtykuov-dybysxl23h8tdpia9sfvfjqzzuxeltekmb1vdhooxyrdbvmpcjuxsrmjiwrt8cyxysye5qv-0rnv0ml6lgfymh2u_ks7hdfrrkzz87m0eyydmte-8uffodssyx-vhu-c9ayqdvlk17xujfzfwraqchjwvko4w2rknff3usqchnqlknopvi3ji-kbh-1icjkghdyrxgjzuxq2r_g42hv7buc2exvqrfbtgqytnadhhtqpqcdzm8soni6igatvu_ge2606yoeqgi5lv2_qcpm9ojlq.jpg": {
       "id": "source:https://cdn4.telesco.pe/file/diemhyhx6mwhwtn9ttiucsbwkmpokfkbdydge7ir6ii1p7--emg0jbgtykuov-dybysxl23h8tdpia9sfvfjqzzuxeltekmb1vdhooxyrdbvmpcjuxsrmjiwrt8cyxysye5qv-0rnv0ml6lgfymh2u_ks7hdfrrkzz87m0eyydmte-8uffodssyx-vhu-c9ayqdvlk17xujfzfwraqchjwvko4w2rknff3usqchnqlknopvi3ji-kbh-1icjkghdyrxgjzuxq2r_g42hv7buc2exvqrfbtgqytnadhhtqpqcdzm8soni6igatvu_ge2606yoeqgi5lv2_qcpm9ojlq.jpg",
       "kind": "source",
@@ -5105,11 +5089,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T09:14:58.191720155Z",
       "last_seen_at": "2026-10-08T01:19:08.957501716Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 18,
+      "not_found_count": 19,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-08T01:19:08.957501716Z"
       }
@@ -5153,11 +5137,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T21:36:21.711033423Z",
       "last_seen_at": "2026-10-08T07:35:06.044701075Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:napsternetvirani": "2026-10-08T07:35:06.044701075Z"
       }
@@ -5169,11 +5153,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T19:30:33.843895409Z",
       "last_seen_at": "2026-10-11T15:04:20.938975966Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 2,
+      "not_found_count": 3,
       "origins": {
         "telegram:configx2ray": "2026-10-11T15:04:20.938975966Z"
       }
@@ -5201,11 +5185,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T20:14:33.852055105Z",
       "last_seen_at": "2026-10-05T18:34:51.374903092Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 27,
+      "not_found_count": 28,
       "origins": {
         "telegram:configx2ray": "2026-10-05T18:34:51.374903092Z"
       }
@@ -5217,11 +5201,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T14:54:23.40049827Z",
       "last_seen_at": "2026-10-04T06:20:09.972558595Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 34,
+      "not_found_count": 35,
       "origins": {
         "telegram:napsternetvirani": "2026-10-04T06:20:09.972558595Z"
       }
@@ -5233,11 +5217,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T19:30:33.843895409Z",
       "last_seen_at": "2026-10-11T15:04:20.938975966Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 2,
+      "not_found_count": 3,
       "origins": {
         "telegram:vpn_ete": "2026-10-11T15:04:20.938975966Z"
       }
@@ -5329,11 +5313,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T23:24:30.93234038Z",
       "last_seen_at": "2026-10-02T15:43:32.881383222Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 42,
+      "not_found_count": 43,
       "origins": {
         "telegram:configx2ray": "2026-10-02T15:43:32.881383222Z"
       }
@@ -5425,11 +5409,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-09T06:46:31.978230431Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-09T06:46:31.978230431Z"
       }
@@ -5441,11 +5425,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-29T08:43:50.175211473Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 58,
+      "not_found_count": 59,
       "origins": {
         "telegram:napsternetvirani": "2026-09-29T08:43:50.175211473Z"
       }
@@ -5489,11 +5473,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T14:15:00.244707418Z",
       "last_seen_at": "2026-10-10T02:45:16.973987886Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 9,
+      "not_found_count": 10,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-10T02:45:16.973987886Z"
       }
@@ -5505,11 +5489,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-29T08:43:50.175211473Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 58,
+      "not_found_count": 59,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-29T08:43:50.175211473Z"
       }
@@ -5521,11 +5505,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T14:15:00.244707418Z",
       "last_seen_at": "2026-10-10T09:36:06.248215652Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 8,
+      "not_found_count": 9,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-10T09:36:06.248215652Z"
       }
@@ -5537,11 +5521,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T18:35:49.986551114Z",
       "last_seen_at": "2026-10-04T12:37:21.328449777Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 33,
+      "not_found_count": 34,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-04T12:37:21.328449777Z"
       }
@@ -5569,11 +5553,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T14:54:23.40049827Z",
       "last_seen_at": "2026-10-04T06:20:09.972558595Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 34,
+      "not_found_count": 35,
       "origins": {
         "telegram:napsternetvirani": "2026-10-04T06:20:09.972558595Z"
       }
@@ -5585,11 +5569,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T15:32:29.670296734Z",
       "last_seen_at": "2026-09-30T04:51:35.279520575Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 54,
+      "not_found_count": 55,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-30T04:51:35.279520575Z"
       }
@@ -5696,14 +5680,14 @@
       "value": "https://cdn4.telesco.pe/file/EYv-dRhTtPl3GT8olxPbWmWSV2ayW-2r4Wgfi6HZ3NNrkEtPCD5U4heReRqi18evmk-LHmYn6MTr2uv3u4Ykew6BXMlGXx2nsKM4KQESV3URGctIFCEnHnZleE8W6qfvl4Q_OagdmJOvZ-chW8BqhHJKzxjEYwAH4hNQp_pKx3emkAIe_qGB7RUkKmki1WdU6cZp1dmosvAn8Cv1-BSJPEdUYOQn0fBGdwCEXkUX43SyyU8q0Y04uzqbrT6GqEmsr2T4obXHLBCw-g2HHxAZAzftQUirgmAvoyU4VtjsKwRayezLBE4ifFmcYjzw_LQvqfFGFCbFcSLRwS-C7CkYBg.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T08:31:36.905703181Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 4,
+      "no_config_count": 5,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2rayconfigamir": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2rayconfigamir": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/ezigdeham79vu8od3yujwfeftkw1gi-jvwrpbfsl95hqzq_whb7hjdv8qo7cs7xelbgjrdagqfqu4arhygyowf1alrw55_kjtlrfksxcrqx5ozogqgbqkv3qcb8dwy-wzp0pberhgor6cpjiwttcyxhtel1qelerrsx0hqdlgpnwqrinli3sox7frwyfnhdxpxooa9nljexp9vyrupfhohulo0xvknqv3-p4f44am6fbbtgm7zjzj-xxjw3rpnkmm6y1yu7ouxbbibo2emjopnwxhi6zxov9ubs7ooxoalawek5k8mfyukljv1d3op7od4x8sxnh6cebdguko013fa.jpg": {
@@ -5745,11 +5729,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T09:36:06.248215652Z",
       "last_seen_at": "2026-10-11T08:31:36.905703181Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 3,
+      "not_found_count": 4,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-11T08:31:36.905703181Z"
       }
@@ -5793,11 +5777,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T23:47:02.65097192Z",
       "last_seen_at": "2026-09-30T16:51:26.821611921Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 52,
+      "not_found_count": 53,
       "origins": {
         "telegram:configx2ray": "2026-09-30T16:51:26.821611921Z"
       }
@@ -5825,11 +5809,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T09:14:58.191720155Z",
       "last_seen_at": "2026-10-08T07:35:06.044701075Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-08T07:35:06.044701075Z"
       }
@@ -5857,11 +5841,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T22:30:20.594859034Z",
       "last_seen_at": "2026-09-29T20:13:08.950351098Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 56,
+      "not_found_count": 57,
       "origins": {
         "telegram:configx2ray": "2026-09-29T20:13:08.950351098Z"
       }
@@ -5953,11 +5937,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T04:51:35.279520575Z",
       "last_seen_at": "2026-09-30T16:51:26.821611921Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 50,
+      "not_found_count": 51,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-30T16:51:26.821611921Z"
       }
@@ -6017,11 +6001,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T15:34:12.641098086Z",
       "last_seen_at": "2026-10-11T08:31:36.905703181Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 3,
+      "not_found_count": 4,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-11T08:31:36.905703181Z"
       }
@@ -6033,11 +6017,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T14:15:00.244707418Z",
       "last_seen_at": "2026-10-10T02:45:16.973987886Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 9,
+      "not_found_count": 10,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-10T02:45:16.973987886Z"
       }
@@ -6049,11 +6033,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-05T09:14:46.120203733Z",
       "last_seen_at": "2026-10-06T06:35:46.834527145Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 25,
+      "not_found_count": 26,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-06T06:35:46.834527145Z"
       }
@@ -6113,11 +6097,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T20:13:08.950351098Z",
       "last_seen_at": "2026-09-30T16:51:26.821611921Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 52,
+      "not_found_count": 53,
       "origins": {
         "telegram:vpn_ete": "2026-09-30T16:51:26.821611921Z"
       }
@@ -6161,11 +6145,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T15:32:29.670296734Z",
       "last_seen_at": "2026-09-30T11:00:41.566280028Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 53,
+      "not_found_count": 54,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-30T11:00:41.566280028Z"
       }
@@ -6225,11 +6209,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T20:31:22.379962139Z",
       "last_seen_at": "2026-10-03T14:54:23.40049827Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 38,
+      "not_found_count": 39,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-03T14:54:23.40049827Z"
       }
@@ -6289,11 +6273,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T16:51:26.821611921Z",
       "last_seen_at": "2026-10-01T06:34:09.897153373Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 49,
+      "not_found_count": 50,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-01T06:34:09.897153373Z"
       }
@@ -6337,11 +6321,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T20:14:33.852055105Z",
       "last_seen_at": "2026-10-05T02:07:47.386477315Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 27,
+      "not_found_count": 28,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-05T02:07:47.386477315Z"
       }
@@ -6353,11 +6337,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-09T06:46:31.978230431Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-09T06:46:31.978230431Z"
       }
@@ -6401,11 +6385,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T21:36:21.711033423Z",
       "last_seen_at": "2026-10-08T07:35:06.044701075Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 16,
+      "not_found_count": 17,
       "origins": {
         "telegram:vpn_ete": "2026-10-08T07:35:06.044701075Z"
       }
@@ -6465,11 +6449,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T20:37:50.259199233Z",
       "last_seen_at": "2026-10-09T14:15:00.244707418Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 12,
+      "not_found_count": 13,
       "origins": {
         "telegram:vpn_ete": "2026-10-09T14:15:00.244707418Z"
       }
@@ -6497,11 +6481,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T19:30:33.843895409Z",
       "last_seen_at": "2026-10-11T01:44:12.80341543Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 2,
+      "not_found_count": 3,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-11T01:44:12.80341543Z"
       }
@@ -6528,14 +6512,14 @@
       "value": "https://cdn4.telesco.pe/file/gQrmEFRY6OL2cPcgVcG8XQsEAl_m1ss7XC5le7gaJX9Xx3wa8P8YI3TqvZ20wMPMIp-HUNSCd4k5IebeRUmeRj7eT0dar1LzaEIRF-B8mKh_AeBcFdDURe2NuBnGHinfGpmlFuqp3WYhCf2qjm29ATFpVYT9gyRp87lOa-fT5wi1A84BfkYPGEO3aXBynPshf0blVAXqOTNTa630LRjYw6uWWSMTsk9-fln4z6RvnOvA-v2r3HZ9StuuXC7-rxgRbtOrE7AwQjGv76EnTBIrMRQhs3EdTtdSvTbLt0oiDPP-UJFeA8zpd87_SAc78Jv82tQEauVrO6qZrOx5Bdp4Mw.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T19:36:01.616407087Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 2,
+      "no_config_count": 3,
       "not_found_count": 0,
       "origins": {
-        "telegram:vpn_ete": "2026-10-11T23:09:29.532134412Z"
+        "telegram:vpn_ete": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/gqydqscyr9ztdtifn_j9s09hjmqfy9304dqcgyjn4gguyq7f5w_aesmuhja1cgn3s_4xilpauoslk3jmcoqzwpsvdzm9uocpw_pdqoyxf098kc3anpnre8nn7zqkdwqupvzhrbng1r4psw4movjrvjwxquqk_v4ctgjdd5waabbp_zwsseypmvwtuirsrzkcd1fwcawtnroebzdbawgx2yxmkbaql1qtgavcgd8dzuvedsg0jzs1xz9wqbthnqi_nsxgvy8xypky3nlyzeckciuj6oyamvvpbapfh14yxaktp0e42jgjwkc6pjlfywh9kyc14d8aczp0k1l6p27g4a.jpg": {
@@ -6577,11 +6561,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T20:13:08.950351098Z",
       "last_seen_at": "2026-09-30T16:51:26.821611921Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 52,
+      "not_found_count": 53,
       "origins": {
         "telegram:vpn_ete": "2026-09-30T16:51:26.821611921Z"
       }
@@ -6641,11 +6625,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-05T18:34:51.374903092Z",
       "last_seen_at": "2026-10-06T06:35:46.834527145Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 25,
+      "not_found_count": 26,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-06T06:35:46.834527145Z"
       }
@@ -6657,11 +6641,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T13:53:30.893665689Z",
       "last_seen_at": "2026-10-01T13:53:30.893665689Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 44,
+      "not_found_count": 45,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-01T13:53:30.893665689Z"
       }
@@ -6801,11 +6785,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T20:31:22.379962139Z",
       "last_seen_at": "2026-10-03T14:54:23.40049827Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 38,
+      "not_found_count": 39,
       "origins": {
         "telegram:vpn_ete": "2026-10-03T14:54:23.40049827Z"
       }
@@ -6817,11 +6801,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T21:19:49.41430998Z",
       "last_seen_at": "2026-10-01T13:53:30.893665689Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 48,
+      "not_found_count": 49,
       "origins": {
         "telegram:vpn_ete": "2026-10-01T13:53:30.893665689Z"
       }
@@ -6865,11 +6849,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T21:19:49.41430998Z",
       "last_seen_at": "2026-10-01T13:53:30.893665689Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 48,
+      "not_found_count": 49,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-01T13:53:30.893665689Z"
       }
@@ -6945,11 +6929,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T13:53:30.893665689Z",
       "last_seen_at": "2026-10-02T09:00:04.962610327Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 44,
+      "not_found_count": 45,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-02T09:00:04.962610327Z"
       }
@@ -6961,11 +6945,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T21:19:49.41430998Z",
       "last_seen_at": "2026-10-01T06:34:09.897153373Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 47,
+      "not_found_count": 48,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-01T06:34:09.897153373Z"
       }
@@ -7009,11 +6993,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T09:36:06.248215652Z",
       "last_seen_at": "2026-10-11T08:31:36.905703181Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 3,
+      "not_found_count": 4,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-11T08:31:36.905703181Z"
       }
@@ -7057,11 +7041,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T15:32:29.670296734Z",
       "last_seen_at": "2026-09-30T11:00:41.566280028Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 53,
+      "not_found_count": 54,
       "origins": {
         "telegram:napsternetvirani": "2026-09-30T11:00:41.566280028Z"
       }
@@ -7185,11 +7169,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T09:36:06.248215652Z",
       "last_seen_at": "2026-10-11T01:44:12.80341543Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 3,
+      "not_found_count": 4,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-11T01:44:12.80341543Z"
       }
@@ -7201,11 +7185,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-29T08:43:50.175211473Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 58,
+      "not_found_count": 59,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-29T08:43:50.175211473Z"
       }
@@ -7217,11 +7201,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T10:28:17.433868258Z",
       "last_seen_at": "2026-10-04T06:20:09.972558595Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 34,
+      "not_found_count": 35,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-04T06:20:09.972558595Z"
       }
@@ -7265,11 +7249,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 2,
-      "not_found_count": 15,
+      "not_found_count": 16,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -7281,11 +7265,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T08:27:31.811786499Z",
       "last_seen_at": "2026-09-29T02:18:01.225384415Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 59,
+      "not_found_count": 60,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-29T02:18:01.225384415Z"
       }
@@ -7313,11 +7297,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T12:37:21.328449777Z",
       "last_seen_at": "2026-10-05T09:14:46.120203733Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 28,
+      "not_found_count": 29,
       "origins": {
         "telegram:napsternetvirani": "2026-10-05T09:14:46.120203733Z"
       }
@@ -7345,11 +7329,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 2,
-      "not_found_count": 15,
+      "not_found_count": 16,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -7457,11 +7441,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T00:19:25.217863463Z",
       "last_seen_at": "2026-10-06T19:04:52.376563999Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 23,
+      "not_found_count": 24,
       "origins": {
         "telegram:configx2ray": "2026-10-06T19:04:52.376563999Z"
       }
@@ -7489,11 +7473,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T13:53:30.893665689Z",
       "last_seen_at": "2026-10-02T09:00:04.962610327Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 44,
+      "not_found_count": 45,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-02T09:00:04.962610327Z"
       }
@@ -7505,11 +7489,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T21:36:21.711033423Z",
       "last_seen_at": "2026-10-08T07:35:06.044701075Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-08T07:35:06.044701075Z"
       }
@@ -7601,11 +7585,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T20:13:08.950351098Z",
       "last_seen_at": "2026-09-30T11:00:41.566280028Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 53,
+      "not_found_count": 54,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-30T11:00:41.566280028Z"
       }
@@ -7665,11 +7649,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T10:28:17.433868258Z",
       "last_seen_at": "2026-10-03T14:54:23.40049827Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 35,
+      "not_found_count": 36,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-03T14:54:23.40049827Z"
       }
@@ -7745,11 +7729,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T09:00:04.962610327Z",
       "last_seen_at": "2026-10-03T05:07:54.785672568Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 40,
+      "not_found_count": 41,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-03T05:07:54.785672568Z"
       }
@@ -7760,14 +7744,14 @@
       "value": "https://cdn4.telesco.pe/file/IV_PL7-xZzYAnijhLPfc79anHoBSkbtUqFNDC3fzMttwDLt17s-2QMee0tjBtBcqCDYWwIxHuaMnMvNqPJqJbl5f-0Z-vkzCgSaMsQIIVD-1909peuR9eegmcSSCz6SvIeOOKPmCdC-_0KVSPXry4b6cidjSI2roOlwFfn88aeLbOYddI_OLoX4W6yi0RrIsa_nEAmhQEHUjaMc5DaP4TjNqtXIzgx0r4KigW51Fek_Mjm4VZHbo-GVsywzXSgm5VYzS6wsjW_AKeOZtl2YJBRnSiCmcYc16KMCRXg7m7VqfUtO8QyRImiFENVMUA9yefNizSxXBlisQMeSfbMdVvw.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T08:31:36.905703181Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 4,
+      "no_config_count": 5,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2ray_alpha": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2ray_alpha": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/iwyxcrylum-tb_kfehty2oyrloxzi9y9onh9ij0exniosmlpp4ssun-hopqrqmpk9951zqtb8qgojatvjsk6qkkkpnthq8qxbh92vyf19u3_fism769lrknep6hrb8jf3b4lnarw1boqmjyzo8hcnv4xo9d82m9zwp06gn26b4yi8qu_maeexgb92b1jnmtela9cxidl3edszcr1aed1w4ovbrsk-j2gai60m9skb5uvcygt4rcu7ojh1zgqiml20a0bm4_qpbqo9dcybrdzmyr5v-2zhc3q3hr_zs187n-2t2cbe6rwwviwr66xf9-9gqei7uplkajz8nchz9qfza.jpg": {
@@ -7777,11 +7761,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T21:19:49.41430998Z",
       "last_seen_at": "2026-10-01T19:20:57.892920894Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 47,
+      "not_found_count": 48,
       "origins": {
         "telegram:configx2ray": "2026-10-01T19:20:57.892920894Z"
       }
@@ -7793,11 +7777,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-05T18:34:51.374903092Z",
       "last_seen_at": "2026-10-06T13:37:08.984562516Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 24,
+      "not_found_count": 25,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-06T13:37:08.984562516Z"
       }
@@ -7809,11 +7793,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T16:51:26.821611921Z",
       "last_seen_at": "2026-10-01T06:34:09.897153373Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 49,
+      "not_found_count": 50,
       "origins": {
         "telegram:napsternetvirani": "2026-10-01T06:34:09.897153373Z"
       }
@@ -7841,11 +7825,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T15:32:29.670296734Z",
       "last_seen_at": "2026-09-30T11:00:41.566280028Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 53,
+      "not_found_count": 54,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-30T11:00:41.566280028Z"
       }
@@ -7873,11 +7857,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-09T06:46:31.978230431Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-09T06:46:31.978230431Z"
       }
@@ -7889,11 +7873,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T20:31:22.379962139Z",
       "last_seen_at": "2026-10-03T18:35:49.986551114Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 37,
+      "not_found_count": 38,
       "origins": {
         "telegram:configx2ray": "2026-10-03T18:35:49.986551114Z"
       }
@@ -7921,11 +7905,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T08:27:31.811786499Z",
       "last_seen_at": "2026-09-29T02:18:01.225384415Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 59,
+      "not_found_count": 60,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-29T02:18:01.225384415Z"
       }
@@ -7937,11 +7921,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T15:43:32.881383222Z",
       "last_seen_at": "2026-10-03T10:28:17.433868258Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 39,
+      "not_found_count": 40,
       "origins": {
         "telegram:napsternetvirani": "2026-10-03T10:28:17.433868258Z"
       }
@@ -7960,22 +7944,6 @@
       "not_found_count": 82,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-08T08:44:50.484410479Z"
-      }
-    },
-    "source:https://cdn4.telesco.pe/file/j81zf6fzyvwhqibsf4a6lzvni5nhpmxf5iuybtqckhur5rpvah11txna55wlbr1iwgtnslncwmvfaq1y5jnrpsv5k8mxsqbofzmi4vc0qn1swtoneqbtn-yzoj1hfmwtbpftzm1mvy7qqwiyspdhnpglydkzujzhrbqikkn_dhs_fpf1auflvlzbc6qfevkqtxlqyjkhyo3_etzz9ysamxobubi4vs97dvxxz484c8efzt-eirhepggnjnefi6ngvlrzkpeq0-ezm8pq0kukh_8npj-hlqb5rfxnf5wgvl32ll6klf9sbvgngtdhbmwppjnuvb3f7tpnrl_xlsyeew.jpg": {
-      "id": "source:https://cdn4.telesco.pe/file/j81zf6fzyvwhqibsf4a6lzvni5nhpmxf5iuybtqckhur5rpvah11txna55wlbr1iwgtnslncwmvfaq1y5jnrpsv5k8mxsqbofzmi4vc0qn1swtoneqbtn-yzoj1hfmwtbpftzm1mvy7qqwiyspdhnpglydkzujzhrbqikkn_dhs_fpf1auflvlzbc6qfevkqtxlqyjkhyo3_etzz9ysamxobubi4vs97dvxxz484c8efzt-eirhepggnjnefi6ngvlrzkpeq0-ezm8pq0kukh_8npj-hlqb5rfxnf5wgvl32ll6klf9sbvgngtdhbmwppjnuvb3f7tpnrl_xlsyeew.jpg",
-      "kind": "source",
-      "value": "https://cdn4.telesco.pe/file/j81zf6FzYVwhqibSf4A6lZVni5nHpMxf5IUybtqCKhuR5rPvah11tXNa55wLbR1IwgTNSlnCwmvFAq1y5JNrpSV5k8mxSqBOFZmi4VC0Qn1swTONeQbTn-yZoj1hFmWtBpftZM1mVY7QQWiyspDHnPGLYdKzuJZhrBqIkkn_dhS_fPf1aUflVlzbC6qfevkQTxLqYJkHYo3_etzZ9YSamXoBubI4VS97DVXXZ484C8EfZT-eiRhepgGNjnEfi6NgvlRZkPEq0-eZM8Pq0kuKh_8npj-hlQB5RFxnf5WGVl32LL6KLF9sBvGngTDHbmwppJnuvb3F7tpnrl_xLSYEew.jpg",
-      "status": "expired",
-      "first_seen_at": "2026-08-31T00:49:31.478439377Z",
-      "last_seen_at": "2026-08-31T20:45:42.586167039Z",
-      "last_checked_at": "2026-09-13T23:30:00.406763046Z",
-      "last_success_at": "0001-01-01T00:00:00Z",
-      "successes": 0,
-      "no_config_count": 4,
-      "not_found_count": 81,
-      "origins": {
-        "telegram:vpn_ete": "2026-08-31T20:45:42.586167039Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/j8x5obwqvuxznsq9fpssyxowcqignmxmh7ogp1oeokrrtalg78ievgsy10oinwmgvjpy1wlu0ecbfduxd-mbeqtooua9xlhxhpdpqjjtoc6nkjmybruomowj3qbpner1mfkhtcuvtx5jjqprgxbfs6xdimp76h4wknrq00p5nsls8nryk0qy707ioaxh_zap8l7wnykpq1vaugxysc6jg4zd8l3kkap_fseacolahwlyxf2eio-y3se_icxsgbrghfq88hdurjwc6yrg5bxew59auqu0pfqcdc5hkzqarariirsdxjw_iz8pu7s2d5-vtmxil9h6ceradppvteqepq.jpg": {
@@ -8081,11 +8049,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T14:54:23.40049827Z",
       "last_seen_at": "2026-10-04T06:20:09.972558595Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 34,
+      "not_found_count": 35,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-04T06:20:09.972558595Z"
       }
@@ -8097,11 +8065,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-09T06:46:31.978230431Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:napsternetvirani": "2026-10-09T06:46:31.978230431Z"
       }
@@ -8113,11 +8081,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-29T08:43:50.175211473Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 58,
+      "not_found_count": 59,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-29T08:43:50.175211473Z"
       }
@@ -8161,11 +8129,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T19:04:52.376563999Z",
       "last_seen_at": "2026-10-07T09:14:58.191720155Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 20,
+      "not_found_count": 21,
       "origins": {
         "telegram:vpn_ete": "2026-10-07T09:14:58.191720155Z"
       }
@@ -8193,11 +8161,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T06:34:09.897153373Z",
       "last_seen_at": "2026-10-02T02:34:09.860288439Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 45,
+      "not_found_count": 46,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-02T02:34:09.860288439Z"
       }
@@ -8209,11 +8177,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T09:36:06.248215652Z",
       "last_seen_at": "2026-10-11T01:44:12.80341543Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 4,
+      "not_found_count": 5,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-11T01:44:12.80341543Z"
       }
@@ -8289,11 +8257,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -8369,11 +8337,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T15:34:12.641098086Z",
       "last_seen_at": "2026-10-11T08:31:36.905703181Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 3,
+      "not_found_count": 4,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-11T08:31:36.905703181Z"
       }
@@ -8481,11 +8449,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-29T08:43:50.175211473Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 58,
+      "not_found_count": 59,
       "origins": {
         "telegram:v2ray_alpha": "2026-09-29T08:43:50.175211473Z"
       }
@@ -8497,11 +8465,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T17:02:27.322306439Z",
       "last_seen_at": "2026-10-05T09:14:46.120203733Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 28,
+      "not_found_count": 29,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-05T09:14:46.120203733Z"
       }
@@ -8545,11 +8513,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T21:19:49.41430998Z",
       "last_seen_at": "2026-10-01T13:53:30.893665689Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 48,
+      "not_found_count": 49,
       "origins": {
         "telegram:vpn_ete": "2026-10-01T13:53:30.893665689Z"
       }
@@ -8609,11 +8577,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T17:02:27.322306439Z",
       "last_seen_at": "2026-10-05T09:14:46.120203733Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 28,
+      "not_found_count": 29,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-05T09:14:46.120203733Z"
       }
@@ -8625,11 +8593,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T13:37:08.984562516Z",
       "last_seen_at": "2026-10-07T02:28:26.226305181Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 21,
+      "not_found_count": 22,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-07T02:28:26.226305181Z"
       }
@@ -8641,11 +8609,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T08:43:50.175211473Z",
       "last_seen_at": "2026-09-30T04:51:35.279520575Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 54,
+      "not_found_count": 55,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-30T04:51:35.279520575Z"
       }
@@ -8737,11 +8705,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T09:36:06.248215652Z",
       "last_seen_at": "2026-10-11T01:44:12.80341543Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 4,
+      "not_found_count": 5,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-11T01:44:12.80341543Z"
       }
@@ -8753,11 +8721,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T13:37:08.984562516Z",
       "last_seen_at": "2026-10-07T02:28:26.226305181Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 21,
+      "not_found_count": 22,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-07T02:28:26.226305181Z"
       }
@@ -8769,11 +8737,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T19:04:52.376563999Z",
       "last_seen_at": "2026-10-07T09:14:58.191720155Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 20,
+      "not_found_count": 21,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-07T09:14:58.191720155Z"
       }
@@ -8801,11 +8769,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T11:00:41.566280028Z",
       "last_seen_at": "2026-10-01T06:34:09.897153373Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 49,
+      "not_found_count": 50,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-01T06:34:09.897153373Z"
       }
@@ -8833,11 +8801,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T20:31:22.379962139Z",
       "last_seen_at": "2026-10-03T14:54:23.40049827Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 38,
+      "not_found_count": 39,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-03T14:54:23.40049827Z"
       }
@@ -8849,11 +8817,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T20:37:50.259199233Z",
       "last_seen_at": "2026-10-09T14:15:00.244707418Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 12,
+      "not_found_count": 13,
       "origins": {
         "telegram:configx2ray": "2026-10-09T14:15:00.244707418Z"
       }
@@ -8945,11 +8913,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-05T09:14:46.120203733Z",
       "last_seen_at": "2026-10-06T06:35:46.834527145Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 25,
+      "not_found_count": 26,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-06T06:35:46.834527145Z"
       }
@@ -8993,11 +8961,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T16:51:26.821611921Z",
       "last_seen_at": "2026-10-01T06:34:09.897153373Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 49,
+      "not_found_count": 50,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-01T06:34:09.897153373Z"
       }
@@ -9025,11 +8993,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-29T08:43:50.175211473Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 58,
+      "not_found_count": 59,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-29T08:43:50.175211473Z"
       }
@@ -9041,11 +9009,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T20:31:22.379962139Z",
       "last_seen_at": "2026-10-03T05:07:54.785672568Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 37,
+      "not_found_count": 38,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-03T05:07:54.785672568Z"
       }
@@ -9057,11 +9025,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T19:20:57.892920894Z",
       "last_seen_at": "2026-10-02T15:43:32.881383222Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 43,
+      "not_found_count": 44,
       "origins": {
         "telegram:vpn_ete": "2026-10-02T15:43:32.881383222Z"
       }
@@ -9153,11 +9121,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-05T18:34:51.374903092Z",
       "last_seen_at": "2026-10-06T06:35:46.834527145Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 25,
+      "not_found_count": 26,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-06T06:35:46.834527145Z"
       }
@@ -9200,14 +9168,14 @@
       "value": "https://cdn4.telesco.pe/file/kz52it0U9zK6UZc11kGTjKrFeFKvNzwoGHvjNEQV4w0BhwKK9QAhtVP55iMBxCBAU6RzRniSJURxPsHmj57ieo66IIcPatIWWAweT3ojEVfrr7N6-k26nWG0gv3VPAI5KQ5zItJ4eblbF8Jzc6yJZzf8JBU7_olHZONXXEoqEg_bziR5iXhiNeCyfsiCsMM3Hfg9DA6_hfU6nS5ImXPXfSwISFuhFc342utSCNuZW3IMUG8maULdjGN8tu_cpqKziXpf5PgBlbGPlMZGvh2gyal1nVkKqaclipjV_Ud8XE__3yA2btRXZy962oZQC1YMgHYKOBXyQv-qDynuR65uyA.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T15:04:20.938975966Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 3,
+      "no_config_count": 4,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2rayconfigamir": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2rayconfigamir": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/kzfhlopwmu5vm0tc3dpzd_kyftmdbrqbsk65gxw7togmngcwa30afl-w-4soehaicirthsvmye6u1hghp_ffcrsimzckgqymaa8becuemiorz6mh7tfnfjuw2diq2mqvvlzuferrrgplxz68cpin8wu5m-ta5myxokbkzqvr8s6nxpdzxyp8xhdridfbaev_-ikv0f0at8eqdmbq4pbgv59ecoar5qohdarpa7-ui7te8szsc8dra-xyqnld_-eemeyjjcw71uiviilty9webkbdlbe59sq45yx3sgvu8bwdkbbudyl2gvxga56vjagiwzifej8_bkk8-bnolijh_w.jpg": {
@@ -9233,11 +9201,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T15:43:32.881383222Z",
       "last_seen_at": "2026-10-03T05:07:54.785672568Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 40,
+      "not_found_count": 41,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-03T05:07:54.785672568Z"
       }
@@ -9249,11 +9217,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T21:47:16.443938491Z",
       "last_seen_at": "2026-10-04T17:02:27.322306439Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 32,
+      "not_found_count": 33,
       "origins": {
         "telegram:configx2ray": "2026-10-04T17:02:27.322306439Z"
       }
@@ -9377,11 +9345,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T08:43:50.175211473Z",
       "last_seen_at": "2026-09-30T04:51:35.279520575Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 54,
+      "not_found_count": 55,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-30T04:51:35.279520575Z"
       }
@@ -9425,11 +9393,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T23:24:30.93234038Z",
       "last_seen_at": "2026-10-02T15:43:32.881383222Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 42,
+      "not_found_count": 43,
       "origins": {
         "telegram:configx2ray": "2026-10-02T15:43:32.881383222Z"
       }
@@ -9457,11 +9425,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T21:36:21.711033423Z",
       "last_seen_at": "2026-10-08T07:35:06.044701075Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-08T07:35:06.044701075Z"
       }
@@ -9473,11 +9441,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T13:53:30.893665689Z",
       "last_seen_at": "2026-10-02T09:00:04.962610327Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 44,
+      "not_found_count": 45,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-02T09:00:04.962610327Z"
       }
@@ -9489,11 +9457,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T16:51:26.821611921Z",
       "last_seen_at": "2026-10-01T06:34:09.897153373Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 49,
+      "not_found_count": 50,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-01T06:34:09.897153373Z"
       }
@@ -9505,11 +9473,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-05T18:34:51.374903092Z",
       "last_seen_at": "2026-10-06T13:37:08.984562516Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 24,
+      "not_found_count": 25,
       "origins": {
         "telegram:vpn_ete": "2026-10-06T13:37:08.984562516Z"
       }
@@ -9521,11 +9489,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T16:51:26.821611921Z",
       "last_seen_at": "2026-10-01T06:34:09.897153373Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 49,
+      "not_found_count": 50,
       "origins": {
         "telegram:napsternetvirani": "2026-10-01T06:34:09.897153373Z"
       }
@@ -9537,11 +9505,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T19:34:55.80904399Z",
       "last_seen_at": "2026-10-10T09:36:06.248215652Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 8,
+      "not_found_count": 9,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-10T09:36:06.248215652Z"
       }
@@ -9809,11 +9777,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T10:28:17.433868258Z",
       "last_seen_at": "2026-10-04T06:20:09.972558595Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 34,
+      "not_found_count": 35,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-04T06:20:09.972558595Z"
       }
@@ -9985,11 +9953,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T21:36:21.711033423Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 16,
+      "not_found_count": 17,
       "origins": {
         "telegram:configx2ray": "2026-10-08T14:56:19.72857649Z"
       }
@@ -10033,11 +10001,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T23:06:55.785755513Z",
       "last_seen_at": "2026-10-07T09:14:58.191720155Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 20,
+      "not_found_count": 21,
       "origins": {
         "telegram:configx2ray": "2026-10-07T09:14:58.191720155Z"
       }
@@ -10113,11 +10081,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T11:00:41.566280028Z",
       "last_seen_at": "2026-10-01T06:34:09.897153373Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 49,
+      "not_found_count": 50,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-01T06:34:09.897153373Z"
       }
@@ -10225,11 +10193,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T12:37:21.328449777Z",
       "last_seen_at": "2026-10-05T09:14:46.120203733Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 28,
+      "not_found_count": 29,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-05T09:14:46.120203733Z"
       }
@@ -10305,11 +10273,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T20:37:50.259199233Z",
       "last_seen_at": "2026-10-09T00:39:55.23680973Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 12,
+      "not_found_count": 13,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-09T00:39:55.23680973Z"
       }
@@ -10449,11 +10417,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T21:36:21.711033423Z",
       "last_seen_at": "2026-10-08T07:35:06.044701075Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-08T07:35:06.044701075Z"
       }
@@ -10465,11 +10433,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-29T15:32:29.670296734Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 57,
+      "not_found_count": 58,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-29T15:32:29.670296734Z"
       }
@@ -10577,11 +10545,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T12:37:21.328449777Z",
       "last_seen_at": "2026-10-05T02:07:47.386477315Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 29,
+      "not_found_count": 30,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-05T02:07:47.386477315Z"
       }
@@ -10625,11 +10593,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-09T14:15:00.244707418Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 12,
+      "not_found_count": 13,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-09T14:15:00.244707418Z"
       }
@@ -10657,11 +10625,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T12:37:21.328449777Z",
       "last_seen_at": "2026-10-05T02:07:47.386477315Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 29,
+      "not_found_count": 30,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-05T02:07:47.386477315Z"
       }
@@ -10689,11 +10657,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -10769,11 +10737,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T11:00:41.566280028Z",
       "last_seen_at": "2026-10-01T06:34:09.897153373Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 49,
+      "not_found_count": 50,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-01T06:34:09.897153373Z"
       }
@@ -10801,11 +10769,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T21:47:16.443938491Z",
       "last_seen_at": "2026-10-04T17:02:27.322306439Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 32,
+      "not_found_count": 33,
       "origins": {
         "telegram:configx2ray": "2026-10-04T17:02:27.322306439Z"
       }
@@ -10817,11 +10785,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-09T06:46:31.978230431Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-09T06:46:31.978230431Z"
       }
@@ -10961,11 +10929,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 14,
+      "not_found_count": 15,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -10993,11 +10961,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T15:32:29.670296734Z",
       "last_seen_at": "2026-09-30T11:00:41.566280028Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 53,
+      "not_found_count": 54,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-30T11:00:41.566280028Z"
       }
@@ -11009,11 +10977,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T12:37:21.328449777Z",
       "last_seen_at": "2026-10-05T09:14:46.120203733Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 28,
+      "not_found_count": 29,
       "origins": {
         "telegram:napsternetvirani": "2026-10-05T09:14:46.120203733Z"
       }
@@ -11089,11 +11057,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T13:37:08.984562516Z",
       "last_seen_at": "2026-10-07T09:14:58.191720155Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 20,
+      "not_found_count": 21,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-07T09:14:58.191720155Z"
       }
@@ -11105,11 +11073,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T19:34:55.80904399Z",
       "last_seen_at": "2026-10-10T15:34:12.641098086Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 7,
+      "not_found_count": 8,
       "origins": {
         "telegram:vpn_ete": "2026-10-10T15:34:12.641098086Z"
       }
@@ -11169,11 +11137,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T20:13:08.950351098Z",
       "last_seen_at": "2026-09-30T16:51:26.821611921Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 52,
+      "not_found_count": 53,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-30T16:51:26.821611921Z"
       }
@@ -11217,11 +11185,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T13:53:30.893665689Z",
       "last_seen_at": "2026-10-01T13:53:30.893665689Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 44,
+      "not_found_count": 45,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-01T13:53:30.893665689Z"
       }
@@ -11233,11 +11201,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 14,
+      "not_found_count": 15,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -11281,11 +11249,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 1,
-      "not_found_count": 16,
+      "not_found_count": 17,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -11361,11 +11329,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T22:30:20.594859034Z",
       "last_seen_at": "2026-09-29T15:32:29.670296734Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 57,
+      "not_found_count": 58,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-29T15:32:29.670296734Z"
       }
@@ -11393,11 +11361,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T15:32:29.670296734Z",
       "last_seen_at": "2026-09-30T04:51:35.279520575Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 54,
+      "not_found_count": 55,
       "origins": {
         "telegram:v2ray_alpha": "2026-09-30T04:51:35.279520575Z"
       }
@@ -11425,11 +11393,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T15:32:29.670296734Z",
       "last_seen_at": "2026-09-30T11:00:41.566280028Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 53,
+      "not_found_count": 54,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-30T11:00:41.566280028Z"
       }
@@ -11457,11 +11425,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T15:43:32.881383222Z",
       "last_seen_at": "2026-10-03T05:07:54.785672568Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 40,
+      "not_found_count": 41,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-03T05:07:54.785672568Z"
       }
@@ -11473,11 +11441,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 12,
+      "not_found_count": 13,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -11553,11 +11521,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T23:06:55.785755513Z",
       "last_seen_at": "2026-10-07T02:28:26.226305181Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 20,
+      "not_found_count": 21,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-07T02:28:26.226305181Z"
       }
@@ -11569,11 +11537,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-29T08:43:50.175211473Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 58,
+      "not_found_count": 59,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-29T08:43:50.175211473Z"
       }
@@ -11601,11 +11569,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-09T06:46:31.978230431Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-09T06:46:31.978230431Z"
       }
@@ -11681,11 +11649,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T21:36:21.711033423Z",
       "last_seen_at": "2026-10-08T07:35:06.044701075Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:napsternetvirani": "2026-10-08T07:35:06.044701075Z"
       }
@@ -11745,11 +11713,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -11777,11 +11745,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T13:37:08.984562516Z",
       "last_seen_at": "2026-10-07T09:14:58.191720155Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 20,
+      "not_found_count": 21,
       "origins": {
         "telegram:napsternetvirani": "2026-10-07T09:14:58.191720155Z"
       }
@@ -11793,11 +11761,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T21:36:21.711033423Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 16,
+      "not_found_count": 17,
       "origins": {
         "telegram:configx2ray": "2026-10-08T14:56:19.72857649Z"
       }
@@ -11824,14 +11792,14 @@
       "value": "https://cdn4.telesco.pe/file/Py0od0eByNm_TjdteQFNpQsVZjWHS2ddXWE0Ge4GS1b2pXVE1FzUvnJyAwve9DDyQ-qyRFrLP6XrXDqltiDWNVOtHKEx9OMQcn_n8Kcqhq-Ek-9YE_qB5wKtND35EzIe2Ijl14r-kaxvZ8elA85Fb-QhlsxGzPRJobBMKc0HNQR0GTOSBU0raRDFEA_hMS-qekaG5VMglL3BV697y-msE9osIl_2sed8mNZJKvN7DvSq7Lfnn6CDBIQNjz3ZZeB6q8gSRjDD4wXz9SVN3d6ApCjTR-wfGkn6WfFkVxC6laCOIqltYMC9yXidzHcs8t54WbGtCFkvc9kZ2XoDBH9eEQ.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T15:04:20.938975966Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 3,
+      "no_config_count": 4,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2rayconfigamir": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2rayconfigamir": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/pzey3wigzrfbdwk9kwntsg1ppjusqrnp4hqh6r_q5cbw7gt5chlv519mkjnlsuolviik21cbc618p745p0iri9cvneanfyvrgqtq9k7kd3zh3kre8kqvzl4yigpf0_vmwxs4zsg-p7kslki-wmpiveorbjdin1ow4gm4o7uy-qeeefwqhkfr87sx9u8e_iyayx2saimkfqpdwrawwofkptd7lijw4yjqzoovvmua4ujkxsakxdsql1dyb_9mobscedgael9czbblbczrg-7dosz2mnkw3t0lt0wp4l_q3sooeb228g2-zh_bugq1su7qohiodz9yhue126keuh1uzq.jpg": {
@@ -11921,11 +11889,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 14,
+      "not_found_count": 15,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -11953,11 +11921,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T16:51:26.821611921Z",
       "last_seen_at": "2026-10-01T06:34:09.897153373Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 48,
+      "not_found_count": 49,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-01T06:34:09.897153373Z"
       }
@@ -11985,11 +11953,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T21:19:49.41430998Z",
       "last_seen_at": "2026-10-01T13:53:30.893665689Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 48,
+      "not_found_count": 49,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-01T13:53:30.893665689Z"
       }
@@ -12033,11 +12001,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T15:32:29.670296734Z",
       "last_seen_at": "2026-09-30T04:51:35.279520575Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 54,
+      "not_found_count": 55,
       "origins": {
         "telegram:v2ray_alpha": "2026-09-30T04:51:35.279520575Z"
       }
@@ -12065,11 +12033,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T15:43:32.881383222Z",
       "last_seen_at": "2026-10-03T05:07:54.785672568Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 40,
+      "not_found_count": 41,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-03T05:07:54.785672568Z"
       }
@@ -12145,11 +12113,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T23:06:55.785755513Z",
       "last_seen_at": "2026-10-07T09:14:58.191720155Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 20,
+      "not_found_count": 21,
       "origins": {
         "telegram:configx2ray": "2026-10-07T09:14:58.191720155Z"
       }
@@ -12209,11 +12177,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-29T08:43:50.175211473Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 58,
+      "not_found_count": 59,
       "origins": {
         "telegram:v2ray_alpha": "2026-09-29T08:43:50.175211473Z"
       }
@@ -12289,11 +12257,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T15:34:12.641098086Z",
       "last_seen_at": "2026-10-11T08:31:36.905703181Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 3,
+      "not_found_count": 4,
       "origins": {
         "telegram:napsternetvirani": "2026-10-11T08:31:36.905703181Z"
       }
@@ -12481,11 +12449,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T21:36:21.711033423Z",
       "last_seen_at": "2026-10-08T07:35:06.044701075Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-08T07:35:06.044701075Z"
       }
@@ -12497,11 +12465,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T13:53:30.893665689Z",
       "last_seen_at": "2026-10-02T09:00:04.962610327Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 44,
+      "not_found_count": 45,
       "origins": {
         "telegram:napsternetvirani": "2026-10-02T09:00:04.962610327Z"
       }
@@ -12545,11 +12513,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T07:35:06.044701075Z",
       "last_seen_at": "2026-10-09T00:39:55.23680973Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 14,
+      "not_found_count": 15,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-09T00:39:55.23680973Z"
       }
@@ -12593,11 +12561,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T20:37:50.259199233Z",
       "last_seen_at": "2026-10-09T14:15:00.244707418Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 12,
+      "not_found_count": 13,
       "origins": {
         "telegram:vpn_ete": "2026-10-09T14:15:00.244707418Z"
       }
@@ -12609,11 +12577,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 1,
-      "not_found_count": 16,
+      "not_found_count": 17,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -12705,11 +12673,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T20:14:33.852055105Z",
       "last_seen_at": "2026-10-05T09:14:46.120203733Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 28,
+      "not_found_count": 29,
       "origins": {
         "telegram:vpn_ete": "2026-10-05T09:14:46.120203733Z"
       }
@@ -12721,11 +12689,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T19:34:55.80904399Z",
       "last_seen_at": "2026-10-10T15:34:12.641098086Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 7,
+      "not_found_count": 8,
       "origins": {
         "telegram:configx2ray": "2026-10-10T15:34:12.641098086Z"
       }
@@ -12753,11 +12721,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T12:37:21.328449777Z",
       "last_seen_at": "2026-10-05T09:14:46.120203733Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 28,
+      "not_found_count": 29,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-05T09:14:46.120203733Z"
       }
@@ -12769,11 +12737,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T14:15:00.244707418Z",
       "last_seen_at": "2026-10-10T09:36:06.248215652Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 8,
+      "not_found_count": 9,
       "origins": {
         "telegram:napsternetvirani": "2026-10-10T09:36:06.248215652Z"
       }
@@ -12865,11 +12833,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-05T18:34:51.374903092Z",
       "last_seen_at": "2026-10-06T13:37:08.984562516Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 24,
+      "not_found_count": 25,
       "origins": {
         "telegram:vpn_ete": "2026-10-06T13:37:08.984562516Z"
       }
@@ -12913,11 +12881,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T13:37:08.984562516Z",
       "last_seen_at": "2026-10-07T02:28:26.226305181Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 21,
+      "not_found_count": 22,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-07T02:28:26.226305181Z"
       }
@@ -12945,11 +12913,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T20:31:22.379962139Z",
       "last_seen_at": "2026-10-03T18:35:49.986551114Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 37,
+      "not_found_count": 38,
       "origins": {
         "telegram:configx2ray": "2026-10-03T18:35:49.986551114Z"
       }
@@ -13041,11 +13009,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T19:30:33.843895409Z",
       "last_seen_at": "2026-10-11T15:04:20.938975966Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 2,
+      "not_found_count": 3,
       "origins": {
         "telegram:configx2ray": "2026-10-11T15:04:20.938975966Z"
       }
@@ -13057,11 +13025,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T16:51:26.821611921Z",
       "last_seen_at": "2026-10-01T06:34:09.897153373Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 49,
+      "not_found_count": 50,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-01T06:34:09.897153373Z"
       }
@@ -13089,11 +13057,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T11:00:41.566280028Z",
       "last_seen_at": "2026-10-01T06:34:09.897153373Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 49,
+      "not_found_count": 50,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-01T06:34:09.897153373Z"
       }
@@ -13121,11 +13089,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T20:31:22.379962139Z",
       "last_seen_at": "2026-10-03T14:54:23.40049827Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 38,
+      "not_found_count": 39,
       "origins": {
         "telegram:vpn_ete": "2026-10-03T14:54:23.40049827Z"
       }
@@ -13153,11 +13121,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T21:36:21.711033423Z",
       "last_seen_at": "2026-10-08T07:35:06.044701075Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 16,
+      "not_found_count": 17,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-08T07:35:06.044701075Z"
       }
@@ -13217,11 +13185,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T20:14:33.852055105Z",
       "last_seen_at": "2026-10-05T09:14:46.120203733Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 28,
+      "not_found_count": 29,
       "origins": {
         "telegram:vpn_ete": "2026-10-05T09:14:46.120203733Z"
       }
@@ -13232,14 +13200,14 @@
       "value": "https://cdn4.telesco.pe/file/skSydFqCg8PMCLaIzgVlMD4DDBtK0egiWyUOnsrxbudIWNakhIwTL0EC7yOMLgHOwyPsDRGlVkmk8OYCgb1V0lvJxymaa8VoFjXFo0mT4dhZws1AkFL30n66SrM268fRrxOvKwwhhJneasJPuimiqSxMnOBuvKOtzaFW2IwhWCiqqOJfrJbHUmj97NpVTMefsvWibQM37gNbzh_oMOhznqBEYN62uL8afIxtgnJtxyEwfI8yjyyQexASNKp82xUEKN2NSbjmZgtF9C12SQ2mRYgv5CCRp_P3BueHECAzSjw_Z1vxiE4d8YNj2FFuCZvrI4aVQAbTKdhQDk63URaekQ.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T19:36:01.616407087Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 2,
+      "no_config_count": 3,
       "not_found_count": 0,
       "origins": {
-        "telegram:configx2ray": "2026-10-11T23:09:29.532134412Z"
+        "telegram:configx2ray": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/slldlnayl2sk_3thgsbhlucdidsmmunb-fyuam0honepk9sed790_wnwiimnc5voyiiz6kk1nic_rbidzi6vukgsvdibb3auwq0apyqx9kanxdtxikurgkzt9evmi1juhnj6kbwmpklnlnnj8klmxtlk7i5ok6xfh83rv8ezygjo8dkkhmqrk_dl5fjzwc8y7wvb9djw4obwtcw1zrphh7ev9apbd4edqav5jyaye87uqfbeh2wkmmd-jepoznryllz-cy1dhi4h16dkfs--sorncxyx8b2wdyspums2pdmhpr6cftynpj0dfqk2to5ux5otwcztpoy7qtbdk98hxa.jpg": {
@@ -13249,11 +13217,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T13:53:30.893665689Z",
       "last_seen_at": "2026-10-02T02:34:09.860288439Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 45,
+      "not_found_count": 46,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-02T02:34:09.860288439Z"
       }
@@ -13265,11 +13233,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T13:53:30.893665689Z",
       "last_seen_at": "2026-10-02T09:00:04.962610327Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 44,
+      "not_found_count": 45,
       "origins": {
         "telegram:napsternetvirani": "2026-10-02T09:00:04.962610327Z"
       }
@@ -13345,11 +13313,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T22:30:20.594859034Z",
       "last_seen_at": "2026-09-29T02:18:01.225384415Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 57,
+      "not_found_count": 58,
       "origins": {
         "telegram:v2ray_alpha": "2026-09-29T02:18:01.225384415Z"
       }
@@ -13377,11 +13345,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T08:27:31.811786499Z",
       "last_seen_at": "2026-09-28T22:30:20.594859034Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 59,
+      "not_found_count": 60,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-28T22:30:20.594859034Z"
       }
@@ -13393,11 +13361,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T23:47:02.65097192Z",
       "last_seen_at": "2026-09-30T16:51:26.821611921Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 52,
+      "not_found_count": 53,
       "origins": {
         "telegram:configx2ray": "2026-09-30T16:51:26.821611921Z"
       }
@@ -13409,11 +13377,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T11:00:41.566280028Z",
       "last_seen_at": "2026-10-01T00:38:33.245695402Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 50,
+      "not_found_count": 51,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-01T00:38:33.245695402Z"
       }
@@ -13441,11 +13409,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T15:43:32.881383222Z",
       "last_seen_at": "2026-10-03T10:28:17.433868258Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 39,
+      "not_found_count": 40,
       "origins": {
         "telegram:napsternetvirani": "2026-10-03T10:28:17.433868258Z"
       }
@@ -13473,11 +13441,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T19:20:57.892920894Z",
       "last_seen_at": "2026-10-02T15:43:32.881383222Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 43,
+      "not_found_count": 44,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-02T15:43:32.881383222Z"
       }
@@ -13489,11 +13457,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T06:46:31.978230431Z",
       "last_seen_at": "2026-10-10T02:45:16.973987886Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 9,
+      "not_found_count": 10,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-10T02:45:16.973987886Z"
       }
@@ -13553,11 +13521,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T09:36:06.248215652Z",
       "last_seen_at": "2026-10-11T08:31:36.905703181Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 3,
+      "not_found_count": 4,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-11T08:31:36.905703181Z"
       }
@@ -13569,11 +13537,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T14:15:00.244707418Z",
       "last_seen_at": "2026-10-10T02:45:16.973987886Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 9,
+      "not_found_count": 10,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-10T02:45:16.973987886Z"
       }
@@ -13601,11 +13569,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T10:28:17.433868258Z",
       "last_seen_at": "2026-10-04T06:20:09.972558595Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 34,
+      "not_found_count": 35,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-04T06:20:09.972558595Z"
       }
@@ -13681,11 +13649,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T19:30:33.843895409Z",
       "last_seen_at": "2026-10-11T15:04:20.938975966Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 2,
+      "not_found_count": 3,
       "origins": {
         "telegram:vpn_ete": "2026-10-11T15:04:20.938975966Z"
       }
@@ -13745,11 +13713,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T22:30:20.594859034Z",
       "last_seen_at": "2026-09-29T15:32:29.670296734Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 57,
+      "not_found_count": 58,
       "origins": {
         "telegram:vpn_ete": "2026-09-29T15:32:29.670296734Z"
       }
@@ -13793,11 +13761,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-05T18:34:51.374903092Z",
       "last_seen_at": "2026-10-06T06:35:46.834527145Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 25,
+      "not_found_count": 26,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-06T06:35:46.834527145Z"
       }
@@ -13857,11 +13825,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T15:32:29.670296734Z",
       "last_seen_at": "2026-09-30T04:51:35.279520575Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 54,
+      "not_found_count": 55,
       "origins": {
         "telegram:napsternetvirani": "2026-09-30T04:51:35.279520575Z"
       }
@@ -13889,11 +13857,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T15:43:32.881383222Z",
       "last_seen_at": "2026-10-02T15:43:32.881383222Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 39,
+      "not_found_count": 40,
       "origins": {
         "telegram:napsternetvirani": "2026-10-02T15:43:32.881383222Z"
       }
@@ -14000,14 +13968,14 @@
       "value": "https://cdn4.telesco.pe/file/TRCtf6WHVP-_CBfydJq_upubVTRLyGSM6B7kUNjRggM6oLD2DSw_7zzta5L0fZu1gG_aJvOepZ5svLJn4OeSpO8x4o7LP4vZVtFD3YMVhbxTy-7tvbDW3jbwKed5g2xbUIK5RSkE6S8lb8RKP6YfQszGyVRXXcVGutEZd2s3vo4fq2R4kjnc6ks5OwCEZySGqp8MwmlyEkAqMaWDEaP7DjA1g8VChTI3lwqrEmnxLHZ_GKg2Z7j-0ktsKNAAiVGV5aTN0zhAipHsJxSO91qQEH_AAeI2qwm87msfHodcylIkj9MxpjX7gJXlIwT9cUjR-NZL7KheX2wHcHUJl07QRg.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T15:04:20.938975966Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 3,
+      "no_config_count": 4,
       "not_found_count": 0,
       "origins": {
-        "telegram:napsternetvirani": "2026-10-11T23:09:29.532134412Z"
+        "telegram:napsternetvirani": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/ttzzpufla2vttmrna28y1xe6newquxzbtg5o-qvvgqpoutzw4jpwajbx2ui4f1rmhqyztmivpcxng-pcpnec-zbpk-3olv7uytxcxqr9orvvyogp_dtyivl9_wdzep4wgqsnhinoirobdgwv_6cslbskcsdwnamcq90zhzijoc8eeitqnomxnkpgdgsp2vbl_muptm8axtzvgqkp7tcvtuenja_07owph2wx2evd5bnlbuanuwyrowy2b9pr1bmyzkmix_szarxuyffs_a3btqicaswimweo9tqruxn7ebocu4sdfmtaviqfmt_katbmtggmmbwiglqp4rekvd6drw.jpg": {
@@ -14097,11 +14065,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T19:04:52.376563999Z",
       "last_seen_at": "2026-10-07T09:14:58.191720155Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 20,
+      "not_found_count": 21,
       "origins": {
         "telegram:vpn_ete": "2026-10-07T09:14:58.191720155Z"
       }
@@ -14145,11 +14113,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T10:28:17.433868258Z",
       "last_seen_at": "2026-10-04T06:20:09.972558595Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 6,
-      "not_found_count": 34,
+      "not_found_count": 35,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-04T06:20:09.972558595Z"
       }
@@ -14305,11 +14273,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-09T06:46:31.978230431Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 12,
+      "not_found_count": 13,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-09T06:46:31.978230431Z"
       }
@@ -14321,11 +14289,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T20:14:33.852055105Z",
       "last_seen_at": "2026-10-05T18:34:51.374903092Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 27,
+      "not_found_count": 28,
       "origins": {
         "telegram:configx2ray": "2026-10-05T18:34:51.374903092Z"
       }
@@ -14336,14 +14304,14 @@
       "value": "https://cdn4.telesco.pe/file/UF48eA-L6A-bFtXq72G7KxALz1bIMDBISliyAcRAb_AlIEzEB1kM5R29i5I0nUnp-RbtwVhxTfGC4LR_WDj4okz_4TqGfaGo4xj_9HGvksNJMM50mdAY5ggz9FcWQw1sGqxDvy8iafY8rY-xwmQAZEFV6GBp6djehxINSTdJKdRa6Mj8uVkZqKParmDXjIww1KOJRRmgMwaZ3IKiiXhFQtyXqxp5z1yvrZ_NLDcduDbqnkfCMOsDwFnurKfey4uIudyYrrn8QR-WyXq8FE9vxKQd4aqJg9qBJnPj2hjOwlmjiywPMn5oyHZTBnSZPFO3EOfFVjfDAbq9AcvQin7NvA.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T15:04:20.938975966Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 3,
+      "no_config_count": 4,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2rayconfigamir": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2rayconfigamir": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/ufhkvkm8s3lj4h_wmpntzz5ovhfcwdtewqmhzlvir8wwxfk_k56qqhfplawseimqvo4u5nygza4a2pfb5hve4ahlz5gleyjhh9rk4ntwwniu1fii2snrcp6xqj2moi109a1h8l1_synfzxqeod7a8laqpxcyedfzu97kzswuwa9tvikirefxdhgfzjpvgzmkqacqjo_j74uwhespsmikvswqlln5nkvpia-k-7cxuqiqp_h1chexbakbc12_k0wc1ql79f3pcbfphi1wmdgwx53oraobznaltf_qsr40v8h2tyk70e0anpjrzjplkhzxmy401vlk-cvm2mf-j-gzxw.jpg": {
@@ -14369,11 +14337,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T15:43:32.881383222Z",
       "last_seen_at": "2026-10-03T10:28:17.433868258Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 39,
+      "not_found_count": 40,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-03T10:28:17.433868258Z"
       }
@@ -14481,11 +14449,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T14:15:00.244707418Z",
       "last_seen_at": "2026-10-10T02:45:16.973987886Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 8,
+      "not_found_count": 9,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-10T02:45:16.973987886Z"
       }
@@ -14497,11 +14465,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T13:37:08.984562516Z",
       "last_seen_at": "2026-10-07T09:14:58.191720155Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 20,
+      "not_found_count": 21,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-07T09:14:58.191720155Z"
       }
@@ -14513,11 +14481,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-03T14:54:23.40049827Z",
       "last_seen_at": "2026-10-04T06:20:09.972558595Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 34,
+      "not_found_count": 35,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-04T06:20:09.972558595Z"
       }
@@ -14529,11 +14497,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-05T18:34:51.374903092Z",
       "last_seen_at": "2026-10-06T06:35:46.834527145Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 25,
+      "not_found_count": 26,
       "origins": {
         "telegram:napsternetvirani": "2026-10-06T06:35:46.834527145Z"
       }
@@ -14721,11 +14689,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T21:36:21.711033423Z",
       "last_seen_at": "2026-10-08T07:35:06.044701075Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 16,
+      "not_found_count": 17,
       "origins": {
         "telegram:vpn_ete": "2026-10-08T07:35:06.044701075Z"
       }
@@ -14817,11 +14785,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T09:14:58.191720155Z",
       "last_seen_at": "2026-10-08T07:35:06.044701075Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-08T07:35:06.044701075Z"
       }
@@ -14945,11 +14913,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-30T16:51:26.821611921Z",
       "last_seen_at": "2026-10-01T06:34:09.897153373Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 49,
+      "not_found_count": 50,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-01T06:34:09.897153373Z"
       }
@@ -14993,11 +14961,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T13:37:08.984562516Z",
       "last_seen_at": "2026-10-07T09:14:58.191720155Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 20,
+      "not_found_count": 21,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-07T09:14:58.191720155Z"
       }
@@ -15009,11 +14977,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T14:15:00.244707418Z",
       "last_seen_at": "2026-10-10T02:45:16.973987886Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 9,
+      "not_found_count": 10,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-10T02:45:16.973987886Z"
       }
@@ -15041,11 +15009,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-09T06:46:31.978230431Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-09T06:46:31.978230431Z"
       }
@@ -15105,11 +15073,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-05T09:14:46.120203733Z",
       "last_seen_at": "2026-10-06T06:35:46.834527145Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 25,
+      "not_found_count": 26,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-06T06:35:46.834527145Z"
       }
@@ -15201,11 +15169,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-09T06:46:31.978230431Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:napsternetvirani": "2026-10-09T06:46:31.978230431Z"
       }
@@ -15217,11 +15185,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 3,
-      "not_found_count": 14,
+      "not_found_count": 15,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -15345,11 +15313,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T19:20:57.892920894Z",
       "last_seen_at": "2026-10-02T15:43:32.881383222Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 43,
+      "not_found_count": 44,
       "origins": {
         "telegram:vpn_ete": "2026-10-02T15:43:32.881383222Z"
       }
@@ -15441,11 +15409,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-01T13:53:30.893665689Z",
       "last_seen_at": "2026-10-02T09:00:04.962610327Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 44,
+      "not_found_count": 45,
       "origins": {
         "telegram:napsternetvirani": "2026-10-02T09:00:04.962610327Z"
       }
@@ -15473,11 +15441,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-29T08:43:50.175211473Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 58,
+      "not_found_count": 59,
       "origins": {
         "telegram:napsternetvirani": "2026-09-29T08:43:50.175211473Z"
       }
@@ -15521,11 +15489,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-07T09:14:58.191720155Z",
       "last_seen_at": "2026-10-08T07:35:06.044701075Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-08T07:35:06.044701075Z"
       }
@@ -15537,11 +15505,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T15:32:29.670296734Z",
       "last_seen_at": "2026-09-30T11:00:41.566280028Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 53,
+      "not_found_count": 54,
       "origins": {
         "telegram:napsternetvirani": "2026-09-30T11:00:41.566280028Z"
       }
@@ -15633,11 +15601,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-29T08:43:50.175211473Z",
       "last_seen_at": "2026-09-29T23:47:02.65097192Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 55,
+      "not_found_count": 56,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-29T23:47:02.65097192Z"
       }
@@ -15681,11 +15649,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-10T15:34:12.641098086Z",
       "last_seen_at": "2026-10-11T08:31:36.905703181Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 3,
+      "not_found_count": 4,
       "origins": {
         "telegram:napsternetvirani": "2026-10-11T08:31:36.905703181Z"
       }
@@ -15729,11 +15697,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T14:15:00.244707418Z",
       "last_seen_at": "2026-10-10T09:36:06.248215652Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 8,
+      "not_found_count": 9,
       "origins": {
         "telegram:napsternetvirani": "2026-10-10T09:36:06.248215652Z"
       }
@@ -15744,14 +15712,14 @@
       "value": "https://cdn4.telesco.pe/file/Y9WPTaP6b4EK7NQTo3nL5_b5A-UKPu6_wMaOcmvsw4nQVd1CsWMNcq0NDQhM_wf126VNMOBSuNgqmXIS6DIZmuxJ0P4qqSURjNR-gMccPdpousDrwnssxc9gD1tB9gbJ7cvzFgAHsIVlCyRESn98AKTyvFxPSbkapyB6BjKBzgQK-j4Qpdffld2OkzR67TNV4zw7O6Vahpe3tfyb9OVEHkv5_WmdfIqYkaiw1d_Og-uKvp2SZiCZdeNmlzqtPMHpyezld82w7fUVVOaI03SL3IboRv6IdfzfdBieLksypD3o3KTsrSqi0PwJywmR5OAWZzVZ7bhPAzZQd5SebP4V9w.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T19:36:01.616407087Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 2,
+      "no_config_count": 3,
       "not_found_count": 0,
       "origins": {
-        "telegram:vpn_ete": "2026-10-11T23:09:29.532134412Z"
+        "telegram:vpn_ete": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/ydjzc0pabv-g1stomb46bjean_meq6mzjzcpm4zirdis0on-6quqj97heucomv3d5_c_m0_gfjf6efwrtur_3_8jd9v5wcjtsbcnrhbp_2m0tctprvxt7ozcnyifbiknc0_io8jsb7dxuzrzd7psa_qjwhpqdm34e-fc2b7y83nba4i-nmqbtx0bzhkntnjkoxoxm-ecpilzitreb-yg6td7zabeagiwibpbziw4l9tvyzhfmqi0lj_upcxai_stjtlkxhhv9o5ke0m3rwypiiz2eqs6nywv3ss0onh_w_3rpqx22qdna3u69vqguyhepaafbwheswv4kzy8jdklwa.jpg": {
@@ -15761,11 +15729,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T22:30:20.594859034Z",
       "last_seen_at": "2026-09-29T15:32:29.670296734Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 57,
+      "not_found_count": 58,
       "origins": {
         "telegram:vpn_ete": "2026-09-29T15:32:29.670296734Z"
       }
@@ -15793,11 +15761,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T19:34:55.80904399Z",
       "last_seen_at": "2026-10-10T15:34:12.641098086Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 7,
+      "not_found_count": 8,
       "origins": {
         "telegram:vpn_ete": "2026-10-10T15:34:12.641098086Z"
       }
@@ -15809,11 +15777,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 13,
+      "not_found_count": 14,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -15937,11 +15905,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-04T12:37:21.328449777Z",
       "last_seen_at": "2026-10-05T02:07:47.386477315Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 29,
+      "not_found_count": 30,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-05T02:07:47.386477315Z"
       }
@@ -15953,11 +15921,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T15:43:32.881383222Z",
       "last_seen_at": "2026-10-03T10:28:17.433868258Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 39,
+      "not_found_count": 40,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-03T10:28:17.433868258Z"
       }
@@ -16177,11 +16145,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-09T14:15:00.244707418Z",
       "last_seen_at": "2026-10-10T02:45:16.973987886Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 9,
+      "not_found_count": 10,
       "origins": {
         "telegram:v2ray_alpha": "2026-10-10T02:45:16.973987886Z"
       }
@@ -16193,11 +16161,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T00:19:25.217863463Z",
       "last_seen_at": "2026-10-06T19:04:52.376563999Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 23,
+      "not_found_count": 24,
       "origins": {
         "telegram:configx2ray": "2026-10-06T19:04:52.376563999Z"
       }
@@ -16209,11 +16177,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-06T13:37:08.984562516Z",
       "last_seen_at": "2026-10-07T02:28:26.226305181Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 20,
+      "not_found_count": 21,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-07T02:28:26.226305181Z"
       }
@@ -16225,11 +16193,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-02T15:43:32.881383222Z",
       "last_seen_at": "2026-10-03T10:28:17.433868258Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 5,
-      "not_found_count": 39,
+      "not_found_count": 40,
       "origins": {
         "telegram:v2rayconfigamir": "2026-10-03T10:28:17.433868258Z"
       }
@@ -16256,14 +16224,14 @@
       "value": "https://cdn4.telesco.pe/file/ZX_58X6GAd3g324YC6sddHbYv-cUf76JeqSC_gEcJZBdBMpPkCutYczJh06JJwK_BPJ4g_TEr0WMD3sA8NXSyOKLKsVwCPz1fFAhuiVt6dLpKY2Set6YPcM3TgR6E4SyPsxuKU7UWwDRXs8J4mQyf9hX_3Lbvb-FQszZGNSwxLVtf9VuyriEAWNVzmDcMO5nwyTlFlNQm2QHMQUow-PDgBGp0VCnIRPz13dKQroW8_RqTkBzyJ3DBlVfn7sWGbXQWrXxdDy5_6WYYkID-WWnXU_4-vR8fF-Hzn2wzN99Mngv_mi6aObtjl8InLOwcabQJBPrz19uYMv6VSafvrNk5w.jpg",
       "status": "no_config",
       "first_seen_at": "2026-10-11T19:36:01.616407087Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
-      "no_config_count": 2,
+      "no_config_count": 3,
       "not_found_count": 0,
       "origins": {
-        "telegram:configx2ray": "2026-10-11T23:09:29.532134412Z"
+        "telegram:configx2ray": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://cdn4.telesco.pe/file/zxurqll8hnuwpc1tgx1ourtviuirlgfufpyi1pxcdbuiku_wsk63qagqfvta7zspsbjqlpm2tv8vy-1wirc-tsfcwheb_js_56udpfa0o_lq1zjjeegtxdbehl_5hmj12iwy8fg1psh8un6lyl6iwol9wmv8nvlpah5li6evdbmsnmlixvf9gfoexinzihddkzl2xmciwloympooq7bwvevrcg-sf0lxlusw656ra0gbm-iv8bhtpsopplxdjwurigwcq3gjv3lqg7fktgxgzqli16pqhtio_m4bcdnpdnukpxwhcagsyy30kcbgx5xbye6hsn3fzqmqek8dnyhjaq.jpg": {
@@ -16289,11 +16257,11 @@
       "status": "not_found",
       "first_seen_at": "2026-09-28T17:00:02.369373886Z",
       "last_seen_at": "2026-09-29T08:43:50.175211473Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 4,
-      "not_found_count": 58,
+      "not_found_count": 59,
       "origins": {
         "telegram:v2rayconfigamir": "2026-09-29T08:43:50.175211473Z"
       }
@@ -16432,14 +16400,14 @@
       "value": "https://github.com/pimpalexmmm/Sepidar/releases/download/V%3D1.1.20/app-release.apk",
       "status": "unknown_error",
       "first_seen_at": "2026-10-03T18:35:49.986551114Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2rayconfigamir": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2rayconfigamir": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://github.com/pimpalexmmm/sepidar/releases/download/v1.1.15/app-debug.apk": {
@@ -16448,14 +16416,14 @@
       "value": "https://github.com/pimpalexmmm/Sepidar/releases/download/V1.1.15/app-debug.apk",
       "status": "unknown_error",
       "first_seen_at": "2026-10-01T19:20:57.892920894Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2rayconfigamir": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2rayconfigamir": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://github.com/pimpalexmmm/sepidar/releases/download/v1.1.15/app-release.apk": {
@@ -16464,14 +16432,14 @@
       "value": "https://github.com/pimpalexmmm/Sepidar/releases/download/V1.1.15/app-release.apk",
       "status": "unknown_error",
       "first_seen_at": "2026-09-29T20:13:08.950351098Z",
-      "last_seen_at": "2026-10-11T23:09:29.532134412Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_seen_at": "2026-10-12T02:29:42.281825383Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
       "not_found_count": 0,
       "origins": {
-        "telegram:v2rayconfigamir": "2026-10-11T23:09:29.532134412Z"
+        "telegram:v2rayconfigamir": "2026-10-12T02:29:42.281825383Z"
       }
     },
     "source:https://lightkali.github.io": {
@@ -16561,11 +16529,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16577,11 +16545,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16593,11 +16561,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16609,11 +16577,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16625,11 +16593,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16641,11 +16609,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16657,11 +16625,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16673,11 +16641,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16689,11 +16657,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 1,
-      "not_found_count": 16,
+      "not_found_count": 17,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16705,11 +16673,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16721,11 +16689,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16737,11 +16705,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16753,11 +16721,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16769,11 +16737,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16785,11 +16753,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16801,11 +16769,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
@@ -16817,11 +16785,11 @@
       "status": "not_found",
       "first_seen_at": "2026-10-08T14:56:19.72857649Z",
       "last_seen_at": "2026-10-08T14:56:19.72857649Z",
-      "last_checked_at": "2026-10-11T23:09:29.532134412Z",
+      "last_checked_at": "2026-10-12T02:29:42.281825383Z",
       "last_success_at": "0001-01-01T00:00:00Z",
       "successes": 0,
       "no_config_count": 0,
-      "not_found_count": 17,
+      "not_found_count": 18,
       "origins": {
         "telegram:cybrix_network": "2026-10-08T14:56:19.72857649Z"
       }
