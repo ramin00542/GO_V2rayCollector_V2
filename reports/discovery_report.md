@@ -10,7 +10,7 @@
 | no_config | `17` |
 | not_found | `251` |
 | unknown_error | `2` |
-| expired | `591` |
+| expired | `590` |
 
 ## Candidate Sample
 
@@ -40,6 +40,6 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 | `channel` | expired | `0` | `88` | `1` |
 | `channel` | expired | `0` | `88` | `1` |
 | `channel` | expired | `0` | `89` | `1` |
-| `channel` | no_config | `0` | `25` | `1` |
-| `channel` | no_config | `0` | `31` | `1` |
+| `channel` | no_config | `0` | `26` | `1` |
+| `channel` | no_config | `0` | `32` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
