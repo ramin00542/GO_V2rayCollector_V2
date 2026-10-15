@@ -33,8 +33,8 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 | `channel` | expired | `0` | `84` | `1` |
 | `channel` | expired | `0` | `85` | `1` |
 | `channel` | expired | `0` | `89` | `1` |
-| `channel` | no_config | `0` | `30` | `1` |
-| `channel` | no_config | `0` | `36` | `1` |
+| `channel` | no_config | `0` | `31` | `1` |
+| `channel` | no_config | `0` | `37` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
 | `channel` | promoted | `3` | `0` | `1` |
