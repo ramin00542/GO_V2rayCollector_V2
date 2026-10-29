@@ -2,6 +2,12 @@
   "version": 1,
   "sources": [
     {
+      "url": "https://my.faravps.bond:8443/sub/djMsMTY3MDUsMTc4OTM0MDkwMw.iQtZBRW3WB4GByy6dZxJpnsQaeYYBA4vq6a-MJST91g",
+      "enabled": true,
+      "name": "auto-discovered",
+      "kind": "subscription"
+    },
+    {
       "url": "https://sub.speedest.org/sub/djMsMTM5MzMsMTc4OTA5MjAxNg.lVGtpcluVHnjq70bCRJvyuCvxYouBbskmw3vZSTc5yw",
       "enabled": true,
       "name": "auto-discovered",
