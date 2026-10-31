@@ -8,7 +8,7 @@
 | qualified | `0` |
 | promoted | `25` |
 | no_config | `40` |
-| not_found | `293` |
+| not_found | `287` |
 | unknown_error | `2` |
 | expired | `603` |
 
@@ -24,22 +24,22 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 | `channel` | expired | `0` | `71` | `1` |
 | `channel` | expired | `0` | `73` | `1` |
 | `channel` | expired | `0` | `78` | `1` |
-| `channel` | no_config | `0` | `10` | `1` |
-| `channel` | no_config | `0` | `13` | `1` |
-| `channel` | no_config | `0` | `19` | `1` |
-| `channel` | no_config | `0` | `19` | `1` |
-| `channel` | no_config | `0` | `19` | `1` |
-| `channel` | no_config | `0` | `19` | `1` |
-| `channel` | no_config | `0` | `19` | `1` |
-| `channel` | no_config | `0` | `19` | `2` |
-| `channel` | no_config | `0` | `21` | `1` |
+| `channel` | no_config | `0` | `11` | `1` |
+| `channel` | no_config | `0` | `14` | `1` |
+| `channel` | no_config | `0` | `20` | `1` |
+| `channel` | no_config | `0` | `20` | `1` |
+| `channel` | no_config | `0` | `20` | `1` |
+| `channel` | no_config | `0` | `20` | `1` |
+| `channel` | no_config | `0` | `20` | `1` |
+| `channel` | no_config | `0` | `20` | `2` |
 | `channel` | no_config | `0` | `22` | `1` |
 | `channel` | no_config | `0` | `23` | `1` |
-| `channel` | no_config | `0` | `31` | `1` |
-| `channel` | no_config | `0` | `36` | `1` |
-| `channel` | no_config | `0` | `41` | `1` |
-| `channel` | no_config | `0` | `45` | `1` |
-| `channel` | no_config | `0` | `45` | `1` |
-| `channel` | no_config | `0` | `5` | `1` |
-| `channel` | no_config | `0` | `5` | `1` |
-| `channel` | no_config | `0` | `5` | `1` |
+| `channel` | no_config | `0` | `24` | `1` |
+| `channel` | no_config | `0` | `32` | `1` |
+| `channel` | no_config | `0` | `37` | `1` |
+| `channel` | no_config | `0` | `42` | `1` |
+| `channel` | no_config | `0` | `46` | `1` |
+| `channel` | no_config | `0` | `46` | `1` |
+| `channel` | no_config | `0` | `6` | `1` |
+| `channel` | no_config | `0` | `6` | `1` |
+| `channel` | no_config | `0` | `6` | `1` |
