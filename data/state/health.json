@@ -116,6 +116,12 @@
     }
   },
   "sources": {
+    "https://my.faravps.bond:8443/sub/djMsMTY3MDUsMTc4OTM0MDkwMw.iQtZBRW3WB4GByy6dZxJpnsQaeYYBA4vq6a-MJST91g": {
+      "status": "active",
+      "last_checked_at": "2026-11-01T10:45:46.314544699Z",
+      "last_successful_at": "2026-11-01T10:45:46.314544699Z",
+      "consecutive_failures": 0
+    },
     "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/20.txt": {
       "status": "active",
       "last_checked_at": "2026-08-03T21:06:14.600975152Z",
@@ -148,33 +154,33 @@
     },
     "https://sub.speedest.org/sub/djMsMTM5MzMsMTc4OTA5MjAxNg.lVGtpcluVHnjq70bCRJvyuCvxYouBbskmw3vZSTc5yw": {
       "status": "not_found",
-      "last_checked_at": "2026-10-25T08:41:23.130580202Z",
+      "last_checked_at": "2026-11-01T10:45:46.314544699Z",
       "last_successful_at": "2026-09-13T08:31:11.919693897Z",
       "consecutive_failures": 0
     },
     "https://ux.miladux.ir:2096/sub/6biasx2axoaz4w4i": {
       "status": "unknown_error",
-      "last_checked_at": "2026-10-25T08:41:23.130580202Z",
+      "last_checked_at": "2026-11-01T10:45:46.314544699Z",
       "last_successful_at": "0001-01-01T00:00:00Z",
-      "consecutive_failures": 9,
+      "consecutive_failures": 10,
       "last_error": "Get \"https://ux.miladux.ir:2096/sub/6biasx2axoaz4w4i\": tls: failed to verify certificate: x509: certificate is valid for s391.bitcommand.com, not ux.miladux.ir"
     },
     "https://ux.miladux.ir:2096/sub/j9u62849iezd38ff": {
       "status": "unknown_error",
-      "last_checked_at": "2026-10-25T08:41:23.130580202Z",
+      "last_checked_at": "2026-11-01T10:45:46.314544699Z",
       "last_successful_at": "0001-01-01T00:00:00Z",
-      "consecutive_failures": 9,
+      "consecutive_failures": 10,
       "last_error": "Get \"https://ux.miladux.ir:2096/sub/j9u62849iezd38ff\": tls: failed to verify certificate: x509: certificate is valid for s391.bitcommand.com, not ux.miladux.ir"
     },
     "https://v2.cybrix9.dpdns.org/sub/0dunyp3xbsig3p7e": {
       "status": "not_found",
-      "last_checked_at": "2026-10-25T08:41:23.130580202Z",
+      "last_checked_at": "2026-11-01T10:45:46.314544699Z",
       "last_successful_at": "2026-09-13T08:31:11.919693897Z",
       "consecutive_failures": 0
     },
     "https://v2.cybrix9.dpdns.org/sub/ucpnhykel2rd2blk": {
       "status": "not_found",
-      "last_checked_at": "2026-10-25T08:41:23.130580202Z",
+      "last_checked_at": "2026-11-01T10:45:46.314544699Z",
       "last_successful_at": "2026-09-13T08:31:11.919693897Z",
       "consecutive_failures": 0
     }
