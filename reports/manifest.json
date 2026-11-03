@@ -1,17 +1,11 @@
 {
-  "generated_at": "2026-11-02T19:48:40.180130328Z",
+  "generated_at": "2026-11-03T02:05:39.238148727Z",
   "files": [
     {
       "path": "archive/all/telegram_all.txt",
       "count": 496,
       "size": 130635,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/all/telegram_all.txt"
-    },
-    {
-      "path": "archive/daily/2026-10-04/telegram_all.txt",
-      "count": 309,
-      "size": 85738,
-      "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/daily/2026-10-04/telegram_all.txt"
     },
     {
       "path": "archive/daily/2026-10-05/telegram_all.txt",
@@ -182,16 +176,16 @@
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/daily/2026-11-01/telegram_all.txt"
     },
     {
-      "path": "output/temporary/telegram/channels/https:/t.me/s/configx2ray/vless.txt",
-      "count": 15,
-      "size": 5292,
-      "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/configx2ray/vless.txt"
+      "path": "archive/daily/2026-11-02/telegram_all.txt",
+      "count": 315,
+      "size": 82240,
+      "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/archive/daily/2026-11-02/telegram_all.txt"
     },
     {
-      "path": "output/temporary/telegram/channels/https:/t.me/s/cybrix_network/http.txt",
-      "count": 3,
-      "size": 129,
-      "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/cybrix_network/http.txt"
+      "path": "output/temporary/telegram/channels/https:/t.me/s/configx2ray/vless.txt",
+      "count": 10,
+      "size": 3534,
+      "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/configx2ray/vless.txt"
     },
     {
       "path": "output/temporary/telegram/channels/https:/t.me/s/cybrix_network/https.txt",
@@ -201,14 +195,14 @@
     },
     {
       "path": "output/temporary/telegram/channels/https:/t.me/s/cybrix_network/mtproto.txt",
-      "count": 7,
-      "size": 682,
+      "count": 6,
+      "size": 562,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/cybrix_network/mtproto.txt"
     },
     {
       "path": "output/temporary/telegram/channels/https:/t.me/s/cybrix_network/shadowsocks.txt",
-      "count": 12,
-      "size": 1214,
+      "count": 11,
+      "size": 1076,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/cybrix_network/shadowsocks.txt"
     },
     {
@@ -237,26 +231,26 @@
     },
     {
       "path": "output/temporary/telegram/channels/https:/t.me/s/napsternetvirani/vless.txt",
-      "count": 24,
-      "size": 5421,
+      "count": 14,
+      "size": 3137,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/napsternetvirani/vless.txt"
     },
     {
       "path": "output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/shadowsocks.txt",
-      "count": 15,
-      "size": 1866,
+      "count": 13,
+      "size": 1636,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/shadowsocks.txt"
     },
     {
       "path": "output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/trojan.txt",
-      "count": 15,
-      "size": 3289,
+      "count": 14,
+      "size": 3121,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/trojan.txt"
     },
     {
       "path": "output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/vless.txt",
-      "count": 69,
-      "size": 18866,
+      "count": 58,
+      "size": 16094,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/vless.txt"
     },
     {
@@ -308,12 +302,6 @@
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/vynx_vpn/vless.txt"
     },
     {
-      "path": "output/temporary/telegram/protocols/http.txt",
-      "count": 3,
-      "size": 129,
-      "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/http.txt"
-    },
-    {
       "path": "output/temporary/telegram/protocols/https.txt",
       "count": 2,
       "size": 152,
@@ -321,8 +309,8 @@
     },
     {
       "path": "output/temporary/telegram/protocols/shadowsocks.txt",
-      "count": 38,
-      "size": 4309,
+      "count": 35,
+      "size": 3941,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/shadowsocks.txt"
     },
     {
@@ -339,8 +327,8 @@
     },
     {
       "path": "output/temporary/telegram/protocols/vless.txt",
-      "count": 218,
-      "size": 61628,
+      "count": 194,
+      "size": 55322,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/vless.txt"
     },
     {
@@ -351,14 +339,14 @@
     },
     {
       "path": "output/temporary/telegram/telegram-proxies/mtproto.txt",
-      "count": 23,
-      "size": 2084,
+      "count": 22,
+      "size": 1964,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/telegram-proxies/mtproto.txt"
     },
     {
       "path": "output/temporary/telegram_all.txt",
-      "count": 315,
-      "size": 82240,
+      "count": 288,
+      "size": 75566,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram_all.txt"
     }
   ]

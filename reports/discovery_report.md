@@ -7,10 +7,10 @@
 | pending | `0` |
 | qualified | `0` |
 | promoted | `25` |
-| no_config | `40` |
-| not_found | `298` |
+| no_config | `41` |
+| not_found | `304` |
 | unknown_error | `2` |
-| expired | `579` |
+| expired | `572` |
 
 ## Candidate Sample
 
@@ -24,22 +24,22 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 | `channel` | expired | `0` | `71` | `1` |
 | `channel` | expired | `0` | `73` | `1` |
 | `channel` | expired | `0` | `78` | `1` |
-| `channel` | no_config | `0` | `15` | `1` |
-| `channel` | no_config | `0` | `15` | `1` |
-| `channel` | no_config | `0` | `15` | `1` |
-| `channel` | no_config | `0` | `20` | `1` |
-| `channel` | no_config | `0` | `23` | `1` |
-| `channel` | no_config | `0` | `29` | `1` |
-| `channel` | no_config | `0` | `29` | `1` |
-| `channel` | no_config | `0` | `29` | `1` |
-| `channel` | no_config | `0` | `29` | `1` |
-| `channel` | no_config | `0` | `29` | `1` |
-| `channel` | no_config | `0` | `29` | `2` |
-| `channel` | no_config | `0` | `31` | `1` |
+| `channel` | no_config | `0` | `10` | `1` |
+| `channel` | no_config | `0` | `16` | `1` |
+| `channel` | no_config | `0` | `16` | `1` |
+| `channel` | no_config | `0` | `16` | `1` |
+| `channel` | no_config | `0` | `1` | `1` |
+| `channel` | no_config | `0` | `21` | `1` |
+| `channel` | no_config | `0` | `24` | `1` |
+| `channel` | no_config | `0` | `30` | `1` |
+| `channel` | no_config | `0` | `30` | `1` |
+| `channel` | no_config | `0` | `30` | `1` |
+| `channel` | no_config | `0` | `30` | `1` |
+| `channel` | no_config | `0` | `30` | `1` |
+| `channel` | no_config | `0` | `30` | `2` |
 | `channel` | no_config | `0` | `32` | `1` |
 | `channel` | no_config | `0` | `33` | `1` |
-| `channel` | no_config | `0` | `41` | `1` |
-| `channel` | no_config | `0` | `46` | `1` |
-| `channel` | no_config | `0` | `51` | `1` |
-| `channel` | no_config | `0` | `55` | `1` |
-| `channel` | no_config | `0` | `55` | `1` |
+| `channel` | no_config | `0` | `34` | `1` |
+| `channel` | no_config | `0` | `42` | `1` |
+| `channel` | no_config | `0` | `47` | `1` |
+| `channel` | no_config | `0` | `52` | `1` |
