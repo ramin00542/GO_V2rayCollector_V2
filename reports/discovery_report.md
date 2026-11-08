@@ -8,9 +8,9 @@
 | qualified | `0` |
 | promoted | `28` |
 | no_config | `37` |
-| not_found | `283` |
+| not_found | `276` |
 | unknown_error | `0` |
-| expired | `598` |
+| expired | `602` |
 
 ## Candidate Sample
 
@@ -29,17 +29,17 @@ Only the first 25 candidates are shown here. The complete machine-readable queue
 | `channel` | expired | `0` | `71` | `1` |
 | `channel` | expired | `0` | `73` | `1` |
 | `channel` | expired | `0` | `78` | `1` |
-| `channel` | no_config | `0` | `22` | `1` |
-| `channel` | no_config | `0` | `31` | `1` |
-| `channel` | no_config | `0` | `37` | `1` |
-| `channel` | no_config | `0` | `37` | `1` |
-| `channel` | no_config | `0` | `37` | `1` |
-| `channel` | no_config | `0` | `42` | `1` |
-| `channel` | no_config | `0` | `45` | `1` |
-| `channel` | no_config | `0` | `51` | `1` |
-| `channel` | no_config | `0` | `51` | `1` |
-| `channel` | no_config | `0` | `51` | `1` |
-| `channel` | no_config | `0` | `51` | `1` |
-| `channel` | no_config | `0` | `51` | `1` |
-| `channel` | no_config | `0` | `51` | `2` |
-| `channel` | no_config | `0` | `53` | `1` |
+| `channel` | no_config | `0` | `23` | `1` |
+| `channel` | no_config | `0` | `32` | `1` |
+| `channel` | no_config | `0` | `38` | `1` |
+| `channel` | no_config | `0` | `38` | `1` |
+| `channel` | no_config | `0` | `38` | `1` |
+| `channel` | no_config | `0` | `43` | `1` |
+| `channel` | no_config | `0` | `46` | `1` |
+| `channel` | no_config | `0` | `52` | `1` |
+| `channel` | no_config | `0` | `52` | `1` |
+| `channel` | no_config | `0` | `52` | `1` |
+| `channel` | no_config | `0` | `52` | `1` |
+| `channel` | no_config | `0` | `52` | `1` |
+| `channel` | no_config | `0` | `52` | `2` |
+| `channel` | no_config | `0` | `54` | `1` |
