@@ -8,44 +8,50 @@
     },
     "configx2ray": {
       "status": "active",
-      "last_checked_at": "2026-11-15T09:41:11.812737478Z",
-      "last_successful_at": "2026-11-15T09:41:11.812737478Z",
+      "last_checked_at": "2026-11-16T09:58:47.815127012Z",
+      "last_successful_at": "2026-11-16T09:58:47.815127012Z",
       "consecutive_failures": 0
     },
     "cybrix_network": {
       "status": "active",
-      "last_checked_at": "2026-11-15T09:41:11.812737478Z",
-      "last_successful_at": "2026-11-15T09:41:11.812737478Z",
+      "last_checked_at": "2026-11-16T09:58:47.815127012Z",
+      "last_successful_at": "2026-11-16T09:58:47.815127012Z",
       "consecutive_failures": 0
     },
     "cybrix_official": {
       "status": "inactive_no_config",
-      "last_checked_at": "2026-11-15T09:41:11.812737478Z",
+      "last_checked_at": "2026-11-16T09:58:47.815127012Z",
       "last_successful_at": "2026-09-02T07:12:55.916492855Z",
       "consecutive_failures": 0
     },
     "cybrixdev": {
       "status": "active",
-      "last_checked_at": "2026-11-15T09:41:11.812737478Z",
-      "last_successful_at": "2026-11-15T09:41:11.812737478Z",
+      "last_checked_at": "2026-11-16T09:58:47.815127012Z",
+      "last_successful_at": "2026-11-16T09:58:47.815127012Z",
       "consecutive_failures": 0
     },
     "freev2rays": {
       "status": "active",
-      "last_checked_at": "2026-11-15T09:41:11.812737478Z",
-      "last_successful_at": "2026-11-15T09:41:11.812737478Z",
+      "last_checked_at": "2026-11-16T09:58:47.815127012Z",
+      "last_successful_at": "2026-11-16T09:58:47.815127012Z",
       "consecutive_failures": 0
     },
     "gang_connect": {
       "status": "active",
-      "last_checked_at": "2026-11-15T09:41:11.812737478Z",
-      "last_successful_at": "2026-11-15T09:41:11.812737478Z",
+      "last_checked_at": "2026-11-16T09:58:47.815127012Z",
+      "last_successful_at": "2026-11-16T09:58:47.815127012Z",
       "consecutive_failures": 0
     },
     "kali_tnt": {
       "status": "active",
       "last_checked_at": "2026-09-02T07:12:55.916492855Z",
       "last_successful_at": "2026-09-02T07:12:55.916492855Z",
+      "consecutive_failures": 0
+    },
+    "makbitvpn": {
+      "status": "active",
+      "last_checked_at": "2026-11-16T09:58:47.815127012Z",
+      "last_successful_at": "2026-11-16T09:58:47.815127012Z",
       "consecutive_failures": 0
     },
     "metivip": {
@@ -62,8 +68,8 @@
     },
     "napsternetvirani": {
       "status": "active",
-      "last_checked_at": "2026-11-15T09:41:11.812737478Z",
-      "last_successful_at": "2026-11-15T09:41:11.812737478Z",
+      "last_checked_at": "2026-11-16T09:58:47.815127012Z",
+      "last_successful_at": "2026-11-16T09:58:47.815127012Z",
       "consecutive_failures": 0
     },
     "nullactive": {
@@ -80,13 +86,13 @@
     },
     "v2ray_alpha": {
       "status": "active",
-      "last_checked_at": "2026-11-15T09:41:11.812737478Z",
-      "last_successful_at": "2026-11-15T09:41:11.812737478Z",
+      "last_checked_at": "2026-11-16T09:58:47.815127012Z",
+      "last_successful_at": "2026-11-16T09:58:47.815127012Z",
       "consecutive_failures": 0
     },
     "v2rayconfigamir": {
       "status": "inactive_no_config",
-      "last_checked_at": "2026-11-15T09:41:11.812737478Z",
+      "last_checked_at": "2026-11-16T09:58:47.815127012Z",
       "last_successful_at": "2026-09-24T07:42:37.645913964Z",
       "consecutive_failures": 0
     },
@@ -98,20 +104,20 @@
     },
     "vpn_ete": {
       "status": "active",
-      "last_checked_at": "2026-11-15T09:41:11.812737478Z",
-      "last_successful_at": "2026-11-15T09:41:11.812737478Z",
+      "last_checked_at": "2026-11-16T09:58:47.815127012Z",
+      "last_successful_at": "2026-11-16T09:58:47.815127012Z",
       "consecutive_failures": 0
     },
     "vynx_vpn": {
       "status": "active",
-      "last_checked_at": "2026-11-15T09:41:11.812737478Z",
-      "last_successful_at": "2026-11-15T09:41:11.812737478Z",
+      "last_checked_at": "2026-11-16T09:58:47.815127012Z",
+      "last_successful_at": "2026-11-16T09:58:47.815127012Z",
       "consecutive_failures": 0
     },
     "webproxy": {
       "status": "active",
-      "last_checked_at": "2026-11-15T09:41:11.812737478Z",
-      "last_successful_at": "2026-11-15T09:41:11.812737478Z",
+      "last_checked_at": "2026-11-16T09:58:47.815127012Z",
+      "last_successful_at": "2026-11-16T09:58:47.815127012Z",
       "consecutive_failures": 0
     }
   },
