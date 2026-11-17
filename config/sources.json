@@ -66,6 +66,12 @@
       "enabled": true,
       "name": "auto-discovered",
       "kind": "subscription"
+    },
+    {
+      "url": "https://zefe-sert.r8z49ee7upus.workers.dev/status/40cc2353deefda0a228f6ac72a7d9e55",
+      "enabled": true,
+      "name": "auto-discovered",
+      "kind": "subscription"
     }
   ]
 }
