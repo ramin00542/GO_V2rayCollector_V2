@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T01:59:08.379886854Z",
+  "generated_at": "2026-11-22T09:40:16.582215241Z",
   "files": [
     {
       "path": "archive/all/telegram_all.txt",
@@ -249,20 +249,20 @@
     },
     {
       "path": "output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/shadowsocks.txt",
-      "count": 25,
-      "size": 3093,
+      "count": 26,
+      "size": 3201,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/shadowsocks.txt"
     },
     {
       "path": "output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/trojan.txt",
-      "count": 2,
-      "size": 406,
+      "count": 3,
+      "size": 675,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/trojan.txt"
     },
     {
       "path": "output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/vless.txt",
-      "count": 32,
-      "size": 8178,
+      "count": 39,
+      "size": 10148,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/channels/https:/t.me/s/v2ray_alpha/vless.txt"
     },
     {
@@ -315,20 +315,20 @@
     },
     {
       "path": "output/temporary/telegram/protocols/shadowsocks.txt",
-      "count": 53,
-      "size": 6150,
+      "count": 54,
+      "size": 6258,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/shadowsocks.txt"
     },
     {
       "path": "output/temporary/telegram/protocols/trojan.txt",
-      "count": 19,
-      "size": 5357,
+      "count": 20,
+      "size": 5626,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/trojan.txt"
     },
     {
       "path": "output/temporary/telegram/protocols/vless.txt",
-      "count": 121,
-      "size": 31352,
+      "count": 128,
+      "size": 33322,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram/protocols/vless.txt"
     },
     {
@@ -345,8 +345,8 @@
     },
     {
       "path": "output/temporary/telegram_all.txt",
-      "count": 218,
-      "size": 51388,
+      "count": 227,
+      "size": 53735,
       "raw_url": "https://raw.githubusercontent.com/ramin00542/GO_V2rayCollector_V2/main/output/temporary/telegram_all.txt"
     }
   ]
