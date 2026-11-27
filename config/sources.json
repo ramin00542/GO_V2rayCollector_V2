@@ -2,6 +2,12 @@
   "version": 1,
   "sources": [
     {
+      "url": "https://irlink.pudvax.ir:8000/sub/djMsMTc3MSwxNzk0MDQ1NTg0.b3zyVXwQz-VelzmYJck7TrCBjjee5rCPxaeeF15oEkg",
+      "enabled": true,
+      "name": "auto-discovered",
+      "kind": "subscription"
+    },
+    {
       "url": "https://my.faravps.bond:8443/sub/djMsMTY3MDUsMTc4OTM0MDkwMw.iQtZBRW3WB4GByy6dZxJpnsQaeYYBA4vq6a-MJST91g",
       "enabled": true,
       "name": "auto-discovered",

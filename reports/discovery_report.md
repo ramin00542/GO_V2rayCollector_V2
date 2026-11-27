@@ -5,12 +5,12 @@
 | Status | Count |
 |---|---:|
 | pending | `0` |
-| qualified | `1` |
-| promoted | `32` |
-| no_config | `79` |
-| not_found | `389` |
+| qualified | `0` |
+| promoted | `33` |
+| no_config | `85` |
+| not_found | `391` |
 | unknown_error | `1` |
-| expired | `637` |
+| expired | `625` |
 
 ## Candidate Sample
 
